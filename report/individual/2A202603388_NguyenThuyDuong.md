@@ -251,7 +251,7 @@ Baseline từ chối hai câu thiếu bằng chứng khi chạm giới hạn tì
 Cấu hình chọn chủ động nêu thiếu thông tin sau ba lượt tìm,
 sau đó starter chuyển thành trạng thái abstain do citation rỗng.
 
-### Thời gian và token
+### Thời gian, token và chi phí
 
 | Cấu hình / split | Tổng giây | Lượt gọi model | Tổng token API báo cáo |
 | ---------------- | --------: | -------------: | ---------------------: |
@@ -262,7 +262,16 @@ sau đó starter chuyển thành trạng thái abstain do citation rỗng.
 
 Thời gian trên loại trừ setup model embedding và retriever.
 Token được lấy từ usage metadata do API trả về.
-Chi phí tiền thực tế chưa được đo.
+
+Ảnh trang chi phí do học viên cung cấp hiển thị `Total cost = 4.59k`
+cho ngày 14/11/2026, tương đương khoảng **4.590 VNĐ** theo
+cách hiển thị rút gọn của trang. Đơn vị VNĐ do học viên xác nhận.
+
+Số liệu này được ghi nhận ở mức tổng theo ngày trên trang chi phí.
+Phạm vi có thể gồm các lần thử kết nối, smoke test, dev, test và những
+lượt sử dụng khác của key trong ngày. Ảnh chưa cung cấp phân bổ chi phí
+cho từng cấu hình hoặc từng lần chạy. Bảng token ở trên phục vụ so sánh
+mức sử dụng của các lần chạy đã lưu trace.
 
 Cấu hình chọn cải thiện Context Evidence Rate trên dev
 từ 13/15 lên 15/15, đồng thời tăng lượng token.
@@ -326,7 +335,16 @@ Thử thách tài liệu từ 100 trang chưa được thực hiện.
 
     python -m unittest discover -s tests -v
 
-Kết quả là 15/15 unit test đạt.
+Kết quả kiểm tra cuối là 18/18 unit test đạt, gồm 15 test có sẵn
+và 3 test hồi quy cho việc giữ trace khi model hoặc retrieval gặp lỗi.
 Các test dùng mock kiểm tra logic code.
 Kết quả agent thật được đánh giá riêng bằng benchmark và trace
 đã trình bày ở trên.
+
+Sau khi đánh giá test, code được bổ sung nhật ký lượt gọi Gemini thất bại,
+giữ các retrieval event và context đã có khi xảy ra lỗi, cùng lựa chọn
+`--configuration baseline` để chạy lại baseline trên dev.
+Các thay đổi phục vụ ghi log và tái lập. Prompt và tham số retrieval
+của hai cấu hình test được giữ theo `protocol.json` của lần chạy đã báo cáo.
+Trace cũ ghi theo phiên bản code tại thời điểm chạy, nên trace lỗi 503 cũ
+có thể thiếu các retrieval event đã diễn ra trước lỗi.

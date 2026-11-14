@@ -30,7 +30,8 @@ class Retriever(Protocol):
 
 def run_agent(question: str, controller: Controller, retriever: Retriever, *,
               filters: dict[str, Any] | None = None, max_searches: int = 4,
-              top_k: int = 3, budget: int = 800) -> dict[str, Any]:
+              top_k: int = 3, budget: int = 800,
+              events: list[dict[str, Any]] | None = None) -> dict[str, Any]:
     """Return answer, citation IDs and trace; no benchmark gold enters this loop.
 
     A final answer without valid citations, an empty context, and a search limit
@@ -42,16 +43,28 @@ def run_agent(question: str, controller: Controller, retriever: Retriever, *,
     history: list[dict[str, Any]] = []
     chunks: dict[str, dict[str, Any]] = {}
     candidates: list[dict[str, Any]] = []
-    events: list[dict[str, Any]] = []
+    if events is None:
+        events = []
     for _ in range(max_searches + 1):
-        action = controller.decide(question, history)
+        try:
+            action = controller.decide(question, history)
+        except Exception as error:
+            events.append({'event': 'controller_error', 'error_type': type(error).__name__,
+                           'error': str(error)})
+            raise
         if action.get('action') == 'search':
             if sum(e['event'] == 'search' for e in events) >= max_searches:
                 return {'status': 'abstain', 'answer': 'Không đủ bằng chứng để trả lời.', 'citations': [], 'events': events + [{'event': 'search_limit'}]}
             query = action.get('query')
             if not isinstance(query, str) or not query.strip():
                 raise ValueError('search query phải là chuỗi không rỗng')
-            results = retriever.search(query, filters=filters, top_k=top_k)
+            try:
+                results = retriever.search(query, filters=filters, top_k=top_k)
+            except Exception as error:
+                events.append({'event': 'search_error', 'query': query, 'filter': filters,
+                               'top_k': top_k, 'error_type': type(error).__name__,
+                               'error': str(error)})
+                raise
             if len(results) > top_k or len({r['id'] for r in results}) != len(results):
                 raise ValueError('retriever phải trả tối đa top_k chunk ID duy nhất')
             candidates.extend(results)

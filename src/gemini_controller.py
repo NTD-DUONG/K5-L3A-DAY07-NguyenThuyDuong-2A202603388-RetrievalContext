@@ -48,25 +48,39 @@ class GeminiController:
         }
 
         started = time.perf_counter()
-        response = self.client.models.generate_content(
-            model=self.model,
-            contents=json.dumps(payload, ensure_ascii=False),
-            config=types.GenerateContentConfig(
-                system_instruction=self.instructions,
-                temperature=0,
-                response_mime_type="application/json",
-            ),
-        )
-
-        self.calls.append({
+        call = {
             "model": self.model,
-            "elapsed_seconds": time.perf_counter() - started,
-            "usage": (
+            "status": "pending",
+            "request": payload,
+            "usage": None,
+            "raw_response": None,
+        }
+        self.calls.append(call)
+        try:
+            response = self.client.models.generate_content(
+                model=self.model,
+                contents=json.dumps(payload, ensure_ascii=False),
+                config=types.GenerateContentConfig(
+                    system_instruction=self.instructions,
+                    temperature=0,
+                    response_mime_type="application/json",
+                ),
+            )
+            call["status"] = "success"
+            call["usage"] = (
                 response.usage_metadata.model_dump(mode="json")
                 if response.usage_metadata else None
-            ),
-            "raw_response": response.text,
-        })
+            )
+            call["raw_response"] = response.text
+        except Exception as error:
+            call.update({
+                "status": "error",
+                "error_type": type(error).__name__,
+                "error": str(error),
+            })
+            raise
+        finally:
+            call["elapsed_seconds"] = time.perf_counter() - started
 
         if not response.text:
             raise ValueError("Gemini returned an empty response")

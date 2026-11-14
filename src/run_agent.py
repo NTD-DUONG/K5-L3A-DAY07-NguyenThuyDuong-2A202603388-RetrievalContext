@@ -33,12 +33,14 @@ def main():
 
     started = time.perf_counter()
     result = {}
+    events = []
 
     try:
         result = run_agent(
             question,
             controller,
             retriever,
+            events=events,
             **settings,
         )
     except Exception as error:
@@ -46,6 +48,7 @@ def main():
             "status": "error",
             "error_type": type(error).__name__,
             "error": str(error),
+            "events": events,
         }
         raise
     finally:

@@ -120,12 +120,14 @@ def main():
                 controller.calls = []
                 filters = infer_filter(question["question"])
                 started = time.perf_counter()
+                events = []
 
                 try:
                     result = run_agent(
                         question["question"],
                         controller,
                         retriever,
+                        events=events,
                         filters=filters,
                         max_searches=config["max_searches"],
                         top_k=config["top_k"],
@@ -136,6 +138,7 @@ def main():
                         "status": "error",
                         "error_type": type(error).__name__,
                         "error": str(error),
+                        "events": events,
                     }
 
                 elapsed = time.perf_counter() - started
@@ -153,6 +156,8 @@ def main():
                 context_hit = context_has_evidence(
                     question, context_ids, retriever.chunks_by_id
                 )
+                if question["answerable"] and result["status"] == "error":
+                    context_hit = False
 
                 trace = {
                     "query_id": question["id"],

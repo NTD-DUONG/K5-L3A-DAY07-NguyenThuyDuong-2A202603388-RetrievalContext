@@ -93,6 +93,15 @@ Agent trên dev:
 .\.venv\Scripts\python.exe -X utf8 -m src.evaluate_agent_dev
 ```
 
+Chạy lại baseline dev bằng prompt và tham số baseline:
+
+```powershell
+.\.venv\Scripts\python.exe -X utf8 -m src.evaluate_agent_dev --configuration baseline
+```
+
+Có thể ghi rõ `--configuration selected` để chạy cấu hình chọn.
+Mỗi lần chạy dev lưu prompt, model và tham số trong `protocol.json`.
+
 Agent trên test với baseline và cấu hình đã chọn:
 
 ```powershell
@@ -110,8 +119,11 @@ Các chương trình agent tạo thư mục riêng cho mỗi lần chạy.
 Các chương trình benchmark retrieval ghi vào thư mục kết quả cố định,
 nên chạy lại sẽ ghi đè các file cùng tên.
 
-Code hiện tại của `evaluate_agent_dev` chạy cấu hình đã chọn.
+Mặc định `evaluate_agent_dev` chạy cấu hình đã chọn.
 Kết quả baseline dev trước khi chỉnh được giữ trong artifact đã nộp.
+Khi lỗi API hoặc retrieval, các lượt tìm đã hoàn thành cùng context
+được giữ trong trace. Lượt gọi Gemini thất bại ghi trạng thái lỗi,
+tham số đầu vào và thời gian; usage chỉ có khi API trả về.
 
 ## Kiểm tra code
 
