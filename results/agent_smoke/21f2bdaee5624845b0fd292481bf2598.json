@@ -1,0 +1,70 @@
+{
+  "question": "Năm 2025, làng nghề Yên Thái sản xuất tổng cộng bao nhiêu tờ giấy dó?",
+  "created_at_utc": "2026-11-14T09:54:47.221498+00:00",
+  "model": "gemini-3.8-flash",
+  "retrieval_method": "hybrid_rrf",
+  "candidate_k": 10,
+  "rrf_constant": 60,
+  "settings": {
+    "filters": null,
+    "max_searches": 3,
+    "top_k": 3,
+    "budget": 6000
+  },
+  "context_budget_unit": "characters",
+  "filter_origin": "explicit tradition name in original question",
+  "elapsed_seconds_excluding_setup": 6.216949899999236,
+  "result": {
+    "status": "error",
+    "error_type": "ServerError",
+    "error": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'The service is currently unavailable.', 'status': 'UNAVAILABLE'}}"
+  },
+  "model_calls": [
+    {
+      "model": "gemini-3.8-flash",
+      "elapsed_seconds": 3.352592100000038,
+      "usage": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 25,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 238,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 238
+          }
+        ],
+        "thoughts_token_count": 78,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 341,
+        "traffic_type": null
+      },
+      "raw_response": "{\"action\": \"search\", \"query\": \"làng nghề Yên Thái sản xuất giấy dó 2025\"}"
+    },
+    {
+      "model": "gemini-3.8-flash",
+      "elapsed_seconds": 2.7140887999994447,
+      "usage": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 20,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 1253,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 1253
+          }
+        ],
+        "thoughts_token_count": 62,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 1335,
+        "traffic_type": null
+      },
+      "raw_response": "{\"action\": \"search\", \"query\": \"làng Yên Thái sản xuất giấy dó\"}\n"
+    }
+  ]
+}

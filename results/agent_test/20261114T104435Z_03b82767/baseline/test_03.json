@@ -1,0 +1,169 @@
+{
+  "query_id": "test_03",
+  "split": "test",
+  "question": "Trong cách tạo màu tranh Kim Hoàng được mô tả, màu vàng lấy từ đâu?",
+  "answerable": true,
+  "configuration": "baseline",
+  "model": "gemini-3.8-flash",
+  "filters": {
+    "painting_tradition": "kim_hoang"
+  },
+  "result": {
+    "status": "answered",
+    "answer": "Trong cách tạo màu của tranh Kim Hoàng, màu vàng được lấy từ nước ép của cây dành dành [66b732f379106eefaae993d3].",
+    "citations": [
+      "66b732f379106eefaae993d3"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "cách tạo màu tranh Kim Hoàng màu vàng",
+        "filter": {
+          "painting_tradition": "kim_hoang"
+        },
+        "results": [
+          {
+            "id": "66c342867b10ea21baad7a8c",
+            "text": "Tranh Kim Hoàng không giống như tranh Hàng Trống (dùng màu và nước hòa quyện với nhau để tạo nên những khoảng đậm nhạt khác nhau) mà dùng màu thật đậm đặc, khỏe khoắn, nét đưa bút cũng mạnh mẽ và phóng khoáng, một phần là bởi người làm tranh cần phải chọn lối vẽ nhanh, bút pháp linh hoạt kiểu quen tay, để có thể hoàn thành được những bức tranh cho kịp thời gian, nhưng cũng không thể phủ nhận một lý do khác chính là thẩm mỹ của làng quê, coi trọng sự chắc khỏe, đơn giản, khúc chiết.\n\nNgoài giấy hồng điều làm nền và màu sắc cháy bừng mạnh mẽ, tranh Kim Hoàng còn có một đặc điểm độc đáo khác nữa, đó chính là thơ đề trên góc bức tranh và bùa trấn tà ma.",
+            "source_id": "tranh_kim_hoang",
+            "source": "https://vi.wikipedia.org/wiki/Tranh_Kim_Hoàng",
+            "page": "tranh_kim_hoang_u002",
+            "metadata": {
+              "painting_tradition": "kim_hoang",
+              "title": "Tranh Kim Hoàng",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Tranh_Kim_Ho%C3%A0ng&oldid=75185129",
+              "unit_start_char": 1626,
+              "source_text_path": "data/processed/tranh_kim_hoang.txt",
+              "document_id": "tranh_kim_hoang",
+              "source": "https://vi.wikipedia.org/wiki/Tranh_Kim_Hoàng",
+              "page": "tranh_kim_hoang_u002",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 1992,
+              "unit_end_offset": 2649,
+              "document_start_char": 3618,
+              "document_end_char": 4275,
+              "char_count": 657
+            },
+            "score": 0.03252247488101534
+          },
+          {
+            "id": "66b732f379106eefaae993d3",
+            "text": "Màu sắc của tranh Kim Hoàng thường dùng mực tàu và các loại màu sắc có nguồn gốc tự nhiên, được trộn với chất kết dính là keo da trâu, khác với tranh Đông Hồ là dùng hồ nếp. Màu trắng tạo ra từ thạch cao, phấn nghiền nhuyễn trộn với nước, màu xanh chàm từ mực tàu hoà với nước chàm, màu đỏ lấy từ son, màu đen từ tro rơm rạ, màu xanh từ gỉ đồng, màu vàng từ nước ép của cây dành dành. Màu sắc của tranh Kim Hoàng tươi tắn, rực rỡ và ấn tượng với những màu như đỏ hiên, đỏ điều, đỏ sen, vàng yến, qua thời gian vẫn giữ gìn được lâu bền sắc thắm buổi ban đầu, đặc biệt phù hợp với dòng tranh Tết.\n\nVề kỹ thuật tô màu",
+            "source_id": "tranh_kim_hoang",
+            "source": "https://vi.wikipedia.org/wiki/Tranh_Kim_Hoàng",
+            "page": "tranh_kim_hoang_u002",
+            "metadata": {
+              "painting_tradition": "kim_hoang",
+              "title": "Tranh Kim Hoàng",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Tranh_Kim_Ho%C3%A0ng&oldid=75185129",
+              "unit_start_char": 1626,
+              "source_text_path": "data/processed/tranh_kim_hoang.txt",
+              "document_id": "tranh_kim_hoang",
+              "source": "https://vi.wikipedia.org/wiki/Tranh_Kim_Hoàng",
+              "page": "tranh_kim_hoang_u002",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 1376,
+              "unit_end_offset": 1990,
+              "document_start_char": 3002,
+              "document_end_char": 3616,
+              "char_count": 614
+            },
+            "score": 0.032266458495966696
+          },
+          {
+            "id": "a1372e912936f97e812bf545",
+            "text": "Tranh Kim Hoàng cũng giống như tranh Đông Hồ, có những chủ đề quen thuộc với đời sống người dân nông thôn như tranh gà, tranh lợn, tranh ông Công ông Táo, tranh cuộc sống đồng quê... Tranh Kim Hoàng cũng có những thể loại như tranh Tết, tranh thờ... đáp ứng được những nhu cầu đa dạng, từ trang hoàng nhà cửa nhân dịp Tết đến Xuân về, cầu cho phúc lộc đầy nhà, cho đến xua đuổi tà ma, giữ nhà yên ấm.\n\nVề giấy làm tranh\n\nTranh Kim Hoàng chuyên dùng giấy hồng điều hay giấy vàng tàu để làm tranh, dùng bức nền tươi thắm như vậy, cho nên tranh Kim Hoàng còn được gọi bằng một cái tên khác là \"tranh đỏ\", rất phù hợp với không khí tươi vui của ngày Tết. Chỉ riêng việc chọn giấy chuẩn bị giấy thôi cũng đã tốn rất nhiều thời gian và công sức của nhóm phục dựng tranh. Giấy đỏ làm tranh của tranh Kim Hoàng cũng độc đáo và thành một đặc điểm riêng biệt của tranh Kim Hoàng chẳng khác gì giấy điệp là đặc điểm riêng của tranh Đông Hồ.",
+            "source_id": "tranh_kim_hoang",
+            "source": "https://vi.wikipedia.org/wiki/Tranh_Kim_Hoàng",
+            "page": "tranh_kim_hoang_u001",
+            "metadata": {
+              "painting_tradition": "kim_hoang",
+              "title": "Tranh Kim Hoàng",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Tranh_Kim_Ho%C3%A0ng&oldid=75185129",
+              "unit_start_char": 0,
+              "source_text_path": "data/processed/tranh_kim_hoang.txt",
+              "document_id": "tranh_kim_hoang",
+              "source": "https://vi.wikipedia.org/wiki/Tranh_Kim_Hoàng",
+              "page": "tranh_kim_hoang_u001",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 697,
+              "unit_end_offset": 1626,
+              "document_start_char": 697,
+              "document_end_char": 1626,
+              "char_count": 929
+            },
+            "score": 0.031754032258064516
+          }
+        ],
+        "context": "[66c342867b10ea21baad7a8c | https://vi.wikipedia.org/wiki/Tranh_Kim_Hoàng | page tranh_kim_hoang_u002]\nTranh Kim Hoàng không giống như tranh Hàng Trống (dùng màu và nước hòa quyện với nhau để tạo nên những khoảng đậm nhạt khác nhau) mà dùng màu thật đậm đặc, khỏe khoắn, nét đưa bút cũng mạnh mẽ và phóng khoáng, một phần là bởi người làm tranh cần phải chọn lối vẽ nhanh, bút pháp linh hoạt kiểu quen tay, để có thể hoàn thành được những bức tranh cho kịp thời gian, nhưng cũng không thể phủ nhận một lý do khác chính là thẩm mỹ của làng quê, coi trọng sự chắc khỏe, đơn giản, khúc chiết.\n\nNgoài giấy hồng điều làm nền và màu sắc cháy bừng mạnh mẽ, tranh Kim Hoàng còn có một đặc điểm độc đáo khác nữa, đó chính là thơ đề trên góc bức tranh và bùa trấn tà ma.\n\n[66b732f379106eefaae993d3 | https://vi.wikipedia.org/wiki/Tranh_Kim_Hoàng | page tranh_kim_hoang_u002]\nMàu sắc của tranh Kim Hoàng thường dùng mực tàu và các loại màu sắc có nguồn gốc tự nhiên, được trộn với chất kết dính là keo da trâu, khác với tranh Đông Hồ là dùng hồ nếp. Màu trắng tạo ra từ thạch cao, phấn nghiền nhuyễn trộn với nước, màu xanh chàm từ mực tàu hoà với nước chàm, màu đỏ lấy từ son, màu đen từ tro rơm rạ, màu xanh từ gỉ đồng, màu vàng từ nước ép của cây dành dành. Màu sắc của tranh Kim Hoàng tươi tắn, rực rỡ và ấn tượng với những màu như đỏ hiên, đỏ điều, đỏ sen, vàng yến, qua thời gian vẫn giữ gìn được lâu bền sắc thắm buổi ban đầu, đặc biệt phù hợp với dòng tranh Tết.\n\nVề kỹ thuật tô màu\n\n[a1372e912936f97e812bf545 | https://vi.wikipedia.org/wiki/Tranh_Kim_Hoàng | page tranh_kim_hoang_u001]\nTranh Kim Hoàng cũng giống như tranh Đông Hồ, có những chủ đề quen thuộc với đời sống người dân nông thôn như tranh gà, tranh lợn, tranh ông Công ông Táo, tranh cuộc sống đồng quê... Tranh Kim Hoàng cũng có những thể loại như tranh Tết, tranh thờ... đáp ứng được những nhu cầu đa dạng, từ trang hoàng nhà cửa nhân dịp Tết đến Xuân về, cầu cho phúc lộc đầy nhà, cho đến xua đuổi tà ma, giữ nhà yên ấm.\n\nVề giấy làm tranh\n\nTranh Kim Hoàng chuyên dùng giấy hồng điều hay giấy vàng tàu để làm tranh, dùng bức nền tươi thắm như vậy, cho nên tranh Kim Hoàng còn được gọi bằng một cái tên khác là \"tranh đỏ\", rất phù hợp với không khí tươi vui của ngày Tết. Chỉ riêng việc chọn giấy chuẩn bị giấy thôi cũng đã tốn rất nhiều thời gian và công sức của nhóm phục dựng tranh. Giấy đỏ làm tranh của tranh Kim Hoàng cũng độc đáo và thành một đặc điểm riêng biệt của tranh Kim Hoàng chẳng khác gì giấy điệp là đặc điểm riêng của tranh Đông Hồ.",
+        "context_ids": [
+          "66c342867b10ea21baad7a8c",
+          "66b732f379106eefaae993d3",
+          "a1372e912936f97e812bf545"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  "final_context": "[66c342867b10ea21baad7a8c | https://vi.wikipedia.org/wiki/Tranh_Kim_Hoàng | page tranh_kim_hoang_u002]\nTranh Kim Hoàng không giống như tranh Hàng Trống (dùng màu và nước hòa quyện với nhau để tạo nên những khoảng đậm nhạt khác nhau) mà dùng màu thật đậm đặc, khỏe khoắn, nét đưa bút cũng mạnh mẽ và phóng khoáng, một phần là bởi người làm tranh cần phải chọn lối vẽ nhanh, bút pháp linh hoạt kiểu quen tay, để có thể hoàn thành được những bức tranh cho kịp thời gian, nhưng cũng không thể phủ nhận một lý do khác chính là thẩm mỹ của làng quê, coi trọng sự chắc khỏe, đơn giản, khúc chiết.\n\nNgoài giấy hồng điều làm nền và màu sắc cháy bừng mạnh mẽ, tranh Kim Hoàng còn có một đặc điểm độc đáo khác nữa, đó chính là thơ đề trên góc bức tranh và bùa trấn tà ma.\n\n[66b732f379106eefaae993d3 | https://vi.wikipedia.org/wiki/Tranh_Kim_Hoàng | page tranh_kim_hoang_u002]\nMàu sắc của tranh Kim Hoàng thường dùng mực tàu và các loại màu sắc có nguồn gốc tự nhiên, được trộn với chất kết dính là keo da trâu, khác với tranh Đông Hồ là dùng hồ nếp. Màu trắng tạo ra từ thạch cao, phấn nghiền nhuyễn trộn với nước, màu xanh chàm từ mực tàu hoà với nước chàm, màu đỏ lấy từ son, màu đen từ tro rơm rạ, màu xanh từ gỉ đồng, màu vàng từ nước ép của cây dành dành. Màu sắc của tranh Kim Hoàng tươi tắn, rực rỡ và ấn tượng với những màu như đỏ hiên, đỏ điều, đỏ sen, vàng yến, qua thời gian vẫn giữ gìn được lâu bền sắc thắm buổi ban đầu, đặc biệt phù hợp với dòng tranh Tết.\n\nVề kỹ thuật tô màu\n\n[a1372e912936f97e812bf545 | https://vi.wikipedia.org/wiki/Tranh_Kim_Hoàng | page tranh_kim_hoang_u001]\nTranh Kim Hoàng cũng giống như tranh Đông Hồ, có những chủ đề quen thuộc với đời sống người dân nông thôn như tranh gà, tranh lợn, tranh ông Công ông Táo, tranh cuộc sống đồng quê... Tranh Kim Hoàng cũng có những thể loại như tranh Tết, tranh thờ... đáp ứng được những nhu cầu đa dạng, từ trang hoàng nhà cửa nhân dịp Tết đến Xuân về, cầu cho phúc lộc đầy nhà, cho đến xua đuổi tà ma, giữ nhà yên ấm.\n\nVề giấy làm tranh\n\nTranh Kim Hoàng chuyên dùng giấy hồng điều hay giấy vàng tàu để làm tranh, dùng bức nền tươi thắm như vậy, cho nên tranh Kim Hoàng còn được gọi bằng một cái tên khác là \"tranh đỏ\", rất phù hợp với không khí tươi vui của ngày Tết. Chỉ riêng việc chọn giấy chuẩn bị giấy thôi cũng đã tốn rất nhiều thời gian và công sức của nhóm phục dựng tranh. Giấy đỏ làm tranh của tranh Kim Hoàng cũng độc đáo và thành một đặc điểm riêng biệt của tranh Kim Hoàng chẳng khác gì giấy điệp là đặc điểm riêng của tranh Đông Hồ.",
+  "context_ids": [
+    "66c342867b10ea21baad7a8c",
+    "66b732f379106eefaae993d3",
+    "a1372e912936f97e812bf545"
+  ],
+  "context_evidence_hit": true,
+  "model_calls": [
+    {
+      "model": "gemini-3.8-flash",
+      "elapsed_seconds": 2.3538330999999744,
+      "usage": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 20,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 233,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 233
+          }
+        ],
+        "thoughts_token_count": 78,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 331,
+        "traffic_type": null
+      },
+      "raw_response": "{\"action\": \"search\", \"query\": \"cách tạo màu tranh Kim Hoàng màu vàng\"}"
+    },
+    {
+      "model": "gemini-3.8-flash",
+      "elapsed_seconds": 3.8567162999988795,
+      "usage": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 91,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 1092,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 1092
+          }
+        ],
+        "thoughts_token_count": 207,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 1390,
+        "traffic_type": null
+      },
+      "raw_response": "{\n \"action\": \"answer\",\n \"answer\": \"Trong cách tạo màu của tranh Kim Hoàng, màu vàng được lấy từ nước ép của cây dành dành [66b732f379106eefaae993d3].\",\n \"citations\": [\n  \"66b732f379106eefaae993d3\"\n ]\n}"
+    }
+  ],
+  "elapsed_seconds_excluding_setup": 6.229593499998373
+}

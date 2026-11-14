@@ -1,0 +1,172 @@
+{
+  "query_id": "dev_02",
+  "split": "dev",
+  "question": "Trong quy trình làm giấy dó được mô tả, vỏ dó được ngâm trong nước vôi bao lâu?",
+  "answerable": true,
+  "model": "gemini-3.8-flash",
+  "configuration": {
+    "method": "hybrid_rrf",
+    "candidate_k": 10,
+    "rrf_constant": 60,
+    "filters": null,
+    "max_searches": 3,
+    "top_k": 3,
+    "context_budget_chars": 6000
+  },
+  "result": {
+    "status": "answered",
+    "answer": "Trong quy trình làm giấy dó được mô tả, vỏ cây dó được ngâm trong nước vôi với thời gian ba tháng [87be5f0588113670aa5d94a6].",
+    "citations": [
+      "87be5f0588113670aa5d94a6"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "quy trình làm giấy dó vỏ dó ngâm nước vôi",
+        "filter": null,
+        "results": [
+          {
+            "id": "87be5f0588113670aa5d94a6",
+            "text": "Từ các làng nghề truyền thống sản xuất giấy dó ở Kinh thành Thăng Long xưa cho thấy: về cơ bản, giấy dó sản xuất thủ công, nên không có tác động của hoá chất trong tờ giấy. Vỏ cây dó được ngâm trong nước vôi với thời gian ba tháng, sau đó được nấu cách thủy khoảng 3 ngày 2 đêm cho đến khi ngửi thấy mùi thơm của vỏ cây được nấu chín nhừ hoặc thấy phần thịt của vỏ cây dó trong lại. Dùng dao nhỏ bóc bỏ lần vỏ đen đi, giã bằng cối và chày cho đến khi thành một dạng bột nhuyễn rồi cho bột dó vào một cái rá to có đường kính hơn một mét được đan bằng tre để đãi sạch nước vôi, gọi là \"đãi bìa\". Dùng chất nhầy từ cây mò (chi Clerodendrum ) tạo hỗn hợp kết dính. Hỗn hợp này gọi là \"nhớt gỗ\" mà người thợ sẽ pha với nước, lỏng hay đặc tùy theo loại giấy. Khi xeo giấy, người thợ dùng \"liềm xeo\" - liềm là một mành nứa hoặc giang chẻ nhỏ như sợi tăm rồi dùng sợi tơ xe lại mua ở làng Triều Khúc về đan lại - công đoạn đan liềm này do các thợ thủ công ở làng Cáo Đỉnh đảm nhận.",
+            "source_id": "giay_do",
+            "source": "https://vi.wikipedia.org/wiki/Giấy_dó",
+            "page": "giay_do_u001",
+            "metadata": {
+              "painting_tradition": "general",
+              "title": "Giấy dó",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Gi%E1%BA%A5y_d%C3%B3&oldid=74469469",
+              "unit_start_char": 0,
+              "source_text_path": "data/processed/giay_do.txt",
+              "document_id": "giay_do",
+              "source": "https://vi.wikipedia.org/wiki/Giấy_dó",
+              "page": "giay_do_u001",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 393,
+              "unit_end_offset": 1366,
+              "document_start_char": 393,
+              "document_end_char": 1366,
+              "char_count": 973
+            },
+            "score": 0.03252247488101534
+          },
+          {
+            "id": "631cd5c4ff1863828a6ec60c",
+            "text": "Tơ dó kết lại với nhau, như cái mạng nhện nhiều lớp, tạo nên tờ giấy dó. Sự kết mạng như vậy đã làm cho tờ giấy dó có độ xốp. Vì xốp nên giấy dó rất nhẹ và hút mực. Các công cụ sản xuất giấy dó hầu như bằng tre, gỗ và dùng ánh sáng tự nhiên để làm khô giấy. Giấy dó được sản xuất theo quy trình này không có độ axít nên tờ giấy dó có tuổi thọ rất cao. Từ việc ngày nay chúng ta còn lưu giữ được các bản sắc phong cổ trong một số di tích đình, đền, miếu thờ đã cho thấy: giấy dó có độ tuổi thọ tới hơn 500 năm. Tiếng chày giã dó đã đi vào ca dao: \"Gió đưa cành trúc la đà, tiếng chuông Trấn Vũ canh gà Thọ Xương. Mịt mù khói tỏa ngàn sương, Nhịp chày Yên Thái mặt gương Tây Hồ\". Phường Yên Thái ở bờ tây nam hồ Tây, tục gọi là kẻ Bưởi, từ thế kỷ 12 đã là nơi chính làm giấy dó dùng để viết hoặc in, gồm ba làng: Hồ Khẩu, Đông Xã, An Thái Thọ (do sáp nhập hai làng An Thái và Thọ An vào). Hai làng Hồ Khẩu và Đông Xã thì làm giấy dó khổ lớn hơn mà mịn mặt hơn dùng để làm tranh dân gian.",
+            "source_id": "giay_do",
+            "source": "https://vi.wikipedia.org/wiki/Giấy_dó",
+            "page": "giay_do_u002",
+            "metadata": {
+              "painting_tradition": "general",
+              "title": "Giấy dó",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Gi%E1%BA%A5y_d%C3%B3&oldid=74469469",
+              "unit_start_char": 1517,
+              "source_text_path": "data/processed/giay_do.txt",
+              "document_id": "giay_do",
+              "source": "https://vi.wikipedia.org/wiki/Giấy_dó",
+              "page": "giay_do_u002",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 1,
+              "unit_end_offset": 986,
+              "document_start_char": 1518,
+              "document_end_char": 2503,
+              "char_count": 985
+            },
+            "score": 0.03125763125763126
+          },
+          {
+            "id": "978ba20e7026760e188a778d",
+            "text": "Thợ xeo chao đi chao lại trong bể bột dó. Lớp bột dó trên liềm chính là tờ giấy dó sau khi kết thúc công đoạn xeo, ép, bóc, can, phơi (sấy), lột giấy.",
+            "source_id": "giay_do",
+            "source": "https://vi.wikipedia.org/wiki/Giấy_dó",
+            "page": "giay_do_u001",
+            "metadata": {
+              "painting_tradition": "general",
+              "title": "Giấy dó",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Gi%E1%BA%A5y_d%C3%B3&oldid=74469469",
+              "unit_start_char": 0,
+              "source_text_path": "data/processed/giay_do.txt",
+              "document_id": "giay_do",
+              "source": "https://vi.wikipedia.org/wiki/Giấy_dó",
+              "page": "giay_do_u001",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 1367,
+              "unit_end_offset": 1517,
+              "document_start_char": 1367,
+              "document_end_char": 1517,
+              "char_count": 150
+            },
+            "score": 0.031054405392392875
+          }
+        ],
+        "context": "[87be5f0588113670aa5d94a6 | https://vi.wikipedia.org/wiki/Giấy_dó | page giay_do_u001]\nTừ các làng nghề truyền thống sản xuất giấy dó ở Kinh thành Thăng Long xưa cho thấy: về cơ bản, giấy dó sản xuất thủ công, nên không có tác động của hoá chất trong tờ giấy. Vỏ cây dó được ngâm trong nước vôi với thời gian ba tháng, sau đó được nấu cách thủy khoảng 3 ngày 2 đêm cho đến khi ngửi thấy mùi thơm của vỏ cây được nấu chín nhừ hoặc thấy phần thịt của vỏ cây dó trong lại. Dùng dao nhỏ bóc bỏ lần vỏ đen đi, giã bằng cối và chày cho đến khi thành một dạng bột nhuyễn rồi cho bột dó vào một cái rá to có đường kính hơn một mét được đan bằng tre để đãi sạch nước vôi, gọi là \"đãi bìa\". Dùng chất nhầy từ cây mò (chi Clerodendrum ) tạo hỗn hợp kết dính. Hỗn hợp này gọi là \"nhớt gỗ\" mà người thợ sẽ pha với nước, lỏng hay đặc tùy theo loại giấy. Khi xeo giấy, người thợ dùng \"liềm xeo\" - liềm là một mành nứa hoặc giang chẻ nhỏ như sợi tăm rồi dùng sợi tơ xe lại mua ở làng Triều Khúc về đan lại - công đoạn đan liềm này do các thợ thủ công ở làng Cáo Đỉnh đảm nhận.\n\n[631cd5c4ff1863828a6ec60c | https://vi.wikipedia.org/wiki/Giấy_dó | page giay_do_u002]\nTơ dó kết lại với nhau, như cái mạng nhện nhiều lớp, tạo nên tờ giấy dó. Sự kết mạng như vậy đã làm cho tờ giấy dó có độ xốp. Vì xốp nên giấy dó rất nhẹ và hút mực. Các công cụ sản xuất giấy dó hầu như bằng tre, gỗ và dùng ánh sáng tự nhiên để làm khô giấy. Giấy dó được sản xuất theo quy trình này không có độ axít nên tờ giấy dó có tuổi thọ rất cao. Từ việc ngày nay chúng ta còn lưu giữ được các bản sắc phong cổ trong một số di tích đình, đền, miếu thờ đã cho thấy: giấy dó có độ tuổi thọ tới hơn 500 năm. Tiếng chày giã dó đã đi vào ca dao: \"Gió đưa cành trúc la đà, tiếng chuông Trấn Vũ canh gà Thọ Xương. Mịt mù khói tỏa ngàn sương, Nhịp chày Yên Thái mặt gương Tây Hồ\". Phường Yên Thái ở bờ tây nam hồ Tây, tục gọi là kẻ Bưởi, từ thế kỷ 12 đã là nơi chính làm giấy dó dùng để viết hoặc in, gồm ba làng: Hồ Khẩu, Đông Xã, An Thái Thọ (do sáp nhập hai làng An Thái và Thọ An vào). Hai làng Hồ Khẩu và Đông Xã thì làm giấy dó khổ lớn hơn mà mịn mặt hơn dùng để làm tranh dân gian.\n\n[978ba20e7026760e188a778d | https://vi.wikipedia.org/wiki/Giấy_dó | page giay_do_u001]\nThợ xeo chao đi chao lại trong bể bột dó. Lớp bột dó trên liềm chính là tờ giấy dó sau khi kết thúc công đoạn xeo, ép, bóc, can, phơi (sấy), lột giấy.",
+        "context_ids": [
+          "87be5f0588113670aa5d94a6",
+          "631cd5c4ff1863828a6ec60c",
+          "978ba20e7026760e188a778d"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  "final_context": "[87be5f0588113670aa5d94a6 | https://vi.wikipedia.org/wiki/Giấy_dó | page giay_do_u001]\nTừ các làng nghề truyền thống sản xuất giấy dó ở Kinh thành Thăng Long xưa cho thấy: về cơ bản, giấy dó sản xuất thủ công, nên không có tác động của hoá chất trong tờ giấy. Vỏ cây dó được ngâm trong nước vôi với thời gian ba tháng, sau đó được nấu cách thủy khoảng 3 ngày 2 đêm cho đến khi ngửi thấy mùi thơm của vỏ cây được nấu chín nhừ hoặc thấy phần thịt của vỏ cây dó trong lại. Dùng dao nhỏ bóc bỏ lần vỏ đen đi, giã bằng cối và chày cho đến khi thành một dạng bột nhuyễn rồi cho bột dó vào một cái rá to có đường kính hơn một mét được đan bằng tre để đãi sạch nước vôi, gọi là \"đãi bìa\". Dùng chất nhầy từ cây mò (chi Clerodendrum ) tạo hỗn hợp kết dính. Hỗn hợp này gọi là \"nhớt gỗ\" mà người thợ sẽ pha với nước, lỏng hay đặc tùy theo loại giấy. Khi xeo giấy, người thợ dùng \"liềm xeo\" - liềm là một mành nứa hoặc giang chẻ nhỏ như sợi tăm rồi dùng sợi tơ xe lại mua ở làng Triều Khúc về đan lại - công đoạn đan liềm này do các thợ thủ công ở làng Cáo Đỉnh đảm nhận.\n\n[631cd5c4ff1863828a6ec60c | https://vi.wikipedia.org/wiki/Giấy_dó | page giay_do_u002]\nTơ dó kết lại với nhau, như cái mạng nhện nhiều lớp, tạo nên tờ giấy dó. Sự kết mạng như vậy đã làm cho tờ giấy dó có độ xốp. Vì xốp nên giấy dó rất nhẹ và hút mực. Các công cụ sản xuất giấy dó hầu như bằng tre, gỗ và dùng ánh sáng tự nhiên để làm khô giấy. Giấy dó được sản xuất theo quy trình này không có độ axít nên tờ giấy dó có tuổi thọ rất cao. Từ việc ngày nay chúng ta còn lưu giữ được các bản sắc phong cổ trong một số di tích đình, đền, miếu thờ đã cho thấy: giấy dó có độ tuổi thọ tới hơn 500 năm. Tiếng chày giã dó đã đi vào ca dao: \"Gió đưa cành trúc la đà, tiếng chuông Trấn Vũ canh gà Thọ Xương. Mịt mù khói tỏa ngàn sương, Nhịp chày Yên Thái mặt gương Tây Hồ\". Phường Yên Thái ở bờ tây nam hồ Tây, tục gọi là kẻ Bưởi, từ thế kỷ 12 đã là nơi chính làm giấy dó dùng để viết hoặc in, gồm ba làng: Hồ Khẩu, Đông Xã, An Thái Thọ (do sáp nhập hai làng An Thái và Thọ An vào). Hai làng Hồ Khẩu và Đông Xã thì làm giấy dó khổ lớn hơn mà mịn mặt hơn dùng để làm tranh dân gian.\n\n[978ba20e7026760e188a778d | https://vi.wikipedia.org/wiki/Giấy_dó | page giay_do_u001]\nThợ xeo chao đi chao lại trong bể bột dó. Lớp bột dó trên liềm chính là tờ giấy dó sau khi kết thúc công đoạn xeo, ép, bóc, can, phơi (sấy), lột giấy.",
+  "context_ids": [
+    "87be5f0588113670aa5d94a6",
+    "631cd5c4ff1863828a6ec60c",
+    "978ba20e7026760e188a778d"
+  ],
+  "context_evidence_hit": true,
+  "model_calls": [
+    {
+      "model": "gemini-3.8-flash",
+      "elapsed_seconds": 3.7092339000009815,
+      "usage": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": null,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 238,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 238
+          }
+        ],
+        "thoughts_token_count": null,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 238,
+        "traffic_type": null
+      },
+      "raw_response": "{\"action\": \"search\", \"query\": \"quy trình làm giấy dó vỏ dó ngâm nước vôi\"}"
+    },
+    {
+      "model": "gemini-3.8-flash",
+      "elapsed_seconds": 3.1825067000008858,
+      "usage": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 87,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 1146,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 1146
+          }
+        ],
+        "thoughts_token_count": 160,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 1393,
+        "traffic_type": null
+      },
+      "raw_response": "{\"action\": \"answer\", \"answer\": \"Trong quy trình làm giấy dó được mô tả, vỏ cây dó được ngâm trong nước vôi với thời gian ba tháng [87be5f0588113670aa5d94a6].\", \"citations\": [\"87be5f0588113670aa5d94a6\"]}"
+    }
+  ],
+  "elapsed_seconds_excluding_setup": 6.915135900000678
+}

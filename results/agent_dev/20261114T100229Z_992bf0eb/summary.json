@@ -1,0 +1,10 @@
+{
+  "total": 17,
+  "answered": 13,
+  "abstain": 4,
+  "errors": 0,
+  "context_evidence_count": 13,
+  "answerable_count": 15,
+  "context_evidence_rate": 0.8666666666666667,
+  "evaluation_note": "Context evidence uses declared gold quotes. Answer correctness, citation support and abstention require content review. Error cases count as context misses."
+}

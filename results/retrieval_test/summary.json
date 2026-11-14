@@ -1,0 +1,18 @@
+{
+  "baseline": {
+    "n": 5,
+    "hit1_count": 4,
+    "hit1_rate": 0.8,
+    "hit3_count": 5,
+    "hit3_rate": 1.0,
+    "mean_query_ms": 65.2228599996306
+  },
+  "selected": {
+    "n": 5,
+    "hit1_count": 4,
+    "hit1_rate": 0.8,
+    "hit3_count": 5,
+    "hit3_rate": 1.0,
+    "mean_query_ms": 35.8739199989941
+  }
+}

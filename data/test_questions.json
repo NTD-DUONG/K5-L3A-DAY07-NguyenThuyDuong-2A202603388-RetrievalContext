@@ -1,0 +1,102 @@
+[
+  {
+    "id": "test_01",
+    "split": "test",
+    "answerable": true,
+    "question": "Trong kỹ thuật in tranh Kim Hoàng, lần in đầu và lần in cuối được gọi là gì?",
+    "expected_answer": "Lần đầu gọi là in nhá, lần cuối gọi là in đồ.",
+    "gold": [
+      {
+        "source_id": "tranh_kim_hoang",
+        "page": "tranh_kim_hoang_u002",
+        "evidence": "lần này được gọi là \"in nhá\""
+      },
+      {
+        "source_id": "tranh_kim_hoang",
+        "page": "tranh_kim_hoang_u002",
+        "evidence": "in thêm một lần nữa (gọi là \"in đồ\")"
+      }
+    ],
+    "evidence_rule": "all"
+  },
+  {
+    "id": "test_02",
+    "split": "test",
+    "answerable": true,
+    "question": "Màu vẽ tranh Kim Hoàng được trộn với chất kết dính nào?",
+    "expected_answer": "Keo da trâu.",
+    "gold": [
+      {
+        "source_id": "tranh_kim_hoang",
+        "page": "tranh_kim_hoang_u002",
+        "evidence": "được trộn với chất kết dính là keo da trâu"
+      }
+    ],
+    "evidence_rule": "all"
+  },
+  {
+    "id": "test_03",
+    "split": "test",
+    "answerable": true,
+    "question": "Trong cách tạo màu tranh Kim Hoàng được mô tả, màu vàng lấy từ đâu?",
+    "expected_answer": "Nước ép của cây dành dành.",
+    "gold": [
+      {
+        "source_id": "tranh_kim_hoang",
+        "page": "tranh_kim_hoang_u002",
+        "evidence": "màu vàng từ nước ép của cây dành dành."
+      }
+    ],
+    "evidence_rule": "all"
+  },
+  {
+    "id": "test_04",
+    "split": "test",
+    "answerable": true,
+    "question": "Giấy dó cổ truyền dùng cho tranh làng Sình có khổ bao nhiêu và cỡ pha đôi là bao nhiêu?",
+    "expected_answer": "Khổ giấy là 25 × 70 cm, cỡ pha đôi là 25 × 35 cm.",
+    "gold": [
+      {
+        "source_id": "tranh_lang_sinh",
+        "page": "tranh_lang_sinh_u001",
+        "evidence": "Giấy dó cổ truyền có khổ 25x70cm, được xén thành cỡ pha đôi (25x35)"
+      }
+    ],
+    "evidence_rule": "all"
+  },
+  {
+    "id": "test_05",
+    "split": "test",
+    "answerable": true,
+    "question": "Theo cách tạo màu truyền thống cho tranh làng Sình, màu tím được lấy từ nguyên liệu nào?",
+    "expected_answer": "Hạt cây mồng tơi.",
+    "gold": [
+      {
+        "source_id": "tranh_lang_sinh",
+        "page": "tranh_lang_sinh_u002",
+        "evidence": "màu tím (của hạt cây mồng tơi)"
+      }
+    ],
+    "evidence_rule": "all"
+  },
+  {
+    "id": "test_06",
+    "split": "test",
+    "answerable": false,
+    "question": "Tổng doanh thu bán tranh Kim Hoàng trong năm 2025 là bao nhiêu đồng?",
+    "expected_answer": "Không đủ bằng chứng trong tài liệu để xác định tổng doanh thu bán tranh Kim Hoàng năm 2025.",
+    "gold": [],
+    "absence_check": "Trợ lý đã đọc toàn bộ nguồn tranh Kim Hoàng và tìm thông tin năm 2025, doanh thu trên corpus 71 chunk. Không tìm thấy số liệu tổng doanh thu bán tranh Kim Hoàng năm 2025.",
+    "review_status": "ai_reviewed"
+  },
+  {
+    "id": "test_07",
+    "split": "test",
+    "answerable": false,
+    "question": "Năm 2025, làng Sình có chính xác bao nhiêu nghệ nhân đang làm tranh?",
+    "expected_answer": "Không đủ bằng chứng trong tài liệu để xác định số nghệ nhân làm tranh làng Sình năm 2025.",
+    "gold": [],
+    "absence_check": "Trợ lý đã đọc toàn bộ nguồn tranh làng Sình và kiểm tra các đoạn nhắc nghệ nhân trên corpus 71 chunk. Có thông tin về nghệ nhân Kỳ Hữu Phước nhưng không có tổng số nghệ nhân đang làm tranh năm 2025.",
+    "review_status": "ai_reviewed"
+  }
+]

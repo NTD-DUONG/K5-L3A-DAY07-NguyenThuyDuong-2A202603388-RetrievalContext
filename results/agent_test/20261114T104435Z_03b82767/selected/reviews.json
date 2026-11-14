@@ -1,0 +1,66 @@
+[
+  {
+    "query_id": "test_01",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Nêu đúng lần đầu là in nhá và lần cuối là in đồ. Citation có trong context, hỗ trợ cả hai tên và các chi tiết giải thích.",
+    "review_method": "AI đối chiếu câu trả lời với chunk trong trace"
+  },
+  {
+    "query_id": "test_02",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Trả lời đúng chất kết dính là keo da trâu. Citation có trong context và hỗ trợ trực tiếp, đúng phạm vi tranh Kim Hoàng.",
+    "review_method": "AI đối chiếu câu trả lời với chunk trong trace"
+  },
+  {
+    "query_id": "test_03",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Trả lời đúng màu vàng lấy từ nước ép cây dành dành. Citation có trong context và hỗ trợ trực tiếp, đúng phạm vi tranh Kim Hoàng.",
+    "review_method": "AI đối chiếu câu trả lời với chunk trong trace"
+  },
+  {
+    "query_id": "test_04",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Nêu đủ khổ giấy 25 × 70 cm và cỡ pha đôi 25 × 35 cm, đúng đơn vị và phạm vi tranh làng Sình. Citation có trong context và hỗ trợ cả hai kích thước.",
+    "review_method": "AI đối chiếu câu trả lời với chunk trong trace"
+  },
+  {
+    "query_id": "test_05",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Trả lời đúng nguyên liệu tạo màu tím truyền thống là hạt cây mồng tơi. Citation có trong context và hỗ trợ trực tiếp.",
+    "review_method": "AI đối chiếu câu trả lời với chunk trong trace"
+  },
+  {
+    "query_id": "test_06",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Model chủ động nêu tài liệu thiếu doanh thu tranh Kim Hoàng năm 2025. Câu trả lời cuối từ chối và không thêm số liệu suy đoán.",
+    "review_method": "AI đối chiếu phản hồi model, trace và kết quả kiểm tra corpus"
+  },
+  {
+    "query_id": "test_07",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Model chủ động nêu tài liệu thiếu số nghệ nhân làm tranh làng Sình năm 2025. Câu trả lời cuối từ chối và không suy đoán số lượng.",
+    "review_method": "AI đối chiếu phản hồi model, trace và kết quả kiểm tra corpus"
+  }
+]

@@ -1,0 +1,172 @@
+{
+  "query_id": "dev_05",
+  "split": "dev",
+  "question": "Quan niệm tạo hình của phần lớn tranh dân gian ưu tiên ‘sống’ hay ‘giống’?",
+  "answerable": true,
+  "model": "gemini-3.8-flash",
+  "configuration": {
+    "method": "hybrid_rrf",
+    "candidate_k": 10,
+    "rrf_constant": 60,
+    "filters": null,
+    "max_searches": 3,
+    "top_k": 3,
+    "context_budget_chars": 6000
+  },
+  "result": {
+    "status": "answered",
+    "answer": "Quan niệm tạo hình của phần lớn tranh dân gian ưu tiên \"sống\" hơn \"giống\" [1d99394dd31320bc4daae1c1]. Các bức tranh cốt sao mang lại rung cảm thẩm mỹ cho người xem hơn là vẽ đúng luật [1d99394dd31320bc4daae1c1].",
+    "citations": [
+      "1d99394dd31320bc4daae1c1"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Quan niệm tạo hình tranh dân gian ưu tiên sống hay giống",
+        "filter": null,
+        "results": [
+          {
+            "id": "1d99394dd31320bc4daae1c1",
+            "text": "Bố cục của tranh\n\nHầu hết tranh dân gian được vẽ theo quan niệm \"sống\" hơn \"giống\". Đường nét của mỗi bức tranh hết sức gạn lọc, thuần khiết, cốt sao rung cảm thẩm mỹ cho người xem hơn là vẽ đúng luật. Các thành phần trong tranh không có một điểm nhìn cố định mà hầu hết được thiết kế để có thể quan sát di động, từ nhiều góc độ khác nhau.\n\nĐề tài và nội dung của tranh dân gian\n\nDo ra đời để đáp ứng nhu cầu văn hóa tinh thần của người dân, gắn bó chặt chẽ với đời sống thường nhật của người dân nơi thôn dã cho nên đề tài của tranh hết sức phong phú. Tranh phản ánh từ những gì gần gũi, thân thiết nhất với người dân cho đến những điều thiêng liêng cao quý trong các tranh thờ.\n\nNhững truyện Nôm như Truyện Kiều và Nhị Độ Mai cũng được dùng làm đề tài tranh. Truyện Kiều thì có cảnh ba chị em đi tảo mộ gặp Kim trọng. Nhị Đọ Mai thì vẽ cảnh Hạnh Nguyên đi cống Hồ.",
+            "source_id": "hoi_hoa_dan_gian",
+            "source": "https://vi.wikipedia.org/wiki/Tranh_dân_gian_Việt_Nam",
+            "page": "hoi_hoa_dan_gian_u004",
+            "metadata": {
+              "painting_tradition": "general",
+              "title": "Hội họa dân gian Việt Nam",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=H%E1%BB%99i_h%E1%BB%8Da_d%C3%A2n_gian_Vi%E1%BB%87t_Nam&oldid=74427393",
+              "unit_start_char": 4678,
+              "source_text_path": "data/processed/hoi_hoa_dan_gian.txt",
+              "document_id": "hoi_hoa_dan_gian",
+              "source": "https://vi.wikipedia.org/wiki/Tranh_dân_gian_Việt_Nam",
+              "page": "hoi_hoa_dan_gian_u004",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 2,
+              "unit_end_offset": 868,
+              "document_start_char": 4680,
+              "document_end_char": 5546,
+              "char_count": 866
+            },
+            "score": 0.03252247488101534
+          },
+          {
+            "id": "5b440456c081c3d6ef08d790",
+            "text": "Dù được thể hiện dưới nhiều hình thức khác nhau, nhưng tranh dân gian của các dòng tranh đều có điểm giống nhau là luôn đề cao cái đẹp, đề cao đạo lý làm người, giáo dục những phẩm chất tốt và cầu mong những điều tốt đẹp trong cuộc sống.\n\nVề nội dung, tranh dân gian Việt Nam có thể chia 4 nhóm:\n\nTranh thờ: được các trung tâm làm tranh dân gian dành một tỉ lệ lớn. Sử dụng ở các chùa, đền, điện, phủ và nhà dân để canh gác, trừ tà, yểm quỷ (\"Vũ Đình - Thiên Ất\", \"Tiến Tài - Tiến Lộc\", \"Táo quân - Thổ công\", \"Ngũ Hổ\"...). Tranh làng Sình (Huế), Đồ Thế (Nam Bộ) - theo mê tín để đốt thế mạng cho người sống;\n\nTranh chúc tụng: chủ yếu là tranh Tết (\"Gà - Lợn\", \"Thất Đồng\", \"Tam Đa\"...);",
+            "source_id": "hoi_hoa_dan_gian",
+            "source": "https://vi.wikipedia.org/wiki/Tranh_dân_gian_Việt_Nam",
+            "page": "hoi_hoa_dan_gian_u005",
+            "metadata": {
+              "painting_tradition": "general",
+              "title": "Hội họa dân gian Việt Nam",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=H%E1%BB%99i_h%E1%BB%8Da_d%C3%A2n_gian_Vi%E1%BB%87t_Nam&oldid=74427393",
+              "unit_start_char": 6256,
+              "source_text_path": "data/processed/hoi_hoa_dan_gian.txt",
+              "document_id": "hoi_hoa_dan_gian",
+              "source": "https://vi.wikipedia.org/wiki/Tranh_dân_gian_Việt_Nam",
+              "page": "hoi_hoa_dan_gian_u005",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 843,
+              "unit_end_offset": 1530,
+              "document_start_char": 7099,
+              "document_end_char": 7786,
+              "char_count": 687
+            },
+            "score": 0.031746031746031744
+          },
+          {
+            "id": "765094dbb0b6959174690af3",
+            "text": "Đọc bài: Tranh Hàng Trống\n\nTranh Hàng Trống là một dòng tranh dân gian được làm chủ yếu ở các phố Hàng Trống, Hàng Nón... của Hà Nội . Dòng tranh này có nhiều điểm riêng biệt so với các dòng tranh dân gian khác.\n\nNhìn chung thì tranh Hàng Trống có phần nổi trội hơn về thể loại tranh thờ, do ảnh hưởng Phật giáo và Đạo giáo , với hình tượng tương đối giản dị mà thể hiện khả công phu, không bao giờ thiếu sắc thái uy vệ về ý nghĩa.\n\nTranh được tạo hình không giống tranh hiện đại mà cũng không giống tranh cổ điển.",
+            "source_id": "hoi_hoa_dan_gian",
+            "source": "https://vi.wikipedia.org/wiki/Tranh_dân_gian_Việt_Nam",
+            "page": "hoi_hoa_dan_gian_u007",
+            "metadata": {
+              "painting_tradition": "general",
+              "title": "Hội họa dân gian Việt Nam",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=H%E1%BB%99i_h%E1%BB%8Da_d%C3%A2n_gian_Vi%E1%BB%87t_Nam&oldid=74427393",
+              "unit_start_char": 9313,
+              "source_text_path": "data/processed/hoi_hoa_dan_gian.txt",
+              "document_id": "hoi_hoa_dan_gian",
+              "source": "https://vi.wikipedia.org/wiki/Tranh_dân_gian_Việt_Nam",
+              "page": "hoi_hoa_dan_gian_u007",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 1004,
+              "unit_end_offset": 1518,
+              "document_start_char": 10317,
+              "document_end_char": 10831,
+              "char_count": 514
+            },
+            "score": 0.031054405392392875
+          }
+        ],
+        "context": "[1d99394dd31320bc4daae1c1 | https://vi.wikipedia.org/wiki/Tranh_dân_gian_Việt_Nam | page hoi_hoa_dan_gian_u004]\nBố cục của tranh\n\nHầu hết tranh dân gian được vẽ theo quan niệm \"sống\" hơn \"giống\". Đường nét của mỗi bức tranh hết sức gạn lọc, thuần khiết, cốt sao rung cảm thẩm mỹ cho người xem hơn là vẽ đúng luật. Các thành phần trong tranh không có một điểm nhìn cố định mà hầu hết được thiết kế để có thể quan sát di động, từ nhiều góc độ khác nhau.\n\nĐề tài và nội dung của tranh dân gian\n\nDo ra đời để đáp ứng nhu cầu văn hóa tinh thần của người dân, gắn bó chặt chẽ với đời sống thường nhật của người dân nơi thôn dã cho nên đề tài của tranh hết sức phong phú. Tranh phản ánh từ những gì gần gũi, thân thiết nhất với người dân cho đến những điều thiêng liêng cao quý trong các tranh thờ.\n\nNhững truyện Nôm như Truyện Kiều và Nhị Độ Mai cũng được dùng làm đề tài tranh. Truyện Kiều thì có cảnh ba chị em đi tảo mộ gặp Kim trọng. Nhị Đọ Mai thì vẽ cảnh Hạnh Nguyên đi cống Hồ.\n\n[5b440456c081c3d6ef08d790 | https://vi.wikipedia.org/wiki/Tranh_dân_gian_Việt_Nam | page hoi_hoa_dan_gian_u005]\nDù được thể hiện dưới nhiều hình thức khác nhau, nhưng tranh dân gian của các dòng tranh đều có điểm giống nhau là luôn đề cao cái đẹp, đề cao đạo lý làm người, giáo dục những phẩm chất tốt và cầu mong những điều tốt đẹp trong cuộc sống.\n\nVề nội dung, tranh dân gian Việt Nam có thể chia 4 nhóm:\n\nTranh thờ: được các trung tâm làm tranh dân gian dành một tỉ lệ lớn. Sử dụng ở các chùa, đền, điện, phủ và nhà dân để canh gác, trừ tà, yểm quỷ (\"Vũ Đình - Thiên Ất\", \"Tiến Tài - Tiến Lộc\", \"Táo quân - Thổ công\", \"Ngũ Hổ\"...). Tranh làng Sình (Huế), Đồ Thế (Nam Bộ) - theo mê tín để đốt thế mạng cho người sống;\n\nTranh chúc tụng: chủ yếu là tranh Tết (\"Gà - Lợn\", \"Thất Đồng\", \"Tam Đa\"...);\n\n[765094dbb0b6959174690af3 | https://vi.wikipedia.org/wiki/Tranh_dân_gian_Việt_Nam | page hoi_hoa_dan_gian_u007]\nĐọc bài: Tranh Hàng Trống\n\nTranh Hàng Trống là một dòng tranh dân gian được làm chủ yếu ở các phố Hàng Trống, Hàng Nón... của Hà Nội . Dòng tranh này có nhiều điểm riêng biệt so với các dòng tranh dân gian khác.\n\nNhìn chung thì tranh Hàng Trống có phần nổi trội hơn về thể loại tranh thờ, do ảnh hưởng Phật giáo và Đạo giáo , với hình tượng tương đối giản dị mà thể hiện khả công phu, không bao giờ thiếu sắc thái uy vệ về ý nghĩa.\n\nTranh được tạo hình không giống tranh hiện đại mà cũng không giống tranh cổ điển.",
+        "context_ids": [
+          "1d99394dd31320bc4daae1c1",
+          "5b440456c081c3d6ef08d790",
+          "765094dbb0b6959174690af3"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  "final_context": "[1d99394dd31320bc4daae1c1 | https://vi.wikipedia.org/wiki/Tranh_dân_gian_Việt_Nam | page hoi_hoa_dan_gian_u004]\nBố cục của tranh\n\nHầu hết tranh dân gian được vẽ theo quan niệm \"sống\" hơn \"giống\". Đường nét của mỗi bức tranh hết sức gạn lọc, thuần khiết, cốt sao rung cảm thẩm mỹ cho người xem hơn là vẽ đúng luật. Các thành phần trong tranh không có một điểm nhìn cố định mà hầu hết được thiết kế để có thể quan sát di động, từ nhiều góc độ khác nhau.\n\nĐề tài và nội dung của tranh dân gian\n\nDo ra đời để đáp ứng nhu cầu văn hóa tinh thần của người dân, gắn bó chặt chẽ với đời sống thường nhật của người dân nơi thôn dã cho nên đề tài của tranh hết sức phong phú. Tranh phản ánh từ những gì gần gũi, thân thiết nhất với người dân cho đến những điều thiêng liêng cao quý trong các tranh thờ.\n\nNhững truyện Nôm như Truyện Kiều và Nhị Độ Mai cũng được dùng làm đề tài tranh. Truyện Kiều thì có cảnh ba chị em đi tảo mộ gặp Kim trọng. Nhị Đọ Mai thì vẽ cảnh Hạnh Nguyên đi cống Hồ.\n\n[5b440456c081c3d6ef08d790 | https://vi.wikipedia.org/wiki/Tranh_dân_gian_Việt_Nam | page hoi_hoa_dan_gian_u005]\nDù được thể hiện dưới nhiều hình thức khác nhau, nhưng tranh dân gian của các dòng tranh đều có điểm giống nhau là luôn đề cao cái đẹp, đề cao đạo lý làm người, giáo dục những phẩm chất tốt và cầu mong những điều tốt đẹp trong cuộc sống.\n\nVề nội dung, tranh dân gian Việt Nam có thể chia 4 nhóm:\n\nTranh thờ: được các trung tâm làm tranh dân gian dành một tỉ lệ lớn. Sử dụng ở các chùa, đền, điện, phủ và nhà dân để canh gác, trừ tà, yểm quỷ (\"Vũ Đình - Thiên Ất\", \"Tiến Tài - Tiến Lộc\", \"Táo quân - Thổ công\", \"Ngũ Hổ\"...). Tranh làng Sình (Huế), Đồ Thế (Nam Bộ) - theo mê tín để đốt thế mạng cho người sống;\n\nTranh chúc tụng: chủ yếu là tranh Tết (\"Gà - Lợn\", \"Thất Đồng\", \"Tam Đa\"...);\n\n[765094dbb0b6959174690af3 | https://vi.wikipedia.org/wiki/Tranh_dân_gian_Việt_Nam | page hoi_hoa_dan_gian_u007]\nĐọc bài: Tranh Hàng Trống\n\nTranh Hàng Trống là một dòng tranh dân gian được làm chủ yếu ở các phố Hàng Trống, Hàng Nón... của Hà Nội . Dòng tranh này có nhiều điểm riêng biệt so với các dòng tranh dân gian khác.\n\nNhìn chung thì tranh Hàng Trống có phần nổi trội hơn về thể loại tranh thờ, do ảnh hưởng Phật giáo và Đạo giáo , với hình tượng tương đối giản dị mà thể hiện khả công phu, không bao giờ thiếu sắc thái uy vệ về ý nghĩa.\n\nTranh được tạo hình không giống tranh hiện đại mà cũng không giống tranh cổ điển.",
+  "context_ids": [
+    "1d99394dd31320bc4daae1c1",
+    "5b440456c081c3d6ef08d790",
+    "765094dbb0b6959174690af3"
+  ],
+  "context_evidence_hit": true,
+  "model_calls": [
+    {
+      "model": "gemini-3.8-flash",
+      "elapsed_seconds": 4.174272399999609,
+      "usage": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 23,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 238,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 238
+          }
+        ],
+        "thoughts_token_count": 69,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 330,
+        "traffic_type": null
+      },
+      "raw_response": "{\"action\": \"search\", \"query\": \"Quan niệm tạo hình tranh dân gian ưu tiên sống hay giống\"}"
+    },
+    {
+      "model": "gemini-3.8-flash",
+      "elapsed_seconds": 4.472268699999404,
+      "usage": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 120,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 1139,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 1139
+          }
+        ],
+        "thoughts_token_count": 147,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 1406,
+        "traffic_type": null
+      },
+      "raw_response": "{\"action\": \"answer\", \"answer\": \"Quan niệm tạo hình của phần lớn tranh dân gian ưu tiên \\\"sống\\\" hơn \\\"giống\\\" [1d99394dd31320bc4daae1c1]. Các bức tranh cốt sao mang lại rung cảm thẩm mỹ cho người xem hơn là vẽ đúng luật [1d99394dd31320bc4daae1c1].\", \"citations\": [\"1d99394dd31320bc4daae1c1\"]}"
+    }
+  ],
+  "elapsed_seconds_excluding_setup": 8.66917420000027
+}

@@ -1,0 +1,176 @@
+{
+  "query_id": "dev_12",
+  "split": "dev",
+  "question": "Khi pha màu cho tranh Hàng Trống, có bắt buộc một tỷ lệ chuẩn cố định không?",
+  "answerable": true,
+  "model": "gemini-3.8-flash",
+  "configuration": {
+    "method": "hybrid_rrf",
+    "candidate_k": 10,
+    "rrf_constant": 60,
+    "filters": {
+      "painting_tradition": "hang_trong"
+    },
+    "max_searches": 3,
+    "top_k": 3,
+    "context_budget_chars": 6000
+  },
+  "result": {
+    "status": "answered",
+    "answer": "Khi tạo màu cho tranh Hàng Trống, không bắt buộc phải theo một tỷ lệ chuẩn cố định. Tỷ lệ màu được pha chế không tuân theo công thức chuẩn mà cốt sao cho thật thuận mắt và ưa nhìn [930fe5af23902f40f7bc96f6].",
+    "citations": [
+      "930fe5af23902f40f7bc96f6"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "pha màu tranh Hàng Trống tỷ lệ",
+        "filter": {
+          "painting_tradition": "hang_trong"
+        },
+        "results": [
+          {
+            "id": "930fe5af23902f40f7bc96f6",
+            "text": "Tranh chỉ có một bản đen đầu tiên, sau khi in thì tranh được tô màu lại bằng tay. Từ các bản khắc gốc, những bức tranh đã được in ra, bằng mực Tàu mài nguyên chất. Sau đó là công đoạn bồi giấy . Tùy thuộc từng tranh cụ thể mà có tranh chỉ bồi một lớp, có tranh lại phải bồi đến 2 hay 3 lớp giấy. Khi hồ đã khô thì mới có thể vẽ màu lại. Có khi phải mất đến 3, 4 ngày mới hoàn thành một bức tranh.\n\nTranh được in trên giấy dó bồi dày hay giấy báo khổ rộng. Có những tranh bộ khổ to và dài, thường bồi dày, hai đầu trên dưới lồng suốt trục để tiện treo, phù hợp với kiểu kiến trúc nhà cao, cửa rộng nơi thành thị.\n\nVán khắc được làm bằng gỗ lồng mực hoặc gỗ thị. Mực in truyền thống dùng bằng những chất liệu dân dã nhưng cầu kỳ và tinh xảo trong chế tác.\n\nMàu sắc và cách tạo màu\n\nTranh dùng các gam màu chủ yếu là lam , hồng đôi khi có thêm lục , đỏ , da cam , vàng ... Tỷ lệ được tạo không hề đúng với công thức chuẩn mà chỉ để cho thật thuận mắt và ưa nhìn.",
+            "source_id": "tranh_hang_trong",
+            "source": "https://vi.wikipedia.org/wiki/Tranh_Hàng_Trống",
+            "page": "tranh_hang_trong_u002",
+            "metadata": {
+              "painting_tradition": "hang_trong",
+              "title": "Tranh Hàng Trống",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Tranh_H%C3%A0ng_Tr%E1%BB%91ng&oldid=74834715",
+              "unit_start_char": 1522,
+              "source_text_path": "data/processed/tranh_hang_trong.txt",
+              "document_id": "tranh_hang_trong",
+              "source": "https://vi.wikipedia.org/wiki/Tranh_Hàng_Trống",
+              "page": "tranh_hang_trong_u002",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 854,
+              "unit_end_offset": 1813,
+              "document_start_char": 2376,
+              "document_end_char": 3335,
+              "char_count": 959
+            },
+            "score": 0.03252247488101534
+          },
+          {
+            "id": "709af010339262d6f1aafb50",
+            "text": "Tranh Hàng Trống là một trong những dòng tranh dân gian Việt Nam được làm chủ yếu tại phố Hàng Nón, Hàng Trống của Hà Nội xưa.\n\nHàng Trống xưa kia thuộc đất cũ của thôn Tự Tháp, tổng Tiền Túc (sau đổi thành Thuận Mỹ), huyện Thọ Xương , nay thuộc quận Hoàn Kiếm , Hà Nội. Phố Hàng Trống nằm kề các phố Hàng Nón, Hàng Hòm, Hàng Quạt... là nơi chuyên sản xuất đồ thủ công mỹ nghệ nhất là đồ thờ như: tranh thờ, trống, quạt, lọng, cờ... Dòng tranh này hiện nay gần như đã bị mai một hết, chỉ còn lưu giữ trong các viện bảo tàng . Chính vì vậy, những nghệ nhân vẽ tranh Hàng Trống giảm hẳn. Hiện, chỉ còn duy nhất nghệ nhân Lê Đình Nghiên còn gắn bó với nghệ thuật tranh Hàng Trống và những nét tinh hoa của dòng tranh này.\n\nSơ lược",
+            "source_id": "tranh_hang_trong",
+            "source": "https://vi.wikipedia.org/wiki/Tranh_Hàng_Trống",
+            "page": "tranh_hang_trong_u001",
+            "metadata": {
+              "painting_tradition": "hang_trong",
+              "title": "Tranh Hàng Trống",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Tranh_H%C3%A0ng_Tr%E1%BB%91ng&oldid=74834715",
+              "unit_start_char": 0,
+              "source_text_path": "data/processed/tranh_hang_trong.txt",
+              "document_id": "tranh_hang_trong",
+              "source": "https://vi.wikipedia.org/wiki/Tranh_Hàng_Trống",
+              "page": "tranh_hang_trong_u001",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 0,
+              "unit_end_offset": 727,
+              "document_start_char": 0,
+              "document_end_char": 727,
+              "char_count": 727
+            },
+            "score": 0.03177805800756621
+          },
+          {
+            "id": "10c77070761128d3601c07e7",
+            "text": "Tranh Hàng Trống được tô màu bằng bút lông và phẩm nhuộm nên màu sắc đậm đà hơn tranh Đông Hồ .\n\nĐề tài nội dung và thể thức tranh\n\nĐề tài của tranh rất phong phú nhưng chủ yếu là tranh thờ như: Hương chủ, Ngũ hổ, Độc hổ, Sơn trang, Ông Hoàng Ba, Ông Hoàng Bảy, Phật Bà Quan Âm... Ngoài ra cũng có những bức tranh chơi như các bộ Tứ Bình (4 bức) hoặc Nhị bình (2 bức). Tứ bình thì có thể là tranh Tố nữ, Tứ dân (ngư, tiều, canh, mục) hoặc Tứ quý (Bốn mùa). Tứ bình còn có thể trình bày theo thể liên hoàn rút từ các truyện tích như Nhị độ mai , Thạch Sanh , Truyện Kiều . Nhị bình thì vẽ những đề tài như \"Lý ngư vọng nguyệt\" (Cá chép trông trăng) hoặc \"Chim công múa\" có tính cách cầu phúc, thái bình. Những bức về đề tài dân dã như cảnh \"Chợ quê\" hay \"Canh nông chi đồ\" cũng thuộc loại tranh Hàng Trống.",
+            "source_id": "tranh_hang_trong",
+            "source": "https://vi.wikipedia.org/wiki/Tranh_Hàng_Trống",
+            "page": "tranh_hang_trong_u002",
+            "metadata": {
+              "painting_tradition": "hang_trong",
+              "title": "Tranh Hàng Trống",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Tranh_H%C3%A0ng_Tr%E1%BB%91ng&oldid=74834715",
+              "unit_start_char": 1522,
+              "source_text_path": "data/processed/tranh_hang_trong.txt",
+              "document_id": "tranh_hang_trong",
+              "source": "https://vi.wikipedia.org/wiki/Tranh_Hàng_Trống",
+              "page": "tranh_hang_trong_u002",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 1815,
+              "unit_end_offset": 2620,
+              "document_start_char": 3337,
+              "document_end_char": 4142,
+              "char_count": 805
+            },
+            "score": 0.031754032258064516
+          }
+        ],
+        "context": "[930fe5af23902f40f7bc96f6 | https://vi.wikipedia.org/wiki/Tranh_Hàng_Trống | page tranh_hang_trong_u002]\nTranh chỉ có một bản đen đầu tiên, sau khi in thì tranh được tô màu lại bằng tay. Từ các bản khắc gốc, những bức tranh đã được in ra, bằng mực Tàu mài nguyên chất. Sau đó là công đoạn bồi giấy . Tùy thuộc từng tranh cụ thể mà có tranh chỉ bồi một lớp, có tranh lại phải bồi đến 2 hay 3 lớp giấy. Khi hồ đã khô thì mới có thể vẽ màu lại. Có khi phải mất đến 3, 4 ngày mới hoàn thành một bức tranh.\n\nTranh được in trên giấy dó bồi dày hay giấy báo khổ rộng. Có những tranh bộ khổ to và dài, thường bồi dày, hai đầu trên dưới lồng suốt trục để tiện treo, phù hợp với kiểu kiến trúc nhà cao, cửa rộng nơi thành thị.\n\nVán khắc được làm bằng gỗ lồng mực hoặc gỗ thị. Mực in truyền thống dùng bằng những chất liệu dân dã nhưng cầu kỳ và tinh xảo trong chế tác.\n\nMàu sắc và cách tạo màu\n\nTranh dùng các gam màu chủ yếu là lam , hồng đôi khi có thêm lục , đỏ , da cam , vàng ... Tỷ lệ được tạo không hề đúng với công thức chuẩn mà chỉ để cho thật thuận mắt và ưa nhìn.\n\n[709af010339262d6f1aafb50 | https://vi.wikipedia.org/wiki/Tranh_Hàng_Trống | page tranh_hang_trong_u001]\nTranh Hàng Trống là một trong những dòng tranh dân gian Việt Nam được làm chủ yếu tại phố Hàng Nón, Hàng Trống của Hà Nội xưa.\n\nHàng Trống xưa kia thuộc đất cũ của thôn Tự Tháp, tổng Tiền Túc (sau đổi thành Thuận Mỹ), huyện Thọ Xương , nay thuộc quận Hoàn Kiếm , Hà Nội. Phố Hàng Trống nằm kề các phố Hàng Nón, Hàng Hòm, Hàng Quạt... là nơi chuyên sản xuất đồ thủ công mỹ nghệ nhất là đồ thờ như: tranh thờ, trống, quạt, lọng, cờ... Dòng tranh này hiện nay gần như đã bị mai một hết, chỉ còn lưu giữ trong các viện bảo tàng . Chính vì vậy, những nghệ nhân vẽ tranh Hàng Trống giảm hẳn. Hiện, chỉ còn duy nhất nghệ nhân Lê Đình Nghiên còn gắn bó với nghệ thuật tranh Hàng Trống và những nét tinh hoa của dòng tranh này.\n\nSơ lược\n\n[10c77070761128d3601c07e7 | https://vi.wikipedia.org/wiki/Tranh_Hàng_Trống | page tranh_hang_trong_u002]\nTranh Hàng Trống được tô màu bằng bút lông và phẩm nhuộm nên màu sắc đậm đà hơn tranh Đông Hồ .\n\nĐề tài nội dung và thể thức tranh\n\nĐề tài của tranh rất phong phú nhưng chủ yếu là tranh thờ như: Hương chủ, Ngũ hổ, Độc hổ, Sơn trang, Ông Hoàng Ba, Ông Hoàng Bảy, Phật Bà Quan Âm... Ngoài ra cũng có những bức tranh chơi như các bộ Tứ Bình (4 bức) hoặc Nhị bình (2 bức). Tứ bình thì có thể là tranh Tố nữ, Tứ dân (ngư, tiều, canh, mục) hoặc Tứ quý (Bốn mùa). Tứ bình còn có thể trình bày theo thể liên hoàn rút từ các truyện tích như Nhị độ mai , Thạch Sanh , Truyện Kiều . Nhị bình thì vẽ những đề tài như \"Lý ngư vọng nguyệt\" (Cá chép trông trăng) hoặc \"Chim công múa\" có tính cách cầu phúc, thái bình. Những bức về đề tài dân dã như cảnh \"Chợ quê\" hay \"Canh nông chi đồ\" cũng thuộc loại tranh Hàng Trống.",
+        "context_ids": [
+          "930fe5af23902f40f7bc96f6",
+          "709af010339262d6f1aafb50",
+          "10c77070761128d3601c07e7"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  "final_context": "[930fe5af23902f40f7bc96f6 | https://vi.wikipedia.org/wiki/Tranh_Hàng_Trống | page tranh_hang_trong_u002]\nTranh chỉ có một bản đen đầu tiên, sau khi in thì tranh được tô màu lại bằng tay. Từ các bản khắc gốc, những bức tranh đã được in ra, bằng mực Tàu mài nguyên chất. Sau đó là công đoạn bồi giấy . Tùy thuộc từng tranh cụ thể mà có tranh chỉ bồi một lớp, có tranh lại phải bồi đến 2 hay 3 lớp giấy. Khi hồ đã khô thì mới có thể vẽ màu lại. Có khi phải mất đến 3, 4 ngày mới hoàn thành một bức tranh.\n\nTranh được in trên giấy dó bồi dày hay giấy báo khổ rộng. Có những tranh bộ khổ to và dài, thường bồi dày, hai đầu trên dưới lồng suốt trục để tiện treo, phù hợp với kiểu kiến trúc nhà cao, cửa rộng nơi thành thị.\n\nVán khắc được làm bằng gỗ lồng mực hoặc gỗ thị. Mực in truyền thống dùng bằng những chất liệu dân dã nhưng cầu kỳ và tinh xảo trong chế tác.\n\nMàu sắc và cách tạo màu\n\nTranh dùng các gam màu chủ yếu là lam , hồng đôi khi có thêm lục , đỏ , da cam , vàng ... Tỷ lệ được tạo không hề đúng với công thức chuẩn mà chỉ để cho thật thuận mắt và ưa nhìn.\n\n[709af010339262d6f1aafb50 | https://vi.wikipedia.org/wiki/Tranh_Hàng_Trống | page tranh_hang_trong_u001]\nTranh Hàng Trống là một trong những dòng tranh dân gian Việt Nam được làm chủ yếu tại phố Hàng Nón, Hàng Trống của Hà Nội xưa.\n\nHàng Trống xưa kia thuộc đất cũ của thôn Tự Tháp, tổng Tiền Túc (sau đổi thành Thuận Mỹ), huyện Thọ Xương , nay thuộc quận Hoàn Kiếm , Hà Nội. Phố Hàng Trống nằm kề các phố Hàng Nón, Hàng Hòm, Hàng Quạt... là nơi chuyên sản xuất đồ thủ công mỹ nghệ nhất là đồ thờ như: tranh thờ, trống, quạt, lọng, cờ... Dòng tranh này hiện nay gần như đã bị mai một hết, chỉ còn lưu giữ trong các viện bảo tàng . Chính vì vậy, những nghệ nhân vẽ tranh Hàng Trống giảm hẳn. Hiện, chỉ còn duy nhất nghệ nhân Lê Đình Nghiên còn gắn bó với nghệ thuật tranh Hàng Trống và những nét tinh hoa của dòng tranh này.\n\nSơ lược\n\n[10c77070761128d3601c07e7 | https://vi.wikipedia.org/wiki/Tranh_Hàng_Trống | page tranh_hang_trong_u002]\nTranh Hàng Trống được tô màu bằng bút lông và phẩm nhuộm nên màu sắc đậm đà hơn tranh Đông Hồ .\n\nĐề tài nội dung và thể thức tranh\n\nĐề tài của tranh rất phong phú nhưng chủ yếu là tranh thờ như: Hương chủ, Ngũ hổ, Độc hổ, Sơn trang, Ông Hoàng Ba, Ông Hoàng Bảy, Phật Bà Quan Âm... Ngoài ra cũng có những bức tranh chơi như các bộ Tứ Bình (4 bức) hoặc Nhị bình (2 bức). Tứ bình thì có thể là tranh Tố nữ, Tứ dân (ngư, tiều, canh, mục) hoặc Tứ quý (Bốn mùa). Tứ bình còn có thể trình bày theo thể liên hoàn rút từ các truyện tích như Nhị độ mai , Thạch Sanh , Truyện Kiều . Nhị bình thì vẽ những đề tài như \"Lý ngư vọng nguyệt\" (Cá chép trông trăng) hoặc \"Chim công múa\" có tính cách cầu phúc, thái bình. Những bức về đề tài dân dã như cảnh \"Chợ quê\" hay \"Canh nông chi đồ\" cũng thuộc loại tranh Hàng Trống.",
+  "context_ids": [
+    "930fe5af23902f40f7bc96f6",
+    "709af010339262d6f1aafb50",
+    "10c77070761128d3601c07e7"
+  ],
+  "context_evidence_hit": true,
+  "model_calls": [
+    {
+      "model": "gemini-3.8-flash",
+      "elapsed_seconds": 2.7262384000005113,
+      "usage": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 20,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 237,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 237
+          }
+        ],
+        "thoughts_token_count": 63,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 320,
+        "traffic_type": null
+      },
+      "raw_response": "{\"action\": \"search\", \"query\": \"pha màu tranh Hàng Trống tỷ lệ\"}"
+    },
+    {
+      "model": "gemini-3.8-flash",
+      "elapsed_seconds": 3.5102018999987195,
+      "usage": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 117,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 1264,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 1264
+          }
+        ],
+        "thoughts_token_count": 181,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 1562,
+        "traffic_type": null
+      },
+      "raw_response": "{\n \"action\": \"answer\",\n \"answer\": \"Khi tạo màu cho tranh Hàng Trống, không bắt buộc phải theo một tỷ lệ chuẩn cố định. Tỷ lệ màu được pha chế không tuân theo công thức chuẩn mà cốt sao cho thật thuận mắt và ưa nhìn [930fe5af23902f40f7bc96f6].\",\n \"citations\": [\n  \"930fe5af23902f40f7bc96f6\"\n ]\n}"
+    }
+  ],
+  "elapsed_seconds_excluding_setup": 6.254132100000788
+}

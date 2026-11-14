@@ -1,0 +1,157 @@
+{
+  "corpus_title": "Tranh Đông Hồ và hội họa dân gian Việt Nam",
+  "language": "vi",
+  "counting_method": "Chia tuần tự văn bản chuẩn hóa thành các đơn vị ít nhất 1500 ký tự, không overlap; gộp phần đuôi ngắn vào đơn vị trước.",
+  "source_units_path": "data/source_units.jsonl",
+  "documents": [
+    {
+      "source_id": "tranh_dong_ho",
+      "title": "Tranh Đông Hồ",
+      "source_path_or_url": "https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ",
+      "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Tranh_%C4%90%C3%B4ng_H%E1%BB%93&oldid=75711659",
+      "raw_path": "data/text_sources/tranh_dong_ho.mhtml",
+      "processed_path": "data/processed/tranh_dong_ho.txt",
+      "license_or_permission": "CC BY-SA 4.0; xem thông báo giấy phép và điều khoản bổ sung tại nguồn",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Wikipedia contributors: Tranh Đông Hồ",
+      "accessed_at": "2026-11-13",
+      "char_count": 7607,
+      "unit_ids": [
+        "tranh_dong_ho_u001",
+        "tranh_dong_ho_u002",
+        "tranh_dong_ho_u003",
+        "tranh_dong_ho_u004"
+      ],
+      "history_url": "https://vi.wikipedia.org/w/index.php?title=Tranh_%C4%90%C3%B4ng_H%E1%BB%93&action=history",
+      "source_packaging": "Text-only MHTML with media, CSS and executable elements removed from saved source"
+    },
+    {
+      "source_id": "hoi_hoa_dan_gian",
+      "title": "Hội họa dân gian Việt Nam",
+      "source_path_or_url": "https://vi.wikipedia.org/wiki/Tranh_dân_gian_Việt_Nam",
+      "raw_path": "data/text_sources/Hoi_hoa_dan_gian_VN.mhtml",
+      "processed_path": "data/processed/hoi_hoa_dan_gian.txt",
+      "license_or_permission": "CC BY-SA 4.0; xem thông báo giấy phép và điều khoản bổ sung tại nguồn",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Wikipedia contributors: Hội họa dân gian Việt Nam",
+      "accessed_at": "2026-11-13",
+      "char_count": 13123,
+      "unit_ids": [
+        "hoi_hoa_dan_gian_u001",
+        "hoi_hoa_dan_gian_u002",
+        "hoi_hoa_dan_gian_u003",
+        "hoi_hoa_dan_gian_u004",
+        "hoi_hoa_dan_gian_u005",
+        "hoi_hoa_dan_gian_u006",
+        "hoi_hoa_dan_gian_u007",
+        "hoi_hoa_dan_gian_u008"
+      ],
+      "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=H%E1%BB%99i_h%E1%BB%8Da_d%C3%A2n_gian_Vi%E1%BB%87t_Nam&oldid=74427393",
+      "history_url": "https://vi.wikipedia.org/w/index.php?title=H%E1%BB%99i_h%E1%BB%8Da_d%C3%A2n_gian_Vi%E1%BB%87t_Nam&action=history",
+      "source_packaging": "Text-only MHTML with media, CSS and executable elements removed from saved source"
+    },
+    {
+      "source_id": "giay_do",
+      "title": "Giấy dó",
+      "source_path_or_url": "https://vi.wikipedia.org/wiki/Giấy_dó",
+      "raw_path": "data/text_sources/giay_do.mhtml",
+      "processed_path": "data/processed/giay_do.txt",
+      "license_or_permission": "CC BY-SA 4.0; xem thông báo giấy phép và điều khoản bổ sung tại nguồn",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Wikipedia contributors: Giấy dó",
+      "accessed_at": "2026-11-13",
+      "char_count": 6022,
+      "unit_ids": [
+        "giay_do_u001",
+        "giay_do_u002",
+        "giay_do_u003"
+      ],
+      "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Gi%E1%BA%A5y_d%C3%B3&oldid=74469469",
+      "history_url": "https://vi.wikipedia.org/w/index.php?title=Gi%E1%BA%A5y_d%C3%B3&action=history",
+      "source_packaging": "Text-only MHTML with media, CSS and executable elements removed from saved source"
+    },
+    {
+      "source_id": "tranh_hang_trong",
+      "title": "Tranh Hàng Trống",
+      "source_path_or_url": "https://vi.wikipedia.org/wiki/Tranh_Hàng_Trống",
+      "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Tranh_H%C3%A0ng_Tr%E1%BB%91ng&oldid=74834715",
+      "raw_path": "data/text_sources/tranh_hang_trong.mhtml",
+      "processed_path": "data/processed/tranh_hang_trong.txt",
+      "license_or_permission": "CC BY-SA 4.0; xem thông báo giấy phép và điều khoản bổ sung tại nguồn",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Wikipedia contributors: Tranh Hàng Trống",
+      "history_url": "https://vi.wikipedia.org/w/index.php?title=Tranh_H%C3%A0ng_Tr%E1%BB%91ng&action=history",
+      "accessed_at": "2026-11-13",
+      "char_count": 4142,
+      "unit_ids": [
+        "tranh_hang_trong_u001",
+        "tranh_hang_trong_u002"
+      ],
+      "source_packaging": "Text-only MHTML with media, CSS and executable elements removed from saved source"
+    },
+    {
+      "source_id": "tranh_kim_hoang",
+      "title": "Tranh Kim Hoàng",
+      "source_path_or_url": "https://vi.wikipedia.org/wiki/Tranh_Kim_Hoàng",
+      "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Tranh_Kim_Ho%C3%A0ng&oldid=75185129",
+      "raw_path": "data/text_sources/tranh_kim_hoang.mhtml",
+      "processed_path": "data/processed/tranh_kim_hoang.txt",
+      "license_or_permission": "CC BY-SA 4.0; xem thông báo giấy phép và điều khoản bổ sung tại nguồn",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Wikipedia contributors: Tranh Kim Hoàng",
+      "history_url": "https://vi.wikipedia.org/w/index.php?title=Tranh_Kim_Ho%C3%A0ng&action=history",
+      "accessed_at": "2026-11-13",
+      "char_count": 4275,
+      "unit_ids": [
+        "tranh_kim_hoang_u001",
+        "tranh_kim_hoang_u002"
+      ],
+      "source_packaging": "Text-only MHTML with media, CSS and executable elements removed from saved source"
+    },
+    {
+      "source_id": "tranh_lang_sinh",
+      "title": "Tranh làng Sình",
+      "source_path_or_url": "https://vi.wikipedia.org/wiki/Tranh_làng_Sình",
+      "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Tranh_l%C3%A0ng_S%C3%ACnh&oldid=74891555",
+      "raw_path": "data/text_sources/tranh_lang_sinh.mhtml",
+      "processed_path": "data/processed/tranh_lang_sinh.txt",
+      "license_or_permission": "CC BY-SA 4.0; xem thông báo giấy phép và điều khoản bổ sung tại nguồn",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Wikipedia contributors: Tranh làng Sình",
+      "history_url": "https://vi.wikipedia.org/w/index.php?title=Tranh_l%C3%A0ng_S%C3%ACnh&action=history",
+      "accessed_at": "2026-11-13",
+      "char_count": 3674,
+      "unit_ids": [
+        "tranh_lang_sinh_u001",
+        "tranh_lang_sinh_u002"
+      ],
+      "source_packaging": "Text-only MHTML with media, CSS and executable elements removed from saved source"
+    },
+    {
+      "source_id": "khac_go",
+      "title": "Khắc gỗ",
+      "source_path_or_url": "https://vi.wikipedia.org/wiki/Khắc_gỗ",
+      "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Kh%E1%BA%AFc_g%E1%BB%97&oldid=69681873",
+      "raw_path": "data/text_sources/khac_go.mhtml",
+      "processed_path": "data/processed/khac_go.txt",
+      "license_or_permission": "CC BY-SA 4.0; xem thông báo giấy phép và điều khoản bổ sung tại nguồn",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Wikipedia contributors: Khắc gỗ",
+      "history_url": "https://vi.wikipedia.org/w/index.php?title=Kh%E1%BA%AFc_g%E1%BB%97&action=history",
+      "accessed_at": "2026-11-13",
+      "char_count": 13979,
+      "unit_ids": [
+        "khac_go_u001",
+        "khac_go_u002",
+        "khac_go_u003",
+        "khac_go_u004",
+        "khac_go_u005",
+        "khac_go_u006",
+        "khac_go_u007",
+        "khac_go_u008",
+        "khac_go_u009"
+      ],
+      "source_packaging": "Text-only MHTML with media, CSS and executable elements removed from saved source"
+    }
+  ]
+}

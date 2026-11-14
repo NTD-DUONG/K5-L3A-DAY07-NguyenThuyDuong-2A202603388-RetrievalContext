@@ -1,0 +1,74 @@
+{
+  "baseline": {
+    "reviewed_cases": 7,
+    "answer_grade_counts": {
+      "0": 0,
+      "1": 0,
+      "2": 5
+    },
+    "mean_answer_grade_out_of_2": 2.0,
+    "context_grade_counts": {
+      "0": 0,
+      "1": 0,
+      "2": 5
+    },
+    "supported_citations": 5,
+    "total_citations": 5,
+    "answered_cases": 5,
+    "answers_with_citations": 5,
+    "correct_abstentions": 2,
+    "unanswerable_cases": 2,
+    "false_abstentions": 0,
+    "answerable_cases": 5,
+    "cases_using_retrieval": 7,
+    "successful_cases": 7,
+    "search_call_distribution": {
+      "1": 5,
+      "3": 2
+    },
+    "errors": 0,
+    "model_calls": 18,
+    "reported_total_tokens": 17258,
+    "total_seconds_excluding_setup": 64.41646949999449,
+    "mean_seconds_excluding_setup": 9.202352785713499,
+    "review_method": "AI-assisted comparison with chunks in traces",
+    "monetary_cost": null,
+    "cost_note": "Actual monetary cost has not been measured."
+  },
+  "selected": {
+    "reviewed_cases": 7,
+    "answer_grade_counts": {
+      "0": 0,
+      "1": 0,
+      "2": 5
+    },
+    "mean_answer_grade_out_of_2": 2.0,
+    "context_grade_counts": {
+      "0": 0,
+      "1": 0,
+      "2": 5
+    },
+    "supported_citations": 5,
+    "total_citations": 5,
+    "answered_cases": 5,
+    "answers_with_citations": 5,
+    "correct_abstentions": 2,
+    "unanswerable_cases": 2,
+    "false_abstentions": 0,
+    "answerable_cases": 5,
+    "cases_using_retrieval": 7,
+    "successful_cases": 7,
+    "search_call_distribution": {
+      "1": 5,
+      "3": 2
+    },
+    "errors": 0,
+    "model_calls": 18,
+    "reported_total_tokens": 26261,
+    "total_seconds_excluding_setup": 65.03998490000049,
+    "mean_seconds_excluding_setup": 9.291426414285784,
+    "review_method": "AI-assisted comparison with chunks in traces",
+    "monetary_cost": null,
+    "cost_note": "Actual monetary cost has not been measured."
+  }
+}

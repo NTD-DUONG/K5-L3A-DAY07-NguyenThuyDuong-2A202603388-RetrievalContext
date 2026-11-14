@@ -1,0 +1,136 @@
+[
+  {
+    "query_id": "dev_01",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [true],
+    "reason": "Trả lời đúng nguyên liệu là vỏ cây dó. Citation có trong context và hỗ trợ cả ví dụ dó giấy, dó liệt cùng quy trình thủ công.",
+    "review_method": "AI đối chiếu câu trả lời với chunk trong trace"
+  },
+  {
+    "query_id": "dev_06",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [true],
+    "reason": "Trả lời đủ hai loại ván in nét và ván in màu. Chunk được trích dẫn ghi trực tiếp cả hai loại và có nguồn, vị trí.",
+    "review_method": "AI đối chiếu câu trả lời với chunk trong trace"
+  },
+  {
+    "query_id": "dev_15",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [true],
+    "reason": "Trả lời đủ cây dướng và cây dó liệt. Citation có trong context và hỗ trợ trực tiếp cả hai loại cây.",
+    "review_method": "AI đối chiếu câu trả lời với chunk trong trace"
+  },
+  {
+    "query_id": "dev_02",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [true],
+    "reason": "Trả lời đúng thời gian ngâm vỏ dó trong nước vôi là ba tháng. Citation có trong context và ghi trực tiếp thời gian này.",
+    "review_method": "AI đối chiếu câu trả lời với chunk trong trace"
+  },
+  {
+    "query_id": "dev_03",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [true, true, true],
+    "reason": "Giải thích đúng giấy nhẹ và hút mực do độ xốp, liên hệ với cấu trúc sợi kết mạng. Cả ba citation có trong context và hỗ trợ các ý được dẫn.",
+    "review_method": "AI đối chiếu câu trả lời với chunk trong trace"
+  },
+  {
+    "query_id": "dev_04",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [true],
+    "reason": "Trả lời đủ tranh Tết và tranh thờ, đúng phạm vi phần lịch sử. Citation có trong context và nêu trực tiếp hai loại.",
+    "review_method": "AI đối chiếu câu trả lời với chunk trong trace"
+  },
+  {
+    "query_id": "dev_05",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [true],
+    "reason": "Trả lời đúng quan niệm sống hơn giống. Ý giải thích về rung cảm thẩm mỹ cũng được citation hỗ trợ. Context có đủ nguồn và vị trí.",
+    "review_method": "AI đối chiếu câu trả lời với chunk trong trace"
+  },
+  {
+    "query_id": "dev_07",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [true],
+    "reason": "Trả lời đủ gỗ thị hoặc gỗ thừng mực, đúng phạm vi ván in nét của tranh Đông Hồ. Citation có trong context và hỗ trợ trực tiếp.",
+    "review_method": "AI đối chiếu câu trả lời với chunk trong trace"
+  },
+  {
+    "query_id": "dev_08",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [true],
+    "reason": "Giải thích đúng việc chọn gỗ mỡ cho ván in màu nhờ khả năng giữ màu cao hơn nhiều loại gỗ khác. Citation có trong context và hỗ trợ đầy đủ.",
+    "review_method": "AI đối chiếu câu trả lời với chunk trong trace"
+  },
+  {
+    "query_id": "dev_09",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [true, true],
+    "reason": "Trả lời đúng tên xưa là làng Mái. Thông tin bổ sung về tên gọi làng Hồ cũng có citation hỗ trợ. Cả hai citation có trong context.",
+    "review_method": "AI đối chiếu câu trả lời với chunk trong trace"
+  },
+  {
+    "query_id": "dev_10",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [true],
+    "reason": "Trả lời đủ gỗ lồng mực hoặc gỗ thị, đúng phạm vi ván khắc tranh Hàng Trống. Citation có trong context và hỗ trợ trực tiếp.",
+    "review_method": "AI đối chiếu câu trả lời với chunk trong trace"
+  },
+  {
+    "query_id": "dev_11",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [true],
+    "reason": "Trả lời đúng điều kiện hồ đã khô sau khi bồi giấy mới có thể vẽ màu lại. Citation có trong context và hỗ trợ trực tiếp.",
+    "review_method": "AI đối chiếu câu trả lời với chunk trong trace"
+  },
+  {
+    "query_id": "dev_12",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [true],
+    "reason": "Trả lời đúng cách pha màu tranh Hàng Trống dựa vào sự thuận mắt và ưa nhìn thay vì một tỷ lệ chuẩn cố định. Citation có trong context và hỗ trợ trực tiếp.",
+    "review_method": "AI đối chiếu câu trả lời với chunk trong trace"
+  },
+  {
+    "query_id": "dev_13",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [true],
+    "reason": "Nêu đủ giấy hồng điều hoặc giấy vàng tàu và giải thích tên gọi tranh đỏ bằng nền giấy tươi thắm. Citation có trong context và hỗ trợ đầy đủ.",
+    "review_method": "AI đối chiếu câu trả lời với chunk trong trace"
+  },
+  {
+    "query_id": "dev_14",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [true],
+    "reason": "Nêu đúng trận lụt năm 1915, phạm vi ngập và việc nhiều ván in bị cuốn trôi. Citation có trong context và hỗ trợ đầy đủ.",
+    "review_method": "AI đối chiếu câu trả lời với chunk trong trace"
+  },
+  {
+    "query_id": "dev_16",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Sau ba lượt tìm, model nêu tài liệu thiếu số liệu sản lượng Yên Thái năm 2025. Câu trả lời cuối từ chối và không thêm số liệu suy đoán.",
+    "review_method": "AI đối chiếu phản hồi model, câu trả lời cuối và kết quả kiểm tra corpus"
+  },
+  {
+    "query_id": "dev_17",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Sau ba lượt tìm, model nêu tài liệu thiếu giá bán giấy dó A4 tại Yên Thái năm 2025. Câu trả lời cuối từ chối và không suy đoán giá.",
+    "review_method": "AI đối chiếu phản hồi model, câu trả lời cuối và kết quả kiểm tra corpus"
+  }
+]

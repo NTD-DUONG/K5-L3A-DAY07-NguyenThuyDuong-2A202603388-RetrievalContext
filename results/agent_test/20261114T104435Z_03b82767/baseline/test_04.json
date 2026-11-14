@@ -1,0 +1,169 @@
+{
+  "query_id": "test_04",
+  "split": "test",
+  "question": "Giấy dó cổ truyền dùng cho tranh làng Sình có khổ bao nhiêu và cỡ pha đôi là bao nhiêu?",
+  "answerable": true,
+  "configuration": "baseline",
+  "model": "gemini-3.8-flash",
+  "filters": {
+    "painting_tradition": "lang_sinh"
+  },
+  "result": {
+    "status": "answered",
+    "answer": "Giấy dó cổ truyền dùng cho tranh làng Sình có khổ 25x70cm và khi được xén thành cỡ pha đôi thì có kích thước là 25x35cm [9596dd18c8415a17546761f3].",
+    "citations": [
+      "9596dd18c8415a17546761f3"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "giấy dó tranh làng Sình khổ cỡ pha đôi",
+        "filter": {
+          "painting_tradition": "lang_sinh"
+        },
+        "results": [
+          {
+            "id": "9596dd18c8415a17546761f3",
+            "text": "Nghề làm tranh ra đời tại làng cho tới hiện nay (2019) là khoảng 400 năm trước, tranh làm ra chủ yếu là để phục vụ cho việc thờ cúng của người dân khắp vùng. Ngày nay, tranh làng Sình đang mất dần đi yếu tố truyền thống xưa. Các bản khắc cũ còn lại với số lượng rất ít, các bản khắc mới đã xa rời với yếu tố gốc và người làm nghề cũng đã dùng chất liệu sơn công nghiệp thay cho các chất liệu màu truyền thống.\n\nCách in ấn và vẽ tranh\n\nTranh Sình có nhiều loại kích thước tùy thuộc vào khổ giấy dó . Giấy dó cổ truyền có khổ 25x70cm, được xén thành cỡ pha đôi (25x35), pha ba (25x23) hay pha tư (25x17).",
+            "source_id": "tranh_lang_sinh",
+            "source": "https://vi.wikipedia.org/wiki/Tranh_làng_Sình",
+            "page": "tranh_lang_sinh_u001",
+            "metadata": {
+              "painting_tradition": "lang_sinh",
+              "title": "Tranh làng Sình",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Tranh_l%C3%A0ng_S%C3%ACnh&oldid=74891555",
+              "unit_start_char": 0,
+              "source_text_path": "data/processed/tranh_lang_sinh.txt",
+              "document_id": "tranh_lang_sinh",
+              "source": "https://vi.wikipedia.org/wiki/Tranh_làng_Sình",
+              "page": "tranh_lang_sinh_u001",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 972,
+              "unit_end_offset": 1574,
+              "document_start_char": 972,
+              "document_end_char": 1574,
+              "char_count": 602
+            },
+            "score": 0.03278688524590164
+          },
+          {
+            "id": "2c579b2368a4c29deaf11913",
+            "text": "Tranh khổ lớn khi in thì đặt bản khắc nằm ngửa dưới đất, dùng một chiếc phết là một mảnh vỏ dừa khô đập dập một đầu, quét màu đen lên trên ván in. Sau đó phủ giấy lên trên, dùng miếng xơ mướp xoa đều cho ăn màu rồi bóc giấy ra. Với tranh khổ nhỏ thì đặt giấy từng tập xuống dưới rồi lấy ván in dập lên. Bản in đen phải chờ cho khô rồi mới đem tô màu.\n\nBản khắc của tranh được làm từ gỗ mít .\n\nNguyên liệu và cách tạo màu\n\nGiấy in tranh là giấy mộc quét điệp, màu sắc trước đây được tạo từ các sản phẩm tự nhiên như từ: thực vật , kim loại hay từ sò điệp...\n\nBút vẽ làm từ cây dứa mọc hoang ngoài đồng.\n\nCác màu thường được sử dụng trong tranh như màu đỏ (từ nước lá bàng); màu đen (từ tro rơm, tro lá cây); màu tím (của hạt cây mồng tơi); màu vàng (lá đung giã với búp hoa hòe)... Màu chủ yếu trên tranh làng Sình là các màu xanh dương , vàng , đơn , đỏ , đen , lục . Mỗi màu này có thể trộn với hồ điệp hoặc tô riêng, khi tô riêng phải trộn thêm keo nấu bằng da trâu tươi.",
+            "source_id": "tranh_lang_sinh",
+            "source": "https://vi.wikipedia.org/wiki/Tranh_làng_Sình",
+            "page": "tranh_lang_sinh_u002",
+            "metadata": {
+              "painting_tradition": "lang_sinh",
+              "title": "Tranh làng Sình",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Tranh_l%C3%A0ng_S%C3%ACnh&oldid=74891555",
+              "unit_start_char": 1574,
+              "source_text_path": "data/processed/tranh_lang_sinh.txt",
+              "document_id": "tranh_lang_sinh",
+              "source": "https://vi.wikipedia.org/wiki/Tranh_làng_Sình",
+              "page": "tranh_lang_sinh_u002",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 1,
+              "unit_end_offset": 974,
+              "document_start_char": 1575,
+              "document_end_char": 2548,
+              "char_count": 973
+            },
+            "score": 0.03200204813108039
+          },
+          {
+            "id": "3ac33d38b916af8629b95db3",
+            "text": "Tranh làng Sình là một dòng tranh dân gian Việt Nam thuộc thôn Lại Ân, phường Duong Nỗ, quận Thuận Hóa, thành phố Huế (cách trung tâm thành phố khoảng 10 km về phía Đông). Đây là dòng tranh mộc bản được sử dụng phổ biến ở cố đô Huế với mục đích cúng lễ. Tranh làng Sình khác với tranh Đông Hồ ( Bắc Ninh ), tranh Hàng Trống ( Hà Nội ) bởi chức năng duy nhất là phục vụ thờ cúng, cúng xong là đốt. Vì vậy, đến nay chỉ còn những bản khắc gỗ là hiện vật quý giá còn lưu giữ được ở nhà ông Kỳ Hữu Phước - một nghệ nhân làm tranh lâu năm ở làng Sình.\n\nLàng Sình\n\nLàng Sình là một làng nằm ven sông Hương được thành lập vào khoảng thế kỷ 15 , đối diện bên kia sông là Thanh Hà, một cảng sông nổi tiếng thời các chúa ở Đàng Trong , còn có tên là Phố Lở, sau này lại có phố Bao Vinh, một trung tâm buôn bán sầm uất nằm cận kề thành phố Huế . Đây còn là một trung tâm văn hóa của vùng cố đô, có chùa Sùng Hoá trong làng đã từng là một trong những chùa lớn nhất vùng Hóa Châu xưa.",
+            "source_id": "tranh_lang_sinh",
+            "source": "https://vi.wikipedia.org/wiki/Tranh_làng_Sình",
+            "page": "tranh_lang_sinh_u001",
+            "metadata": {
+              "painting_tradition": "lang_sinh",
+              "title": "Tranh làng Sình",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Tranh_l%C3%A0ng_S%C3%ACnh&oldid=74891555",
+              "unit_start_char": 0,
+              "source_text_path": "data/processed/tranh_lang_sinh.txt",
+              "document_id": "tranh_lang_sinh",
+              "source": "https://vi.wikipedia.org/wiki/Tranh_làng_Sình",
+              "page": "tranh_lang_sinh_u001",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 0,
+              "unit_end_offset": 970,
+              "document_start_char": 0,
+              "document_end_char": 970,
+              "char_count": 970
+            },
+            "score": 0.031754032258064516
+          }
+        ],
+        "context": "[9596dd18c8415a17546761f3 | https://vi.wikipedia.org/wiki/Tranh_làng_Sình | page tranh_lang_sinh_u001]\nNghề làm tranh ra đời tại làng cho tới hiện nay (2019) là khoảng 400 năm trước, tranh làm ra chủ yếu là để phục vụ cho việc thờ cúng của người dân khắp vùng. Ngày nay, tranh làng Sình đang mất dần đi yếu tố truyền thống xưa. Các bản khắc cũ còn lại với số lượng rất ít, các bản khắc mới đã xa rời với yếu tố gốc và người làm nghề cũng đã dùng chất liệu sơn công nghiệp thay cho các chất liệu màu truyền thống.\n\nCách in ấn và vẽ tranh\n\nTranh Sình có nhiều loại kích thước tùy thuộc vào khổ giấy dó . Giấy dó cổ truyền có khổ 25x70cm, được xén thành cỡ pha đôi (25x35), pha ba (25x23) hay pha tư (25x17).\n\n[2c579b2368a4c29deaf11913 | https://vi.wikipedia.org/wiki/Tranh_làng_Sình | page tranh_lang_sinh_u002]\nTranh khổ lớn khi in thì đặt bản khắc nằm ngửa dưới đất, dùng một chiếc phết là một mảnh vỏ dừa khô đập dập một đầu, quét màu đen lên trên ván in. Sau đó phủ giấy lên trên, dùng miếng xơ mướp xoa đều cho ăn màu rồi bóc giấy ra. Với tranh khổ nhỏ thì đặt giấy từng tập xuống dưới rồi lấy ván in dập lên. Bản in đen phải chờ cho khô rồi mới đem tô màu.\n\nBản khắc của tranh được làm từ gỗ mít .\n\nNguyên liệu và cách tạo màu\n\nGiấy in tranh là giấy mộc quét điệp, màu sắc trước đây được tạo từ các sản phẩm tự nhiên như từ: thực vật , kim loại hay từ sò điệp...\n\nBút vẽ làm từ cây dứa mọc hoang ngoài đồng.\n\nCác màu thường được sử dụng trong tranh như màu đỏ (từ nước lá bàng); màu đen (từ tro rơm, tro lá cây); màu tím (của hạt cây mồng tơi); màu vàng (lá đung giã với búp hoa hòe)... Màu chủ yếu trên tranh làng Sình là các màu xanh dương , vàng , đơn , đỏ , đen , lục . Mỗi màu này có thể trộn với hồ điệp hoặc tô riêng, khi tô riêng phải trộn thêm keo nấu bằng da trâu tươi.\n\n[3ac33d38b916af8629b95db3 | https://vi.wikipedia.org/wiki/Tranh_làng_Sình | page tranh_lang_sinh_u001]\nTranh làng Sình là một dòng tranh dân gian Việt Nam thuộc thôn Lại Ân, phường Duong Nỗ, quận Thuận Hóa, thành phố Huế (cách trung tâm thành phố khoảng 10 km về phía Đông). Đây là dòng tranh mộc bản được sử dụng phổ biến ở cố đô Huế với mục đích cúng lễ. Tranh làng Sình khác với tranh Đông Hồ ( Bắc Ninh ), tranh Hàng Trống ( Hà Nội ) bởi chức năng duy nhất là phục vụ thờ cúng, cúng xong là đốt. Vì vậy, đến nay chỉ còn những bản khắc gỗ là hiện vật quý giá còn lưu giữ được ở nhà ông Kỳ Hữu Phước - một nghệ nhân làm tranh lâu năm ở làng Sình.\n\nLàng Sình\n\nLàng Sình là một làng nằm ven sông Hương được thành lập vào khoảng thế kỷ 15 , đối diện bên kia sông là Thanh Hà, một cảng sông nổi tiếng thời các chúa ở Đàng Trong , còn có tên là Phố Lở, sau này lại có phố Bao Vinh, một trung tâm buôn bán sầm uất nằm cận kề thành phố Huế . Đây còn là một trung tâm văn hóa của vùng cố đô, có chùa Sùng Hoá trong làng đã từng là một trong những chùa lớn nhất vùng Hóa Châu xưa.",
+        "context_ids": [
+          "9596dd18c8415a17546761f3",
+          "2c579b2368a4c29deaf11913",
+          "3ac33d38b916af8629b95db3"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  "final_context": "[9596dd18c8415a17546761f3 | https://vi.wikipedia.org/wiki/Tranh_làng_Sình | page tranh_lang_sinh_u001]\nNghề làm tranh ra đời tại làng cho tới hiện nay (2019) là khoảng 400 năm trước, tranh làm ra chủ yếu là để phục vụ cho việc thờ cúng của người dân khắp vùng. Ngày nay, tranh làng Sình đang mất dần đi yếu tố truyền thống xưa. Các bản khắc cũ còn lại với số lượng rất ít, các bản khắc mới đã xa rời với yếu tố gốc và người làm nghề cũng đã dùng chất liệu sơn công nghiệp thay cho các chất liệu màu truyền thống.\n\nCách in ấn và vẽ tranh\n\nTranh Sình có nhiều loại kích thước tùy thuộc vào khổ giấy dó . Giấy dó cổ truyền có khổ 25x70cm, được xén thành cỡ pha đôi (25x35), pha ba (25x23) hay pha tư (25x17).\n\n[2c579b2368a4c29deaf11913 | https://vi.wikipedia.org/wiki/Tranh_làng_Sình | page tranh_lang_sinh_u002]\nTranh khổ lớn khi in thì đặt bản khắc nằm ngửa dưới đất, dùng một chiếc phết là một mảnh vỏ dừa khô đập dập một đầu, quét màu đen lên trên ván in. Sau đó phủ giấy lên trên, dùng miếng xơ mướp xoa đều cho ăn màu rồi bóc giấy ra. Với tranh khổ nhỏ thì đặt giấy từng tập xuống dưới rồi lấy ván in dập lên. Bản in đen phải chờ cho khô rồi mới đem tô màu.\n\nBản khắc của tranh được làm từ gỗ mít .\n\nNguyên liệu và cách tạo màu\n\nGiấy in tranh là giấy mộc quét điệp, màu sắc trước đây được tạo từ các sản phẩm tự nhiên như từ: thực vật , kim loại hay từ sò điệp...\n\nBút vẽ làm từ cây dứa mọc hoang ngoài đồng.\n\nCác màu thường được sử dụng trong tranh như màu đỏ (từ nước lá bàng); màu đen (từ tro rơm, tro lá cây); màu tím (của hạt cây mồng tơi); màu vàng (lá đung giã với búp hoa hòe)... Màu chủ yếu trên tranh làng Sình là các màu xanh dương , vàng , đơn , đỏ , đen , lục . Mỗi màu này có thể trộn với hồ điệp hoặc tô riêng, khi tô riêng phải trộn thêm keo nấu bằng da trâu tươi.\n\n[3ac33d38b916af8629b95db3 | https://vi.wikipedia.org/wiki/Tranh_làng_Sình | page tranh_lang_sinh_u001]\nTranh làng Sình là một dòng tranh dân gian Việt Nam thuộc thôn Lại Ân, phường Duong Nỗ, quận Thuận Hóa, thành phố Huế (cách trung tâm thành phố khoảng 10 km về phía Đông). Đây là dòng tranh mộc bản được sử dụng phổ biến ở cố đô Huế với mục đích cúng lễ. Tranh làng Sình khác với tranh Đông Hồ ( Bắc Ninh ), tranh Hàng Trống ( Hà Nội ) bởi chức năng duy nhất là phục vụ thờ cúng, cúng xong là đốt. Vì vậy, đến nay chỉ còn những bản khắc gỗ là hiện vật quý giá còn lưu giữ được ở nhà ông Kỳ Hữu Phước - một nghệ nhân làm tranh lâu năm ở làng Sình.\n\nLàng Sình\n\nLàng Sình là một làng nằm ven sông Hương được thành lập vào khoảng thế kỷ 15 , đối diện bên kia sông là Thanh Hà, một cảng sông nổi tiếng thời các chúa ở Đàng Trong , còn có tên là Phố Lở, sau này lại có phố Bao Vinh, một trung tâm buôn bán sầm uất nằm cận kề thành phố Huế . Đây còn là một trung tâm văn hóa của vùng cố đô, có chùa Sùng Hoá trong làng đã từng là một trong những chùa lớn nhất vùng Hóa Châu xưa.",
+  "context_ids": [
+    "9596dd18c8415a17546761f3",
+    "2c579b2368a4c29deaf11913",
+    "3ac33d38b916af8629b95db3"
+  ],
+  "context_evidence_hit": true,
+  "model_calls": [
+    {
+      "model": "gemini-3.8-flash",
+      "elapsed_seconds": 2.4105545000002166,
+      "usage": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 22,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 239,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 239
+          }
+        ],
+        "thoughts_token_count": 38,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 299,
+        "traffic_type": null
+      },
+      "raw_response": "{\"action\": \"search\", \"query\": \"giấy dó tranh làng Sình khổ cỡ pha đôi\"}"
+    },
+    {
+      "model": "gemini-3.8-flash",
+      "elapsed_seconds": 4.304733299999498,
+      "usage": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 116,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 1287,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 1287
+          }
+        ],
+        "thoughts_token_count": 185,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 1588,
+        "traffic_type": null
+      },
+      "raw_response": "{\n \"action\": \"answer\",\n \"answer\": \"Giấy dó cổ truyền dùng cho tranh làng Sình có khổ 25x70cm và khi được xén thành cỡ pha đôi thì có kích thước là 25x35cm [9596dd18c8415a17546761f3].\",\n \"citations\": [\n  \"9596dd18c8415a17546761f3\"\n ]\n}"
+    }
+  ],
+  "elapsed_seconds_excluding_setup": 6.743809599998713
+}

@@ -1,0 +1,393 @@
+{
+  "query_id": "test_07",
+  "split": "test",
+  "question": "Năm 2025, làng Sình có chính xác bao nhiêu nghệ nhân đang làm tranh?",
+  "answerable": false,
+  "configuration": "baseline",
+  "model": "gemini-3.8-flash",
+  "filters": {
+    "painting_tradition": "lang_sinh"
+  },
+  "result": {
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "làng Sình nghệ nhân làm tranh",
+        "filter": {
+          "painting_tradition": "lang_sinh"
+        },
+        "results": [
+          {
+            "id": "3ac33d38b916af8629b95db3",
+            "text": "Tranh làng Sình là một dòng tranh dân gian Việt Nam thuộc thôn Lại Ân, phường Duong Nỗ, quận Thuận Hóa, thành phố Huế (cách trung tâm thành phố khoảng 10 km về phía Đông). Đây là dòng tranh mộc bản được sử dụng phổ biến ở cố đô Huế với mục đích cúng lễ. Tranh làng Sình khác với tranh Đông Hồ ( Bắc Ninh ), tranh Hàng Trống ( Hà Nội ) bởi chức năng duy nhất là phục vụ thờ cúng, cúng xong là đốt. Vì vậy, đến nay chỉ còn những bản khắc gỗ là hiện vật quý giá còn lưu giữ được ở nhà ông Kỳ Hữu Phước - một nghệ nhân làm tranh lâu năm ở làng Sình.\n\nLàng Sình\n\nLàng Sình là một làng nằm ven sông Hương được thành lập vào khoảng thế kỷ 15 , đối diện bên kia sông là Thanh Hà, một cảng sông nổi tiếng thời các chúa ở Đàng Trong , còn có tên là Phố Lở, sau này lại có phố Bao Vinh, một trung tâm buôn bán sầm uất nằm cận kề thành phố Huế . Đây còn là một trung tâm văn hóa của vùng cố đô, có chùa Sùng Hoá trong làng đã từng là một trong những chùa lớn nhất vùng Hóa Châu xưa.",
+            "source_id": "tranh_lang_sinh",
+            "source": "https://vi.wikipedia.org/wiki/Tranh_làng_Sình",
+            "page": "tranh_lang_sinh_u001",
+            "metadata": {
+              "painting_tradition": "lang_sinh",
+              "title": "Tranh làng Sình",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Tranh_l%C3%A0ng_S%C3%ACnh&oldid=74891555",
+              "unit_start_char": 0,
+              "source_text_path": "data/processed/tranh_lang_sinh.txt",
+              "document_id": "tranh_lang_sinh",
+              "source": "https://vi.wikipedia.org/wiki/Tranh_làng_Sình",
+              "page": "tranh_lang_sinh_u001",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 0,
+              "unit_end_offset": 970,
+              "document_start_char": 0,
+              "document_end_char": 970,
+              "char_count": 970
+            },
+            "score": 0.03252247488101534
+          },
+          {
+            "id": "9596dd18c8415a17546761f3",
+            "text": "Nghề làm tranh ra đời tại làng cho tới hiện nay (2019) là khoảng 400 năm trước, tranh làm ra chủ yếu là để phục vụ cho việc thờ cúng của người dân khắp vùng. Ngày nay, tranh làng Sình đang mất dần đi yếu tố truyền thống xưa. Các bản khắc cũ còn lại với số lượng rất ít, các bản khắc mới đã xa rời với yếu tố gốc và người làm nghề cũng đã dùng chất liệu sơn công nghiệp thay cho các chất liệu màu truyền thống.\n\nCách in ấn và vẽ tranh\n\nTranh Sình có nhiều loại kích thước tùy thuộc vào khổ giấy dó . Giấy dó cổ truyền có khổ 25x70cm, được xén thành cỡ pha đôi (25x35), pha ba (25x23) hay pha tư (25x17).",
+            "source_id": "tranh_lang_sinh",
+            "source": "https://vi.wikipedia.org/wiki/Tranh_làng_Sình",
+            "page": "tranh_lang_sinh_u001",
+            "metadata": {
+              "painting_tradition": "lang_sinh",
+              "title": "Tranh làng Sình",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Tranh_l%C3%A0ng_S%C3%ACnh&oldid=74891555",
+              "unit_start_char": 0,
+              "source_text_path": "data/processed/tranh_lang_sinh.txt",
+              "document_id": "tranh_lang_sinh",
+              "source": "https://vi.wikipedia.org/wiki/Tranh_làng_Sình",
+              "page": "tranh_lang_sinh_u001",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 972,
+              "unit_end_offset": 1574,
+              "document_start_char": 972,
+              "document_end_char": 1574,
+              "char_count": 602
+            },
+            "score": 0.032266458495966696
+          },
+          {
+            "id": "2f691fa86eb3d56198137028",
+            "text": "Sau này do nhiều nguyên nhân nên màu sắc được tạo nên từ phẩm hóa học.\n\nĐề tài và nội dung tranh\n\nTranh Sình chủ yếu là tranh phục vụ tín ngưỡng, có khoảng 50 đề tài tranh. Các đề tài tranh chủ yếu phản ánh tín ngưỡng cổ xưa. Ngoài các đề tài về tín ngưỡng, phục vụ thờ cúng còn có tranh Tố Nữ [ cần dẫn nguồn ] , tranh tả cảnh sinh hoạt xã hội...\n\nTranh phục vụ tín ngưỡng có thể chia làm ba loại:\n\nTranh nhân vật, chủ yếu là tranh tượng bà, thường vẽ một người phụ nữ xiêm y rực rỡ với hai nữ tì nhỏ hơn đứng hầu hai bên. Tượng bà còn chia thành ba loại: tượng đế, tượng chùa, và tượng ngang. Loại tranh này dán trên bàn thờ riêng thờ quanh năm. Tranh con ảnh, gồm hai loại: ảnh xiêm vẽ hình đàn ông đàn bà; ảnh phền vẽ bé trai bé gái.\n\nCác loại nhân vật còn lại là tranh ông Điệu, ông Đốc và Tờ bếp (có lẽ là tranh vẽ Táo quân ).\n\nTranh đồ vật vẽ các thứ áo, tiền và dụng cụ để đốt cho người cõi âm : áo ông, áo bà, áo binh, tiền, cung tên, dụng cụ gia đình.. thường là tranh cỡ nhỏ.",
+            "source_id": "tranh_lang_sinh",
+            "source": "https://vi.wikipedia.org/wiki/Tranh_làng_Sình",
+            "page": "tranh_lang_sinh_u002",
+            "metadata": {
+              "painting_tradition": "lang_sinh",
+              "title": "Tranh làng Sình",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Tranh_l%C3%A0ng_S%C3%ACnh&oldid=74891555",
+              "unit_start_char": 1574,
+              "source_text_path": "data/processed/tranh_lang_sinh.txt",
+              "document_id": "tranh_lang_sinh",
+              "source": "https://vi.wikipedia.org/wiki/Tranh_làng_Sình",
+              "page": "tranh_lang_sinh_u002",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 976,
+              "unit_end_offset": 1962,
+              "document_start_char": 2550,
+              "document_end_char": 3536,
+              "char_count": 986
+            },
+            "score": 0.03200204813108039
+          }
+        ],
+        "context": "[3ac33d38b916af8629b95db3 | https://vi.wikipedia.org/wiki/Tranh_làng_Sình | page tranh_lang_sinh_u001]\nTranh làng Sình là một dòng tranh dân gian Việt Nam thuộc thôn Lại Ân, phường Duong Nỗ, quận Thuận Hóa, thành phố Huế (cách trung tâm thành phố khoảng 10 km về phía Đông). Đây là dòng tranh mộc bản được sử dụng phổ biến ở cố đô Huế với mục đích cúng lễ. Tranh làng Sình khác với tranh Đông Hồ ( Bắc Ninh ), tranh Hàng Trống ( Hà Nội ) bởi chức năng duy nhất là phục vụ thờ cúng, cúng xong là đốt. Vì vậy, đến nay chỉ còn những bản khắc gỗ là hiện vật quý giá còn lưu giữ được ở nhà ông Kỳ Hữu Phước - một nghệ nhân làm tranh lâu năm ở làng Sình.\n\nLàng Sình\n\nLàng Sình là một làng nằm ven sông Hương được thành lập vào khoảng thế kỷ 15 , đối diện bên kia sông là Thanh Hà, một cảng sông nổi tiếng thời các chúa ở Đàng Trong , còn có tên là Phố Lở, sau này lại có phố Bao Vinh, một trung tâm buôn bán sầm uất nằm cận kề thành phố Huế . Đây còn là một trung tâm văn hóa của vùng cố đô, có chùa Sùng Hoá trong làng đã từng là một trong những chùa lớn nhất vùng Hóa Châu xưa.\n\n[9596dd18c8415a17546761f3 | https://vi.wikipedia.org/wiki/Tranh_làng_Sình | page tranh_lang_sinh_u001]\nNghề làm tranh ra đời tại làng cho tới hiện nay (2019) là khoảng 400 năm trước, tranh làm ra chủ yếu là để phục vụ cho việc thờ cúng của người dân khắp vùng. Ngày nay, tranh làng Sình đang mất dần đi yếu tố truyền thống xưa. Các bản khắc cũ còn lại với số lượng rất ít, các bản khắc mới đã xa rời với yếu tố gốc và người làm nghề cũng đã dùng chất liệu sơn công nghiệp thay cho các chất liệu màu truyền thống.\n\nCách in ấn và vẽ tranh\n\nTranh Sình có nhiều loại kích thước tùy thuộc vào khổ giấy dó . Giấy dó cổ truyền có khổ 25x70cm, được xén thành cỡ pha đôi (25x35), pha ba (25x23) hay pha tư (25x17).\n\n[2f691fa86eb3d56198137028 | https://vi.wikipedia.org/wiki/Tranh_làng_Sình | page tranh_lang_sinh_u002]\nSau này do nhiều nguyên nhân nên màu sắc được tạo nên từ phẩm hóa học.\n\nĐề tài và nội dung tranh\n\nTranh Sình chủ yếu là tranh phục vụ tín ngưỡng, có khoảng 50 đề tài tranh. Các đề tài tranh chủ yếu phản ánh tín ngưỡng cổ xưa. Ngoài các đề tài về tín ngưỡng, phục vụ thờ cúng còn có tranh Tố Nữ [ cần dẫn nguồn ] , tranh tả cảnh sinh hoạt xã hội...\n\nTranh phục vụ tín ngưỡng có thể chia làm ba loại:\n\nTranh nhân vật, chủ yếu là tranh tượng bà, thường vẽ một người phụ nữ xiêm y rực rỡ với hai nữ tì nhỏ hơn đứng hầu hai bên. Tượng bà còn chia thành ba loại: tượng đế, tượng chùa, và tượng ngang. Loại tranh này dán trên bàn thờ riêng thờ quanh năm. Tranh con ảnh, gồm hai loại: ảnh xiêm vẽ hình đàn ông đàn bà; ảnh phền vẽ bé trai bé gái.\n\nCác loại nhân vật còn lại là tranh ông Điệu, ông Đốc và Tờ bếp (có lẽ là tranh vẽ Táo quân ).\n\nTranh đồ vật vẽ các thứ áo, tiền và dụng cụ để đốt cho người cõi âm : áo ông, áo bà, áo binh, tiền, cung tên, dụng cụ gia đình.. thường là tranh cỡ nhỏ.",
+        "context_ids": [
+          "3ac33d38b916af8629b95db3",
+          "9596dd18c8415a17546761f3",
+          "2f691fa86eb3d56198137028"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "nghệ nhân làng Sình tranh",
+        "filter": {
+          "painting_tradition": "lang_sinh"
+        },
+        "results": [
+          {
+            "id": "3ac33d38b916af8629b95db3",
+            "text": "Tranh làng Sình là một dòng tranh dân gian Việt Nam thuộc thôn Lại Ân, phường Duong Nỗ, quận Thuận Hóa, thành phố Huế (cách trung tâm thành phố khoảng 10 km về phía Đông). Đây là dòng tranh mộc bản được sử dụng phổ biến ở cố đô Huế với mục đích cúng lễ. Tranh làng Sình khác với tranh Đông Hồ ( Bắc Ninh ), tranh Hàng Trống ( Hà Nội ) bởi chức năng duy nhất là phục vụ thờ cúng, cúng xong là đốt. Vì vậy, đến nay chỉ còn những bản khắc gỗ là hiện vật quý giá còn lưu giữ được ở nhà ông Kỳ Hữu Phước - một nghệ nhân làm tranh lâu năm ở làng Sình.\n\nLàng Sình\n\nLàng Sình là một làng nằm ven sông Hương được thành lập vào khoảng thế kỷ 15 , đối diện bên kia sông là Thanh Hà, một cảng sông nổi tiếng thời các chúa ở Đàng Trong , còn có tên là Phố Lở, sau này lại có phố Bao Vinh, một trung tâm buôn bán sầm uất nằm cận kề thành phố Huế . Đây còn là một trung tâm văn hóa của vùng cố đô, có chùa Sùng Hoá trong làng đã từng là một trong những chùa lớn nhất vùng Hóa Châu xưa.",
+            "source_id": "tranh_lang_sinh",
+            "source": "https://vi.wikipedia.org/wiki/Tranh_làng_Sình",
+            "page": "tranh_lang_sinh_u001",
+            "metadata": {
+              "painting_tradition": "lang_sinh",
+              "title": "Tranh làng Sình",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Tranh_l%C3%A0ng_S%C3%ACnh&oldid=74891555",
+              "unit_start_char": 0,
+              "source_text_path": "data/processed/tranh_lang_sinh.txt",
+              "document_id": "tranh_lang_sinh",
+              "source": "https://vi.wikipedia.org/wiki/Tranh_làng_Sình",
+              "page": "tranh_lang_sinh_u001",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 0,
+              "unit_end_offset": 970,
+              "document_start_char": 0,
+              "document_end_char": 970,
+              "char_count": 970
+            },
+            "score": 0.032266458495966696
+          },
+          {
+            "id": "9596dd18c8415a17546761f3",
+            "text": "Nghề làm tranh ra đời tại làng cho tới hiện nay (2019) là khoảng 400 năm trước, tranh làm ra chủ yếu là để phục vụ cho việc thờ cúng của người dân khắp vùng. Ngày nay, tranh làng Sình đang mất dần đi yếu tố truyền thống xưa. Các bản khắc cũ còn lại với số lượng rất ít, các bản khắc mới đã xa rời với yếu tố gốc và người làm nghề cũng đã dùng chất liệu sơn công nghiệp thay cho các chất liệu màu truyền thống.\n\nCách in ấn và vẽ tranh\n\nTranh Sình có nhiều loại kích thước tùy thuộc vào khổ giấy dó . Giấy dó cổ truyền có khổ 25x70cm, được xén thành cỡ pha đôi (25x35), pha ba (25x23) hay pha tư (25x17).",
+            "source_id": "tranh_lang_sinh",
+            "source": "https://vi.wikipedia.org/wiki/Tranh_làng_Sình",
+            "page": "tranh_lang_sinh_u001",
+            "metadata": {
+              "painting_tradition": "lang_sinh",
+              "title": "Tranh làng Sình",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Tranh_l%C3%A0ng_S%C3%ACnh&oldid=74891555",
+              "unit_start_char": 0,
+              "source_text_path": "data/processed/tranh_lang_sinh.txt",
+              "document_id": "tranh_lang_sinh",
+              "source": "https://vi.wikipedia.org/wiki/Tranh_làng_Sình",
+              "page": "tranh_lang_sinh_u001",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 972,
+              "unit_end_offset": 1574,
+              "document_start_char": 972,
+              "document_end_char": 1574,
+              "char_count": 602
+            },
+            "score": 0.032266458495966696
+          },
+          {
+            "id": "2f691fa86eb3d56198137028",
+            "text": "Sau này do nhiều nguyên nhân nên màu sắc được tạo nên từ phẩm hóa học.\n\nĐề tài và nội dung tranh\n\nTranh Sình chủ yếu là tranh phục vụ tín ngưỡng, có khoảng 50 đề tài tranh. Các đề tài tranh chủ yếu phản ánh tín ngưỡng cổ xưa. Ngoài các đề tài về tín ngưỡng, phục vụ thờ cúng còn có tranh Tố Nữ [ cần dẫn nguồn ] , tranh tả cảnh sinh hoạt xã hội...\n\nTranh phục vụ tín ngưỡng có thể chia làm ba loại:\n\nTranh nhân vật, chủ yếu là tranh tượng bà, thường vẽ một người phụ nữ xiêm y rực rỡ với hai nữ tì nhỏ hơn đứng hầu hai bên. Tượng bà còn chia thành ba loại: tượng đế, tượng chùa, và tượng ngang. Loại tranh này dán trên bàn thờ riêng thờ quanh năm. Tranh con ảnh, gồm hai loại: ảnh xiêm vẽ hình đàn ông đàn bà; ảnh phền vẽ bé trai bé gái.\n\nCác loại nhân vật còn lại là tranh ông Điệu, ông Đốc và Tờ bếp (có lẽ là tranh vẽ Táo quân ).\n\nTranh đồ vật vẽ các thứ áo, tiền và dụng cụ để đốt cho người cõi âm : áo ông, áo bà, áo binh, tiền, cung tên, dụng cụ gia đình.. thường là tranh cỡ nhỏ.",
+            "source_id": "tranh_lang_sinh",
+            "source": "https://vi.wikipedia.org/wiki/Tranh_làng_Sình",
+            "page": "tranh_lang_sinh_u002",
+            "metadata": {
+              "painting_tradition": "lang_sinh",
+              "title": "Tranh làng Sình",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Tranh_l%C3%A0ng_S%C3%ACnh&oldid=74891555",
+              "unit_start_char": 1574,
+              "source_text_path": "data/processed/tranh_lang_sinh.txt",
+              "document_id": "tranh_lang_sinh",
+              "source": "https://vi.wikipedia.org/wiki/Tranh_làng_Sình",
+              "page": "tranh_lang_sinh_u002",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 976,
+              "unit_end_offset": 1962,
+              "document_start_char": 2550,
+              "document_end_char": 3536,
+              "char_count": 986
+            },
+            "score": 0.03225806451612903
+          }
+        ],
+        "context": "[3ac33d38b916af8629b95db3 | https://vi.wikipedia.org/wiki/Tranh_làng_Sình | page tranh_lang_sinh_u001]\nTranh làng Sình là một dòng tranh dân gian Việt Nam thuộc thôn Lại Ân, phường Duong Nỗ, quận Thuận Hóa, thành phố Huế (cách trung tâm thành phố khoảng 10 km về phía Đông). Đây là dòng tranh mộc bản được sử dụng phổ biến ở cố đô Huế với mục đích cúng lễ. Tranh làng Sình khác với tranh Đông Hồ ( Bắc Ninh ), tranh Hàng Trống ( Hà Nội ) bởi chức năng duy nhất là phục vụ thờ cúng, cúng xong là đốt. Vì vậy, đến nay chỉ còn những bản khắc gỗ là hiện vật quý giá còn lưu giữ được ở nhà ông Kỳ Hữu Phước - một nghệ nhân làm tranh lâu năm ở làng Sình.\n\nLàng Sình\n\nLàng Sình là một làng nằm ven sông Hương được thành lập vào khoảng thế kỷ 15 , đối diện bên kia sông là Thanh Hà, một cảng sông nổi tiếng thời các chúa ở Đàng Trong , còn có tên là Phố Lở, sau này lại có phố Bao Vinh, một trung tâm buôn bán sầm uất nằm cận kề thành phố Huế . Đây còn là một trung tâm văn hóa của vùng cố đô, có chùa Sùng Hoá trong làng đã từng là một trong những chùa lớn nhất vùng Hóa Châu xưa.\n\n[9596dd18c8415a17546761f3 | https://vi.wikipedia.org/wiki/Tranh_làng_Sình | page tranh_lang_sinh_u001]\nNghề làm tranh ra đời tại làng cho tới hiện nay (2019) là khoảng 400 năm trước, tranh làm ra chủ yếu là để phục vụ cho việc thờ cúng của người dân khắp vùng. Ngày nay, tranh làng Sình đang mất dần đi yếu tố truyền thống xưa. Các bản khắc cũ còn lại với số lượng rất ít, các bản khắc mới đã xa rời với yếu tố gốc và người làm nghề cũng đã dùng chất liệu sơn công nghiệp thay cho các chất liệu màu truyền thống.\n\nCách in ấn và vẽ tranh\n\nTranh Sình có nhiều loại kích thước tùy thuộc vào khổ giấy dó . Giấy dó cổ truyền có khổ 25x70cm, được xén thành cỡ pha đôi (25x35), pha ba (25x23) hay pha tư (25x17).\n\n[2f691fa86eb3d56198137028 | https://vi.wikipedia.org/wiki/Tranh_làng_Sình | page tranh_lang_sinh_u002]\nSau này do nhiều nguyên nhân nên màu sắc được tạo nên từ phẩm hóa học.\n\nĐề tài và nội dung tranh\n\nTranh Sình chủ yếu là tranh phục vụ tín ngưỡng, có khoảng 50 đề tài tranh. Các đề tài tranh chủ yếu phản ánh tín ngưỡng cổ xưa. Ngoài các đề tài về tín ngưỡng, phục vụ thờ cúng còn có tranh Tố Nữ [ cần dẫn nguồn ] , tranh tả cảnh sinh hoạt xã hội...\n\nTranh phục vụ tín ngưỡng có thể chia làm ba loại:\n\nTranh nhân vật, chủ yếu là tranh tượng bà, thường vẽ một người phụ nữ xiêm y rực rỡ với hai nữ tì nhỏ hơn đứng hầu hai bên. Tượng bà còn chia thành ba loại: tượng đế, tượng chùa, và tượng ngang. Loại tranh này dán trên bàn thờ riêng thờ quanh năm. Tranh con ảnh, gồm hai loại: ảnh xiêm vẽ hình đàn ông đàn bà; ảnh phền vẽ bé trai bé gái.\n\nCác loại nhân vật còn lại là tranh ông Điệu, ông Đốc và Tờ bếp (có lẽ là tranh vẽ Táo quân ).\n\nTranh đồ vật vẽ các thứ áo, tiền và dụng cụ để đốt cho người cõi âm : áo ông, áo bà, áo binh, tiền, cung tên, dụng cụ gia đình.. thường là tranh cỡ nhỏ.",
+        "context_ids": [
+          "3ac33d38b916af8629b95db3",
+          "9596dd18c8415a17546761f3",
+          "2f691fa86eb3d56198137028"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "nghệ nhân làm tranh làng Sình 2025",
+        "filter": {
+          "painting_tradition": "lang_sinh"
+        },
+        "results": [
+          {
+            "id": "9596dd18c8415a17546761f3",
+            "text": "Nghề làm tranh ra đời tại làng cho tới hiện nay (2019) là khoảng 400 năm trước, tranh làm ra chủ yếu là để phục vụ cho việc thờ cúng của người dân khắp vùng. Ngày nay, tranh làng Sình đang mất dần đi yếu tố truyền thống xưa. Các bản khắc cũ còn lại với số lượng rất ít, các bản khắc mới đã xa rời với yếu tố gốc và người làm nghề cũng đã dùng chất liệu sơn công nghiệp thay cho các chất liệu màu truyền thống.\n\nCách in ấn và vẽ tranh\n\nTranh Sình có nhiều loại kích thước tùy thuộc vào khổ giấy dó . Giấy dó cổ truyền có khổ 25x70cm, được xén thành cỡ pha đôi (25x35), pha ba (25x23) hay pha tư (25x17).",
+            "source_id": "tranh_lang_sinh",
+            "source": "https://vi.wikipedia.org/wiki/Tranh_làng_Sình",
+            "page": "tranh_lang_sinh_u001",
+            "metadata": {
+              "painting_tradition": "lang_sinh",
+              "title": "Tranh làng Sình",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Tranh_l%C3%A0ng_S%C3%ACnh&oldid=74891555",
+              "unit_start_char": 0,
+              "source_text_path": "data/processed/tranh_lang_sinh.txt",
+              "document_id": "tranh_lang_sinh",
+              "source": "https://vi.wikipedia.org/wiki/Tranh_làng_Sình",
+              "page": "tranh_lang_sinh_u001",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 972,
+              "unit_end_offset": 1574,
+              "document_start_char": 972,
+              "document_end_char": 1574,
+              "char_count": 602
+            },
+            "score": 0.032266458495966696
+          },
+          {
+            "id": "2f691fa86eb3d56198137028",
+            "text": "Sau này do nhiều nguyên nhân nên màu sắc được tạo nên từ phẩm hóa học.\n\nĐề tài và nội dung tranh\n\nTranh Sình chủ yếu là tranh phục vụ tín ngưỡng, có khoảng 50 đề tài tranh. Các đề tài tranh chủ yếu phản ánh tín ngưỡng cổ xưa. Ngoài các đề tài về tín ngưỡng, phục vụ thờ cúng còn có tranh Tố Nữ [ cần dẫn nguồn ] , tranh tả cảnh sinh hoạt xã hội...\n\nTranh phục vụ tín ngưỡng có thể chia làm ba loại:\n\nTranh nhân vật, chủ yếu là tranh tượng bà, thường vẽ một người phụ nữ xiêm y rực rỡ với hai nữ tì nhỏ hơn đứng hầu hai bên. Tượng bà còn chia thành ba loại: tượng đế, tượng chùa, và tượng ngang. Loại tranh này dán trên bàn thờ riêng thờ quanh năm. Tranh con ảnh, gồm hai loại: ảnh xiêm vẽ hình đàn ông đàn bà; ảnh phền vẽ bé trai bé gái.\n\nCác loại nhân vật còn lại là tranh ông Điệu, ông Đốc và Tờ bếp (có lẽ là tranh vẽ Táo quân ).\n\nTranh đồ vật vẽ các thứ áo, tiền và dụng cụ để đốt cho người cõi âm : áo ông, áo bà, áo binh, tiền, cung tên, dụng cụ gia đình.. thường là tranh cỡ nhỏ.",
+            "source_id": "tranh_lang_sinh",
+            "source": "https://vi.wikipedia.org/wiki/Tranh_làng_Sình",
+            "page": "tranh_lang_sinh_u002",
+            "metadata": {
+              "painting_tradition": "lang_sinh",
+              "title": "Tranh làng Sình",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Tranh_l%C3%A0ng_S%C3%ACnh&oldid=74891555",
+              "unit_start_char": 1574,
+              "source_text_path": "data/processed/tranh_lang_sinh.txt",
+              "document_id": "tranh_lang_sinh",
+              "source": "https://vi.wikipedia.org/wiki/Tranh_làng_Sình",
+              "page": "tranh_lang_sinh_u002",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 976,
+              "unit_end_offset": 1962,
+              "document_start_char": 2550,
+              "document_end_char": 3536,
+              "char_count": 986
+            },
+            "score": 0.03225806451612903
+          },
+          {
+            "id": "3ac33d38b916af8629b95db3",
+            "text": "Tranh làng Sình là một dòng tranh dân gian Việt Nam thuộc thôn Lại Ân, phường Duong Nỗ, quận Thuận Hóa, thành phố Huế (cách trung tâm thành phố khoảng 10 km về phía Đông). Đây là dòng tranh mộc bản được sử dụng phổ biến ở cố đô Huế với mục đích cúng lễ. Tranh làng Sình khác với tranh Đông Hồ ( Bắc Ninh ), tranh Hàng Trống ( Hà Nội ) bởi chức năng duy nhất là phục vụ thờ cúng, cúng xong là đốt. Vì vậy, đến nay chỉ còn những bản khắc gỗ là hiện vật quý giá còn lưu giữ được ở nhà ông Kỳ Hữu Phước - một nghệ nhân làm tranh lâu năm ở làng Sình.\n\nLàng Sình\n\nLàng Sình là một làng nằm ven sông Hương được thành lập vào khoảng thế kỷ 15 , đối diện bên kia sông là Thanh Hà, một cảng sông nổi tiếng thời các chúa ở Đàng Trong , còn có tên là Phố Lở, sau này lại có phố Bao Vinh, một trung tâm buôn bán sầm uất nằm cận kề thành phố Huế . Đây còn là một trung tâm văn hóa của vùng cố đô, có chùa Sùng Hoá trong làng đã từng là một trong những chùa lớn nhất vùng Hóa Châu xưa.",
+            "source_id": "tranh_lang_sinh",
+            "source": "https://vi.wikipedia.org/wiki/Tranh_làng_Sình",
+            "page": "tranh_lang_sinh_u001",
+            "metadata": {
+              "painting_tradition": "lang_sinh",
+              "title": "Tranh làng Sình",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Tranh_l%C3%A0ng_S%C3%ACnh&oldid=74891555",
+              "unit_start_char": 0,
+              "source_text_path": "data/processed/tranh_lang_sinh.txt",
+              "document_id": "tranh_lang_sinh",
+              "source": "https://vi.wikipedia.org/wiki/Tranh_làng_Sình",
+              "page": "tranh_lang_sinh_u001",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 0,
+              "unit_end_offset": 970,
+              "document_start_char": 0,
+              "document_end_char": 970,
+              "char_count": 970
+            },
+            "score": 0.032018442622950824
+          }
+        ],
+        "context": "[3ac33d38b916af8629b95db3 | https://vi.wikipedia.org/wiki/Tranh_làng_Sình | page tranh_lang_sinh_u001]\nTranh làng Sình là một dòng tranh dân gian Việt Nam thuộc thôn Lại Ân, phường Duong Nỗ, quận Thuận Hóa, thành phố Huế (cách trung tâm thành phố khoảng 10 km về phía Đông). Đây là dòng tranh mộc bản được sử dụng phổ biến ở cố đô Huế với mục đích cúng lễ. Tranh làng Sình khác với tranh Đông Hồ ( Bắc Ninh ), tranh Hàng Trống ( Hà Nội ) bởi chức năng duy nhất là phục vụ thờ cúng, cúng xong là đốt. Vì vậy, đến nay chỉ còn những bản khắc gỗ là hiện vật quý giá còn lưu giữ được ở nhà ông Kỳ Hữu Phước - một nghệ nhân làm tranh lâu năm ở làng Sình.\n\nLàng Sình\n\nLàng Sình là một làng nằm ven sông Hương được thành lập vào khoảng thế kỷ 15 , đối diện bên kia sông là Thanh Hà, một cảng sông nổi tiếng thời các chúa ở Đàng Trong , còn có tên là Phố Lở, sau này lại có phố Bao Vinh, một trung tâm buôn bán sầm uất nằm cận kề thành phố Huế . Đây còn là một trung tâm văn hóa của vùng cố đô, có chùa Sùng Hoá trong làng đã từng là một trong những chùa lớn nhất vùng Hóa Châu xưa.\n\n[9596dd18c8415a17546761f3 | https://vi.wikipedia.org/wiki/Tranh_làng_Sình | page tranh_lang_sinh_u001]\nNghề làm tranh ra đời tại làng cho tới hiện nay (2019) là khoảng 400 năm trước, tranh làm ra chủ yếu là để phục vụ cho việc thờ cúng của người dân khắp vùng. Ngày nay, tranh làng Sình đang mất dần đi yếu tố truyền thống xưa. Các bản khắc cũ còn lại với số lượng rất ít, các bản khắc mới đã xa rời với yếu tố gốc và người làm nghề cũng đã dùng chất liệu sơn công nghiệp thay cho các chất liệu màu truyền thống.\n\nCách in ấn và vẽ tranh\n\nTranh Sình có nhiều loại kích thước tùy thuộc vào khổ giấy dó . Giấy dó cổ truyền có khổ 25x70cm, được xén thành cỡ pha đôi (25x35), pha ba (25x23) hay pha tư (25x17).\n\n[2f691fa86eb3d56198137028 | https://vi.wikipedia.org/wiki/Tranh_làng_Sình | page tranh_lang_sinh_u002]\nSau này do nhiều nguyên nhân nên màu sắc được tạo nên từ phẩm hóa học.\n\nĐề tài và nội dung tranh\n\nTranh Sình chủ yếu là tranh phục vụ tín ngưỡng, có khoảng 50 đề tài tranh. Các đề tài tranh chủ yếu phản ánh tín ngưỡng cổ xưa. Ngoài các đề tài về tín ngưỡng, phục vụ thờ cúng còn có tranh Tố Nữ [ cần dẫn nguồn ] , tranh tả cảnh sinh hoạt xã hội...\n\nTranh phục vụ tín ngưỡng có thể chia làm ba loại:\n\nTranh nhân vật, chủ yếu là tranh tượng bà, thường vẽ một người phụ nữ xiêm y rực rỡ với hai nữ tì nhỏ hơn đứng hầu hai bên. Tượng bà còn chia thành ba loại: tượng đế, tượng chùa, và tượng ngang. Loại tranh này dán trên bàn thờ riêng thờ quanh năm. Tranh con ảnh, gồm hai loại: ảnh xiêm vẽ hình đàn ông đàn bà; ảnh phền vẽ bé trai bé gái.\n\nCác loại nhân vật còn lại là tranh ông Điệu, ông Đốc và Tờ bếp (có lẽ là tranh vẽ Táo quân ).\n\nTranh đồ vật vẽ các thứ áo, tiền và dụng cụ để đốt cho người cõi âm : áo ông, áo bà, áo binh, tiền, cung tên, dụng cụ gia đình.. thường là tranh cỡ nhỏ.",
+        "context_ids": [
+          "3ac33d38b916af8629b95db3",
+          "9596dd18c8415a17546761f3",
+          "2f691fa86eb3d56198137028"
+        ]
+      },
+      {
+        "event": "search_limit"
+      }
+    ]
+  },
+  "final_context": "[3ac33d38b916af8629b95db3 | https://vi.wikipedia.org/wiki/Tranh_làng_Sình | page tranh_lang_sinh_u001]\nTranh làng Sình là một dòng tranh dân gian Việt Nam thuộc thôn Lại Ân, phường Duong Nỗ, quận Thuận Hóa, thành phố Huế (cách trung tâm thành phố khoảng 10 km về phía Đông). Đây là dòng tranh mộc bản được sử dụng phổ biến ở cố đô Huế với mục đích cúng lễ. Tranh làng Sình khác với tranh Đông Hồ ( Bắc Ninh ), tranh Hàng Trống ( Hà Nội ) bởi chức năng duy nhất là phục vụ thờ cúng, cúng xong là đốt. Vì vậy, đến nay chỉ còn những bản khắc gỗ là hiện vật quý giá còn lưu giữ được ở nhà ông Kỳ Hữu Phước - một nghệ nhân làm tranh lâu năm ở làng Sình.\n\nLàng Sình\n\nLàng Sình là một làng nằm ven sông Hương được thành lập vào khoảng thế kỷ 15 , đối diện bên kia sông là Thanh Hà, một cảng sông nổi tiếng thời các chúa ở Đàng Trong , còn có tên là Phố Lở, sau này lại có phố Bao Vinh, một trung tâm buôn bán sầm uất nằm cận kề thành phố Huế . Đây còn là một trung tâm văn hóa của vùng cố đô, có chùa Sùng Hoá trong làng đã từng là một trong những chùa lớn nhất vùng Hóa Châu xưa.\n\n[9596dd18c8415a17546761f3 | https://vi.wikipedia.org/wiki/Tranh_làng_Sình | page tranh_lang_sinh_u001]\nNghề làm tranh ra đời tại làng cho tới hiện nay (2019) là khoảng 400 năm trước, tranh làm ra chủ yếu là để phục vụ cho việc thờ cúng của người dân khắp vùng. Ngày nay, tranh làng Sình đang mất dần đi yếu tố truyền thống xưa. Các bản khắc cũ còn lại với số lượng rất ít, các bản khắc mới đã xa rời với yếu tố gốc và người làm nghề cũng đã dùng chất liệu sơn công nghiệp thay cho các chất liệu màu truyền thống.\n\nCách in ấn và vẽ tranh\n\nTranh Sình có nhiều loại kích thước tùy thuộc vào khổ giấy dó . Giấy dó cổ truyền có khổ 25x70cm, được xén thành cỡ pha đôi (25x35), pha ba (25x23) hay pha tư (25x17).\n\n[2f691fa86eb3d56198137028 | https://vi.wikipedia.org/wiki/Tranh_làng_Sình | page tranh_lang_sinh_u002]\nSau này do nhiều nguyên nhân nên màu sắc được tạo nên từ phẩm hóa học.\n\nĐề tài và nội dung tranh\n\nTranh Sình chủ yếu là tranh phục vụ tín ngưỡng, có khoảng 50 đề tài tranh. Các đề tài tranh chủ yếu phản ánh tín ngưỡng cổ xưa. Ngoài các đề tài về tín ngưỡng, phục vụ thờ cúng còn có tranh Tố Nữ [ cần dẫn nguồn ] , tranh tả cảnh sinh hoạt xã hội...\n\nTranh phục vụ tín ngưỡng có thể chia làm ba loại:\n\nTranh nhân vật, chủ yếu là tranh tượng bà, thường vẽ một người phụ nữ xiêm y rực rỡ với hai nữ tì nhỏ hơn đứng hầu hai bên. Tượng bà còn chia thành ba loại: tượng đế, tượng chùa, và tượng ngang. Loại tranh này dán trên bàn thờ riêng thờ quanh năm. Tranh con ảnh, gồm hai loại: ảnh xiêm vẽ hình đàn ông đàn bà; ảnh phền vẽ bé trai bé gái.\n\nCác loại nhân vật còn lại là tranh ông Điệu, ông Đốc và Tờ bếp (có lẽ là tranh vẽ Táo quân ).\n\nTranh đồ vật vẽ các thứ áo, tiền và dụng cụ để đốt cho người cõi âm : áo ông, áo bà, áo binh, tiền, cung tên, dụng cụ gia đình.. thường là tranh cỡ nhỏ.",
+  "context_ids": [
+    "3ac33d38b916af8629b95db3",
+    "9596dd18c8415a17546761f3",
+    "2f691fa86eb3d56198137028"
+  ],
+  "context_evidence_hit": null,
+  "model_calls": [
+    {
+      "model": "gemini-3.8-flash",
+      "elapsed_seconds": 3.7395543000002363,
+      "usage": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": null,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 238,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 238
+          }
+        ],
+        "thoughts_token_count": null,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 238,
+        "traffic_type": null
+      },
+      "raw_response": "{\"action\": \"search\", \"query\": \"làng Sình nghệ nhân làm tranh\"}"
+    },
+    {
+      "model": "gemini-3.8-flash",
+      "elapsed_seconds": 5.494895499999984,
+      "usage": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 19,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 1278,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 1278
+          }
+        ],
+        "thoughts_token_count": 77,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 1374,
+        "traffic_type": null
+      },
+      "raw_response": "{\"action\": \"search\", \"query\": \"nghệ nhân làng Sình tranh\"}"
+    },
+    {
+      "model": "gemini-3.8-flash",
+      "elapsed_seconds": 4.053191999999399,
+      "usage": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": null,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 1288,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 1288
+          }
+        ],
+        "thoughts_token_count": null,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 1288,
+        "traffic_type": null
+      },
+      "raw_response": "{\"action\": \"search\", \"query\": \"nghệ nhân làm tranh làng Sình 2025\"}"
+    },
+    {
+      "model": "gemini-3.8-flash",
+      "elapsed_seconds": 3.0565753999999288,
+      "usage": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 20,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 1304,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 1304
+          }
+        ],
+        "thoughts_token_count": 180,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 1504,
+        "traffic_type": null
+      },
+      "raw_response": "{\"action\": \"search\", \"query\": \"số lượng nghệ nhân làm tranh làng Sình\"}"
+    }
+  ],
+  "elapsed_seconds_excluding_setup": 16.402491299999383
+}

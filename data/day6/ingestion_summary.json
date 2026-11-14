@@ -1,0 +1,133 @@
+{
+  "run_at_utc": "2026-11-13T20:03:15.143442+00:00",
+  "model": {
+    "model_name": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+    "dimensions": 384,
+    "max_seq_length": 128,
+    "window_content_tokens": 126,
+    "device": "cpu",
+    "document_and_query_processing": "same tokenizer; nonoverlapping token windows; model pooling per window; token-count-weighted mean of window vectors; L2 normalization",
+    "prefix": "",
+    "random_seed": 0
+  },
+  "model_signature": "87234930e88b1c8b85a64876d2efe01d8d1b728d911ac3968ce2c784289dfa78",
+  "libraries": {
+    "sentence-transformers": "6.3.0",
+    "chromadb": "1.5.9",
+    "torch": "2.15.0",
+    "transformers": "5.23.0",
+    "numpy": "2.5.4"
+  },
+  "vector_store": {
+    "backend": "Chroma PersistentClient",
+    "path": ".runtime/chroma",
+    "metric": "cosine",
+    "search": "HNSW approximate nearest neighbor; ef_search=100"
+  },
+  "strategies": {
+    "A": {
+      "chunks_sha256": "280155e46fc07aa6dafbfae3465d7a2a2ad8dc9a246c4d393a908ff036691f9d",
+      "chunk_count": 131,
+      "embedding_stats": {
+        "texts": 131,
+        "content_tokens": 15813,
+        "max_content_tokens": 170,
+        "texts_using_multiple_windows": 82,
+        "window_count": 213,
+        "truncated_tokens": 0
+      },
+      "embeddings_reused_from_B": false,
+      "embedding_seconds_this_run": 7.245440200000303,
+      "storage_sync_seconds": 0.17984640000213403,
+      "first_sync": {
+        "before": 0,
+        "after": 131,
+        "obsolete_deleted": 0
+      },
+      "repeat_sync": {
+        "before": 131,
+        "after": 131,
+        "obsolete_deleted": 0
+      },
+      "stored_documents_and_metadata_match": true
+    },
+    "B": {
+      "chunks_sha256": "d14de76335e872dab8e20548bd829b935ee1bbb55669dd6fb368f7bb632e7630",
+      "chunk_count": 71,
+      "embedding_stats": {
+        "texts": 71,
+        "content_tokens": 14385,
+        "max_content_tokens": 306,
+        "texts_using_multiple_windows": 65,
+        "window_count": 150,
+        "truncated_tokens": 0
+      },
+      "embeddings_reused_from_B": false,
+      "embedding_seconds_this_run": 4.88761340000201,
+      "storage_sync_seconds": 0.12526600000273902,
+      "first_sync": {
+        "before": 0,
+        "after": 71,
+        "obsolete_deleted": 0
+      },
+      "repeat_sync": {
+        "before": 71,
+        "after": 71,
+        "obsolete_deleted": 0
+      },
+      "stored_documents_and_metadata_match": true
+    },
+    "C": {
+      "chunks_sha256": "d14de76335e872dab8e20548bd829b935ee1bbb55669dd6fb368f7bb632e7630",
+      "chunk_count": 71,
+      "embedding_stats": {
+        "texts": 71,
+        "content_tokens": 14385,
+        "max_content_tokens": 306,
+        "texts_using_multiple_windows": 65,
+        "window_count": 150,
+        "truncated_tokens": 0
+      },
+      "embeddings_reused_from_B": true,
+      "embedding_seconds_this_run": 1.5999976312741637e-06,
+      "storage_sync_seconds": 0.12191519999760203,
+      "first_sync": {
+        "before": 0,
+        "after": 71,
+        "obsolete_deleted": 0
+      },
+      "repeat_sync": {
+        "before": 71,
+        "after": 71,
+        "obsolete_deleted": 0
+      },
+      "stored_documents_and_metadata_match": true
+    }
+  },
+  "total_run_seconds": 20.58313300000009,
+  "external_api_cost": 0,
+  "cost_note": "Local inference; excludes electricity, hardware and prior model download.",
+  "smoke_check": {
+    "query": "Kỹ thuật và vật liệu tạo nên tranh dân gian.",
+    "strategy": "C",
+    "filter": {
+      "painting_tradition": "dong_ho"
+    },
+    "returned": 3,
+    "all_obey_filter": true
+  },
+  "benchmark_executed": false,
+  "limitations": [
+    "Token-window pooling is a custom representation used identically for all strategies, rather than the model default truncation.",
+    "Repeated sync validates stable counts, not independent manual metadata or grounding evaluation.",
+    "C reuses B embeddings; per-strategy embedding times are not independent cold-run comparisons.",
+    "If a document changes, regenerate units and chunks, then sync removes IDs absent from the new strategy snapshot. Model changes require a new database directory."
+  ],
+  "persistence_check": {
+    "fresh_process_reopen": true,
+    "counts_match": true,
+    "B_C_vectors_identical": true,
+    "filter_check_lang_sinh": true
+  }
+}

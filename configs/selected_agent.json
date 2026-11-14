@@ -1,0 +1,16 @@
+{
+  "model": "gemini-3.8-flash",
+  "retrieval_method": "hybrid_rrf",
+  "candidate_k": 12,
+  "rrf_constant": 60,
+  "top_k": 12,
+  "max_searches": 3,
+  "context_budget_chars": 16000,
+  "filter_policy": "Infer a single painting tradition from the original question",
+  "first_search_policy": "Use the original question exactly",
+  "selection_split": "dev",
+  "selection_reason": "Prioritize evidence coverage and grounded answer quality, then compare time and token usage. Selected configuration has evidence for 15/15 answerable dev questions and no false abstentions.",
+  "selected_dev_run": "results/agent_dev/20261114T101320Z_78d7417a",
+  "baseline_dev_run": "results/agent_dev/20261114T100229Z_992bf0eb",
+  "review_method": "AI-assisted review of answer and citation evidence in traces"
+}

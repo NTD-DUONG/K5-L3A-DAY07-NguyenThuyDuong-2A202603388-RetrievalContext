@@ -1,0 +1,172 @@
+{
+  "query_id": "dev_01",
+  "split": "dev",
+  "question": "Giấy dó được sản xuất từ nguyên liệu chính nào?",
+  "answerable": true,
+  "model": "gemini-3.8-flash",
+  "configuration": {
+    "method": "hybrid_rrf",
+    "candidate_k": 10,
+    "rrf_constant": 60,
+    "filters": null,
+    "max_searches": 3,
+    "top_k": 3,
+    "context_budget_chars": 6000
+  },
+  "result": {
+    "status": "answered",
+    "answer": "Giấy dó được sản xuất từ nguyên liệu chính là vỏ của những cây dó (chẳng hạn như dó giấy, dó liệt...) theo quy trình thủ công truyền thống [c9fbc75b7a72a0e5afca7293].",
+    "citations": [
+      "c9fbc75b7a72a0e5afca7293"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Giấy dó nguyên liệu chính sản xuất",
+        "filter": null,
+        "results": [
+          {
+            "id": "1df9c6eb522236091000e2d6",
+            "text": "Đến cuối thế kỷ 20, năm 1986 thì nghề thủ công làm giấy gần như bỏ hẳn.\n\nĐặc tính lý hóa của giấy dó\n\nGiấy dó có đặc tính xốp nhẹ, bền dai, không nhoè khi viết vẽ, ít bị mối mọt , hoặc dòn gãy, ẩm nát.\n\nGiấy dó xốp, nhẹ do nguyên liệu, cách chế biến, xử lý nguyên liệu và công nghệ sản xuất giấy dó quy định. Giấy dó có cấu trúc dạng sợi, các xơ sợi li ti cố kết với nhau tựa mạng nhện, nhiều lớp, không theo thứ tự sợi ngang, dọc như tấm lụa dệt, mà theo dạng chuyển động brown , đa chiều. Giấy dó có trọng lượng riêng bằng khoảng một nửa các loại giấy sản xuất công nghiệp.",
+            "source_id": "giay_do",
+            "source": "https://vi.wikipedia.org/wiki/Giấy_dó",
+            "page": "giay_do_u002",
+            "metadata": {
+              "painting_tradition": "general",
+              "title": "Giấy dó",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Gi%E1%BA%A5y_d%C3%B3&oldid=74469469",
+              "unit_start_char": 1517,
+              "source_text_path": "data/processed/giay_do.txt",
+              "document_id": "giay_do",
+              "source": "https://vi.wikipedia.org/wiki/Giấy_dó",
+              "page": "giay_do_u002",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 987,
+              "unit_end_offset": 1562,
+              "document_start_char": 2504,
+              "document_end_char": 3079,
+              "char_count": 575
+            },
+            "score": 0.03252247488101534
+          },
+          {
+            "id": "c9fbc75b7a72a0e5afca7293",
+            "text": "Giấy dó là loại giấy được sản xuất từ vỏ những cây dó (như dó giấy , dó liệt ...), theo quy trình thủ công được truyền lại qua nhiều thế hệ ở một số làng nghề ở Việt Nam . Giấy được dùng cho vẽ tranh trong mỹ thuật dân gian Việt Nam , đặc biệt là để làm giấy điệp cho tranh Đông Hồ , hay lưu giữ các tài liệu , nhờ vào nhiều ưu điểm, nổi bật nhất là độ bền theo thời gian .\n\nSản xuất giấy dó",
+            "source_id": "giay_do",
+            "source": "https://vi.wikipedia.org/wiki/Giấy_dó",
+            "page": "giay_do_u001",
+            "metadata": {
+              "painting_tradition": "general",
+              "title": "Giấy dó",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Gi%E1%BA%A5y_d%C3%B3&oldid=74469469",
+              "unit_start_char": 0,
+              "source_text_path": "data/processed/giay_do.txt",
+              "document_id": "giay_do",
+              "source": "https://vi.wikipedia.org/wiki/Giấy_dó",
+              "page": "giay_do_u001",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 0,
+              "unit_end_offset": 391,
+              "document_start_char": 0,
+              "document_end_char": 391,
+              "char_count": 391
+            },
+            "score": 0.03177805800756621
+          },
+          {
+            "id": "37ab15a09a03addbc9165a7e",
+            "text": "Giấy dó Yên Thái đã được xuất khẩu sang nhiều quốc gia trên thế giới và được bạn hàng ưa chuộng. Các họa sĩ người Pháp đã sử dụng giấy dó Yên Thái (khổ lớn) để vẽ tranh bằng mực tàu theo phương pháp tranh cổ điển phương Đông . Một vài bảo tàng ở châu Âu cũng đã dùng giấy dó để lót bồi phía sau tranh vẽ. Với đặc tính chống ẩm rất cao, giấy dó giúp cho các tác phẩm nghệ thuật không bị ẩm mốc .\n\nĐộ bền :\n\nTại các Trung tâm Lưu trữ Quốc gia , trong số những tài liệu giấy, thì tài liệu giấy dó có tuổi thọ cao nhất. Các tài liệu giấy dó (điển hình là các sắc phong tại các đình, đền) là những loại tài liệu được sản sinh lâu đời nhất, từ khi các phương tiện bảo quản chưa được phát triển.\n\nBắt màu, hút ẩm và thoát ẩm : Vì xốp nên giấy dó rất dễ bắt màu khi viết, in\n\nCách nhiệt, cách âm, thẩm âm, cháy kiệt : Cũng vì xốp nên giấy dó cách nhiệt, cách âm tốt, do có cấu trúc dạng sợi đa chiều\n\nLịch sử sản xuất giấy dó\n\nCây dó giấy",
+            "source_id": "giay_do",
+            "source": "https://vi.wikipedia.org/wiki/Giấy_dó",
+            "page": "giay_do_u003",
+            "metadata": {
+              "painting_tradition": "general",
+              "title": "Giấy dó",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Gi%E1%BA%A5y_d%C3%B3&oldid=74469469",
+              "unit_start_char": 3079,
+              "source_text_path": "data/processed/giay_do.txt",
+              "document_id": "giay_do",
+              "source": "https://vi.wikipedia.org/wiki/Giấy_dó",
+              "page": "giay_do_u003",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 2,
+              "unit_end_offset": 932,
+              "document_start_char": 3081,
+              "document_end_char": 4011,
+              "char_count": 930
+            },
+            "score": 0.031746031746031744
+          }
+        ],
+        "context": "[1df9c6eb522236091000e2d6 | https://vi.wikipedia.org/wiki/Giấy_dó | page giay_do_u002]\nĐến cuối thế kỷ 20, năm 1986 thì nghề thủ công làm giấy gần như bỏ hẳn.\n\nĐặc tính lý hóa của giấy dó\n\nGiấy dó có đặc tính xốp nhẹ, bền dai, không nhoè khi viết vẽ, ít bị mối mọt , hoặc dòn gãy, ẩm nát.\n\nGiấy dó xốp, nhẹ do nguyên liệu, cách chế biến, xử lý nguyên liệu và công nghệ sản xuất giấy dó quy định. Giấy dó có cấu trúc dạng sợi, các xơ sợi li ti cố kết với nhau tựa mạng nhện, nhiều lớp, không theo thứ tự sợi ngang, dọc như tấm lụa dệt, mà theo dạng chuyển động brown , đa chiều. Giấy dó có trọng lượng riêng bằng khoảng một nửa các loại giấy sản xuất công nghiệp.\n\n[c9fbc75b7a72a0e5afca7293 | https://vi.wikipedia.org/wiki/Giấy_dó | page giay_do_u001]\nGiấy dó là loại giấy được sản xuất từ vỏ những cây dó (như dó giấy , dó liệt ...), theo quy trình thủ công được truyền lại qua nhiều thế hệ ở một số làng nghề ở Việt Nam . Giấy được dùng cho vẽ tranh trong mỹ thuật dân gian Việt Nam , đặc biệt là để làm giấy điệp cho tranh Đông Hồ , hay lưu giữ các tài liệu , nhờ vào nhiều ưu điểm, nổi bật nhất là độ bền theo thời gian .\n\nSản xuất giấy dó\n\n[37ab15a09a03addbc9165a7e | https://vi.wikipedia.org/wiki/Giấy_dó | page giay_do_u003]\nGiấy dó Yên Thái đã được xuất khẩu sang nhiều quốc gia trên thế giới và được bạn hàng ưa chuộng. Các họa sĩ người Pháp đã sử dụng giấy dó Yên Thái (khổ lớn) để vẽ tranh bằng mực tàu theo phương pháp tranh cổ điển phương Đông . Một vài bảo tàng ở châu Âu cũng đã dùng giấy dó để lót bồi phía sau tranh vẽ. Với đặc tính chống ẩm rất cao, giấy dó giúp cho các tác phẩm nghệ thuật không bị ẩm mốc .\n\nĐộ bền :\n\nTại các Trung tâm Lưu trữ Quốc gia , trong số những tài liệu giấy, thì tài liệu giấy dó có tuổi thọ cao nhất. Các tài liệu giấy dó (điển hình là các sắc phong tại các đình, đền) là những loại tài liệu được sản sinh lâu đời nhất, từ khi các phương tiện bảo quản chưa được phát triển.\n\nBắt màu, hút ẩm và thoát ẩm : Vì xốp nên giấy dó rất dễ bắt màu khi viết, in\n\nCách nhiệt, cách âm, thẩm âm, cháy kiệt : Cũng vì xốp nên giấy dó cách nhiệt, cách âm tốt, do có cấu trúc dạng sợi đa chiều\n\nLịch sử sản xuất giấy dó\n\nCây dó giấy",
+        "context_ids": [
+          "1df9c6eb522236091000e2d6",
+          "c9fbc75b7a72a0e5afca7293",
+          "37ab15a09a03addbc9165a7e"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  "final_context": "[1df9c6eb522236091000e2d6 | https://vi.wikipedia.org/wiki/Giấy_dó | page giay_do_u002]\nĐến cuối thế kỷ 20, năm 1986 thì nghề thủ công làm giấy gần như bỏ hẳn.\n\nĐặc tính lý hóa của giấy dó\n\nGiấy dó có đặc tính xốp nhẹ, bền dai, không nhoè khi viết vẽ, ít bị mối mọt , hoặc dòn gãy, ẩm nát.\n\nGiấy dó xốp, nhẹ do nguyên liệu, cách chế biến, xử lý nguyên liệu và công nghệ sản xuất giấy dó quy định. Giấy dó có cấu trúc dạng sợi, các xơ sợi li ti cố kết với nhau tựa mạng nhện, nhiều lớp, không theo thứ tự sợi ngang, dọc như tấm lụa dệt, mà theo dạng chuyển động brown , đa chiều. Giấy dó có trọng lượng riêng bằng khoảng một nửa các loại giấy sản xuất công nghiệp.\n\n[c9fbc75b7a72a0e5afca7293 | https://vi.wikipedia.org/wiki/Giấy_dó | page giay_do_u001]\nGiấy dó là loại giấy được sản xuất từ vỏ những cây dó (như dó giấy , dó liệt ...), theo quy trình thủ công được truyền lại qua nhiều thế hệ ở một số làng nghề ở Việt Nam . Giấy được dùng cho vẽ tranh trong mỹ thuật dân gian Việt Nam , đặc biệt là để làm giấy điệp cho tranh Đông Hồ , hay lưu giữ các tài liệu , nhờ vào nhiều ưu điểm, nổi bật nhất là độ bền theo thời gian .\n\nSản xuất giấy dó\n\n[37ab15a09a03addbc9165a7e | https://vi.wikipedia.org/wiki/Giấy_dó | page giay_do_u003]\nGiấy dó Yên Thái đã được xuất khẩu sang nhiều quốc gia trên thế giới và được bạn hàng ưa chuộng. Các họa sĩ người Pháp đã sử dụng giấy dó Yên Thái (khổ lớn) để vẽ tranh bằng mực tàu theo phương pháp tranh cổ điển phương Đông . Một vài bảo tàng ở châu Âu cũng đã dùng giấy dó để lót bồi phía sau tranh vẽ. Với đặc tính chống ẩm rất cao, giấy dó giúp cho các tác phẩm nghệ thuật không bị ẩm mốc .\n\nĐộ bền :\n\nTại các Trung tâm Lưu trữ Quốc gia , trong số những tài liệu giấy, thì tài liệu giấy dó có tuổi thọ cao nhất. Các tài liệu giấy dó (điển hình là các sắc phong tại các đình, đền) là những loại tài liệu được sản sinh lâu đời nhất, từ khi các phương tiện bảo quản chưa được phát triển.\n\nBắt màu, hút ẩm và thoát ẩm : Vì xốp nên giấy dó rất dễ bắt màu khi viết, in\n\nCách nhiệt, cách âm, thẩm âm, cháy kiệt : Cũng vì xốp nên giấy dó cách nhiệt, cách âm tốt, do có cấu trúc dạng sợi đa chiều\n\nLịch sử sản xuất giấy dó\n\nCây dó giấy",
+  "context_ids": [
+    "1df9c6eb522236091000e2d6",
+    "c9fbc75b7a72a0e5afca7293",
+    "37ab15a09a03addbc9165a7e"
+  ],
+  "context_evidence_hit": true,
+  "model_calls": [
+    {
+      "model": "gemini-3.8-flash",
+      "elapsed_seconds": 2.952690600001006,
+      "usage": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 19,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 228,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 228
+          }
+        ],
+        "thoughts_token_count": 57,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 304,
+        "traffic_type": null
+      },
+      "raw_response": "{\"action\": \"search\", \"query\": \"Giấy dó nguyên liệu chính sản xuất\"}"
+    },
+    {
+      "model": "gemini-3.8-flash",
+      "elapsed_seconds": 4.397667200000797,
+      "usage": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 94,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 1039,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 1039
+          }
+        ],
+        "thoughts_token_count": 147,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 1280,
+        "traffic_type": null
+      },
+      "raw_response": "{\"action\": \"answer\", \"answer\": \"Giấy dó được sản xuất từ nguyên liệu chính là vỏ của những cây dó (chẳng hạn như dó giấy, dó liệt...) theo quy trình thủ công truyền thống [c9fbc75b7a72a0e5afca7293].\", \"citations\": [\"c9fbc75b7a72a0e5afca7293\"]}"
+    }
+  ],
+  "elapsed_seconds_excluding_setup": 7.375125700000353
+}

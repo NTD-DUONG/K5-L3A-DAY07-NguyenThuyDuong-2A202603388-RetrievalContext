@@ -1,0 +1,403 @@
+{
+  "query_id": "dev_06",
+  "split": "dev",
+  "question": "Ván in tranh Đông Hồ được chia thành hai loại nào?",
+  "answerable": true,
+  "model": "gemini-3.8-flash",
+  "configuration": {
+    "method": "hybrid_rrf",
+    "candidate_k": 10,
+    "rrf_constant": 60,
+    "filters": {
+      "painting_tradition": "dong_ho"
+    },
+    "max_searches": 3,
+    "top_k": 3,
+    "context_budget_chars": 6000
+  },
+  "result": {
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "ván in tranh Đông Hồ hai loại",
+        "filter": {
+          "painting_tradition": "dong_ho"
+        },
+        "results": [
+          {
+            "id": "190f37c725471af618ff420d",
+            "text": "Tranh Đông Hồ , hay tên đầy đủ là tranh khắc gỗ Đông Hồ , là một dòng tranh dân gian Việt Nam với xuất xứ từ làng Đông Hồ (phường Thuận Thành , thành phố Bắc Ninh ). Trước kia tranh được bán ra chủ yếu phục vụ cho dịp Tết Nguyên Đán , người dân nông thôn mua tranh về dán trên tường, hết năm lại lột bỏ, dùng tranh mới.\n\nNghề làm tranh khắc gỗ dân gian Đông Hồ được UNESCO ghi danh là Di sản văn hóa phi vật thể cần bảo vệ khẩn cấp , đồng thời là Di sản văn hóa phi vật thể cấp Quốc gia.\n\nThơ Tú Xương có tranh Đông Hồ về ngày Tết là:\n\nĐì đoẹt ngoài sân tràng pháo chuột\n\nLoẹt lòe trên vách bức tranh gà\n\nĐó cũng là lí do để chứng minh rằng tranh gỗ dân gian Đông Hồ rất phổ biến.\n\nTại Bắc Ninh, có thể về làng tranh Đông Hồ, Song Hồ, Thuận Thành để xem tranh.\n\nTại Hà Nội, có thể xem tranh tại 19 ngõ 179 Hoàng Hoa Thám, Ba Đình, Hà Nội.\n\nDụng cụ vẽ tranh Đông Hồ",
+            "source_id": "tranh_dong_ho",
+            "source": "https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ",
+            "page": "tranh_dong_ho_u001",
+            "metadata": {
+              "painting_tradition": "dong_ho",
+              "title": "Tranh Đông Hồ",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Tranh_%C4%90%C3%B4ng_H%E1%BB%93&oldid=75711659",
+              "unit_start_char": 0,
+              "source_text_path": "data/processed/tranh_dong_ho.txt",
+              "document_id": "tranh_dong_ho",
+              "source": "https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ",
+              "page": "tranh_dong_ho_u001",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 0,
+              "unit_end_offset": 864,
+              "document_start_char": 0,
+              "document_end_char": 864,
+              "char_count": 864
+            },
+            "score": 0.03225806451612903
+          },
+          {
+            "id": "cce5bf080e1d9db0fb24448e",
+            "text": "Tranh Đông Hồ rất gần gũi với đại đa số dân chúng Việt Nam, nhắc đến hầu như ai cũng đều biết cả. Tranh Đông Hồ gần gũi còn vì hình ảnh của nó đã đi vào thơ , văn trong chương trình giáo dục phổ thông. Ngày nay tục lệ mua tranh Đông Hồ treo ngày Tết đã mai một, làng tranh cũng thay đổi nhiều: làng Đông Hồ ngày nay có thêm nghề làm vàng mã . Nghề giấy dó ở làng Yên Thái ( Bưởi , Tây Hồ ) cũng đã không còn. Tuy vậy, tranh Đông Hồ vẫn đóng vai trò như một di sản văn hóa, một dòng tranh dân gian không thể thiếu.\n\nTheo đánh giá của một số họa sĩ , tranh Đông Hồ in ở thời điểm hiện tại thường không có màu sắc thắm như tranh cổ, nguyên nhân là người ta trộn màu trắng vào điệp quét giấy để bớt lượng điệp khiến giấy mất độ óng ánh và trở nên \"thường\", màu sắc sử dụng cũng chuyển sang loại màu công nghiệp , các bản khắc mới có bản không được tinh tế như bản cổ.",
+            "source_id": "tranh_dong_ho",
+            "source": "https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ",
+            "page": "tranh_dong_ho_u002",
+            "metadata": {
+              "painting_tradition": "dong_ho",
+              "title": "Tranh Đông Hồ",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Tranh_%C4%90%C3%B4ng_H%E1%BB%93&oldid=75711659",
+              "unit_start_char": 1898,
+              "source_text_path": "data/processed/tranh_dong_ho.txt",
+              "document_id": "tranh_dong_ho",
+              "source": "https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ",
+              "page": "tranh_dong_ho_u002",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 811,
+              "unit_end_offset": 1674,
+              "document_start_char": 2709,
+              "document_end_char": 3572,
+              "char_count": 863
+            },
+            "score": 0.031746031746031744
+          },
+          {
+            "id": "672625a6f6ccef231a73a959",
+            "text": "Rẽ trái thêm 2 km là đến làng Hồ. Cũng có thể đi hết phố Hồ, lên đê rẽ trái, gặp điếm canh đê thứ hai sẽ có biển chỉ dẫn đường xuống làng Đông Hồ.\n\nLàng Đông Hồ xưa còn gọi là làng Mái. Các cụ làng Đông Hồ vẫn truyền lại mấy câu ca rằng:\n\nHỡi cô thắt lưng bao xanh\n\nCó về làng Mái với anh thì về\n\nLàng Mái có lịch có lề\n\nCó sông tắm mát có nghề làm tranh.\n\nLàng Đông Hồ nằm ngay sát bờ sông Đuống, ngày xưa chỉ cách sông một con đê, đó là ý trong câu \"Có sông tắm mát có nghề làm tranh\". Ngày nay, do sự bồi lấp của dòng sông nên từ đê ra đến mép nước giờ khá xa.",
+            "source_id": "tranh_dong_ho",
+            "source": "https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ",
+            "page": "tranh_dong_ho_u004",
+            "metadata": {
+              "painting_tradition": "dong_ho",
+              "title": "Tranh Đông Hồ",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Tranh_%C4%90%C3%B4ng_H%E1%BB%93&oldid=75711659",
+              "unit_start_char": 5372,
+              "source_text_path": "data/processed/tranh_dong_ho.txt",
+              "document_id": "tranh_dong_ho",
+              "source": "https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ",
+              "page": "tranh_dong_ho_u004",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 1,
+              "unit_end_offset": 564,
+              "document_start_char": 5373,
+              "document_end_char": 5936,
+              "char_count": 563
+            },
+            "score": 0.031544957774465976
+          }
+        ],
+        "context": "[190f37c725471af618ff420d | https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ | page tranh_dong_ho_u001]\nTranh Đông Hồ , hay tên đầy đủ là tranh khắc gỗ Đông Hồ , là một dòng tranh dân gian Việt Nam với xuất xứ từ làng Đông Hồ (phường Thuận Thành , thành phố Bắc Ninh ). Trước kia tranh được bán ra chủ yếu phục vụ cho dịp Tết Nguyên Đán , người dân nông thôn mua tranh về dán trên tường, hết năm lại lột bỏ, dùng tranh mới.\n\nNghề làm tranh khắc gỗ dân gian Đông Hồ được UNESCO ghi danh là Di sản văn hóa phi vật thể cần bảo vệ khẩn cấp , đồng thời là Di sản văn hóa phi vật thể cấp Quốc gia.\n\nThơ Tú Xương có tranh Đông Hồ về ngày Tết là:\n\nĐì đoẹt ngoài sân tràng pháo chuột\n\nLoẹt lòe trên vách bức tranh gà\n\nĐó cũng là lí do để chứng minh rằng tranh gỗ dân gian Đông Hồ rất phổ biến.\n\nTại Bắc Ninh, có thể về làng tranh Đông Hồ, Song Hồ, Thuận Thành để xem tranh.\n\nTại Hà Nội, có thể xem tranh tại 19 ngõ 179 Hoàng Hoa Thám, Ba Đình, Hà Nội.\n\nDụng cụ vẽ tranh Đông Hồ\n\n[cce5bf080e1d9db0fb24448e | https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ | page tranh_dong_ho_u002]\nTranh Đông Hồ rất gần gũi với đại đa số dân chúng Việt Nam, nhắc đến hầu như ai cũng đều biết cả. Tranh Đông Hồ gần gũi còn vì hình ảnh của nó đã đi vào thơ , văn trong chương trình giáo dục phổ thông. Ngày nay tục lệ mua tranh Đông Hồ treo ngày Tết đã mai một, làng tranh cũng thay đổi nhiều: làng Đông Hồ ngày nay có thêm nghề làm vàng mã . Nghề giấy dó ở làng Yên Thái ( Bưởi , Tây Hồ ) cũng đã không còn. Tuy vậy, tranh Đông Hồ vẫn đóng vai trò như một di sản văn hóa, một dòng tranh dân gian không thể thiếu.\n\nTheo đánh giá của một số họa sĩ , tranh Đông Hồ in ở thời điểm hiện tại thường không có màu sắc thắm như tranh cổ, nguyên nhân là người ta trộn màu trắng vào điệp quét giấy để bớt lượng điệp khiến giấy mất độ óng ánh và trở nên \"thường\", màu sắc sử dụng cũng chuyển sang loại màu công nghiệp , các bản khắc mới có bản không được tinh tế như bản cổ.\n\n[672625a6f6ccef231a73a959 | https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ | page tranh_dong_ho_u004]\nRẽ trái thêm 2 km là đến làng Hồ. Cũng có thể đi hết phố Hồ, lên đê rẽ trái, gặp điếm canh đê thứ hai sẽ có biển chỉ dẫn đường xuống làng Đông Hồ.\n\nLàng Đông Hồ xưa còn gọi là làng Mái. Các cụ làng Đông Hồ vẫn truyền lại mấy câu ca rằng:\n\nHỡi cô thắt lưng bao xanh\n\nCó về làng Mái với anh thì về\n\nLàng Mái có lịch có lề\n\nCó sông tắm mát có nghề làm tranh.\n\nLàng Đông Hồ nằm ngay sát bờ sông Đuống, ngày xưa chỉ cách sông một con đê, đó là ý trong câu \"Có sông tắm mát có nghề làm tranh\". Ngày nay, do sự bồi lấp của dòng sông nên từ đê ra đến mép nước giờ khá xa.",
+        "context_ids": [
+          "190f37c725471af618ff420d",
+          "cce5bf080e1d9db0fb24448e",
+          "672625a6f6ccef231a73a959"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "ván in Tranh Đông Hồ",
+        "filter": {
+          "painting_tradition": "dong_ho"
+        },
+        "results": [
+          {
+            "id": "190f37c725471af618ff420d",
+            "text": "Tranh Đông Hồ , hay tên đầy đủ là tranh khắc gỗ Đông Hồ , là một dòng tranh dân gian Việt Nam với xuất xứ từ làng Đông Hồ (phường Thuận Thành , thành phố Bắc Ninh ). Trước kia tranh được bán ra chủ yếu phục vụ cho dịp Tết Nguyên Đán , người dân nông thôn mua tranh về dán trên tường, hết năm lại lột bỏ, dùng tranh mới.\n\nNghề làm tranh khắc gỗ dân gian Đông Hồ được UNESCO ghi danh là Di sản văn hóa phi vật thể cần bảo vệ khẩn cấp , đồng thời là Di sản văn hóa phi vật thể cấp Quốc gia.\n\nThơ Tú Xương có tranh Đông Hồ về ngày Tết là:\n\nĐì đoẹt ngoài sân tràng pháo chuột\n\nLoẹt lòe trên vách bức tranh gà\n\nĐó cũng là lí do để chứng minh rằng tranh gỗ dân gian Đông Hồ rất phổ biến.\n\nTại Bắc Ninh, có thể về làng tranh Đông Hồ, Song Hồ, Thuận Thành để xem tranh.\n\nTại Hà Nội, có thể xem tranh tại 19 ngõ 179 Hoàng Hoa Thám, Ba Đình, Hà Nội.\n\nDụng cụ vẽ tranh Đông Hồ",
+            "source_id": "tranh_dong_ho",
+            "source": "https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ",
+            "page": "tranh_dong_ho_u001",
+            "metadata": {
+              "painting_tradition": "dong_ho",
+              "title": "Tranh Đông Hồ",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Tranh_%C4%90%C3%B4ng_H%E1%BB%93&oldid=75711659",
+              "unit_start_char": 0,
+              "source_text_path": "data/processed/tranh_dong_ho.txt",
+              "document_id": "tranh_dong_ho",
+              "source": "https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ",
+              "page": "tranh_dong_ho_u001",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 0,
+              "unit_end_offset": 864,
+              "document_start_char": 0,
+              "document_end_char": 864,
+              "char_count": 864
+            },
+            "score": 0.03225806451612903
+          },
+          {
+            "id": "fabc2c60bdab7ced85dc163f",
+            "text": "Làng tranh Đông Hồ xưa là làng nghề nổi tiếng về tranh dân gian, thuộc phường Thuận Thành , thành phố Bắc Ninh , cách Hà Nội chừng trên 25 km. Làng Đông Hồ (đôi khi dân địa phương chỉ gọi đơn thuần là làng Hồ) nằm trên bờ nam sông Đuống , cạnh bến đò Hồ, nay là cầu Hồ.\n\nQuanh năm rất nhiều khách du lịch trong ngoài nước đến làng tranh Đông Hồ thăm và mua tranh Đông Hồ làm kỷ niệm. Một số khách sạn, nhà hàng từ Hà Nội, [Thành phố Hồ Chí Minh] cũng về đây đặt những bức tranh khổ lớn để trang trí cho các phòng khách, hoặc phòng ăn lớn. Từ Hà Nội muốn đi Đông Hồ đường gần nhất du khách thường đi là xuôi theo đường Quốc lộ 5 (đường đi Hải Phòng ) đến ga Phú Thụy, cách Hà Nội chừng 15 km thì rẽ trái, đi chừng 18 km nữa, qua các địa danh khá nổi tiếng của xã Gia Lâm , Thuận An ( Hà Nội ) như phố Sủi, chợ Keo, chợ Dâu (Thuận Thành-Bắc Ninh) là đến phố Hồ- trung tâm phường Thuận Thành .",
+            "source_id": "tranh_dong_ho",
+            "source": "https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ",
+            "page": "tranh_dong_ho_u003",
+            "metadata": {
+              "painting_tradition": "dong_ho",
+              "title": "Tranh Đông Hồ",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Tranh_%C4%90%C3%B4ng_H%E1%BB%93&oldid=75711659",
+              "unit_start_char": 3572,
+              "source_text_path": "data/processed/tranh_dong_ho.txt",
+              "document_id": "tranh_dong_ho",
+              "source": "https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ",
+              "page": "tranh_dong_ho_u003",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 910,
+              "unit_end_offset": 1800,
+              "document_start_char": 4482,
+              "document_end_char": 5372,
+              "char_count": 890
+            },
+            "score": 0.03177805800756621
+          },
+          {
+            "id": "cce5bf080e1d9db0fb24448e",
+            "text": "Tranh Đông Hồ rất gần gũi với đại đa số dân chúng Việt Nam, nhắc đến hầu như ai cũng đều biết cả. Tranh Đông Hồ gần gũi còn vì hình ảnh của nó đã đi vào thơ , văn trong chương trình giáo dục phổ thông. Ngày nay tục lệ mua tranh Đông Hồ treo ngày Tết đã mai một, làng tranh cũng thay đổi nhiều: làng Đông Hồ ngày nay có thêm nghề làm vàng mã . Nghề giấy dó ở làng Yên Thái ( Bưởi , Tây Hồ ) cũng đã không còn. Tuy vậy, tranh Đông Hồ vẫn đóng vai trò như một di sản văn hóa, một dòng tranh dân gian không thể thiếu.\n\nTheo đánh giá của một số họa sĩ , tranh Đông Hồ in ở thời điểm hiện tại thường không có màu sắc thắm như tranh cổ, nguyên nhân là người ta trộn màu trắng vào điệp quét giấy để bớt lượng điệp khiến giấy mất độ óng ánh và trở nên \"thường\", màu sắc sử dụng cũng chuyển sang loại màu công nghiệp , các bản khắc mới có bản không được tinh tế như bản cổ.",
+            "source_id": "tranh_dong_ho",
+            "source": "https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ",
+            "page": "tranh_dong_ho_u002",
+            "metadata": {
+              "painting_tradition": "dong_ho",
+              "title": "Tranh Đông Hồ",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Tranh_%C4%90%C3%B4ng_H%E1%BB%93&oldid=75711659",
+              "unit_start_char": 1898,
+              "source_text_path": "data/processed/tranh_dong_ho.txt",
+              "document_id": "tranh_dong_ho",
+              "source": "https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ",
+              "page": "tranh_dong_ho_u002",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 811,
+              "unit_end_offset": 1674,
+              "document_start_char": 2709,
+              "document_end_char": 3572,
+              "char_count": 863
+            },
+            "score": 0.03149801587301587
+          }
+        ],
+        "context": "[190f37c725471af618ff420d | https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ | page tranh_dong_ho_u001]\nTranh Đông Hồ , hay tên đầy đủ là tranh khắc gỗ Đông Hồ , là một dòng tranh dân gian Việt Nam với xuất xứ từ làng Đông Hồ (phường Thuận Thành , thành phố Bắc Ninh ). Trước kia tranh được bán ra chủ yếu phục vụ cho dịp Tết Nguyên Đán , người dân nông thôn mua tranh về dán trên tường, hết năm lại lột bỏ, dùng tranh mới.\n\nNghề làm tranh khắc gỗ dân gian Đông Hồ được UNESCO ghi danh là Di sản văn hóa phi vật thể cần bảo vệ khẩn cấp , đồng thời là Di sản văn hóa phi vật thể cấp Quốc gia.\n\nThơ Tú Xương có tranh Đông Hồ về ngày Tết là:\n\nĐì đoẹt ngoài sân tràng pháo chuột\n\nLoẹt lòe trên vách bức tranh gà\n\nĐó cũng là lí do để chứng minh rằng tranh gỗ dân gian Đông Hồ rất phổ biến.\n\nTại Bắc Ninh, có thể về làng tranh Đông Hồ, Song Hồ, Thuận Thành để xem tranh.\n\nTại Hà Nội, có thể xem tranh tại 19 ngõ 179 Hoàng Hoa Thám, Ba Đình, Hà Nội.\n\nDụng cụ vẽ tranh Đông Hồ\n\n[cce5bf080e1d9db0fb24448e | https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ | page tranh_dong_ho_u002]\nTranh Đông Hồ rất gần gũi với đại đa số dân chúng Việt Nam, nhắc đến hầu như ai cũng đều biết cả. Tranh Đông Hồ gần gũi còn vì hình ảnh của nó đã đi vào thơ , văn trong chương trình giáo dục phổ thông. Ngày nay tục lệ mua tranh Đông Hồ treo ngày Tết đã mai một, làng tranh cũng thay đổi nhiều: làng Đông Hồ ngày nay có thêm nghề làm vàng mã . Nghề giấy dó ở làng Yên Thái ( Bưởi , Tây Hồ ) cũng đã không còn. Tuy vậy, tranh Đông Hồ vẫn đóng vai trò như một di sản văn hóa, một dòng tranh dân gian không thể thiếu.\n\nTheo đánh giá của một số họa sĩ , tranh Đông Hồ in ở thời điểm hiện tại thường không có màu sắc thắm như tranh cổ, nguyên nhân là người ta trộn màu trắng vào điệp quét giấy để bớt lượng điệp khiến giấy mất độ óng ánh và trở nên \"thường\", màu sắc sử dụng cũng chuyển sang loại màu công nghiệp , các bản khắc mới có bản không được tinh tế như bản cổ.\n\n[672625a6f6ccef231a73a959 | https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ | page tranh_dong_ho_u004]\nRẽ trái thêm 2 km là đến làng Hồ. Cũng có thể đi hết phố Hồ, lên đê rẽ trái, gặp điếm canh đê thứ hai sẽ có biển chỉ dẫn đường xuống làng Đông Hồ.\n\nLàng Đông Hồ xưa còn gọi là làng Mái. Các cụ làng Đông Hồ vẫn truyền lại mấy câu ca rằng:\n\nHỡi cô thắt lưng bao xanh\n\nCó về làng Mái với anh thì về\n\nLàng Mái có lịch có lề\n\nCó sông tắm mát có nghề làm tranh.\n\nLàng Đông Hồ nằm ngay sát bờ sông Đuống, ngày xưa chỉ cách sông một con đê, đó là ý trong câu \"Có sông tắm mát có nghề làm tranh\". Ngày nay, do sự bồi lấp của dòng sông nên từ đê ra đến mép nước giờ khá xa.\n\n[fabc2c60bdab7ced85dc163f | https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ | page tranh_dong_ho_u003]\nLàng tranh Đông Hồ xưa là làng nghề nổi tiếng về tranh dân gian, thuộc phường Thuận Thành , thành phố Bắc Ninh , cách Hà Nội chừng trên 25 km. Làng Đông Hồ (đôi khi dân địa phương chỉ gọi đơn thuần là làng Hồ) nằm trên bờ nam sông Đuống , cạnh bến đò Hồ, nay là cầu Hồ.\n\nQuanh năm rất nhiều khách du lịch trong ngoài nước đến làng tranh Đông Hồ thăm và mua tranh Đông Hồ làm kỷ niệm. Một số khách sạn, nhà hàng từ Hà Nội, [Thành phố Hồ Chí Minh] cũng về đây đặt những bức tranh khổ lớn để trang trí cho các phòng khách, hoặc phòng ăn lớn. Từ Hà Nội muốn đi Đông Hồ đường gần nhất du khách thường đi là xuôi theo đường Quốc lộ 5 (đường đi Hải Phòng ) đến ga Phú Thụy, cách Hà Nội chừng 15 km thì rẽ trái, đi chừng 18 km nữa, qua các địa danh khá nổi tiếng của xã Gia Lâm , Thuận An ( Hà Nội ) như phố Sủi, chợ Keo, chợ Dâu (Thuận Thành-Bắc Ninh) là đến phố Hồ- trung tâm phường Thuận Thành .",
+        "context_ids": [
+          "190f37c725471af618ff420d",
+          "cce5bf080e1d9db0fb24448e",
+          "672625a6f6ccef231a73a959",
+          "fabc2c60bdab7ced85dc163f"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "ván in ván nét ván màu Đông Hồ",
+        "filter": {
+          "painting_tradition": "dong_ho"
+        },
+        "results": [
+          {
+            "id": "190f37c725471af618ff420d",
+            "text": "Tranh Đông Hồ , hay tên đầy đủ là tranh khắc gỗ Đông Hồ , là một dòng tranh dân gian Việt Nam với xuất xứ từ làng Đông Hồ (phường Thuận Thành , thành phố Bắc Ninh ). Trước kia tranh được bán ra chủ yếu phục vụ cho dịp Tết Nguyên Đán , người dân nông thôn mua tranh về dán trên tường, hết năm lại lột bỏ, dùng tranh mới.\n\nNghề làm tranh khắc gỗ dân gian Đông Hồ được UNESCO ghi danh là Di sản văn hóa phi vật thể cần bảo vệ khẩn cấp , đồng thời là Di sản văn hóa phi vật thể cấp Quốc gia.\n\nThơ Tú Xương có tranh Đông Hồ về ngày Tết là:\n\nĐì đoẹt ngoài sân tràng pháo chuột\n\nLoẹt lòe trên vách bức tranh gà\n\nĐó cũng là lí do để chứng minh rằng tranh gỗ dân gian Đông Hồ rất phổ biến.\n\nTại Bắc Ninh, có thể về làng tranh Đông Hồ, Song Hồ, Thuận Thành để xem tranh.\n\nTại Hà Nội, có thể xem tranh tại 19 ngõ 179 Hoàng Hoa Thám, Ba Đình, Hà Nội.\n\nDụng cụ vẽ tranh Đông Hồ",
+            "source_id": "tranh_dong_ho",
+            "source": "https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ",
+            "page": "tranh_dong_ho_u001",
+            "metadata": {
+              "painting_tradition": "dong_ho",
+              "title": "Tranh Đông Hồ",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Tranh_%C4%90%C3%B4ng_H%E1%BB%93&oldid=75711659",
+              "unit_start_char": 0,
+              "source_text_path": "data/processed/tranh_dong_ho.txt",
+              "document_id": "tranh_dong_ho",
+              "source": "https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ",
+              "page": "tranh_dong_ho_u001",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 0,
+              "unit_end_offset": 864,
+              "document_start_char": 0,
+              "document_end_char": 864,
+              "char_count": 864
+            },
+            "score": 0.03177805800756621
+          },
+          {
+            "id": "cce5bf080e1d9db0fb24448e",
+            "text": "Tranh Đông Hồ rất gần gũi với đại đa số dân chúng Việt Nam, nhắc đến hầu như ai cũng đều biết cả. Tranh Đông Hồ gần gũi còn vì hình ảnh của nó đã đi vào thơ , văn trong chương trình giáo dục phổ thông. Ngày nay tục lệ mua tranh Đông Hồ treo ngày Tết đã mai một, làng tranh cũng thay đổi nhiều: làng Đông Hồ ngày nay có thêm nghề làm vàng mã . Nghề giấy dó ở làng Yên Thái ( Bưởi , Tây Hồ ) cũng đã không còn. Tuy vậy, tranh Đông Hồ vẫn đóng vai trò như một di sản văn hóa, một dòng tranh dân gian không thể thiếu.\n\nTheo đánh giá của một số họa sĩ , tranh Đông Hồ in ở thời điểm hiện tại thường không có màu sắc thắm như tranh cổ, nguyên nhân là người ta trộn màu trắng vào điệp quét giấy để bớt lượng điệp khiến giấy mất độ óng ánh và trở nên \"thường\", màu sắc sử dụng cũng chuyển sang loại màu công nghiệp , các bản khắc mới có bản không được tinh tế như bản cổ.",
+            "source_id": "tranh_dong_ho",
+            "source": "https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ",
+            "page": "tranh_dong_ho_u002",
+            "metadata": {
+              "painting_tradition": "dong_ho",
+              "title": "Tranh Đông Hồ",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Tranh_%C4%90%C3%B4ng_H%E1%BB%93&oldid=75711659",
+              "unit_start_char": 1898,
+              "source_text_path": "data/processed/tranh_dong_ho.txt",
+              "document_id": "tranh_dong_ho",
+              "source": "https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ",
+              "page": "tranh_dong_ho_u002",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 811,
+              "unit_end_offset": 1674,
+              "document_start_char": 2709,
+              "document_end_char": 3572,
+              "char_count": 863
+            },
+            "score": 0.031054405392392875
+          },
+          {
+            "id": "fabc2c60bdab7ced85dc163f",
+            "text": "Làng tranh Đông Hồ xưa là làng nghề nổi tiếng về tranh dân gian, thuộc phường Thuận Thành , thành phố Bắc Ninh , cách Hà Nội chừng trên 25 km. Làng Đông Hồ (đôi khi dân địa phương chỉ gọi đơn thuần là làng Hồ) nằm trên bờ nam sông Đuống , cạnh bến đò Hồ, nay là cầu Hồ.\n\nQuanh năm rất nhiều khách du lịch trong ngoài nước đến làng tranh Đông Hồ thăm và mua tranh Đông Hồ làm kỷ niệm. Một số khách sạn, nhà hàng từ Hà Nội, [Thành phố Hồ Chí Minh] cũng về đây đặt những bức tranh khổ lớn để trang trí cho các phòng khách, hoặc phòng ăn lớn. Từ Hà Nội muốn đi Đông Hồ đường gần nhất du khách thường đi là xuôi theo đường Quốc lộ 5 (đường đi Hải Phòng ) đến ga Phú Thụy, cách Hà Nội chừng 15 km thì rẽ trái, đi chừng 18 km nữa, qua các địa danh khá nổi tiếng của xã Gia Lâm , Thuận An ( Hà Nội ) như phố Sủi, chợ Keo, chợ Dâu (Thuận Thành-Bắc Ninh) là đến phố Hồ- trung tâm phường Thuận Thành .",
+            "source_id": "tranh_dong_ho",
+            "source": "https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ",
+            "page": "tranh_dong_ho_u003",
+            "metadata": {
+              "painting_tradition": "dong_ho",
+              "title": "Tranh Đông Hồ",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Tranh_%C4%90%C3%B4ng_H%E1%BB%93&oldid=75711659",
+              "unit_start_char": 3572,
+              "source_text_path": "data/processed/tranh_dong_ho.txt",
+              "document_id": "tranh_dong_ho",
+              "source": "https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ",
+              "page": "tranh_dong_ho_u003",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 910,
+              "unit_end_offset": 1800,
+              "document_start_char": 4482,
+              "document_end_char": 5372,
+              "char_count": 890
+            },
+            "score": 0.031054405392392875
+          }
+        ],
+        "context": "[190f37c725471af618ff420d | https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ | page tranh_dong_ho_u001]\nTranh Đông Hồ , hay tên đầy đủ là tranh khắc gỗ Đông Hồ , là một dòng tranh dân gian Việt Nam với xuất xứ từ làng Đông Hồ (phường Thuận Thành , thành phố Bắc Ninh ). Trước kia tranh được bán ra chủ yếu phục vụ cho dịp Tết Nguyên Đán , người dân nông thôn mua tranh về dán trên tường, hết năm lại lột bỏ, dùng tranh mới.\n\nNghề làm tranh khắc gỗ dân gian Đông Hồ được UNESCO ghi danh là Di sản văn hóa phi vật thể cần bảo vệ khẩn cấp , đồng thời là Di sản văn hóa phi vật thể cấp Quốc gia.\n\nThơ Tú Xương có tranh Đông Hồ về ngày Tết là:\n\nĐì đoẹt ngoài sân tràng pháo chuột\n\nLoẹt lòe trên vách bức tranh gà\n\nĐó cũng là lí do để chứng minh rằng tranh gỗ dân gian Đông Hồ rất phổ biến.\n\nTại Bắc Ninh, có thể về làng tranh Đông Hồ, Song Hồ, Thuận Thành để xem tranh.\n\nTại Hà Nội, có thể xem tranh tại 19 ngõ 179 Hoàng Hoa Thám, Ba Đình, Hà Nội.\n\nDụng cụ vẽ tranh Đông Hồ\n\n[cce5bf080e1d9db0fb24448e | https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ | page tranh_dong_ho_u002]\nTranh Đông Hồ rất gần gũi với đại đa số dân chúng Việt Nam, nhắc đến hầu như ai cũng đều biết cả. Tranh Đông Hồ gần gũi còn vì hình ảnh của nó đã đi vào thơ , văn trong chương trình giáo dục phổ thông. Ngày nay tục lệ mua tranh Đông Hồ treo ngày Tết đã mai một, làng tranh cũng thay đổi nhiều: làng Đông Hồ ngày nay có thêm nghề làm vàng mã . Nghề giấy dó ở làng Yên Thái ( Bưởi , Tây Hồ ) cũng đã không còn. Tuy vậy, tranh Đông Hồ vẫn đóng vai trò như một di sản văn hóa, một dòng tranh dân gian không thể thiếu.\n\nTheo đánh giá của một số họa sĩ , tranh Đông Hồ in ở thời điểm hiện tại thường không có màu sắc thắm như tranh cổ, nguyên nhân là người ta trộn màu trắng vào điệp quét giấy để bớt lượng điệp khiến giấy mất độ óng ánh và trở nên \"thường\", màu sắc sử dụng cũng chuyển sang loại màu công nghiệp , các bản khắc mới có bản không được tinh tế như bản cổ.\n\n[672625a6f6ccef231a73a959 | https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ | page tranh_dong_ho_u004]\nRẽ trái thêm 2 km là đến làng Hồ. Cũng có thể đi hết phố Hồ, lên đê rẽ trái, gặp điếm canh đê thứ hai sẽ có biển chỉ dẫn đường xuống làng Đông Hồ.\n\nLàng Đông Hồ xưa còn gọi là làng Mái. Các cụ làng Đông Hồ vẫn truyền lại mấy câu ca rằng:\n\nHỡi cô thắt lưng bao xanh\n\nCó về làng Mái với anh thì về\n\nLàng Mái có lịch có lề\n\nCó sông tắm mát có nghề làm tranh.\n\nLàng Đông Hồ nằm ngay sát bờ sông Đuống, ngày xưa chỉ cách sông một con đê, đó là ý trong câu \"Có sông tắm mát có nghề làm tranh\". Ngày nay, do sự bồi lấp của dòng sông nên từ đê ra đến mép nước giờ khá xa.\n\n[fabc2c60bdab7ced85dc163f | https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ | page tranh_dong_ho_u003]\nLàng tranh Đông Hồ xưa là làng nghề nổi tiếng về tranh dân gian, thuộc phường Thuận Thành , thành phố Bắc Ninh , cách Hà Nội chừng trên 25 km. Làng Đông Hồ (đôi khi dân địa phương chỉ gọi đơn thuần là làng Hồ) nằm trên bờ nam sông Đuống , cạnh bến đò Hồ, nay là cầu Hồ.\n\nQuanh năm rất nhiều khách du lịch trong ngoài nước đến làng tranh Đông Hồ thăm và mua tranh Đông Hồ làm kỷ niệm. Một số khách sạn, nhà hàng từ Hà Nội, [Thành phố Hồ Chí Minh] cũng về đây đặt những bức tranh khổ lớn để trang trí cho các phòng khách, hoặc phòng ăn lớn. Từ Hà Nội muốn đi Đông Hồ đường gần nhất du khách thường đi là xuôi theo đường Quốc lộ 5 (đường đi Hải Phòng ) đến ga Phú Thụy, cách Hà Nội chừng 15 km thì rẽ trái, đi chừng 18 km nữa, qua các địa danh khá nổi tiếng của xã Gia Lâm , Thuận An ( Hà Nội ) như phố Sủi, chợ Keo, chợ Dâu (Thuận Thành-Bắc Ninh) là đến phố Hồ- trung tâm phường Thuận Thành .",
+        "context_ids": [
+          "190f37c725471af618ff420d",
+          "cce5bf080e1d9db0fb24448e",
+          "672625a6f6ccef231a73a959",
+          "fabc2c60bdab7ced85dc163f"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ]
+  },
+  "final_context": "[190f37c725471af618ff420d | https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ | page tranh_dong_ho_u001]\nTranh Đông Hồ , hay tên đầy đủ là tranh khắc gỗ Đông Hồ , là một dòng tranh dân gian Việt Nam với xuất xứ từ làng Đông Hồ (phường Thuận Thành , thành phố Bắc Ninh ). Trước kia tranh được bán ra chủ yếu phục vụ cho dịp Tết Nguyên Đán , người dân nông thôn mua tranh về dán trên tường, hết năm lại lột bỏ, dùng tranh mới.\n\nNghề làm tranh khắc gỗ dân gian Đông Hồ được UNESCO ghi danh là Di sản văn hóa phi vật thể cần bảo vệ khẩn cấp , đồng thời là Di sản văn hóa phi vật thể cấp Quốc gia.\n\nThơ Tú Xương có tranh Đông Hồ về ngày Tết là:\n\nĐì đoẹt ngoài sân tràng pháo chuột\n\nLoẹt lòe trên vách bức tranh gà\n\nĐó cũng là lí do để chứng minh rằng tranh gỗ dân gian Đông Hồ rất phổ biến.\n\nTại Bắc Ninh, có thể về làng tranh Đông Hồ, Song Hồ, Thuận Thành để xem tranh.\n\nTại Hà Nội, có thể xem tranh tại 19 ngõ 179 Hoàng Hoa Thám, Ba Đình, Hà Nội.\n\nDụng cụ vẽ tranh Đông Hồ\n\n[cce5bf080e1d9db0fb24448e | https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ | page tranh_dong_ho_u002]\nTranh Đông Hồ rất gần gũi với đại đa số dân chúng Việt Nam, nhắc đến hầu như ai cũng đều biết cả. Tranh Đông Hồ gần gũi còn vì hình ảnh của nó đã đi vào thơ , văn trong chương trình giáo dục phổ thông. Ngày nay tục lệ mua tranh Đông Hồ treo ngày Tết đã mai một, làng tranh cũng thay đổi nhiều: làng Đông Hồ ngày nay có thêm nghề làm vàng mã . Nghề giấy dó ở làng Yên Thái ( Bưởi , Tây Hồ ) cũng đã không còn. Tuy vậy, tranh Đông Hồ vẫn đóng vai trò như một di sản văn hóa, một dòng tranh dân gian không thể thiếu.\n\nTheo đánh giá của một số họa sĩ , tranh Đông Hồ in ở thời điểm hiện tại thường không có màu sắc thắm như tranh cổ, nguyên nhân là người ta trộn màu trắng vào điệp quét giấy để bớt lượng điệp khiến giấy mất độ óng ánh và trở nên \"thường\", màu sắc sử dụng cũng chuyển sang loại màu công nghiệp , các bản khắc mới có bản không được tinh tế như bản cổ.\n\n[672625a6f6ccef231a73a959 | https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ | page tranh_dong_ho_u004]\nRẽ trái thêm 2 km là đến làng Hồ. Cũng có thể đi hết phố Hồ, lên đê rẽ trái, gặp điếm canh đê thứ hai sẽ có biển chỉ dẫn đường xuống làng Đông Hồ.\n\nLàng Đông Hồ xưa còn gọi là làng Mái. Các cụ làng Đông Hồ vẫn truyền lại mấy câu ca rằng:\n\nHỡi cô thắt lưng bao xanh\n\nCó về làng Mái với anh thì về\n\nLàng Mái có lịch có lề\n\nCó sông tắm mát có nghề làm tranh.\n\nLàng Đông Hồ nằm ngay sát bờ sông Đuống, ngày xưa chỉ cách sông một con đê, đó là ý trong câu \"Có sông tắm mát có nghề làm tranh\". Ngày nay, do sự bồi lấp của dòng sông nên từ đê ra đến mép nước giờ khá xa.\n\n[fabc2c60bdab7ced85dc163f | https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ | page tranh_dong_ho_u003]\nLàng tranh Đông Hồ xưa là làng nghề nổi tiếng về tranh dân gian, thuộc phường Thuận Thành , thành phố Bắc Ninh , cách Hà Nội chừng trên 25 km. Làng Đông Hồ (đôi khi dân địa phương chỉ gọi đơn thuần là làng Hồ) nằm trên bờ nam sông Đuống , cạnh bến đò Hồ, nay là cầu Hồ.\n\nQuanh năm rất nhiều khách du lịch trong ngoài nước đến làng tranh Đông Hồ thăm và mua tranh Đông Hồ làm kỷ niệm. Một số khách sạn, nhà hàng từ Hà Nội, [Thành phố Hồ Chí Minh] cũng về đây đặt những bức tranh khổ lớn để trang trí cho các phòng khách, hoặc phòng ăn lớn. Từ Hà Nội muốn đi Đông Hồ đường gần nhất du khách thường đi là xuôi theo đường Quốc lộ 5 (đường đi Hải Phòng ) đến ga Phú Thụy, cách Hà Nội chừng 15 km thì rẽ trái, đi chừng 18 km nữa, qua các địa danh khá nổi tiếng của xã Gia Lâm , Thuận An ( Hà Nội ) như phố Sủi, chợ Keo, chợ Dâu (Thuận Thành-Bắc Ninh) là đến phố Hồ- trung tâm phường Thuận Thành .",
+  "context_ids": [
+    "190f37c725471af618ff420d",
+    "cce5bf080e1d9db0fb24448e",
+    "672625a6f6ccef231a73a959",
+    "fabc2c60bdab7ced85dc163f"
+  ],
+  "context_evidence_hit": false,
+  "model_calls": [
+    {
+      "model": "gemini-3.8-flash",
+      "elapsed_seconds": 4.1358368000001065,
+      "usage": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": null,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 229,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 229
+          }
+        ],
+        "thoughts_token_count": null,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 229,
+        "traffic_type": null
+      },
+      "raw_response": "{\"action\": \"search\", \"query\": \"ván in tranh Đông Hồ hai loại\"}"
+    },
+    {
+      "model": "gemini-3.8-flash",
+      "elapsed_seconds": 3.4554903999996895,
+      "usage": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 17,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 1178,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 1178
+          }
+        ],
+        "thoughts_token_count": 64,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 1259,
+        "traffic_type": null
+      },
+      "raw_response": "{\"action\": \"search\", \"query\": \"ván in Tranh Đông Hồ\"}"
+    },
+    {
+      "model": "gemini-3.8-flash",
+      "elapsed_seconds": 4.090572000000975,
+      "usage": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 21,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 1519,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 1519
+          }
+        ],
+        "thoughts_token_count": 234,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 1774,
+        "traffic_type": null
+      },
+      "raw_response": "{\"action\": \"search\", \"query\": \"ván in ván nét ván màu Đông Hồ\"}"
+    },
+    {
+      "model": "gemini-3.8-flash",
+      "elapsed_seconds": 4.1588556000006065,
+      "usage": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 54,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 1531,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 1531
+          }
+        ],
+        "thoughts_token_count": 190,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 1775,
+        "traffic_type": null
+      },
+      "raw_response": "{\"action\": \"answer\", \"answer\": \"Hiện tại thông tin trong các tài liệu được cung cấp không có dữ liệu về hai loại ván in của tranh Đông Hồ, do đó chưa đủ cơ sở để trả lời câu hỏi này.\", \"citations\": []}"
+    }
+  ],
+  "elapsed_seconds_excluding_setup": 15.92197970000052
+}

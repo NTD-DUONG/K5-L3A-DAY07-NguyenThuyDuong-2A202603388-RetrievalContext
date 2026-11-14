@@ -1,0 +1,26 @@
+{
+  "baseline": {
+    "total": 7,
+    "answered": 5,
+    "abstain": 2,
+    "errors": 0,
+    "context_evidence_count": 5,
+    "answerable_count": 5,
+    "context_evidence_rate": 1.0,
+    "model_calls": 18,
+    "reported_total_tokens": 17258,
+    "total_seconds_excluding_setup": 64.41646949999449
+  },
+  "selected": {
+    "total": 7,
+    "answered": 5,
+    "abstain": 2,
+    "errors": 0,
+    "context_evidence_count": 5,
+    "answerable_count": 5,
+    "context_evidence_rate": 1.0,
+    "model_calls": 18,
+    "reported_total_tokens": 26261,
+    "total_seconds_excluding_setup": 65.03998490000049
+  }
+}

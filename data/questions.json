@@ -1,0 +1,232 @@
+[
+  {
+    "id": "dev_01",
+    "split": "dev",
+    "answerable": true,
+    "question": "Giấy dó được sản xuất từ nguyên liệu chính nào?",
+    "expected_answer": "Vỏ cây dó, chẳng hạn dó giấy hoặc dó liệt.",
+    "gold": [
+      {
+        "source_id": "giay_do",
+        "page": "giay_do_u001",
+        "evidence": "Giấy dó là loại giấy được sản xuất từ vỏ những cây dó (như dó giấy , dó liệt ...), theo quy trình thủ công được truyền lại qua nhiều thế hệ ở một số làng nghề ở Việt Nam ."
+      }
+    ]
+  },
+  {
+    "id": "dev_02",
+    "split": "dev",
+    "answerable": true,
+    "question": "Trong quy trình làm giấy dó được mô tả, vỏ dó được ngâm trong nước vôi bao lâu?",
+    "expected_answer": "Ba tháng.",
+    "gold": [
+      {
+        "source_id": "giay_do",
+        "page": "giay_do_u001",
+        "evidence": "Vỏ cây dó được ngâm trong nước vôi với thời gian ba tháng, sau đó được nấu cách thủy khoảng 3 ngày 2 đêm cho đến khi ngửi thấy mùi thơm của vỏ cây được nấu chín nhừ hoặc thấy phần thịt của vỏ cây dó trong lại."
+      }
+    ]
+  },
+  {
+    "id": "dev_03",
+    "split": "dev",
+    "answerable": true,
+    "question": "Vì sao giấy dó nhẹ và hút mực?",
+    "expected_answer": "Do giấy có độ xốp.",
+    "gold": [
+      {
+        "source_id": "giay_do",
+        "page": "giay_do_u002",
+        "evidence": "Vì xốp nên giấy dó rất nhẹ và hút mực."
+      }
+    ]
+  },
+  {
+    "id": "dev_04",
+    "split": "dev",
+    "answerable": true,
+    "question": "Hai loại tranh chính được nêu trong phần lịch sử hội họa dân gian Việt Nam là gì?",
+    "expected_answer": "Tranh Tết và tranh thờ.",
+    "gold": [
+      {
+        "source_id": "hoi_hoa_dan_gian",
+        "page": "hoi_hoa_dan_gian_u001",
+        "evidence": "Về cơ bản có hai loại tranh chính là tranh Tết và tranh thờ ."
+      }
+    ]
+  },
+  {
+    "id": "dev_05",
+    "split": "dev",
+    "answerable": true,
+    "question": "Quan niệm tạo hình của phần lớn tranh dân gian ưu tiên ‘sống’ hay ‘giống’?",
+    "expected_answer": "Ưu tiên ‘sống’ hơn ‘giống’.",
+    "gold": [
+      {
+        "source_id": "hoi_hoa_dan_gian",
+        "page": "hoi_hoa_dan_gian_u004",
+        "evidence": "Hầu hết tranh dân gian được vẽ theo quan niệm \"sống\" hơn \"giống\"."
+      }
+    ]
+  },
+  {
+    "id": "dev_06",
+    "split": "dev",
+    "answerable": true,
+    "question": "Ván in tranh Đông Hồ được chia thành hai loại nào?",
+    "expected_answer": "Ván in nét và ván in màu.",
+    "gold": [
+      {
+        "source_id": "tranh_dong_ho",
+        "page": "tranh_dong_ho_u002",
+        "evidence": "Ván khắc in tranh có hai loại: ván in nét và ván in màu."
+      }
+    ]
+  },
+  {
+    "id": "dev_07",
+    "split": "dev",
+    "answerable": true,
+    "question": "Trong phạm vi tranh Đông Hồ, ván in nét thường dùng gỗ gì?",
+    "expected_answer": "Gỗ thị hoặc gỗ thừng mực.",
+    "gold": [
+      {
+        "source_id": "tranh_dong_ho",
+        "page": "tranh_dong_ho_u002",
+        "evidence": "Ván in nét thường được làm từ gỗ thị hoặc gỗ thừng mực."
+      }
+    ]
+  },
+  {
+    "id": "dev_08",
+    "split": "dev",
+    "answerable": true,
+    "question": "Vì sao người làm tranh Đông Hồ chọn gỗ mỡ cho ván in màu?",
+    "expected_answer": "Vì gỗ mỡ có khả năng giữ màu cao hơn nhiều loại gỗ khác.",
+    "gold": [
+      {
+        "source_id": "tranh_dong_ho",
+        "page": "tranh_dong_ho_u002",
+        "evidence": "Ván in màu được làm bằng gỗ mỡ bởi vì khi phết màu nên để in tranh gỗ mỡ có khả năng giữ màu cao hơn nhiều loại gỗ khác."
+      }
+    ]
+  },
+  {
+    "id": "dev_09",
+    "split": "dev",
+    "answerable": true,
+    "question": "Làng Đông Hồ xưa còn có tên gọi nào?",
+    "expected_answer": "Làng Mái.",
+    "gold": [
+      {
+        "source_id": "tranh_dong_ho",
+        "page": "tranh_dong_ho_u004",
+        "evidence": "Làng Đông Hồ xưa còn gọi là làng Mái."
+      }
+    ]
+  },
+  {
+    "id": "dev_10",
+    "split": "dev",
+    "answerable": true,
+    "question": "Trong phạm vi tranh Hàng Trống, ván khắc làm bằng loại gỗ nào?",
+    "expected_answer": "Gỗ lồng mực hoặc gỗ thị.",
+    "gold": [
+      {
+        "source_id": "tranh_hang_trong",
+        "page": "tranh_hang_trong_u002",
+        "evidence": "Ván khắc được làm bằng gỗ lồng mực hoặc gỗ thị."
+      }
+    ]
+  },
+  {
+    "id": "dev_11",
+    "split": "dev",
+    "answerable": true,
+    "question": "Sau khi bồi giấy tranh Hàng Trống, khi nào mới có thể vẽ màu lại?",
+    "expected_answer": "Khi hồ đã khô.",
+    "gold": [
+      {
+        "source_id": "tranh_hang_trong",
+        "page": "tranh_hang_trong_u002",
+        "evidence": "Khi hồ đã khô thì mới có thể vẽ màu lại."
+      }
+    ]
+  },
+  {
+    "id": "dev_12",
+    "split": "dev",
+    "answerable": true,
+    "question": "Khi pha màu cho tranh Hàng Trống, có bắt buộc một tỷ lệ chuẩn cố định không?",
+    "expected_answer": "Không; tỷ lệ nhằm tạo cảm giác thuận mắt và ưa nhìn.",
+    "gold": [
+      {
+        "source_id": "tranh_hang_trong",
+        "page": "tranh_hang_trong_u002",
+        "evidence": "Tỷ lệ được tạo không hề đúng với công thức chuẩn mà chỉ để cho thật thuận mắt và ưa nhìn."
+      }
+    ]
+  },
+  {
+    "id": "dev_13",
+    "split": "dev",
+    "answerable": true,
+    "question": "Tranh Kim Hoàng còn được gọi là ‘tranh đỏ’ vì dùng những loại giấy nào?",
+    "expected_answer": "Giấy hồng điều hoặc giấy vàng tàu, tạo nền tươi thắm.",
+    "gold": [
+      {
+        "source_id": "tranh_kim_hoang",
+        "page": "tranh_kim_hoang_u001",
+        "evidence": "Tranh Kim Hoàng chuyên dùng giấy hồng điều hay giấy vàng tàu để làm tranh, dùng bức nền tươi thắm như vậy, cho nên tranh Kim Hoàng còn được gọi bằng một cái tên khác là \"tranh đỏ\", rất phù hợp với không khí tươi vui của ngày Tết."
+      }
+    ]
+  },
+  {
+    "id": "dev_14",
+    "split": "dev",
+    "answerable": true,
+    "question": "Sự kiện năm 1915 nào góp phần khiến nghề tranh Kim Hoàng bắt đầu thất truyền?",
+    "expected_answer": "Trận lụt cuốn trôi nhiều ván in của làng.",
+    "gold": [
+      {
+        "source_id": "tranh_kim_hoang",
+        "page": "tranh_kim_hoang_u001",
+        "evidence": "Thế kỷ 19 , tranh Kim Hoàng phát triển mạnh, nhưng rồi bắt đầu bị thất truyền từ trận lụt năm 1915, khi làng mạc từ Phùng đến Cầu Giấy bị ngập trắng, nhiều ván in tranh của làng bị cuốn trôi."
+      }
+    ]
+  },
+  {
+    "id": "dev_15",
+    "split": "dev",
+    "answerable": true,
+    "question": "Ngoài cây dó giấy, một số nơi còn dùng cây nào để làm giấy dó?",
+    "expected_answer": "Cây dướng và cây dó liệt.",
+    "gold": [
+      {
+        "source_id": "giay_do",
+        "page": "giay_do_u003",
+        "evidence": "Một số nơi khác còn dùng cây dướng, cây dó liệt."
+      }
+    ]
+  },
+  {
+    "id": "dev_16",
+    "split": "dev",
+    "answerable": false,
+    "question": "Năm 2025, làng nghề Yên Thái sản xuất tổng cộng bao nhiêu tờ giấy dó?",
+    "expected_answer": "Không đủ bằng chứng trong tài liệu để xác định sản lượng giấy dó của làng nghề Yên Thái năm 2025.",
+    "gold": [],
+    "absence_check": "Trợ lý đã đọc toàn bộ nguồn Giấy dó, gồm phần Yên Thái. Tài liệu không cung cấp sản lượng năm 2025. Tìm 2025 và sản lượng trên toàn bộ 71 chunk không có kết quả.",
+    "review_status": "ai_reviewed"
+  },
+  {
+    "id": "dev_17",
+    "split": "dev",
+    "answerable": false,
+    "question": "Giá bán lẻ một tờ giấy dó khổ A4 tại làng nghề Yên Thái năm 2025 là bao nhiêu đồng?",
+    "expected_answer": "Không đủ bằng chứng trong tài liệu để xác định giá bán lẻ giấy dó khổ A4 tại Yên Thái năm 2025.",
+    "gold": [],
+    "absence_check": "Trợ lý đã đọc toàn bộ nguồn Giấy dó. Tài liệu không cung cấp giá bán giấy dó khổ A4 tại Yên Thái năm 2025. Tìm 2025, giá bán và bảng giá trên toàn bộ 71 chunk không có kết quả.",
+    "review_status": "ai_reviewed"
+  }
+]

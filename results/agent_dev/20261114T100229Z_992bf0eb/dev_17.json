@@ -1,0 +1,399 @@
+{
+  "query_id": "dev_17",
+  "split": "dev",
+  "question": "Giá bán lẻ một tờ giấy dó khổ A4 tại làng nghề Yên Thái năm 2025 là bao nhiêu đồng?",
+  "answerable": false,
+  "model": "gemini-3.8-flash",
+  "configuration": {
+    "method": "hybrid_rrf",
+    "candidate_k": 10,
+    "rrf_constant": 60,
+    "filters": null,
+    "max_searches": 3,
+    "top_k": 3,
+    "context_budget_chars": 6000
+  },
+  "result": {
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "giá bán lẻ một tờ giấy dó A4 làng nghề Yên Thái năm 2025",
+        "filter": null,
+        "results": [
+          {
+            "id": "1b815891b21b77bf64a1fdc7",
+            "text": "Ngày xưa, làng Đông Hồ có chợ tranh tấp nập dịp tháng Chạp (tháng 12 Âm lịch) với 5 phiên chợ vào các ngày 6, 11, 16, 21, 26. Trong mỗi phiên chợ có hàng nghìn, hàng triệu bức tranh các loại được mang ra bán cho lái buôn, hoặc bán lẻ cho các gia đình mua về làm tranh treo Tết để mang phú quý, vinh hoa cho nhà mình. Sau phiên chợ tranh cuối cùng (26/12 Âm lịch) những gia đình nào còn lại tranh đều bọc kín đem cất chờ đến mùa tranh năm sau mang ra chợ bán.\n\nHàng năm làng Hồ có hội làng vào rằm tháng 3 âm lịch. Trong hội làng có những nghi thức truyền thống như tế thần, thi mã, thi tranh rất vui vẻ. Làng còn có các làn điệu dân ca như:\n\nHỡi anh đi đường cái quan\n\nHỡi anh đi đường cái quan\n\nDừng chân ngắm cảnh mà tan nỗi sầu Mua tờ tranh điệp tươi màu\n\nMua tờ tranh điệp tươi màu\n\nMua đàn gà lợn thi nhau đẻ nhiều.\n\nHình ảnh",
+            "source_id": "tranh_dong_ho",
+            "source": "https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ",
+            "page": "tranh_dong_ho_u004",
+            "metadata": {
+              "painting_tradition": "dong_ho",
+              "title": "Tranh Đông Hồ",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Tranh_%C4%90%C3%B4ng_H%E1%BB%93&oldid=75711659",
+              "unit_start_char": 5372,
+              "source_text_path": "data/processed/tranh_dong_ho.txt",
+              "document_id": "tranh_dong_ho",
+              "source": "https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ",
+              "page": "tranh_dong_ho_u004",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 1405,
+              "unit_end_offset": 2235,
+              "document_start_char": 6777,
+              "document_end_char": 7607,
+              "char_count": 830
+            },
+            "score": 0.031544957774465976
+          },
+          {
+            "id": "c9fbc75b7a72a0e5afca7293",
+            "text": "Giấy dó là loại giấy được sản xuất từ vỏ những cây dó (như dó giấy , dó liệt ...), theo quy trình thủ công được truyền lại qua nhiều thế hệ ở một số làng nghề ở Việt Nam . Giấy được dùng cho vẽ tranh trong mỹ thuật dân gian Việt Nam , đặc biệt là để làm giấy điệp cho tranh Đông Hồ , hay lưu giữ các tài liệu , nhờ vào nhiều ưu điểm, nổi bật nhất là độ bền theo thời gian .\n\nSản xuất giấy dó",
+            "source_id": "giay_do",
+            "source": "https://vi.wikipedia.org/wiki/Giấy_dó",
+            "page": "giay_do_u001",
+            "metadata": {
+              "painting_tradition": "general",
+              "title": "Giấy dó",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Gi%E1%BA%A5y_d%C3%B3&oldid=74469469",
+              "unit_start_char": 0,
+              "source_text_path": "data/processed/giay_do.txt",
+              "document_id": "giay_do",
+              "source": "https://vi.wikipedia.org/wiki/Giấy_dó",
+              "page": "giay_do_u001",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 0,
+              "unit_end_offset": 391,
+              "document_start_char": 0,
+              "document_end_char": 391,
+              "char_count": 391
+            },
+            "score": 0.03149801587301587
+          },
+          {
+            "id": "27318f7b2ab071720b6c11d1",
+            "text": "Đĩa tuyến mật cao 1,5 - 2mm, hình chén mỏng, mép lượn sóng. Bầu hơi có cuống, phủ đầy lông; vòi ngắn; núm to, gần hình bán cầu. Quả khô không tự nở, hình trứng, dài 7mm; vỏ quả ngoài mỏng, phủ đầy lông màu vàng nhạt. Hạt hình thoi, dài 6mm, rộng 1,7mm. Cây dó giấy thường mọc ở vùng Hòa Bình, Phú Thọ, Yên Bái, Tuyên Quang, Sơn La, Lai Châu.\n\nCác loại giấy dó\n\nGiấy dó sản xuất tại làng An Cốc ( Hà Tây cũ) có bảy loại:\n\nGiấy phương\n\nGiấy trúc\n\nGiấy khay\n\nGiấy để tạo giấy sắc\n\nGiấy vua phê\n\nGiấy hành ri\n\nGiấy dó bìa\n\nTại Hà Nội :\n\nGiấy sắc (Nghĩa Đô)\n\nGiấy moi, giấy phèn làm từ nguyên liệu thô hơn, có mặt giấy khô ráp, sử dụng để gói hàng (Yên Thái)\n\nGiấy xề: làm từ các đầu mẩu vỏ dó bị loại bỏ (làng Kẻ Cót hay làng Cót)\n\nỨng dụng\n\nIn sách: ngày xưa người Việt in bằng công nghệ in giấy bản trên ván gỗ. Ngày nay, nhà thơ Nguyễn Duy sử dụng máy in phun để in trên giấy dó\n\nGhi chép: thích hợp với sử dụng bút lông\n\nVẽ tranh dân gian\n\nĐồ chơi Trung Thu\n\nVàng mã\n\nLàm quạt\n\nBao bì\n\nGiấy chống ẩm",
+            "source_id": "giay_do",
+            "source": "https://vi.wikipedia.org/wiki/Giấy_dó",
+            "page": "giay_do_u003",
+            "metadata": {
+              "painting_tradition": "general",
+              "title": "Giấy dó",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Gi%E1%BA%A5y_d%C3%B3&oldid=74469469",
+              "unit_start_char": 3079,
+              "source_text_path": "data/processed/giay_do.txt",
+              "document_id": "giay_do",
+              "source": "https://vi.wikipedia.org/wiki/Giấy_dó",
+              "page": "giay_do_u003",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 1873,
+              "unit_end_offset": 2872,
+              "document_start_char": 4952,
+              "document_end_char": 5951,
+              "char_count": 999
+            },
+            "score": 0.03125763125763126
+          }
+        ],
+        "context": "[1b815891b21b77bf64a1fdc7 | https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ | page tranh_dong_ho_u004]\nNgày xưa, làng Đông Hồ có chợ tranh tấp nập dịp tháng Chạp (tháng 12 Âm lịch) với 5 phiên chợ vào các ngày 6, 11, 16, 21, 26. Trong mỗi phiên chợ có hàng nghìn, hàng triệu bức tranh các loại được mang ra bán cho lái buôn, hoặc bán lẻ cho các gia đình mua về làm tranh treo Tết để mang phú quý, vinh hoa cho nhà mình. Sau phiên chợ tranh cuối cùng (26/12 Âm lịch) những gia đình nào còn lại tranh đều bọc kín đem cất chờ đến mùa tranh năm sau mang ra chợ bán.\n\nHàng năm làng Hồ có hội làng vào rằm tháng 3 âm lịch. Trong hội làng có những nghi thức truyền thống như tế thần, thi mã, thi tranh rất vui vẻ. Làng còn có các làn điệu dân ca như:\n\nHỡi anh đi đường cái quan\n\nHỡi anh đi đường cái quan\n\nDừng chân ngắm cảnh mà tan nỗi sầu Mua tờ tranh điệp tươi màu\n\nMua tờ tranh điệp tươi màu\n\nMua đàn gà lợn thi nhau đẻ nhiều.\n\nHình ảnh\n\n[c9fbc75b7a72a0e5afca7293 | https://vi.wikipedia.org/wiki/Giấy_dó | page giay_do_u001]\nGiấy dó là loại giấy được sản xuất từ vỏ những cây dó (như dó giấy , dó liệt ...), theo quy trình thủ công được truyền lại qua nhiều thế hệ ở một số làng nghề ở Việt Nam . Giấy được dùng cho vẽ tranh trong mỹ thuật dân gian Việt Nam , đặc biệt là để làm giấy điệp cho tranh Đông Hồ , hay lưu giữ các tài liệu , nhờ vào nhiều ưu điểm, nổi bật nhất là độ bền theo thời gian .\n\nSản xuất giấy dó\n\n[27318f7b2ab071720b6c11d1 | https://vi.wikipedia.org/wiki/Giấy_dó | page giay_do_u003]\nĐĩa tuyến mật cao 1,5 - 2mm, hình chén mỏng, mép lượn sóng. Bầu hơi có cuống, phủ đầy lông; vòi ngắn; núm to, gần hình bán cầu. Quả khô không tự nở, hình trứng, dài 7mm; vỏ quả ngoài mỏng, phủ đầy lông màu vàng nhạt. Hạt hình thoi, dài 6mm, rộng 1,7mm. Cây dó giấy thường mọc ở vùng Hòa Bình, Phú Thọ, Yên Bái, Tuyên Quang, Sơn La, Lai Châu.\n\nCác loại giấy dó\n\nGiấy dó sản xuất tại làng An Cốc ( Hà Tây cũ) có bảy loại:\n\nGiấy phương\n\nGiấy trúc\n\nGiấy khay\n\nGiấy để tạo giấy sắc\n\nGiấy vua phê\n\nGiấy hành ri\n\nGiấy dó bìa\n\nTại Hà Nội :\n\nGiấy sắc (Nghĩa Đô)\n\nGiấy moi, giấy phèn làm từ nguyên liệu thô hơn, có mặt giấy khô ráp, sử dụng để gói hàng (Yên Thái)\n\nGiấy xề: làm từ các đầu mẩu vỏ dó bị loại bỏ (làng Kẻ Cót hay làng Cót)\n\nỨng dụng\n\nIn sách: ngày xưa người Việt in bằng công nghệ in giấy bản trên ván gỗ. Ngày nay, nhà thơ Nguyễn Duy sử dụng máy in phun để in trên giấy dó\n\nGhi chép: thích hợp với sử dụng bút lông\n\nVẽ tranh dân gian\n\nĐồ chơi Trung Thu\n\nVàng mã\n\nLàm quạt\n\nBao bì\n\nGiấy chống ẩm",
+        "context_ids": [
+          "1b815891b21b77bf64a1fdc7",
+          "c9fbc75b7a72a0e5afca7293",
+          "27318f7b2ab071720b6c11d1"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "giá giấy dó Yên Thái",
+        "filter": null,
+        "results": [
+          {
+            "id": "c9fbc75b7a72a0e5afca7293",
+            "text": "Giấy dó là loại giấy được sản xuất từ vỏ những cây dó (như dó giấy , dó liệt ...), theo quy trình thủ công được truyền lại qua nhiều thế hệ ở một số làng nghề ở Việt Nam . Giấy được dùng cho vẽ tranh trong mỹ thuật dân gian Việt Nam , đặc biệt là để làm giấy điệp cho tranh Đông Hồ , hay lưu giữ các tài liệu , nhờ vào nhiều ưu điểm, nổi bật nhất là độ bền theo thời gian .\n\nSản xuất giấy dó",
+            "source_id": "giay_do",
+            "source": "https://vi.wikipedia.org/wiki/Giấy_dó",
+            "page": "giay_do_u001",
+            "metadata": {
+              "painting_tradition": "general",
+              "title": "Giấy dó",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Gi%E1%BA%A5y_d%C3%B3&oldid=74469469",
+              "unit_start_char": 0,
+              "source_text_path": "data/processed/giay_do.txt",
+              "document_id": "giay_do",
+              "source": "https://vi.wikipedia.org/wiki/Giấy_dó",
+              "page": "giay_do_u001",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 0,
+              "unit_end_offset": 391,
+              "document_start_char": 0,
+              "document_end_char": 391,
+              "char_count": 391
+            },
+            "score": 0.032018442622950824
+          },
+          {
+            "id": "27318f7b2ab071720b6c11d1",
+            "text": "Đĩa tuyến mật cao 1,5 - 2mm, hình chén mỏng, mép lượn sóng. Bầu hơi có cuống, phủ đầy lông; vòi ngắn; núm to, gần hình bán cầu. Quả khô không tự nở, hình trứng, dài 7mm; vỏ quả ngoài mỏng, phủ đầy lông màu vàng nhạt. Hạt hình thoi, dài 6mm, rộng 1,7mm. Cây dó giấy thường mọc ở vùng Hòa Bình, Phú Thọ, Yên Bái, Tuyên Quang, Sơn La, Lai Châu.\n\nCác loại giấy dó\n\nGiấy dó sản xuất tại làng An Cốc ( Hà Tây cũ) có bảy loại:\n\nGiấy phương\n\nGiấy trúc\n\nGiấy khay\n\nGiấy để tạo giấy sắc\n\nGiấy vua phê\n\nGiấy hành ri\n\nGiấy dó bìa\n\nTại Hà Nội :\n\nGiấy sắc (Nghĩa Đô)\n\nGiấy moi, giấy phèn làm từ nguyên liệu thô hơn, có mặt giấy khô ráp, sử dụng để gói hàng (Yên Thái)\n\nGiấy xề: làm từ các đầu mẩu vỏ dó bị loại bỏ (làng Kẻ Cót hay làng Cót)\n\nỨng dụng\n\nIn sách: ngày xưa người Việt in bằng công nghệ in giấy bản trên ván gỗ. Ngày nay, nhà thơ Nguyễn Duy sử dụng máy in phun để in trên giấy dó\n\nGhi chép: thích hợp với sử dụng bút lông\n\nVẽ tranh dân gian\n\nĐồ chơi Trung Thu\n\nVàng mã\n\nLàm quạt\n\nBao bì\n\nGiấy chống ẩm",
+            "source_id": "giay_do",
+            "source": "https://vi.wikipedia.org/wiki/Giấy_dó",
+            "page": "giay_do_u003",
+            "metadata": {
+              "painting_tradition": "general",
+              "title": "Giấy dó",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Gi%E1%BA%A5y_d%C3%B3&oldid=74469469",
+              "unit_start_char": 3079,
+              "source_text_path": "data/processed/giay_do.txt",
+              "document_id": "giay_do",
+              "source": "https://vi.wikipedia.org/wiki/Giấy_dó",
+              "page": "giay_do_u003",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 1873,
+              "unit_end_offset": 2872,
+              "document_start_char": 4952,
+              "document_end_char": 5951,
+              "char_count": 999
+            },
+            "score": 0.031746031746031744
+          },
+          {
+            "id": "631cd5c4ff1863828a6ec60c",
+            "text": "Tơ dó kết lại với nhau, như cái mạng nhện nhiều lớp, tạo nên tờ giấy dó. Sự kết mạng như vậy đã làm cho tờ giấy dó có độ xốp. Vì xốp nên giấy dó rất nhẹ và hút mực. Các công cụ sản xuất giấy dó hầu như bằng tre, gỗ và dùng ánh sáng tự nhiên để làm khô giấy. Giấy dó được sản xuất theo quy trình này không có độ axít nên tờ giấy dó có tuổi thọ rất cao. Từ việc ngày nay chúng ta còn lưu giữ được các bản sắc phong cổ trong một số di tích đình, đền, miếu thờ đã cho thấy: giấy dó có độ tuổi thọ tới hơn 500 năm. Tiếng chày giã dó đã đi vào ca dao: \"Gió đưa cành trúc la đà, tiếng chuông Trấn Vũ canh gà Thọ Xương. Mịt mù khói tỏa ngàn sương, Nhịp chày Yên Thái mặt gương Tây Hồ\". Phường Yên Thái ở bờ tây nam hồ Tây, tục gọi là kẻ Bưởi, từ thế kỷ 12 đã là nơi chính làm giấy dó dùng để viết hoặc in, gồm ba làng: Hồ Khẩu, Đông Xã, An Thái Thọ (do sáp nhập hai làng An Thái và Thọ An vào). Hai làng Hồ Khẩu và Đông Xã thì làm giấy dó khổ lớn hơn mà mịn mặt hơn dùng để làm tranh dân gian.",
+            "source_id": "giay_do",
+            "source": "https://vi.wikipedia.org/wiki/Giấy_dó",
+            "page": "giay_do_u002",
+            "metadata": {
+              "painting_tradition": "general",
+              "title": "Giấy dó",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Gi%E1%BA%A5y_d%C3%B3&oldid=74469469",
+              "unit_start_char": 1517,
+              "source_text_path": "data/processed/giay_do.txt",
+              "document_id": "giay_do",
+              "source": "https://vi.wikipedia.org/wiki/Giấy_dó",
+              "page": "giay_do_u002",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 1,
+              "unit_end_offset": 986,
+              "document_start_char": 1518,
+              "document_end_char": 2503,
+              "char_count": 985
+            },
+            "score": 0.01639344262295082
+          }
+        ],
+        "context": "[1b815891b21b77bf64a1fdc7 | https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ | page tranh_dong_ho_u004]\nNgày xưa, làng Đông Hồ có chợ tranh tấp nập dịp tháng Chạp (tháng 12 Âm lịch) với 5 phiên chợ vào các ngày 6, 11, 16, 21, 26. Trong mỗi phiên chợ có hàng nghìn, hàng triệu bức tranh các loại được mang ra bán cho lái buôn, hoặc bán lẻ cho các gia đình mua về làm tranh treo Tết để mang phú quý, vinh hoa cho nhà mình. Sau phiên chợ tranh cuối cùng (26/12 Âm lịch) những gia đình nào còn lại tranh đều bọc kín đem cất chờ đến mùa tranh năm sau mang ra chợ bán.\n\nHàng năm làng Hồ có hội làng vào rằm tháng 3 âm lịch. Trong hội làng có những nghi thức truyền thống như tế thần, thi mã, thi tranh rất vui vẻ. Làng còn có các làn điệu dân ca như:\n\nHỡi anh đi đường cái quan\n\nHỡi anh đi đường cái quan\n\nDừng chân ngắm cảnh mà tan nỗi sầu Mua tờ tranh điệp tươi màu\n\nMua tờ tranh điệp tươi màu\n\nMua đàn gà lợn thi nhau đẻ nhiều.\n\nHình ảnh\n\n[c9fbc75b7a72a0e5afca7293 | https://vi.wikipedia.org/wiki/Giấy_dó | page giay_do_u001]\nGiấy dó là loại giấy được sản xuất từ vỏ những cây dó (như dó giấy , dó liệt ...), theo quy trình thủ công được truyền lại qua nhiều thế hệ ở một số làng nghề ở Việt Nam . Giấy được dùng cho vẽ tranh trong mỹ thuật dân gian Việt Nam , đặc biệt là để làm giấy điệp cho tranh Đông Hồ , hay lưu giữ các tài liệu , nhờ vào nhiều ưu điểm, nổi bật nhất là độ bền theo thời gian .\n\nSản xuất giấy dó\n\n[27318f7b2ab071720b6c11d1 | https://vi.wikipedia.org/wiki/Giấy_dó | page giay_do_u003]\nĐĩa tuyến mật cao 1,5 - 2mm, hình chén mỏng, mép lượn sóng. Bầu hơi có cuống, phủ đầy lông; vòi ngắn; núm to, gần hình bán cầu. Quả khô không tự nở, hình trứng, dài 7mm; vỏ quả ngoài mỏng, phủ đầy lông màu vàng nhạt. Hạt hình thoi, dài 6mm, rộng 1,7mm. Cây dó giấy thường mọc ở vùng Hòa Bình, Phú Thọ, Yên Bái, Tuyên Quang, Sơn La, Lai Châu.\n\nCác loại giấy dó\n\nGiấy dó sản xuất tại làng An Cốc ( Hà Tây cũ) có bảy loại:\n\nGiấy phương\n\nGiấy trúc\n\nGiấy khay\n\nGiấy để tạo giấy sắc\n\nGiấy vua phê\n\nGiấy hành ri\n\nGiấy dó bìa\n\nTại Hà Nội :\n\nGiấy sắc (Nghĩa Đô)\n\nGiấy moi, giấy phèn làm từ nguyên liệu thô hơn, có mặt giấy khô ráp, sử dụng để gói hàng (Yên Thái)\n\nGiấy xề: làm từ các đầu mẩu vỏ dó bị loại bỏ (làng Kẻ Cót hay làng Cót)\n\nỨng dụng\n\nIn sách: ngày xưa người Việt in bằng công nghệ in giấy bản trên ván gỗ. Ngày nay, nhà thơ Nguyễn Duy sử dụng máy in phun để in trên giấy dó\n\nGhi chép: thích hợp với sử dụng bút lông\n\nVẽ tranh dân gian\n\nĐồ chơi Trung Thu\n\nVàng mã\n\nLàm quạt\n\nBao bì\n\nGiấy chống ẩm\n\n[631cd5c4ff1863828a6ec60c | https://vi.wikipedia.org/wiki/Giấy_dó | page giay_do_u002]\nTơ dó kết lại với nhau, như cái mạng nhện nhiều lớp, tạo nên tờ giấy dó. Sự kết mạng như vậy đã làm cho tờ giấy dó có độ xốp. Vì xốp nên giấy dó rất nhẹ và hút mực. Các công cụ sản xuất giấy dó hầu như bằng tre, gỗ và dùng ánh sáng tự nhiên để làm khô giấy. Giấy dó được sản xuất theo quy trình này không có độ axít nên tờ giấy dó có tuổi thọ rất cao. Từ việc ngày nay chúng ta còn lưu giữ được các bản sắc phong cổ trong một số di tích đình, đền, miếu thờ đã cho thấy: giấy dó có độ tuổi thọ tới hơn 500 năm. Tiếng chày giã dó đã đi vào ca dao: \"Gió đưa cành trúc la đà, tiếng chuông Trấn Vũ canh gà Thọ Xương. Mịt mù khói tỏa ngàn sương, Nhịp chày Yên Thái mặt gương Tây Hồ\". Phường Yên Thái ở bờ tây nam hồ Tây, tục gọi là kẻ Bưởi, từ thế kỷ 12 đã là nơi chính làm giấy dó dùng để viết hoặc in, gồm ba làng: Hồ Khẩu, Đông Xã, An Thái Thọ (do sáp nhập hai làng An Thái và Thọ An vào). Hai làng Hồ Khẩu và Đông Xã thì làm giấy dó khổ lớn hơn mà mịn mặt hơn dùng để làm tranh dân gian.",
+        "context_ids": [
+          "1b815891b21b77bf64a1fdc7",
+          "c9fbc75b7a72a0e5afca7293",
+          "27318f7b2ab071720b6c11d1",
+          "631cd5c4ff1863828a6ec60c"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "giấy dó Yên Thái khôi phục bảo tồn làng nghề",
+        "filter": null,
+        "results": [
+          {
+            "id": "c9fbc75b7a72a0e5afca7293",
+            "text": "Giấy dó là loại giấy được sản xuất từ vỏ những cây dó (như dó giấy , dó liệt ...), theo quy trình thủ công được truyền lại qua nhiều thế hệ ở một số làng nghề ở Việt Nam . Giấy được dùng cho vẽ tranh trong mỹ thuật dân gian Việt Nam , đặc biệt là để làm giấy điệp cho tranh Đông Hồ , hay lưu giữ các tài liệu , nhờ vào nhiều ưu điểm, nổi bật nhất là độ bền theo thời gian .\n\nSản xuất giấy dó",
+            "source_id": "giay_do",
+            "source": "https://vi.wikipedia.org/wiki/Giấy_dó",
+            "page": "giay_do_u001",
+            "metadata": {
+              "painting_tradition": "general",
+              "title": "Giấy dó",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Gi%E1%BA%A5y_d%C3%B3&oldid=74469469",
+              "unit_start_char": 0,
+              "source_text_path": "data/processed/giay_do.txt",
+              "document_id": "giay_do",
+              "source": "https://vi.wikipedia.org/wiki/Giấy_dó",
+              "page": "giay_do_u001",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 0,
+              "unit_end_offset": 391,
+              "document_start_char": 0,
+              "document_end_char": 391,
+              "char_count": 391
+            },
+            "score": 0.03125763125763126
+          },
+          {
+            "id": "37ab15a09a03addbc9165a7e",
+            "text": "Giấy dó Yên Thái đã được xuất khẩu sang nhiều quốc gia trên thế giới và được bạn hàng ưa chuộng. Các họa sĩ người Pháp đã sử dụng giấy dó Yên Thái (khổ lớn) để vẽ tranh bằng mực tàu theo phương pháp tranh cổ điển phương Đông . Một vài bảo tàng ở châu Âu cũng đã dùng giấy dó để lót bồi phía sau tranh vẽ. Với đặc tính chống ẩm rất cao, giấy dó giúp cho các tác phẩm nghệ thuật không bị ẩm mốc .\n\nĐộ bền :\n\nTại các Trung tâm Lưu trữ Quốc gia , trong số những tài liệu giấy, thì tài liệu giấy dó có tuổi thọ cao nhất. Các tài liệu giấy dó (điển hình là các sắc phong tại các đình, đền) là những loại tài liệu được sản sinh lâu đời nhất, từ khi các phương tiện bảo quản chưa được phát triển.\n\nBắt màu, hút ẩm và thoát ẩm : Vì xốp nên giấy dó rất dễ bắt màu khi viết, in\n\nCách nhiệt, cách âm, thẩm âm, cháy kiệt : Cũng vì xốp nên giấy dó cách nhiệt, cách âm tốt, do có cấu trúc dạng sợi đa chiều\n\nLịch sử sản xuất giấy dó\n\nCây dó giấy",
+            "source_id": "giay_do",
+            "source": "https://vi.wikipedia.org/wiki/Giấy_dó",
+            "page": "giay_do_u003",
+            "metadata": {
+              "painting_tradition": "general",
+              "title": "Giấy dó",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Gi%E1%BA%A5y_d%C3%B3&oldid=74469469",
+              "unit_start_char": 3079,
+              "source_text_path": "data/processed/giay_do.txt",
+              "document_id": "giay_do",
+              "source": "https://vi.wikipedia.org/wiki/Giấy_dó",
+              "page": "giay_do_u003",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 2,
+              "unit_end_offset": 932,
+              "document_start_char": 3081,
+              "document_end_char": 4011,
+              "char_count": 930
+            },
+            "score": 0.01639344262295082
+          },
+          {
+            "id": "612104619ddacbe4e1f4421f",
+            "text": "Còn \"làng Mái có lịch có lề\" thì nghĩa là gì? Tục ngữ Việt Nam có câu: giấy rách phải giữ lấy lề . Chữ \"lề\" ở đây tượng trưng cho những quy tắc đạo đức của người xưa, rất trọng danh dự, khí tiết. Còn dân làng Mái, dân nghệ thuật rất trọng lời ăn tiếng nói. Không như nhiều làng quê khác, người dân làng Hồ, nhất là phụ nữ, ăn nói rất lịch lãm, trên dưới thưa gửi rất rõ ràng. Người làng kể rằng kể cả từ xưa, rất hiếm khi trong làng có tiếng người mắng chửi nhau.\n\nDo công nghệ phát triển, tranh dân gian làng Hồ bây giờ không tiêu thụ nhiều như trước. Qua nhiều thế kỷ, 17 dòng họ đã quy tụ về làng, vốn xưa tất cả đều làm tranh. Nhưng đến nay, dân làng Hồ hiện chủ yếu sống bằng nghề làm vàng mã . Hiện nay chỉ còn hai gia đình nghệ nhân Nguyễn Đăng Chế và Nguyễn Hữu Sam cùng con cháu là theo nghề tranh, gìn giữ di sản tranh Đông Hồ.",
+            "source_id": "tranh_dong_ho",
+            "source": "https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ",
+            "page": "tranh_dong_ho_u004",
+            "metadata": {
+              "painting_tradition": "dong_ho",
+              "title": "Tranh Đông Hồ",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Tranh_%C4%90%C3%B4ng_H%E1%BB%93&oldid=75711659",
+              "unit_start_char": 5372,
+              "source_text_path": "data/processed/tranh_dong_ho.txt",
+              "document_id": "tranh_dong_ho",
+              "source": "https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ",
+              "page": "tranh_dong_ho_u004",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 566,
+              "unit_end_offset": 1403,
+              "document_start_char": 5938,
+              "document_end_char": 6775,
+              "char_count": 837
+            },
+            "score": 0.01639344262295082
+          }
+        ],
+        "context": "[1b815891b21b77bf64a1fdc7 | https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ | page tranh_dong_ho_u004]\nNgày xưa, làng Đông Hồ có chợ tranh tấp nập dịp tháng Chạp (tháng 12 Âm lịch) với 5 phiên chợ vào các ngày 6, 11, 16, 21, 26. Trong mỗi phiên chợ có hàng nghìn, hàng triệu bức tranh các loại được mang ra bán cho lái buôn, hoặc bán lẻ cho các gia đình mua về làm tranh treo Tết để mang phú quý, vinh hoa cho nhà mình. Sau phiên chợ tranh cuối cùng (26/12 Âm lịch) những gia đình nào còn lại tranh đều bọc kín đem cất chờ đến mùa tranh năm sau mang ra chợ bán.\n\nHàng năm làng Hồ có hội làng vào rằm tháng 3 âm lịch. Trong hội làng có những nghi thức truyền thống như tế thần, thi mã, thi tranh rất vui vẻ. Làng còn có các làn điệu dân ca như:\n\nHỡi anh đi đường cái quan\n\nHỡi anh đi đường cái quan\n\nDừng chân ngắm cảnh mà tan nỗi sầu Mua tờ tranh điệp tươi màu\n\nMua tờ tranh điệp tươi màu\n\nMua đàn gà lợn thi nhau đẻ nhiều.\n\nHình ảnh\n\n[c9fbc75b7a72a0e5afca7293 | https://vi.wikipedia.org/wiki/Giấy_dó | page giay_do_u001]\nGiấy dó là loại giấy được sản xuất từ vỏ những cây dó (như dó giấy , dó liệt ...), theo quy trình thủ công được truyền lại qua nhiều thế hệ ở một số làng nghề ở Việt Nam . Giấy được dùng cho vẽ tranh trong mỹ thuật dân gian Việt Nam , đặc biệt là để làm giấy điệp cho tranh Đông Hồ , hay lưu giữ các tài liệu , nhờ vào nhiều ưu điểm, nổi bật nhất là độ bền theo thời gian .\n\nSản xuất giấy dó\n\n[27318f7b2ab071720b6c11d1 | https://vi.wikipedia.org/wiki/Giấy_dó | page giay_do_u003]\nĐĩa tuyến mật cao 1,5 - 2mm, hình chén mỏng, mép lượn sóng. Bầu hơi có cuống, phủ đầy lông; vòi ngắn; núm to, gần hình bán cầu. Quả khô không tự nở, hình trứng, dài 7mm; vỏ quả ngoài mỏng, phủ đầy lông màu vàng nhạt. Hạt hình thoi, dài 6mm, rộng 1,7mm. Cây dó giấy thường mọc ở vùng Hòa Bình, Phú Thọ, Yên Bái, Tuyên Quang, Sơn La, Lai Châu.\n\nCác loại giấy dó\n\nGiấy dó sản xuất tại làng An Cốc ( Hà Tây cũ) có bảy loại:\n\nGiấy phương\n\nGiấy trúc\n\nGiấy khay\n\nGiấy để tạo giấy sắc\n\nGiấy vua phê\n\nGiấy hành ri\n\nGiấy dó bìa\n\nTại Hà Nội :\n\nGiấy sắc (Nghĩa Đô)\n\nGiấy moi, giấy phèn làm từ nguyên liệu thô hơn, có mặt giấy khô ráp, sử dụng để gói hàng (Yên Thái)\n\nGiấy xề: làm từ các đầu mẩu vỏ dó bị loại bỏ (làng Kẻ Cót hay làng Cót)\n\nỨng dụng\n\nIn sách: ngày xưa người Việt in bằng công nghệ in giấy bản trên ván gỗ. Ngày nay, nhà thơ Nguyễn Duy sử dụng máy in phun để in trên giấy dó\n\nGhi chép: thích hợp với sử dụng bút lông\n\nVẽ tranh dân gian\n\nĐồ chơi Trung Thu\n\nVàng mã\n\nLàm quạt\n\nBao bì\n\nGiấy chống ẩm\n\n[631cd5c4ff1863828a6ec60c | https://vi.wikipedia.org/wiki/Giấy_dó | page giay_do_u002]\nTơ dó kết lại với nhau, như cái mạng nhện nhiều lớp, tạo nên tờ giấy dó. Sự kết mạng như vậy đã làm cho tờ giấy dó có độ xốp. Vì xốp nên giấy dó rất nhẹ và hút mực. Các công cụ sản xuất giấy dó hầu như bằng tre, gỗ và dùng ánh sáng tự nhiên để làm khô giấy. Giấy dó được sản xuất theo quy trình này không có độ axít nên tờ giấy dó có tuổi thọ rất cao. Từ việc ngày nay chúng ta còn lưu giữ được các bản sắc phong cổ trong một số di tích đình, đền, miếu thờ đã cho thấy: giấy dó có độ tuổi thọ tới hơn 500 năm. Tiếng chày giã dó đã đi vào ca dao: \"Gió đưa cành trúc la đà, tiếng chuông Trấn Vũ canh gà Thọ Xương. Mịt mù khói tỏa ngàn sương, Nhịp chày Yên Thái mặt gương Tây Hồ\". Phường Yên Thái ở bờ tây nam hồ Tây, tục gọi là kẻ Bưởi, từ thế kỷ 12 đã là nơi chính làm giấy dó dùng để viết hoặc in, gồm ba làng: Hồ Khẩu, Đông Xã, An Thái Thọ (do sáp nhập hai làng An Thái và Thọ An vào). Hai làng Hồ Khẩu và Đông Xã thì làm giấy dó khổ lớn hơn mà mịn mặt hơn dùng để làm tranh dân gian.\n\n[37ab15a09a03addbc9165a7e | https://vi.wikipedia.org/wiki/Giấy_dó | page giay_do_u003]\nGiấy dó Yên Thái đã được xuất khẩu sang nhiều quốc gia trên thế giới và được bạn hàng ưa chuộng. Các họa sĩ người Pháp đã sử dụng giấy dó Yên Thái (khổ lớn) để vẽ tranh bằng mực tàu theo phương pháp tranh cổ điển phương Đông . Một vài bảo tàng ở châu Âu cũng đã dùng giấy dó để lót bồi phía sau tranh vẽ. Với đặc tính chống ẩm rất cao, giấy dó giúp cho các tác phẩm nghệ thuật không bị ẩm mốc .\n\nĐộ bền :\n\nTại các Trung tâm Lưu trữ Quốc gia , trong số những tài liệu giấy, thì tài liệu giấy dó có tuổi thọ cao nhất. Các tài liệu giấy dó (điển hình là các sắc phong tại các đình, đền) là những loại tài liệu được sản sinh lâu đời nhất, từ khi các phương tiện bảo quản chưa được phát triển.\n\nBắt màu, hút ẩm và thoát ẩm : Vì xốp nên giấy dó rất dễ bắt màu khi viết, in\n\nCách nhiệt, cách âm, thẩm âm, cháy kiệt : Cũng vì xốp nên giấy dó cách nhiệt, cách âm tốt, do có cấu trúc dạng sợi đa chiều\n\nLịch sử sản xuất giấy dó\n\nCây dó giấy\n\n[612104619ddacbe4e1f4421f | https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ | page tranh_dong_ho_u004]\nCòn \"làng Mái có lịch có lề\" thì nghĩa là gì? Tục ngữ Việt Nam có câu: giấy rách phải giữ lấy lề . Chữ \"lề\" ở đây tượng trưng cho những quy tắc đạo đức của người xưa, rất trọng danh dự, khí tiết. Còn dân làng Mái, dân nghệ thuật rất trọng lời ăn tiếng nói. Không như nhiều làng quê khác, người dân làng Hồ, nhất là phụ nữ, ăn nói rất lịch lãm, trên dưới thưa gửi rất rõ ràng. Người làng kể rằng kể cả từ xưa, rất hiếm khi trong làng có tiếng người mắng chửi nhau.\n\nDo công nghệ phát triển, tranh dân gian làng Hồ bây giờ không tiêu thụ nhiều như trước. Qua nhiều thế kỷ, 17 dòng họ đã quy tụ về làng, vốn xưa tất cả đều làm tranh. Nhưng đến nay, dân làng Hồ hiện chủ yếu sống bằng nghề làm vàng mã . Hiện nay chỉ còn hai gia đình nghệ nhân Nguyễn Đăng Chế và Nguyễn Hữu Sam cùng con cháu là theo nghề tranh, gìn giữ di sản tranh Đông Hồ.",
+        "context_ids": [
+          "1b815891b21b77bf64a1fdc7",
+          "c9fbc75b7a72a0e5afca7293",
+          "27318f7b2ab071720b6c11d1",
+          "631cd5c4ff1863828a6ec60c",
+          "37ab15a09a03addbc9165a7e",
+          "612104619ddacbe4e1f4421f"
+        ]
+      },
+      {
+        "event": "search_limit"
+      }
+    ]
+  },
+  "final_context": "[1b815891b21b77bf64a1fdc7 | https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ | page tranh_dong_ho_u004]\nNgày xưa, làng Đông Hồ có chợ tranh tấp nập dịp tháng Chạp (tháng 12 Âm lịch) với 5 phiên chợ vào các ngày 6, 11, 16, 21, 26. Trong mỗi phiên chợ có hàng nghìn, hàng triệu bức tranh các loại được mang ra bán cho lái buôn, hoặc bán lẻ cho các gia đình mua về làm tranh treo Tết để mang phú quý, vinh hoa cho nhà mình. Sau phiên chợ tranh cuối cùng (26/12 Âm lịch) những gia đình nào còn lại tranh đều bọc kín đem cất chờ đến mùa tranh năm sau mang ra chợ bán.\n\nHàng năm làng Hồ có hội làng vào rằm tháng 3 âm lịch. Trong hội làng có những nghi thức truyền thống như tế thần, thi mã, thi tranh rất vui vẻ. Làng còn có các làn điệu dân ca như:\n\nHỡi anh đi đường cái quan\n\nHỡi anh đi đường cái quan\n\nDừng chân ngắm cảnh mà tan nỗi sầu Mua tờ tranh điệp tươi màu\n\nMua tờ tranh điệp tươi màu\n\nMua đàn gà lợn thi nhau đẻ nhiều.\n\nHình ảnh\n\n[c9fbc75b7a72a0e5afca7293 | https://vi.wikipedia.org/wiki/Giấy_dó | page giay_do_u001]\nGiấy dó là loại giấy được sản xuất từ vỏ những cây dó (như dó giấy , dó liệt ...), theo quy trình thủ công được truyền lại qua nhiều thế hệ ở một số làng nghề ở Việt Nam . Giấy được dùng cho vẽ tranh trong mỹ thuật dân gian Việt Nam , đặc biệt là để làm giấy điệp cho tranh Đông Hồ , hay lưu giữ các tài liệu , nhờ vào nhiều ưu điểm, nổi bật nhất là độ bền theo thời gian .\n\nSản xuất giấy dó\n\n[27318f7b2ab071720b6c11d1 | https://vi.wikipedia.org/wiki/Giấy_dó | page giay_do_u003]\nĐĩa tuyến mật cao 1,5 - 2mm, hình chén mỏng, mép lượn sóng. Bầu hơi có cuống, phủ đầy lông; vòi ngắn; núm to, gần hình bán cầu. Quả khô không tự nở, hình trứng, dài 7mm; vỏ quả ngoài mỏng, phủ đầy lông màu vàng nhạt. Hạt hình thoi, dài 6mm, rộng 1,7mm. Cây dó giấy thường mọc ở vùng Hòa Bình, Phú Thọ, Yên Bái, Tuyên Quang, Sơn La, Lai Châu.\n\nCác loại giấy dó\n\nGiấy dó sản xuất tại làng An Cốc ( Hà Tây cũ) có bảy loại:\n\nGiấy phương\n\nGiấy trúc\n\nGiấy khay\n\nGiấy để tạo giấy sắc\n\nGiấy vua phê\n\nGiấy hành ri\n\nGiấy dó bìa\n\nTại Hà Nội :\n\nGiấy sắc (Nghĩa Đô)\n\nGiấy moi, giấy phèn làm từ nguyên liệu thô hơn, có mặt giấy khô ráp, sử dụng để gói hàng (Yên Thái)\n\nGiấy xề: làm từ các đầu mẩu vỏ dó bị loại bỏ (làng Kẻ Cót hay làng Cót)\n\nỨng dụng\n\nIn sách: ngày xưa người Việt in bằng công nghệ in giấy bản trên ván gỗ. Ngày nay, nhà thơ Nguyễn Duy sử dụng máy in phun để in trên giấy dó\n\nGhi chép: thích hợp với sử dụng bút lông\n\nVẽ tranh dân gian\n\nĐồ chơi Trung Thu\n\nVàng mã\n\nLàm quạt\n\nBao bì\n\nGiấy chống ẩm\n\n[631cd5c4ff1863828a6ec60c | https://vi.wikipedia.org/wiki/Giấy_dó | page giay_do_u002]\nTơ dó kết lại với nhau, như cái mạng nhện nhiều lớp, tạo nên tờ giấy dó. Sự kết mạng như vậy đã làm cho tờ giấy dó có độ xốp. Vì xốp nên giấy dó rất nhẹ và hút mực. Các công cụ sản xuất giấy dó hầu như bằng tre, gỗ và dùng ánh sáng tự nhiên để làm khô giấy. Giấy dó được sản xuất theo quy trình này không có độ axít nên tờ giấy dó có tuổi thọ rất cao. Từ việc ngày nay chúng ta còn lưu giữ được các bản sắc phong cổ trong một số di tích đình, đền, miếu thờ đã cho thấy: giấy dó có độ tuổi thọ tới hơn 500 năm. Tiếng chày giã dó đã đi vào ca dao: \"Gió đưa cành trúc la đà, tiếng chuông Trấn Vũ canh gà Thọ Xương. Mịt mù khói tỏa ngàn sương, Nhịp chày Yên Thái mặt gương Tây Hồ\". Phường Yên Thái ở bờ tây nam hồ Tây, tục gọi là kẻ Bưởi, từ thế kỷ 12 đã là nơi chính làm giấy dó dùng để viết hoặc in, gồm ba làng: Hồ Khẩu, Đông Xã, An Thái Thọ (do sáp nhập hai làng An Thái và Thọ An vào). Hai làng Hồ Khẩu và Đông Xã thì làm giấy dó khổ lớn hơn mà mịn mặt hơn dùng để làm tranh dân gian.\n\n[37ab15a09a03addbc9165a7e | https://vi.wikipedia.org/wiki/Giấy_dó | page giay_do_u003]\nGiấy dó Yên Thái đã được xuất khẩu sang nhiều quốc gia trên thế giới và được bạn hàng ưa chuộng. Các họa sĩ người Pháp đã sử dụng giấy dó Yên Thái (khổ lớn) để vẽ tranh bằng mực tàu theo phương pháp tranh cổ điển phương Đông . Một vài bảo tàng ở châu Âu cũng đã dùng giấy dó để lót bồi phía sau tranh vẽ. Với đặc tính chống ẩm rất cao, giấy dó giúp cho các tác phẩm nghệ thuật không bị ẩm mốc .\n\nĐộ bền :\n\nTại các Trung tâm Lưu trữ Quốc gia , trong số những tài liệu giấy, thì tài liệu giấy dó có tuổi thọ cao nhất. Các tài liệu giấy dó (điển hình là các sắc phong tại các đình, đền) là những loại tài liệu được sản sinh lâu đời nhất, từ khi các phương tiện bảo quản chưa được phát triển.\n\nBắt màu, hút ẩm và thoát ẩm : Vì xốp nên giấy dó rất dễ bắt màu khi viết, in\n\nCách nhiệt, cách âm, thẩm âm, cháy kiệt : Cũng vì xốp nên giấy dó cách nhiệt, cách âm tốt, do có cấu trúc dạng sợi đa chiều\n\nLịch sử sản xuất giấy dó\n\nCây dó giấy\n\n[612104619ddacbe4e1f4421f | https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ | page tranh_dong_ho_u004]\nCòn \"làng Mái có lịch có lề\" thì nghĩa là gì? Tục ngữ Việt Nam có câu: giấy rách phải giữ lấy lề . Chữ \"lề\" ở đây tượng trưng cho những quy tắc đạo đức của người xưa, rất trọng danh dự, khí tiết. Còn dân làng Mái, dân nghệ thuật rất trọng lời ăn tiếng nói. Không như nhiều làng quê khác, người dân làng Hồ, nhất là phụ nữ, ăn nói rất lịch lãm, trên dưới thưa gửi rất rõ ràng. Người làng kể rằng kể cả từ xưa, rất hiếm khi trong làng có tiếng người mắng chửi nhau.\n\nDo công nghệ phát triển, tranh dân gian làng Hồ bây giờ không tiêu thụ nhiều như trước. Qua nhiều thế kỷ, 17 dòng họ đã quy tụ về làng, vốn xưa tất cả đều làm tranh. Nhưng đến nay, dân làng Hồ hiện chủ yếu sống bằng nghề làm vàng mã . Hiện nay chỉ còn hai gia đình nghệ nhân Nguyễn Đăng Chế và Nguyễn Hữu Sam cùng con cháu là theo nghề tranh, gìn giữ di sản tranh Đông Hồ.",
+  "context_ids": [
+    "1b815891b21b77bf64a1fdc7",
+    "c9fbc75b7a72a0e5afca7293",
+    "27318f7b2ab071720b6c11d1",
+    "631cd5c4ff1863828a6ec60c",
+    "37ab15a09a03addbc9165a7e",
+    "612104619ddacbe4e1f4421f"
+  ],
+  "context_evidence_hit": null,
+  "model_calls": [
+    {
+      "model": "gemini-3.8-flash",
+      "elapsed_seconds": 2.8017951999991055,
+      "usage": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 30,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 242,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 242
+          }
+        ],
+        "thoughts_token_count": 73,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 345,
+        "traffic_type": null
+      },
+      "raw_response": "{\"action\": \"search\", \"query\": \"giá bán lẻ một tờ giấy dó A4 làng nghề Yên Thái năm 2025\"}"
+    },
+    {
+      "model": "gemini-3.8-flash",
+      "elapsed_seconds": 3.4720613000008598,
+      "usage": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 17,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 1301,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 1301
+          }
+        ],
+        "thoughts_token_count": 159,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 1477,
+        "traffic_type": null
+      },
+      "raw_response": "{\"action\": \"search\", \"query\": \"giá giấy dó Yên Thái\"}"
+    },
+    {
+      "model": "gemini-3.8-flash",
+      "elapsed_seconds": 3.020735900001455,
+      "usage": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 23,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 1687,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 1687
+          }
+        ],
+        "thoughts_token_count": 114,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 1824,
+        "traffic_type": null
+      },
+      "raw_response": "{\"action\": \"search\", \"query\": \"giấy dó Yên Thái khôi phục bảo tồn làng nghề\"}"
+    },
+    {
+      "model": "gemini-3.8-flash",
+      "elapsed_seconds": 3.077457299999878,
+      "usage": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 21,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 2362,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 2362
+          }
+        ],
+        "thoughts_token_count": 187,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 2570,
+        "traffic_type": null
+      },
+      "raw_response": "{\"action\": \"search\", \"query\": \"giá bán giấy dó khổ A4 Yên Thái\"}"
+    }
+  ],
+  "elapsed_seconds_excluding_setup": 12.439445699999851
+}

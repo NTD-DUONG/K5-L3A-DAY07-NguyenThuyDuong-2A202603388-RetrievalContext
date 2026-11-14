@@ -1,0 +1,176 @@
+{
+  "query_id": "dev_09",
+  "split": "dev",
+  "question": "Làng Đông Hồ xưa còn có tên gọi nào?",
+  "answerable": true,
+  "model": "gemini-3.8-flash",
+  "configuration": {
+    "method": "hybrid_rrf",
+    "candidate_k": 10,
+    "rrf_constant": 60,
+    "filters": {
+      "painting_tradition": "dong_ho"
+    },
+    "max_searches": 3,
+    "top_k": 3,
+    "context_budget_chars": 6000
+  },
+  "result": {
+    "status": "answered",
+    "answer": "Làng Đông Hồ xưa còn được gọi là làng Mái (hoặc làng Hồ) [672625a6f6ccef231a73a959].",
+    "citations": [
+      "672625a6f6ccef231a73a959"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Làng Đông Hồ tên gọi xưa",
+        "filter": {
+          "painting_tradition": "dong_ho"
+        },
+        "results": [
+          {
+            "id": "672625a6f6ccef231a73a959",
+            "text": "Rẽ trái thêm 2 km là đến làng Hồ. Cũng có thể đi hết phố Hồ, lên đê rẽ trái, gặp điếm canh đê thứ hai sẽ có biển chỉ dẫn đường xuống làng Đông Hồ.\n\nLàng Đông Hồ xưa còn gọi là làng Mái. Các cụ làng Đông Hồ vẫn truyền lại mấy câu ca rằng:\n\nHỡi cô thắt lưng bao xanh\n\nCó về làng Mái với anh thì về\n\nLàng Mái có lịch có lề\n\nCó sông tắm mát có nghề làm tranh.\n\nLàng Đông Hồ nằm ngay sát bờ sông Đuống, ngày xưa chỉ cách sông một con đê, đó là ý trong câu \"Có sông tắm mát có nghề làm tranh\". Ngày nay, do sự bồi lấp của dòng sông nên từ đê ra đến mép nước giờ khá xa.",
+            "source_id": "tranh_dong_ho",
+            "source": "https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ",
+            "page": "tranh_dong_ho_u004",
+            "metadata": {
+              "painting_tradition": "dong_ho",
+              "title": "Tranh Đông Hồ",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Tranh_%C4%90%C3%B4ng_H%E1%BB%93&oldid=75711659",
+              "unit_start_char": 5372,
+              "source_text_path": "data/processed/tranh_dong_ho.txt",
+              "document_id": "tranh_dong_ho",
+              "source": "https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ",
+              "page": "tranh_dong_ho_u004",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 1,
+              "unit_end_offset": 564,
+              "document_start_char": 5373,
+              "document_end_char": 5936,
+              "char_count": 563
+            },
+            "score": 0.03278688524590164
+          },
+          {
+            "id": "190f37c725471af618ff420d",
+            "text": "Tranh Đông Hồ , hay tên đầy đủ là tranh khắc gỗ Đông Hồ , là một dòng tranh dân gian Việt Nam với xuất xứ từ làng Đông Hồ (phường Thuận Thành , thành phố Bắc Ninh ). Trước kia tranh được bán ra chủ yếu phục vụ cho dịp Tết Nguyên Đán , người dân nông thôn mua tranh về dán trên tường, hết năm lại lột bỏ, dùng tranh mới.\n\nNghề làm tranh khắc gỗ dân gian Đông Hồ được UNESCO ghi danh là Di sản văn hóa phi vật thể cần bảo vệ khẩn cấp , đồng thời là Di sản văn hóa phi vật thể cấp Quốc gia.\n\nThơ Tú Xương có tranh Đông Hồ về ngày Tết là:\n\nĐì đoẹt ngoài sân tràng pháo chuột\n\nLoẹt lòe trên vách bức tranh gà\n\nĐó cũng là lí do để chứng minh rằng tranh gỗ dân gian Đông Hồ rất phổ biến.\n\nTại Bắc Ninh, có thể về làng tranh Đông Hồ, Song Hồ, Thuận Thành để xem tranh.\n\nTại Hà Nội, có thể xem tranh tại 19 ngõ 179 Hoàng Hoa Thám, Ba Đình, Hà Nội.\n\nDụng cụ vẽ tranh Đông Hồ",
+            "source_id": "tranh_dong_ho",
+            "source": "https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ",
+            "page": "tranh_dong_ho_u001",
+            "metadata": {
+              "painting_tradition": "dong_ho",
+              "title": "Tranh Đông Hồ",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Tranh_%C4%90%C3%B4ng_H%E1%BB%93&oldid=75711659",
+              "unit_start_char": 0,
+              "source_text_path": "data/processed/tranh_dong_ho.txt",
+              "document_id": "tranh_dong_ho",
+              "source": "https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ",
+              "page": "tranh_dong_ho_u001",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 0,
+              "unit_end_offset": 864,
+              "document_start_char": 0,
+              "document_end_char": 864,
+              "char_count": 864
+            },
+            "score": 0.03200204813108039
+          },
+          {
+            "id": "612104619ddacbe4e1f4421f",
+            "text": "Còn \"làng Mái có lịch có lề\" thì nghĩa là gì? Tục ngữ Việt Nam có câu: giấy rách phải giữ lấy lề . Chữ \"lề\" ở đây tượng trưng cho những quy tắc đạo đức của người xưa, rất trọng danh dự, khí tiết. Còn dân làng Mái, dân nghệ thuật rất trọng lời ăn tiếng nói. Không như nhiều làng quê khác, người dân làng Hồ, nhất là phụ nữ, ăn nói rất lịch lãm, trên dưới thưa gửi rất rõ ràng. Người làng kể rằng kể cả từ xưa, rất hiếm khi trong làng có tiếng người mắng chửi nhau.\n\nDo công nghệ phát triển, tranh dân gian làng Hồ bây giờ không tiêu thụ nhiều như trước. Qua nhiều thế kỷ, 17 dòng họ đã quy tụ về làng, vốn xưa tất cả đều làm tranh. Nhưng đến nay, dân làng Hồ hiện chủ yếu sống bằng nghề làm vàng mã . Hiện nay chỉ còn hai gia đình nghệ nhân Nguyễn Đăng Chế và Nguyễn Hữu Sam cùng con cháu là theo nghề tranh, gìn giữ di sản tranh Đông Hồ.",
+            "source_id": "tranh_dong_ho",
+            "source": "https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ",
+            "page": "tranh_dong_ho_u004",
+            "metadata": {
+              "painting_tradition": "dong_ho",
+              "title": "Tranh Đông Hồ",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Tranh_%C4%90%C3%B4ng_H%E1%BB%93&oldid=75711659",
+              "unit_start_char": 5372,
+              "source_text_path": "data/processed/tranh_dong_ho.txt",
+              "document_id": "tranh_dong_ho",
+              "source": "https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ",
+              "page": "tranh_dong_ho_u004",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 566,
+              "unit_end_offset": 1403,
+              "document_start_char": 5938,
+              "document_end_char": 6775,
+              "char_count": 837
+            },
+            "score": 0.03128054740957967
+          }
+        ],
+        "context": "[672625a6f6ccef231a73a959 | https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ | page tranh_dong_ho_u004]\nRẽ trái thêm 2 km là đến làng Hồ. Cũng có thể đi hết phố Hồ, lên đê rẽ trái, gặp điếm canh đê thứ hai sẽ có biển chỉ dẫn đường xuống làng Đông Hồ.\n\nLàng Đông Hồ xưa còn gọi là làng Mái. Các cụ làng Đông Hồ vẫn truyền lại mấy câu ca rằng:\n\nHỡi cô thắt lưng bao xanh\n\nCó về làng Mái với anh thì về\n\nLàng Mái có lịch có lề\n\nCó sông tắm mát có nghề làm tranh.\n\nLàng Đông Hồ nằm ngay sát bờ sông Đuống, ngày xưa chỉ cách sông một con đê, đó là ý trong câu \"Có sông tắm mát có nghề làm tranh\". Ngày nay, do sự bồi lấp của dòng sông nên từ đê ra đến mép nước giờ khá xa.\n\n[190f37c725471af618ff420d | https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ | page tranh_dong_ho_u001]\nTranh Đông Hồ , hay tên đầy đủ là tranh khắc gỗ Đông Hồ , là một dòng tranh dân gian Việt Nam với xuất xứ từ làng Đông Hồ (phường Thuận Thành , thành phố Bắc Ninh ). Trước kia tranh được bán ra chủ yếu phục vụ cho dịp Tết Nguyên Đán , người dân nông thôn mua tranh về dán trên tường, hết năm lại lột bỏ, dùng tranh mới.\n\nNghề làm tranh khắc gỗ dân gian Đông Hồ được UNESCO ghi danh là Di sản văn hóa phi vật thể cần bảo vệ khẩn cấp , đồng thời là Di sản văn hóa phi vật thể cấp Quốc gia.\n\nThơ Tú Xương có tranh Đông Hồ về ngày Tết là:\n\nĐì đoẹt ngoài sân tràng pháo chuột\n\nLoẹt lòe trên vách bức tranh gà\n\nĐó cũng là lí do để chứng minh rằng tranh gỗ dân gian Đông Hồ rất phổ biến.\n\nTại Bắc Ninh, có thể về làng tranh Đông Hồ, Song Hồ, Thuận Thành để xem tranh.\n\nTại Hà Nội, có thể xem tranh tại 19 ngõ 179 Hoàng Hoa Thám, Ba Đình, Hà Nội.\n\nDụng cụ vẽ tranh Đông Hồ\n\n[612104619ddacbe4e1f4421f | https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ | page tranh_dong_ho_u004]\nCòn \"làng Mái có lịch có lề\" thì nghĩa là gì? Tục ngữ Việt Nam có câu: giấy rách phải giữ lấy lề . Chữ \"lề\" ở đây tượng trưng cho những quy tắc đạo đức của người xưa, rất trọng danh dự, khí tiết. Còn dân làng Mái, dân nghệ thuật rất trọng lời ăn tiếng nói. Không như nhiều làng quê khác, người dân làng Hồ, nhất là phụ nữ, ăn nói rất lịch lãm, trên dưới thưa gửi rất rõ ràng. Người làng kể rằng kể cả từ xưa, rất hiếm khi trong làng có tiếng người mắng chửi nhau.\n\nDo công nghệ phát triển, tranh dân gian làng Hồ bây giờ không tiêu thụ nhiều như trước. Qua nhiều thế kỷ, 17 dòng họ đã quy tụ về làng, vốn xưa tất cả đều làm tranh. Nhưng đến nay, dân làng Hồ hiện chủ yếu sống bằng nghề làm vàng mã . Hiện nay chỉ còn hai gia đình nghệ nhân Nguyễn Đăng Chế và Nguyễn Hữu Sam cùng con cháu là theo nghề tranh, gìn giữ di sản tranh Đông Hồ.",
+        "context_ids": [
+          "672625a6f6ccef231a73a959",
+          "190f37c725471af618ff420d",
+          "612104619ddacbe4e1f4421f"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  "final_context": "[672625a6f6ccef231a73a959 | https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ | page tranh_dong_ho_u004]\nRẽ trái thêm 2 km là đến làng Hồ. Cũng có thể đi hết phố Hồ, lên đê rẽ trái, gặp điếm canh đê thứ hai sẽ có biển chỉ dẫn đường xuống làng Đông Hồ.\n\nLàng Đông Hồ xưa còn gọi là làng Mái. Các cụ làng Đông Hồ vẫn truyền lại mấy câu ca rằng:\n\nHỡi cô thắt lưng bao xanh\n\nCó về làng Mái với anh thì về\n\nLàng Mái có lịch có lề\n\nCó sông tắm mát có nghề làm tranh.\n\nLàng Đông Hồ nằm ngay sát bờ sông Đuống, ngày xưa chỉ cách sông một con đê, đó là ý trong câu \"Có sông tắm mát có nghề làm tranh\". Ngày nay, do sự bồi lấp của dòng sông nên từ đê ra đến mép nước giờ khá xa.\n\n[190f37c725471af618ff420d | https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ | page tranh_dong_ho_u001]\nTranh Đông Hồ , hay tên đầy đủ là tranh khắc gỗ Đông Hồ , là một dòng tranh dân gian Việt Nam với xuất xứ từ làng Đông Hồ (phường Thuận Thành , thành phố Bắc Ninh ). Trước kia tranh được bán ra chủ yếu phục vụ cho dịp Tết Nguyên Đán , người dân nông thôn mua tranh về dán trên tường, hết năm lại lột bỏ, dùng tranh mới.\n\nNghề làm tranh khắc gỗ dân gian Đông Hồ được UNESCO ghi danh là Di sản văn hóa phi vật thể cần bảo vệ khẩn cấp , đồng thời là Di sản văn hóa phi vật thể cấp Quốc gia.\n\nThơ Tú Xương có tranh Đông Hồ về ngày Tết là:\n\nĐì đoẹt ngoài sân tràng pháo chuột\n\nLoẹt lòe trên vách bức tranh gà\n\nĐó cũng là lí do để chứng minh rằng tranh gỗ dân gian Đông Hồ rất phổ biến.\n\nTại Bắc Ninh, có thể về làng tranh Đông Hồ, Song Hồ, Thuận Thành để xem tranh.\n\nTại Hà Nội, có thể xem tranh tại 19 ngõ 179 Hoàng Hoa Thám, Ba Đình, Hà Nội.\n\nDụng cụ vẽ tranh Đông Hồ\n\n[612104619ddacbe4e1f4421f | https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ | page tranh_dong_ho_u004]\nCòn \"làng Mái có lịch có lề\" thì nghĩa là gì? Tục ngữ Việt Nam có câu: giấy rách phải giữ lấy lề . Chữ \"lề\" ở đây tượng trưng cho những quy tắc đạo đức của người xưa, rất trọng danh dự, khí tiết. Còn dân làng Mái, dân nghệ thuật rất trọng lời ăn tiếng nói. Không như nhiều làng quê khác, người dân làng Hồ, nhất là phụ nữ, ăn nói rất lịch lãm, trên dưới thưa gửi rất rõ ràng. Người làng kể rằng kể cả từ xưa, rất hiếm khi trong làng có tiếng người mắng chửi nhau.\n\nDo công nghệ phát triển, tranh dân gian làng Hồ bây giờ không tiêu thụ nhiều như trước. Qua nhiều thế kỷ, 17 dòng họ đã quy tụ về làng, vốn xưa tất cả đều làm tranh. Nhưng đến nay, dân làng Hồ hiện chủ yếu sống bằng nghề làm vàng mã . Hiện nay chỉ còn hai gia đình nghệ nhân Nguyễn Đăng Chế và Nguyễn Hữu Sam cùng con cháu là theo nghề tranh, gìn giữ di sản tranh Đông Hồ.",
+  "context_ids": [
+    "672625a6f6ccef231a73a959",
+    "190f37c725471af618ff420d",
+    "612104619ddacbe4e1f4421f"
+  ],
+  "context_evidence_hit": true,
+  "model_calls": [
+    {
+      "model": "gemini-3.8-flash",
+      "elapsed_seconds": 2.763207699999839,
+      "usage": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 18,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 227,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 227
+          }
+        ],
+        "thoughts_token_count": 67,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 312,
+        "traffic_type": null
+      },
+      "raw_response": "{\"action\": \"search\", \"query\": \"Làng Đông Hồ tên gọi xưa\"}"
+    },
+    {
+      "model": "gemini-3.8-flash",
+      "elapsed_seconds": 3.564829799999643,
+      "usage": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 80,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 1185,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 1185
+          }
+        ],
+        "thoughts_token_count": 176,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 1441,
+        "traffic_type": null
+      },
+      "raw_response": "{\"action\": \"answer\", \"answer\": \"Làng Đông Hồ xưa còn được gọi là làng Mái (hoặc làng Hồ) [672625a6f6ccef231a73a959].\", \"citations\": [\"672625a6f6ccef231a73a959\"]}"
+    }
+  ],
+  "elapsed_seconds_excluding_setup": 6.3522449000010965
+}

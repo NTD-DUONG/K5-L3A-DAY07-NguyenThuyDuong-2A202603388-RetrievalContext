@@ -1,0 +1,365 @@
+{
+  "query_id": "dev_06",
+  "split": "dev",
+  "question": "Ván in tranh Đông Hồ được chia thành hai loại nào?",
+  "answerable": true,
+  "model": "gemini-3.8-flash",
+  "configuration": {
+    "method": "hybrid_rrf",
+    "candidate_k": 12,
+    "rrf_constant": 60,
+    "filters": {
+      "painting_tradition": "dong_ho"
+    },
+    "max_searches": 3,
+    "top_k": 12,
+    "context_budget_chars": 16000
+  },
+  "result": {
+    "status": "answered",
+    "answer": "Ván khắc in tranh Đông Hồ được chia thành hai loại là: ván in nét và ván in màu [d97706bf1aa4024f76705bb5].",
+    "citations": [
+      "d97706bf1aa4024f76705bb5"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Ván in tranh Đông Hồ được chia thành hai loại nào?",
+        "filter": {
+          "painting_tradition": "dong_ho"
+        },
+        "results": [
+          {
+            "id": "190f37c725471af618ff420d",
+            "text": "Tranh Đông Hồ , hay tên đầy đủ là tranh khắc gỗ Đông Hồ , là một dòng tranh dân gian Việt Nam với xuất xứ từ làng Đông Hồ (phường Thuận Thành , thành phố Bắc Ninh ). Trước kia tranh được bán ra chủ yếu phục vụ cho dịp Tết Nguyên Đán , người dân nông thôn mua tranh về dán trên tường, hết năm lại lột bỏ, dùng tranh mới.\n\nNghề làm tranh khắc gỗ dân gian Đông Hồ được UNESCO ghi danh là Di sản văn hóa phi vật thể cần bảo vệ khẩn cấp , đồng thời là Di sản văn hóa phi vật thể cấp Quốc gia.\n\nThơ Tú Xương có tranh Đông Hồ về ngày Tết là:\n\nĐì đoẹt ngoài sân tràng pháo chuột\n\nLoẹt lòe trên vách bức tranh gà\n\nĐó cũng là lí do để chứng minh rằng tranh gỗ dân gian Đông Hồ rất phổ biến.\n\nTại Bắc Ninh, có thể về làng tranh Đông Hồ, Song Hồ, Thuận Thành để xem tranh.\n\nTại Hà Nội, có thể xem tranh tại 19 ngõ 179 Hoàng Hoa Thám, Ba Đình, Hà Nội.\n\nDụng cụ vẽ tranh Đông Hồ",
+            "source_id": "tranh_dong_ho",
+            "source": "https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ",
+            "page": "tranh_dong_ho_u001",
+            "metadata": {
+              "painting_tradition": "dong_ho",
+              "title": "Tranh Đông Hồ",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Tranh_%C4%90%C3%B4ng_H%E1%BB%93&oldid=75711659",
+              "unit_start_char": 0,
+              "source_text_path": "data/processed/tranh_dong_ho.txt",
+              "document_id": "tranh_dong_ho",
+              "source": "https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ",
+              "page": "tranh_dong_ho_u001",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 0,
+              "unit_end_offset": 864,
+              "document_start_char": 0,
+              "document_end_char": 864,
+              "char_count": 864
+            },
+            "score": 0.03200204813108039
+          },
+          {
+            "id": "d97706bf1aa4024f76705bb5",
+            "text": "Những chất màu thô này được trộn với nhau và hoà với một lượng bột nếp trước khi in để tạo một lớp hồ, làm cho giấy tranh cứng hơn sau khi phơi khô.\n\nVán khắc in tranh có hai loại: ván in nét và ván in màu. Ván in nét thường được làm từ gỗ thị hoặc gỗ thừng mực.\n\nGỗ thị có thớ đa chiều, vừa mềm, dễ khắc. Dụng cụ khắc ván là những mũi đục hay còn gọi là bộ ve, được làm bằng thép cứng. Mỗi bộ ve có khoảng 30-40 chiếc. Ván in màu được làm bằng gỗ mỡ bởi vì khi phết màu nên để in tranh gỗ mỡ có khả năng giữ màu cao hơn nhiều loại gỗ khác.\n\nCác loại tranh Đông Hồ\n\nVề thể loại, dựa vào nội dung chủ đề, có thể chia tranh Đông Hồ thành bảy loại chính, gồm tranh thờ, tranh chúc tụng, tranh lịch sử, tranh truyện, tranh phương ngôn, tranh cảnh vật và tranh phản ánh sinh hoạt.\n\nNhững thay đổi đối với thời xưa",
+            "source_id": "tranh_dong_ho",
+            "source": "https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ",
+            "page": "tranh_dong_ho_u002",
+            "metadata": {
+              "painting_tradition": "dong_ho",
+              "title": "Tranh Đông Hồ",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Tranh_%C4%90%C3%B4ng_H%E1%BB%93&oldid=75711659",
+              "unit_start_char": 1898,
+              "source_text_path": "data/processed/tranh_dong_ho.txt",
+              "document_id": "tranh_dong_ho",
+              "source": "https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ",
+              "page": "tranh_dong_ho_u002",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 1,
+              "unit_end_offset": 809,
+              "document_start_char": 1899,
+              "document_end_char": 2707,
+              "char_count": 808
+            },
+            "score": 0.03177805800756621
+          },
+          {
+            "id": "cce5bf080e1d9db0fb24448e",
+            "text": "Tranh Đông Hồ rất gần gũi với đại đa số dân chúng Việt Nam, nhắc đến hầu như ai cũng đều biết cả. Tranh Đông Hồ gần gũi còn vì hình ảnh của nó đã đi vào thơ , văn trong chương trình giáo dục phổ thông. Ngày nay tục lệ mua tranh Đông Hồ treo ngày Tết đã mai một, làng tranh cũng thay đổi nhiều: làng Đông Hồ ngày nay có thêm nghề làm vàng mã . Nghề giấy dó ở làng Yên Thái ( Bưởi , Tây Hồ ) cũng đã không còn. Tuy vậy, tranh Đông Hồ vẫn đóng vai trò như một di sản văn hóa, một dòng tranh dân gian không thể thiếu.\n\nTheo đánh giá của một số họa sĩ , tranh Đông Hồ in ở thời điểm hiện tại thường không có màu sắc thắm như tranh cổ, nguyên nhân là người ta trộn màu trắng vào điệp quét giấy để bớt lượng điệp khiến giấy mất độ óng ánh và trở nên \"thường\", màu sắc sử dụng cũng chuyển sang loại màu công nghiệp , các bản khắc mới có bản không được tinh tế như bản cổ.",
+            "source_id": "tranh_dong_ho",
+            "source": "https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ",
+            "page": "tranh_dong_ho_u002",
+            "metadata": {
+              "painting_tradition": "dong_ho",
+              "title": "Tranh Đông Hồ",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Tranh_%C4%90%C3%B4ng_H%E1%BB%93&oldid=75711659",
+              "unit_start_char": 1898,
+              "source_text_path": "data/processed/tranh_dong_ho.txt",
+              "document_id": "tranh_dong_ho",
+              "source": "https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ",
+              "page": "tranh_dong_ho_u002",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 811,
+              "unit_end_offset": 1674,
+              "document_start_char": 2709,
+              "document_end_char": 3572,
+              "char_count": 863
+            },
+            "score": 0.0315136476426799
+          },
+          {
+            "id": "672625a6f6ccef231a73a959",
+            "text": "Rẽ trái thêm 2 km là đến làng Hồ. Cũng có thể đi hết phố Hồ, lên đê rẽ trái, gặp điếm canh đê thứ hai sẽ có biển chỉ dẫn đường xuống làng Đông Hồ.\n\nLàng Đông Hồ xưa còn gọi là làng Mái. Các cụ làng Đông Hồ vẫn truyền lại mấy câu ca rằng:\n\nHỡi cô thắt lưng bao xanh\n\nCó về làng Mái với anh thì về\n\nLàng Mái có lịch có lề\n\nCó sông tắm mát có nghề làm tranh.\n\nLàng Đông Hồ nằm ngay sát bờ sông Đuống, ngày xưa chỉ cách sông một con đê, đó là ý trong câu \"Có sông tắm mát có nghề làm tranh\". Ngày nay, do sự bồi lấp của dòng sông nên từ đê ra đến mép nước giờ khá xa.",
+            "source_id": "tranh_dong_ho",
+            "source": "https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ",
+            "page": "tranh_dong_ho_u004",
+            "metadata": {
+              "painting_tradition": "dong_ho",
+              "title": "Tranh Đông Hồ",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Tranh_%C4%90%C3%B4ng_H%E1%BB%93&oldid=75711659",
+              "unit_start_char": 5372,
+              "source_text_path": "data/processed/tranh_dong_ho.txt",
+              "document_id": "tranh_dong_ho",
+              "source": "https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ",
+              "page": "tranh_dong_ho_u004",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 1,
+              "unit_end_offset": 564,
+              "document_start_char": 5373,
+              "document_end_char": 5936,
+              "char_count": 563
+            },
+            "score": 0.031099324975891997
+          },
+          {
+            "id": "dc90ad75f958da051f9a0b96",
+            "text": "Một điểm đáng lưu ý khác nữa là một số bản khắc đã đục bỏ phần chữ Hán (hoặc chữ Nôm ) bên cạnh phần hình của tranh khiến tranh ít nhiều bị què cụt về mặt ý nghĩa. Nguyên nhân dẫn tới tình trạng này ước đoán là:\n\nThời kỳ sau năm 1945, chữ Hán và chữ Nôm bị chính quyền coi là phong kiến lạc hậu, liệt vào danh mục bài xích nên thợ in đục bỏ cho đỡ phiền nhiễu.\n\nThế hệ sau này không phải ai cũng đọc và hiểu được các ký tự ấy nên tự ý bỏ đi.\n\nCũng do không đọc hiểu được nên các ván khắc truyền lại \"tam sao thất bản\", đến mức còn lại các ký tự nhưng không đọc được ra chữ gì.\n\nVề nội dung tranh, lưu ý rằng có sự gần gũi nhất định giữa nội dung tranh khắc gỗ màu của Việt Nam với của Trung Quốc , có những tranh mà cả hai nước đều có, song tranh Đông Hồ phát triển thành một hướng riêng tồn tại nhiều thế kỷ và được thừa nhận như dòng tranh dân gian được biết đến nhiều nhất ở Việt Nam.\n\nLàng tranh Đông Hồ",
+            "source_id": "tranh_dong_ho",
+            "source": "https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ",
+            "page": "tranh_dong_ho_u003",
+            "metadata": {
+              "painting_tradition": "dong_ho",
+              "title": "Tranh Đông Hồ",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Tranh_%C4%90%C3%B4ng_H%E1%BB%93&oldid=75711659",
+              "unit_start_char": 3572,
+              "source_text_path": "data/processed/tranh_dong_ho.txt",
+              "document_id": "tranh_dong_ho",
+              "source": "https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ",
+              "page": "tranh_dong_ho_u003",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 1,
+              "unit_end_offset": 908,
+              "document_start_char": 3573,
+              "document_end_char": 4480,
+              "char_count": 907
+            },
+            "score": 0.031024531024531024
+          },
+          {
+            "id": "2a63b84059484ee3f309d344",
+            "text": "Giấy in tranh Đông Hồ được gọi là giấy điệp : người ta nghiền nát vỏ con điệp , một loại sò vỏ mỏng ở biển , trộn với hồ dán (hồ được nấu từ bột gạo tẻ , hoặc gạo nếp , có khi nấu bằng bột sắn - hồ dùng để quét nền tranh thường được nấu loãng từ bột gạo tẻ hoặc bột sắn, hồ nấu từ bột nếp thường dùng để dán) rồi dùng chổi lá thông quét lên mặt giấy dó . Chổi lá thông tạo nên những ganh chạy theo đường quét và vỏ điệp tự nhiên cho màu trắng với ánh lấp lánh của những mảnh điệp nhỏ dưới ánh sáng , cũng có thể pha thêm màu khác vào hồ trong quá trình làm giấy điệp.",
+            "source_id": "tranh_dong_ho",
+            "source": "https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ",
+            "page": "tranh_dong_ho_u001",
+            "metadata": {
+              "painting_tradition": "dong_ho",
+              "title": "Tranh Đông Hồ",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Tranh_%C4%90%C3%B4ng_H%E1%BB%93&oldid=75711659",
+              "unit_start_char": 0,
+              "source_text_path": "data/processed/tranh_dong_ho.txt",
+              "document_id": "tranh_dong_ho",
+              "source": "https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ",
+              "page": "tranh_dong_ho_u001",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 866,
+              "unit_end_offset": 1433,
+              "document_start_char": 866,
+              "document_end_char": 1433,
+              "char_count": 567
+            },
+            "score": 0.030776515151515152
+          },
+          {
+            "id": "fabc2c60bdab7ced85dc163f",
+            "text": "Làng tranh Đông Hồ xưa là làng nghề nổi tiếng về tranh dân gian, thuộc phường Thuận Thành , thành phố Bắc Ninh , cách Hà Nội chừng trên 25 km. Làng Đông Hồ (đôi khi dân địa phương chỉ gọi đơn thuần là làng Hồ) nằm trên bờ nam sông Đuống , cạnh bến đò Hồ, nay là cầu Hồ.\n\nQuanh năm rất nhiều khách du lịch trong ngoài nước đến làng tranh Đông Hồ thăm và mua tranh Đông Hồ làm kỷ niệm. Một số khách sạn, nhà hàng từ Hà Nội, [Thành phố Hồ Chí Minh] cũng về đây đặt những bức tranh khổ lớn để trang trí cho các phòng khách, hoặc phòng ăn lớn. Từ Hà Nội muốn đi Đông Hồ đường gần nhất du khách thường đi là xuôi theo đường Quốc lộ 5 (đường đi Hải Phòng ) đến ga Phú Thụy, cách Hà Nội chừng 15 km thì rẽ trái, đi chừng 18 km nữa, qua các địa danh khá nổi tiếng của xã Gia Lâm , Thuận An ( Hà Nội ) như phố Sủi, chợ Keo, chợ Dâu (Thuận Thành-Bắc Ninh) là đến phố Hồ- trung tâm phường Thuận Thành .",
+            "source_id": "tranh_dong_ho",
+            "source": "https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ",
+            "page": "tranh_dong_ho_u003",
+            "metadata": {
+              "painting_tradition": "dong_ho",
+              "title": "Tranh Đông Hồ",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Tranh_%C4%90%C3%B4ng_H%E1%BB%93&oldid=75711659",
+              "unit_start_char": 3572,
+              "source_text_path": "data/processed/tranh_dong_ho.txt",
+              "document_id": "tranh_dong_ho",
+              "source": "https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ",
+              "page": "tranh_dong_ho_u003",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 910,
+              "unit_end_offset": 1800,
+              "document_start_char": 4482,
+              "document_end_char": 5372,
+              "char_count": 890
+            },
+            "score": 0.030117753623188408
+          },
+          {
+            "id": "14e8ee86cebb93175f1fa47e",
+            "text": "Màu sắc được sử dụng trong tranh Đông Hồ là màu tự nhiên: màu đen lấy từ than gỗ xoan, rơm nếp hay than lá tre được ngâm kĩ trong chum vại vài tháng rồi mới sử dụng được; màu xanh lấy từ gỉ đồng hay lá chàm – lá ở vùng dân tộc thiểu số phía Bắc, họ thường dùng để nhuộm quần áo; màu vàng lấy từ hoa dành dành, hoa hòe – loài hoa về mùa hè người ta vẫn dùng để sắc nước uống thanh nhiệt; màu đỏ lấy từ gỗ vang và sỏi son trên núi Thiên Thai; màu trắng lấy từ điệp.",
+            "source_id": "tranh_dong_ho",
+            "source": "https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ",
+            "page": "tranh_dong_ho_u001",
+            "metadata": {
+              "painting_tradition": "dong_ho",
+              "title": "Tranh Đông Hồ",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Tranh_%C4%90%C3%B4ng_H%E1%BB%93&oldid=75711659",
+              "unit_start_char": 0,
+              "source_text_path": "data/processed/tranh_dong_ho.txt",
+              "document_id": "tranh_dong_ho",
+              "source": "https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ",
+              "page": "tranh_dong_ho_u001",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 1435,
+              "unit_end_offset": 1898,
+              "document_start_char": 1435,
+              "document_end_char": 1898,
+              "char_count": 463
+            },
+            "score": 0.029211087420042643
+          },
+          {
+            "id": "1b815891b21b77bf64a1fdc7",
+            "text": "Ngày xưa, làng Đông Hồ có chợ tranh tấp nập dịp tháng Chạp (tháng 12 Âm lịch) với 5 phiên chợ vào các ngày 6, 11, 16, 21, 26. Trong mỗi phiên chợ có hàng nghìn, hàng triệu bức tranh các loại được mang ra bán cho lái buôn, hoặc bán lẻ cho các gia đình mua về làm tranh treo Tết để mang phú quý, vinh hoa cho nhà mình. Sau phiên chợ tranh cuối cùng (26/12 Âm lịch) những gia đình nào còn lại tranh đều bọc kín đem cất chờ đến mùa tranh năm sau mang ra chợ bán.\n\nHàng năm làng Hồ có hội làng vào rằm tháng 3 âm lịch. Trong hội làng có những nghi thức truyền thống như tế thần, thi mã, thi tranh rất vui vẻ. Làng còn có các làn điệu dân ca như:\n\nHỡi anh đi đường cái quan\n\nHỡi anh đi đường cái quan\n\nDừng chân ngắm cảnh mà tan nỗi sầu Mua tờ tranh điệp tươi màu\n\nMua tờ tranh điệp tươi màu\n\nMua đàn gà lợn thi nhau đẻ nhiều.\n\nHình ảnh",
+            "source_id": "tranh_dong_ho",
+            "source": "https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ",
+            "page": "tranh_dong_ho_u004",
+            "metadata": {
+              "painting_tradition": "dong_ho",
+              "title": "Tranh Đông Hồ",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Tranh_%C4%90%C3%B4ng_H%E1%BB%93&oldid=75711659",
+              "unit_start_char": 5372,
+              "source_text_path": "data/processed/tranh_dong_ho.txt",
+              "document_id": "tranh_dong_ho",
+              "source": "https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ",
+              "page": "tranh_dong_ho_u004",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 1405,
+              "unit_end_offset": 2235,
+              "document_start_char": 6777,
+              "document_end_char": 7607,
+              "char_count": 830
+            },
+            "score": 0.029211087420042643
+          },
+          {
+            "id": "612104619ddacbe4e1f4421f",
+            "text": "Còn \"làng Mái có lịch có lề\" thì nghĩa là gì? Tục ngữ Việt Nam có câu: giấy rách phải giữ lấy lề . Chữ \"lề\" ở đây tượng trưng cho những quy tắc đạo đức của người xưa, rất trọng danh dự, khí tiết. Còn dân làng Mái, dân nghệ thuật rất trọng lời ăn tiếng nói. Không như nhiều làng quê khác, người dân làng Hồ, nhất là phụ nữ, ăn nói rất lịch lãm, trên dưới thưa gửi rất rõ ràng. Người làng kể rằng kể cả từ xưa, rất hiếm khi trong làng có tiếng người mắng chửi nhau.\n\nDo công nghệ phát triển, tranh dân gian làng Hồ bây giờ không tiêu thụ nhiều như trước. Qua nhiều thế kỷ, 17 dòng họ đã quy tụ về làng, vốn xưa tất cả đều làm tranh. Nhưng đến nay, dân làng Hồ hiện chủ yếu sống bằng nghề làm vàng mã . Hiện nay chỉ còn hai gia đình nghệ nhân Nguyễn Đăng Chế và Nguyễn Hữu Sam cùng con cháu là theo nghề tranh, gìn giữ di sản tranh Đông Hồ.",
+            "source_id": "tranh_dong_ho",
+            "source": "https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ",
+            "page": "tranh_dong_ho_u004",
+            "metadata": {
+              "painting_tradition": "dong_ho",
+              "title": "Tranh Đông Hồ",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Tranh_%C4%90%C3%B4ng_H%E1%BB%93&oldid=75711659",
+              "unit_start_char": 5372,
+              "source_text_path": "data/processed/tranh_dong_ho.txt",
+              "document_id": "tranh_dong_ho",
+              "source": "https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ",
+              "page": "tranh_dong_ho_u004",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 566,
+              "unit_end_offset": 1403,
+              "document_start_char": 5938,
+              "document_end_char": 6775,
+              "char_count": 837
+            },
+            "score": 0.02919863597612958
+          }
+        ],
+        "context": "[190f37c725471af618ff420d | https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ | page tranh_dong_ho_u001]\nTranh Đông Hồ , hay tên đầy đủ là tranh khắc gỗ Đông Hồ , là một dòng tranh dân gian Việt Nam với xuất xứ từ làng Đông Hồ (phường Thuận Thành , thành phố Bắc Ninh ). Trước kia tranh được bán ra chủ yếu phục vụ cho dịp Tết Nguyên Đán , người dân nông thôn mua tranh về dán trên tường, hết năm lại lột bỏ, dùng tranh mới.\n\nNghề làm tranh khắc gỗ dân gian Đông Hồ được UNESCO ghi danh là Di sản văn hóa phi vật thể cần bảo vệ khẩn cấp , đồng thời là Di sản văn hóa phi vật thể cấp Quốc gia.\n\nThơ Tú Xương có tranh Đông Hồ về ngày Tết là:\n\nĐì đoẹt ngoài sân tràng pháo chuột\n\nLoẹt lòe trên vách bức tranh gà\n\nĐó cũng là lí do để chứng minh rằng tranh gỗ dân gian Đông Hồ rất phổ biến.\n\nTại Bắc Ninh, có thể về làng tranh Đông Hồ, Song Hồ, Thuận Thành để xem tranh.\n\nTại Hà Nội, có thể xem tranh tại 19 ngõ 179 Hoàng Hoa Thám, Ba Đình, Hà Nội.\n\nDụng cụ vẽ tranh Đông Hồ\n\n[d97706bf1aa4024f76705bb5 | https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ | page tranh_dong_ho_u002]\nNhững chất màu thô này được trộn với nhau và hoà với một lượng bột nếp trước khi in để tạo một lớp hồ, làm cho giấy tranh cứng hơn sau khi phơi khô.\n\nVán khắc in tranh có hai loại: ván in nét và ván in màu. Ván in nét thường được làm từ gỗ thị hoặc gỗ thừng mực.\n\nGỗ thị có thớ đa chiều, vừa mềm, dễ khắc. Dụng cụ khắc ván là những mũi đục hay còn gọi là bộ ve, được làm bằng thép cứng. Mỗi bộ ve có khoảng 30-40 chiếc. Ván in màu được làm bằng gỗ mỡ bởi vì khi phết màu nên để in tranh gỗ mỡ có khả năng giữ màu cao hơn nhiều loại gỗ khác.\n\nCác loại tranh Đông Hồ\n\nVề thể loại, dựa vào nội dung chủ đề, có thể chia tranh Đông Hồ thành bảy loại chính, gồm tranh thờ, tranh chúc tụng, tranh lịch sử, tranh truyện, tranh phương ngôn, tranh cảnh vật và tranh phản ánh sinh hoạt.\n\nNhững thay đổi đối với thời xưa\n\n[cce5bf080e1d9db0fb24448e | https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ | page tranh_dong_ho_u002]\nTranh Đông Hồ rất gần gũi với đại đa số dân chúng Việt Nam, nhắc đến hầu như ai cũng đều biết cả. Tranh Đông Hồ gần gũi còn vì hình ảnh của nó đã đi vào thơ , văn trong chương trình giáo dục phổ thông. Ngày nay tục lệ mua tranh Đông Hồ treo ngày Tết đã mai một, làng tranh cũng thay đổi nhiều: làng Đông Hồ ngày nay có thêm nghề làm vàng mã . Nghề giấy dó ở làng Yên Thái ( Bưởi , Tây Hồ ) cũng đã không còn. Tuy vậy, tranh Đông Hồ vẫn đóng vai trò như một di sản văn hóa, một dòng tranh dân gian không thể thiếu.\n\nTheo đánh giá của một số họa sĩ , tranh Đông Hồ in ở thời điểm hiện tại thường không có màu sắc thắm như tranh cổ, nguyên nhân là người ta trộn màu trắng vào điệp quét giấy để bớt lượng điệp khiến giấy mất độ óng ánh và trở nên \"thường\", màu sắc sử dụng cũng chuyển sang loại màu công nghiệp , các bản khắc mới có bản không được tinh tế như bản cổ.\n\n[672625a6f6ccef231a73a959 | https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ | page tranh_dong_ho_u004]\nRẽ trái thêm 2 km là đến làng Hồ. Cũng có thể đi hết phố Hồ, lên đê rẽ trái, gặp điếm canh đê thứ hai sẽ có biển chỉ dẫn đường xuống làng Đông Hồ.\n\nLàng Đông Hồ xưa còn gọi là làng Mái. Các cụ làng Đông Hồ vẫn truyền lại mấy câu ca rằng:\n\nHỡi cô thắt lưng bao xanh\n\nCó về làng Mái với anh thì về\n\nLàng Mái có lịch có lề\n\nCó sông tắm mát có nghề làm tranh.\n\nLàng Đông Hồ nằm ngay sát bờ sông Đuống, ngày xưa chỉ cách sông một con đê, đó là ý trong câu \"Có sông tắm mát có nghề làm tranh\". Ngày nay, do sự bồi lấp của dòng sông nên từ đê ra đến mép nước giờ khá xa.\n\n[dc90ad75f958da051f9a0b96 | https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ | page tranh_dong_ho_u003]\nMột điểm đáng lưu ý khác nữa là một số bản khắc đã đục bỏ phần chữ Hán (hoặc chữ Nôm ) bên cạnh phần hình của tranh khiến tranh ít nhiều bị què cụt về mặt ý nghĩa. Nguyên nhân dẫn tới tình trạng này ước đoán là:\n\nThời kỳ sau năm 1945, chữ Hán và chữ Nôm bị chính quyền coi là phong kiến lạc hậu, liệt vào danh mục bài xích nên thợ in đục bỏ cho đỡ phiền nhiễu.\n\nThế hệ sau này không phải ai cũng đọc và hiểu được các ký tự ấy nên tự ý bỏ đi.\n\nCũng do không đọc hiểu được nên các ván khắc truyền lại \"tam sao thất bản\", đến mức còn lại các ký tự nhưng không đọc được ra chữ gì.\n\nVề nội dung tranh, lưu ý rằng có sự gần gũi nhất định giữa nội dung tranh khắc gỗ màu của Việt Nam với của Trung Quốc , có những tranh mà cả hai nước đều có, song tranh Đông Hồ phát triển thành một hướng riêng tồn tại nhiều thế kỷ và được thừa nhận như dòng tranh dân gian được biết đến nhiều nhất ở Việt Nam.\n\nLàng tranh Đông Hồ\n\n[2a63b84059484ee3f309d344 | https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ | page tranh_dong_ho_u001]\nGiấy in tranh Đông Hồ được gọi là giấy điệp : người ta nghiền nát vỏ con điệp , một loại sò vỏ mỏng ở biển , trộn với hồ dán (hồ được nấu từ bột gạo tẻ , hoặc gạo nếp , có khi nấu bằng bột sắn - hồ dùng để quét nền tranh thường được nấu loãng từ bột gạo tẻ hoặc bột sắn, hồ nấu từ bột nếp thường dùng để dán) rồi dùng chổi lá thông quét lên mặt giấy dó . Chổi lá thông tạo nên những ganh chạy theo đường quét và vỏ điệp tự nhiên cho màu trắng với ánh lấp lánh của những mảnh điệp nhỏ dưới ánh sáng , cũng có thể pha thêm màu khác vào hồ trong quá trình làm giấy điệp.\n\n[fabc2c60bdab7ced85dc163f | https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ | page tranh_dong_ho_u003]\nLàng tranh Đông Hồ xưa là làng nghề nổi tiếng về tranh dân gian, thuộc phường Thuận Thành , thành phố Bắc Ninh , cách Hà Nội chừng trên 25 km. Làng Đông Hồ (đôi khi dân địa phương chỉ gọi đơn thuần là làng Hồ) nằm trên bờ nam sông Đuống , cạnh bến đò Hồ, nay là cầu Hồ.\n\nQuanh năm rất nhiều khách du lịch trong ngoài nước đến làng tranh Đông Hồ thăm và mua tranh Đông Hồ làm kỷ niệm. Một số khách sạn, nhà hàng từ Hà Nội, [Thành phố Hồ Chí Minh] cũng về đây đặt những bức tranh khổ lớn để trang trí cho các phòng khách, hoặc phòng ăn lớn. Từ Hà Nội muốn đi Đông Hồ đường gần nhất du khách thường đi là xuôi theo đường Quốc lộ 5 (đường đi Hải Phòng ) đến ga Phú Thụy, cách Hà Nội chừng 15 km thì rẽ trái, đi chừng 18 km nữa, qua các địa danh khá nổi tiếng của xã Gia Lâm , Thuận An ( Hà Nội ) như phố Sủi, chợ Keo, chợ Dâu (Thuận Thành-Bắc Ninh) là đến phố Hồ- trung tâm phường Thuận Thành .\n\n[14e8ee86cebb93175f1fa47e | https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ | page tranh_dong_ho_u001]\nMàu sắc được sử dụng trong tranh Đông Hồ là màu tự nhiên: màu đen lấy từ than gỗ xoan, rơm nếp hay than lá tre được ngâm kĩ trong chum vại vài tháng rồi mới sử dụng được; màu xanh lấy từ gỉ đồng hay lá chàm – lá ở vùng dân tộc thiểu số phía Bắc, họ thường dùng để nhuộm quần áo; màu vàng lấy từ hoa dành dành, hoa hòe – loài hoa về mùa hè người ta vẫn dùng để sắc nước uống thanh nhiệt; màu đỏ lấy từ gỗ vang và sỏi son trên núi Thiên Thai; màu trắng lấy từ điệp.\n\n[1b815891b21b77bf64a1fdc7 | https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ | page tranh_dong_ho_u004]\nNgày xưa, làng Đông Hồ có chợ tranh tấp nập dịp tháng Chạp (tháng 12 Âm lịch) với 5 phiên chợ vào các ngày 6, 11, 16, 21, 26. Trong mỗi phiên chợ có hàng nghìn, hàng triệu bức tranh các loại được mang ra bán cho lái buôn, hoặc bán lẻ cho các gia đình mua về làm tranh treo Tết để mang phú quý, vinh hoa cho nhà mình. Sau phiên chợ tranh cuối cùng (26/12 Âm lịch) những gia đình nào còn lại tranh đều bọc kín đem cất chờ đến mùa tranh năm sau mang ra chợ bán.\n\nHàng năm làng Hồ có hội làng vào rằm tháng 3 âm lịch. Trong hội làng có những nghi thức truyền thống như tế thần, thi mã, thi tranh rất vui vẻ. Làng còn có các làn điệu dân ca như:\n\nHỡi anh đi đường cái quan\n\nHỡi anh đi đường cái quan\n\nDừng chân ngắm cảnh mà tan nỗi sầu Mua tờ tranh điệp tươi màu\n\nMua tờ tranh điệp tươi màu\n\nMua đàn gà lợn thi nhau đẻ nhiều.\n\nHình ảnh\n\n[612104619ddacbe4e1f4421f | https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ | page tranh_dong_ho_u004]\nCòn \"làng Mái có lịch có lề\" thì nghĩa là gì? Tục ngữ Việt Nam có câu: giấy rách phải giữ lấy lề . Chữ \"lề\" ở đây tượng trưng cho những quy tắc đạo đức của người xưa, rất trọng danh dự, khí tiết. Còn dân làng Mái, dân nghệ thuật rất trọng lời ăn tiếng nói. Không như nhiều làng quê khác, người dân làng Hồ, nhất là phụ nữ, ăn nói rất lịch lãm, trên dưới thưa gửi rất rõ ràng. Người làng kể rằng kể cả từ xưa, rất hiếm khi trong làng có tiếng người mắng chửi nhau.\n\nDo công nghệ phát triển, tranh dân gian làng Hồ bây giờ không tiêu thụ nhiều như trước. Qua nhiều thế kỷ, 17 dòng họ đã quy tụ về làng, vốn xưa tất cả đều làm tranh. Nhưng đến nay, dân làng Hồ hiện chủ yếu sống bằng nghề làm vàng mã . Hiện nay chỉ còn hai gia đình nghệ nhân Nguyễn Đăng Chế và Nguyễn Hữu Sam cùng con cháu là theo nghề tranh, gìn giữ di sản tranh Đông Hồ.",
+        "context_ids": [
+          "190f37c725471af618ff420d",
+          "d97706bf1aa4024f76705bb5",
+          "cce5bf080e1d9db0fb24448e",
+          "672625a6f6ccef231a73a959",
+          "dc90ad75f958da051f9a0b96",
+          "2a63b84059484ee3f309d344",
+          "fabc2c60bdab7ced85dc163f",
+          "14e8ee86cebb93175f1fa47e",
+          "1b815891b21b77bf64a1fdc7",
+          "612104619ddacbe4e1f4421f"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  "final_context": "[190f37c725471af618ff420d | https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ | page tranh_dong_ho_u001]\nTranh Đông Hồ , hay tên đầy đủ là tranh khắc gỗ Đông Hồ , là một dòng tranh dân gian Việt Nam với xuất xứ từ làng Đông Hồ (phường Thuận Thành , thành phố Bắc Ninh ). Trước kia tranh được bán ra chủ yếu phục vụ cho dịp Tết Nguyên Đán , người dân nông thôn mua tranh về dán trên tường, hết năm lại lột bỏ, dùng tranh mới.\n\nNghề làm tranh khắc gỗ dân gian Đông Hồ được UNESCO ghi danh là Di sản văn hóa phi vật thể cần bảo vệ khẩn cấp , đồng thời là Di sản văn hóa phi vật thể cấp Quốc gia.\n\nThơ Tú Xương có tranh Đông Hồ về ngày Tết là:\n\nĐì đoẹt ngoài sân tràng pháo chuột\n\nLoẹt lòe trên vách bức tranh gà\n\nĐó cũng là lí do để chứng minh rằng tranh gỗ dân gian Đông Hồ rất phổ biến.\n\nTại Bắc Ninh, có thể về làng tranh Đông Hồ, Song Hồ, Thuận Thành để xem tranh.\n\nTại Hà Nội, có thể xem tranh tại 19 ngõ 179 Hoàng Hoa Thám, Ba Đình, Hà Nội.\n\nDụng cụ vẽ tranh Đông Hồ\n\n[d97706bf1aa4024f76705bb5 | https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ | page tranh_dong_ho_u002]\nNhững chất màu thô này được trộn với nhau và hoà với một lượng bột nếp trước khi in để tạo một lớp hồ, làm cho giấy tranh cứng hơn sau khi phơi khô.\n\nVán khắc in tranh có hai loại: ván in nét và ván in màu. Ván in nét thường được làm từ gỗ thị hoặc gỗ thừng mực.\n\nGỗ thị có thớ đa chiều, vừa mềm, dễ khắc. Dụng cụ khắc ván là những mũi đục hay còn gọi là bộ ve, được làm bằng thép cứng. Mỗi bộ ve có khoảng 30-40 chiếc. Ván in màu được làm bằng gỗ mỡ bởi vì khi phết màu nên để in tranh gỗ mỡ có khả năng giữ màu cao hơn nhiều loại gỗ khác.\n\nCác loại tranh Đông Hồ\n\nVề thể loại, dựa vào nội dung chủ đề, có thể chia tranh Đông Hồ thành bảy loại chính, gồm tranh thờ, tranh chúc tụng, tranh lịch sử, tranh truyện, tranh phương ngôn, tranh cảnh vật và tranh phản ánh sinh hoạt.\n\nNhững thay đổi đối với thời xưa\n\n[cce5bf080e1d9db0fb24448e | https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ | page tranh_dong_ho_u002]\nTranh Đông Hồ rất gần gũi với đại đa số dân chúng Việt Nam, nhắc đến hầu như ai cũng đều biết cả. Tranh Đông Hồ gần gũi còn vì hình ảnh của nó đã đi vào thơ , văn trong chương trình giáo dục phổ thông. Ngày nay tục lệ mua tranh Đông Hồ treo ngày Tết đã mai một, làng tranh cũng thay đổi nhiều: làng Đông Hồ ngày nay có thêm nghề làm vàng mã . Nghề giấy dó ở làng Yên Thái ( Bưởi , Tây Hồ ) cũng đã không còn. Tuy vậy, tranh Đông Hồ vẫn đóng vai trò như một di sản văn hóa, một dòng tranh dân gian không thể thiếu.\n\nTheo đánh giá của một số họa sĩ , tranh Đông Hồ in ở thời điểm hiện tại thường không có màu sắc thắm như tranh cổ, nguyên nhân là người ta trộn màu trắng vào điệp quét giấy để bớt lượng điệp khiến giấy mất độ óng ánh và trở nên \"thường\", màu sắc sử dụng cũng chuyển sang loại màu công nghiệp , các bản khắc mới có bản không được tinh tế như bản cổ.\n\n[672625a6f6ccef231a73a959 | https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ | page tranh_dong_ho_u004]\nRẽ trái thêm 2 km là đến làng Hồ. Cũng có thể đi hết phố Hồ, lên đê rẽ trái, gặp điếm canh đê thứ hai sẽ có biển chỉ dẫn đường xuống làng Đông Hồ.\n\nLàng Đông Hồ xưa còn gọi là làng Mái. Các cụ làng Đông Hồ vẫn truyền lại mấy câu ca rằng:\n\nHỡi cô thắt lưng bao xanh\n\nCó về làng Mái với anh thì về\n\nLàng Mái có lịch có lề\n\nCó sông tắm mát có nghề làm tranh.\n\nLàng Đông Hồ nằm ngay sát bờ sông Đuống, ngày xưa chỉ cách sông một con đê, đó là ý trong câu \"Có sông tắm mát có nghề làm tranh\". Ngày nay, do sự bồi lấp của dòng sông nên từ đê ra đến mép nước giờ khá xa.\n\n[dc90ad75f958da051f9a0b96 | https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ | page tranh_dong_ho_u003]\nMột điểm đáng lưu ý khác nữa là một số bản khắc đã đục bỏ phần chữ Hán (hoặc chữ Nôm ) bên cạnh phần hình của tranh khiến tranh ít nhiều bị què cụt về mặt ý nghĩa. Nguyên nhân dẫn tới tình trạng này ước đoán là:\n\nThời kỳ sau năm 1945, chữ Hán và chữ Nôm bị chính quyền coi là phong kiến lạc hậu, liệt vào danh mục bài xích nên thợ in đục bỏ cho đỡ phiền nhiễu.\n\nThế hệ sau này không phải ai cũng đọc và hiểu được các ký tự ấy nên tự ý bỏ đi.\n\nCũng do không đọc hiểu được nên các ván khắc truyền lại \"tam sao thất bản\", đến mức còn lại các ký tự nhưng không đọc được ra chữ gì.\n\nVề nội dung tranh, lưu ý rằng có sự gần gũi nhất định giữa nội dung tranh khắc gỗ màu của Việt Nam với của Trung Quốc , có những tranh mà cả hai nước đều có, song tranh Đông Hồ phát triển thành một hướng riêng tồn tại nhiều thế kỷ và được thừa nhận như dòng tranh dân gian được biết đến nhiều nhất ở Việt Nam.\n\nLàng tranh Đông Hồ\n\n[2a63b84059484ee3f309d344 | https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ | page tranh_dong_ho_u001]\nGiấy in tranh Đông Hồ được gọi là giấy điệp : người ta nghiền nát vỏ con điệp , một loại sò vỏ mỏng ở biển , trộn với hồ dán (hồ được nấu từ bột gạo tẻ , hoặc gạo nếp , có khi nấu bằng bột sắn - hồ dùng để quét nền tranh thường được nấu loãng từ bột gạo tẻ hoặc bột sắn, hồ nấu từ bột nếp thường dùng để dán) rồi dùng chổi lá thông quét lên mặt giấy dó . Chổi lá thông tạo nên những ganh chạy theo đường quét và vỏ điệp tự nhiên cho màu trắng với ánh lấp lánh của những mảnh điệp nhỏ dưới ánh sáng , cũng có thể pha thêm màu khác vào hồ trong quá trình làm giấy điệp.\n\n[fabc2c60bdab7ced85dc163f | https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ | page tranh_dong_ho_u003]\nLàng tranh Đông Hồ xưa là làng nghề nổi tiếng về tranh dân gian, thuộc phường Thuận Thành , thành phố Bắc Ninh , cách Hà Nội chừng trên 25 km. Làng Đông Hồ (đôi khi dân địa phương chỉ gọi đơn thuần là làng Hồ) nằm trên bờ nam sông Đuống , cạnh bến đò Hồ, nay là cầu Hồ.\n\nQuanh năm rất nhiều khách du lịch trong ngoài nước đến làng tranh Đông Hồ thăm và mua tranh Đông Hồ làm kỷ niệm. Một số khách sạn, nhà hàng từ Hà Nội, [Thành phố Hồ Chí Minh] cũng về đây đặt những bức tranh khổ lớn để trang trí cho các phòng khách, hoặc phòng ăn lớn. Từ Hà Nội muốn đi Đông Hồ đường gần nhất du khách thường đi là xuôi theo đường Quốc lộ 5 (đường đi Hải Phòng ) đến ga Phú Thụy, cách Hà Nội chừng 15 km thì rẽ trái, đi chừng 18 km nữa, qua các địa danh khá nổi tiếng của xã Gia Lâm , Thuận An ( Hà Nội ) như phố Sủi, chợ Keo, chợ Dâu (Thuận Thành-Bắc Ninh) là đến phố Hồ- trung tâm phường Thuận Thành .\n\n[14e8ee86cebb93175f1fa47e | https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ | page tranh_dong_ho_u001]\nMàu sắc được sử dụng trong tranh Đông Hồ là màu tự nhiên: màu đen lấy từ than gỗ xoan, rơm nếp hay than lá tre được ngâm kĩ trong chum vại vài tháng rồi mới sử dụng được; màu xanh lấy từ gỉ đồng hay lá chàm – lá ở vùng dân tộc thiểu số phía Bắc, họ thường dùng để nhuộm quần áo; màu vàng lấy từ hoa dành dành, hoa hòe – loài hoa về mùa hè người ta vẫn dùng để sắc nước uống thanh nhiệt; màu đỏ lấy từ gỗ vang và sỏi son trên núi Thiên Thai; màu trắng lấy từ điệp.\n\n[1b815891b21b77bf64a1fdc7 | https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ | page tranh_dong_ho_u004]\nNgày xưa, làng Đông Hồ có chợ tranh tấp nập dịp tháng Chạp (tháng 12 Âm lịch) với 5 phiên chợ vào các ngày 6, 11, 16, 21, 26. Trong mỗi phiên chợ có hàng nghìn, hàng triệu bức tranh các loại được mang ra bán cho lái buôn, hoặc bán lẻ cho các gia đình mua về làm tranh treo Tết để mang phú quý, vinh hoa cho nhà mình. Sau phiên chợ tranh cuối cùng (26/12 Âm lịch) những gia đình nào còn lại tranh đều bọc kín đem cất chờ đến mùa tranh năm sau mang ra chợ bán.\n\nHàng năm làng Hồ có hội làng vào rằm tháng 3 âm lịch. Trong hội làng có những nghi thức truyền thống như tế thần, thi mã, thi tranh rất vui vẻ. Làng còn có các làn điệu dân ca như:\n\nHỡi anh đi đường cái quan\n\nHỡi anh đi đường cái quan\n\nDừng chân ngắm cảnh mà tan nỗi sầu Mua tờ tranh điệp tươi màu\n\nMua tờ tranh điệp tươi màu\n\nMua đàn gà lợn thi nhau đẻ nhiều.\n\nHình ảnh\n\n[612104619ddacbe4e1f4421f | https://vi.wikipedia.org/wiki/Tranh_Đông_Hồ | page tranh_dong_ho_u004]\nCòn \"làng Mái có lịch có lề\" thì nghĩa là gì? Tục ngữ Việt Nam có câu: giấy rách phải giữ lấy lề . Chữ \"lề\" ở đây tượng trưng cho những quy tắc đạo đức của người xưa, rất trọng danh dự, khí tiết. Còn dân làng Mái, dân nghệ thuật rất trọng lời ăn tiếng nói. Không như nhiều làng quê khác, người dân làng Hồ, nhất là phụ nữ, ăn nói rất lịch lãm, trên dưới thưa gửi rất rõ ràng. Người làng kể rằng kể cả từ xưa, rất hiếm khi trong làng có tiếng người mắng chửi nhau.\n\nDo công nghệ phát triển, tranh dân gian làng Hồ bây giờ không tiêu thụ nhiều như trước. Qua nhiều thế kỷ, 17 dòng họ đã quy tụ về làng, vốn xưa tất cả đều làm tranh. Nhưng đến nay, dân làng Hồ hiện chủ yếu sống bằng nghề làm vàng mã . Hiện nay chỉ còn hai gia đình nghệ nhân Nguyễn Đăng Chế và Nguyễn Hữu Sam cùng con cháu là theo nghề tranh, gìn giữ di sản tranh Đông Hồ.",
+  "context_ids": [
+    "190f37c725471af618ff420d",
+    "d97706bf1aa4024f76705bb5",
+    "cce5bf080e1d9db0fb24448e",
+    "672625a6f6ccef231a73a959",
+    "dc90ad75f958da051f9a0b96",
+    "2a63b84059484ee3f309d344",
+    "fabc2c60bdab7ced85dc163f",
+    "14e8ee86cebb93175f1fa47e",
+    "1b815891b21b77bf64a1fdc7",
+    "612104619ddacbe4e1f4421f"
+  ],
+  "context_evidence_hit": true,
+  "model_calls": [
+    {
+      "model": "gemini-3.8-flash",
+      "elapsed_seconds": 2.5555571999993845,
+      "usage": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 24,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 257,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 257
+          }
+        ],
+        "thoughts_token_count": 35,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 316,
+        "traffic_type": null
+      },
+      "raw_response": "{\"action\": \"search\", \"query\": \"Ván in tranh Đông Hồ được chia thành hai loại nào?\"}"
+    },
+    {
+      "model": "gemini-3.8-flash",
+      "elapsed_seconds": 3.551434800001516,
+      "usage": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 83,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 3330,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 3330
+          }
+        ],
+        "thoughts_token_count": 114,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 3527,
+        "traffic_type": null
+      },
+      "raw_response": "{\"action\": \"answer\", \"answer\": \"Ván khắc in tranh Đông Hồ được chia thành hai loại là: ván in nét và ván in màu [d97706bf1aa4024f76705bb5].\", \"citations\": [\"d97706bf1aa4024f76705bb5\"]}"
+    }
+  ],
+  "elapsed_seconds_excluding_setup": 6.129126100000576
+}

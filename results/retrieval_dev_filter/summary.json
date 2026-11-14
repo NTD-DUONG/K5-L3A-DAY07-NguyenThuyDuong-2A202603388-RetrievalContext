@@ -1,0 +1,40 @@
+{
+  "split": "dev",
+  "candidate_k": 10,
+  "evaluation_cutoffs": [
+    1,
+    3
+  ],
+  "rrf_constant": 60,
+  "filter": "Single explicit tradition name inferred from query",
+  "model_signature": "87234930e88b1c8b85a64876d2efe01d8d1b728d911ac3968ce2c784289dfa78",
+  "setup_seconds": 8.177165700000842,
+  "timing_note": "Sequential queries after setup. Hybrid reuses measured dense and lexical results and sums their times plus fusion.",
+  "external_api_cost_usd": 0,
+  "methods": {
+    "dense": {
+      "n": 15,
+      "hit1_count": 10,
+      "hit1_rate": 0.6666666666666666,
+      "hit3_count": 11,
+      "hit3_rate": 0.7333333333333333,
+      "mean_query_ms": 23.97891333324272
+    },
+    "tfidf": {
+      "n": 15,
+      "hit1_count": 11,
+      "hit1_rate": 0.7333333333333333,
+      "hit3_count": 14,
+      "hit3_rate": 0.9333333333333333,
+      "mean_query_ms": 0.9202333333329685
+    },
+    "hybrid": {
+      "n": 15,
+      "hit1_count": 10,
+      "hit1_rate": 0.6666666666666666,
+      "hit3_count": 14,
+      "hit3_rate": 0.9333333333333333,
+      "mean_query_ms": 24.910486666340148
+    }
+  }
+}

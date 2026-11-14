@@ -1,0 +1,176 @@
+{
+  "query_id": "dev_14",
+  "split": "dev",
+  "question": "Sự kiện năm 1915 nào góp phần khiến nghề tranh Kim Hoàng bắt đầu thất truyền?",
+  "answerable": true,
+  "model": "gemini-3.8-flash",
+  "configuration": {
+    "method": "hybrid_rrf",
+    "candidate_k": 10,
+    "rrf_constant": 60,
+    "filters": {
+      "painting_tradition": "kim_hoang"
+    },
+    "max_searches": 3,
+    "top_k": 3,
+    "context_budget_chars": 6000
+  },
+  "result": {
+    "status": "answered",
+    "answer": "Sự kiện khiến nghề tranh Kim Hoàng bắt đầu bị thất truyền là trận lụt năm 1915, khi làng mạc từ Phùng đến Cầu Giấy bị ngập trắng và khiến nhiều ván in tranh của làng bị cuốn trôi [8bf623f5da982971fbf8893d].",
+    "citations": [
+      "8bf623f5da982971fbf8893d"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "tranh Kim Hoàng 1915",
+        "filter": {
+          "painting_tradition": "kim_hoang"
+        },
+        "results": [
+          {
+            "id": "8bf623f5da982971fbf8893d",
+            "text": "Tranh Kim Hoàng là tên thường gọi của một dòng tranh dân gian phát triển khá mạnh từ thế kỷ 18 đến thế kỷ 19 của làng Kim Hoàng, xã Vân Canh, huyện Hoài Đức (nay là xã Sơn Đồng ), thành phố Hà Nội .\n\nTương truyền, dòng họ làm tranh đầu tiên là dòng họ Nguyễn Sĩ người Thanh Hoá theo mẹ ra Thăng Long rồi lập nghiệp ở làng Kim Hoàng. Thế kỷ 19 , tranh Kim Hoàng phát triển mạnh, nhưng rồi bắt đầu bị thất truyền từ trận lụt năm 1915, khi làng mạc từ Phùng đến Cầu Giấy bị ngập trắng, nhiều ván in tranh của làng bị cuốn trôi. Đến năm 1945 thì tranh hoàn toàn không còn được sản xuất nữa. Ngày nay, chỉ còn một vài ván in của dòng tranh này được lưu giữ tại Bảo tàng Mỹ thuật Việt Nam .\n\nVề chủ đề",
+            "source_id": "tranh_kim_hoang",
+            "source": "https://vi.wikipedia.org/wiki/Tranh_Kim_Hoàng",
+            "page": "tranh_kim_hoang_u001",
+            "metadata": {
+              "painting_tradition": "kim_hoang",
+              "title": "Tranh Kim Hoàng",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Tranh_Kim_Ho%C3%A0ng&oldid=75185129",
+              "unit_start_char": 0,
+              "source_text_path": "data/processed/tranh_kim_hoang.txt",
+              "document_id": "tranh_kim_hoang",
+              "source": "https://vi.wikipedia.org/wiki/Tranh_Kim_Hoàng",
+              "page": "tranh_kim_hoang_u001",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 0,
+              "unit_end_offset": 695,
+              "document_start_char": 0,
+              "document_end_char": 695,
+              "char_count": 695
+            },
+            "score": 0.03252247488101534
+          },
+          {
+            "id": "a1372e912936f97e812bf545",
+            "text": "Tranh Kim Hoàng cũng giống như tranh Đông Hồ, có những chủ đề quen thuộc với đời sống người dân nông thôn như tranh gà, tranh lợn, tranh ông Công ông Táo, tranh cuộc sống đồng quê... Tranh Kim Hoàng cũng có những thể loại như tranh Tết, tranh thờ... đáp ứng được những nhu cầu đa dạng, từ trang hoàng nhà cửa nhân dịp Tết đến Xuân về, cầu cho phúc lộc đầy nhà, cho đến xua đuổi tà ma, giữ nhà yên ấm.\n\nVề giấy làm tranh\n\nTranh Kim Hoàng chuyên dùng giấy hồng điều hay giấy vàng tàu để làm tranh, dùng bức nền tươi thắm như vậy, cho nên tranh Kim Hoàng còn được gọi bằng một cái tên khác là \"tranh đỏ\", rất phù hợp với không khí tươi vui của ngày Tết. Chỉ riêng việc chọn giấy chuẩn bị giấy thôi cũng đã tốn rất nhiều thời gian và công sức của nhóm phục dựng tranh. Giấy đỏ làm tranh của tranh Kim Hoàng cũng độc đáo và thành một đặc điểm riêng biệt của tranh Kim Hoàng chẳng khác gì giấy điệp là đặc điểm riêng của tranh Đông Hồ.",
+            "source_id": "tranh_kim_hoang",
+            "source": "https://vi.wikipedia.org/wiki/Tranh_Kim_Hoàng",
+            "page": "tranh_kim_hoang_u001",
+            "metadata": {
+              "painting_tradition": "kim_hoang",
+              "title": "Tranh Kim Hoàng",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Tranh_Kim_Ho%C3%A0ng&oldid=75185129",
+              "unit_start_char": 0,
+              "source_text_path": "data/processed/tranh_kim_hoang.txt",
+              "document_id": "tranh_kim_hoang",
+              "source": "https://vi.wikipedia.org/wiki/Tranh_Kim_Hoàng",
+              "page": "tranh_kim_hoang_u001",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 697,
+              "unit_end_offset": 1626,
+              "document_start_char": 697,
+              "document_end_char": 1626,
+              "char_count": 929
+            },
+            "score": 0.03252247488101534
+          },
+          {
+            "id": "18bb7894ae137f5f1f75ea7a",
+            "text": "Về nét khắc ván in\n\nVán in của tranh Kim Hoàng được khắc hình với những nét tinh tế thanh nhã hơn so với ván in tranh Đông Hồ, khi in làm nổi bật lên những đường nét mực trên tấm giấy hồng điều. Đường nét của tranh Kim Hoàng mang tính hình tượng hóa, cách điệu nhiều hơn hẳn so với tranh Đông Hồ, mặc dù sử dụng cùng một chủ đề. Như trong bức tranh \"Thần kê\" (gà thần), con gà của tranh Kim Hoàng không phải là một chú gà dung dị bình thường, mà được khoác lên mình tấm áo của một \"thần gà\", đuôi dài, rực rỡ với hình dáng của đuôi chim phượng hoàng. Hay như trong bức tranh về lợn, lợn của tranh Đông Hồ no đủ tròn đầy, nhưng con lợn của tranh Kim Hoàng được hình tượng hóa, chiếc mũi giống như một đám mây trong bức tranh cổ.\n\nVề kỹ thuật in",
+            "source_id": "tranh_kim_hoang",
+            "source": "https://vi.wikipedia.org/wiki/Tranh_Kim_Hoàng",
+            "page": "tranh_kim_hoang_u002",
+            "metadata": {
+              "painting_tradition": "kim_hoang",
+              "title": "Tranh Kim Hoàng",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Tranh_Kim_Ho%C3%A0ng&oldid=75185129",
+              "unit_start_char": 1626,
+              "source_text_path": "data/processed/tranh_kim_hoang.txt",
+              "document_id": "tranh_kim_hoang",
+              "source": "https://vi.wikipedia.org/wiki/Tranh_Kim_Hoàng",
+              "page": "tranh_kim_hoang_u002",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 2,
+              "unit_end_offset": 745,
+              "document_start_char": 1628,
+              "document_end_char": 2371,
+              "char_count": 743
+            },
+            "score": 0.031746031746031744
+          }
+        ],
+        "context": "[8bf623f5da982971fbf8893d | https://vi.wikipedia.org/wiki/Tranh_Kim_Hoàng | page tranh_kim_hoang_u001]\nTranh Kim Hoàng là tên thường gọi của một dòng tranh dân gian phát triển khá mạnh từ thế kỷ 18 đến thế kỷ 19 của làng Kim Hoàng, xã Vân Canh, huyện Hoài Đức (nay là xã Sơn Đồng ), thành phố Hà Nội .\n\nTương truyền, dòng họ làm tranh đầu tiên là dòng họ Nguyễn Sĩ người Thanh Hoá theo mẹ ra Thăng Long rồi lập nghiệp ở làng Kim Hoàng. Thế kỷ 19 , tranh Kim Hoàng phát triển mạnh, nhưng rồi bắt đầu bị thất truyền từ trận lụt năm 1915, khi làng mạc từ Phùng đến Cầu Giấy bị ngập trắng, nhiều ván in tranh của làng bị cuốn trôi. Đến năm 1945 thì tranh hoàn toàn không còn được sản xuất nữa. Ngày nay, chỉ còn một vài ván in của dòng tranh này được lưu giữ tại Bảo tàng Mỹ thuật Việt Nam .\n\nVề chủ đề\n\n[a1372e912936f97e812bf545 | https://vi.wikipedia.org/wiki/Tranh_Kim_Hoàng | page tranh_kim_hoang_u001]\nTranh Kim Hoàng cũng giống như tranh Đông Hồ, có những chủ đề quen thuộc với đời sống người dân nông thôn như tranh gà, tranh lợn, tranh ông Công ông Táo, tranh cuộc sống đồng quê... Tranh Kim Hoàng cũng có những thể loại như tranh Tết, tranh thờ... đáp ứng được những nhu cầu đa dạng, từ trang hoàng nhà cửa nhân dịp Tết đến Xuân về, cầu cho phúc lộc đầy nhà, cho đến xua đuổi tà ma, giữ nhà yên ấm.\n\nVề giấy làm tranh\n\nTranh Kim Hoàng chuyên dùng giấy hồng điều hay giấy vàng tàu để làm tranh, dùng bức nền tươi thắm như vậy, cho nên tranh Kim Hoàng còn được gọi bằng một cái tên khác là \"tranh đỏ\", rất phù hợp với không khí tươi vui của ngày Tết. Chỉ riêng việc chọn giấy chuẩn bị giấy thôi cũng đã tốn rất nhiều thời gian và công sức của nhóm phục dựng tranh. Giấy đỏ làm tranh của tranh Kim Hoàng cũng độc đáo và thành một đặc điểm riêng biệt của tranh Kim Hoàng chẳng khác gì giấy điệp là đặc điểm riêng của tranh Đông Hồ.\n\n[18bb7894ae137f5f1f75ea7a | https://vi.wikipedia.org/wiki/Tranh_Kim_Hoàng | page tranh_kim_hoang_u002]\nVề nét khắc ván in\n\nVán in của tranh Kim Hoàng được khắc hình với những nét tinh tế thanh nhã hơn so với ván in tranh Đông Hồ, khi in làm nổi bật lên những đường nét mực trên tấm giấy hồng điều. Đường nét của tranh Kim Hoàng mang tính hình tượng hóa, cách điệu nhiều hơn hẳn so với tranh Đông Hồ, mặc dù sử dụng cùng một chủ đề. Như trong bức tranh \"Thần kê\" (gà thần), con gà của tranh Kim Hoàng không phải là một chú gà dung dị bình thường, mà được khoác lên mình tấm áo của một \"thần gà\", đuôi dài, rực rỡ với hình dáng của đuôi chim phượng hoàng. Hay như trong bức tranh về lợn, lợn của tranh Đông Hồ no đủ tròn đầy, nhưng con lợn của tranh Kim Hoàng được hình tượng hóa, chiếc mũi giống như một đám mây trong bức tranh cổ.\n\nVề kỹ thuật in",
+        "context_ids": [
+          "8bf623f5da982971fbf8893d",
+          "a1372e912936f97e812bf545",
+          "18bb7894ae137f5f1f75ea7a"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  "final_context": "[8bf623f5da982971fbf8893d | https://vi.wikipedia.org/wiki/Tranh_Kim_Hoàng | page tranh_kim_hoang_u001]\nTranh Kim Hoàng là tên thường gọi của một dòng tranh dân gian phát triển khá mạnh từ thế kỷ 18 đến thế kỷ 19 của làng Kim Hoàng, xã Vân Canh, huyện Hoài Đức (nay là xã Sơn Đồng ), thành phố Hà Nội .\n\nTương truyền, dòng họ làm tranh đầu tiên là dòng họ Nguyễn Sĩ người Thanh Hoá theo mẹ ra Thăng Long rồi lập nghiệp ở làng Kim Hoàng. Thế kỷ 19 , tranh Kim Hoàng phát triển mạnh, nhưng rồi bắt đầu bị thất truyền từ trận lụt năm 1915, khi làng mạc từ Phùng đến Cầu Giấy bị ngập trắng, nhiều ván in tranh của làng bị cuốn trôi. Đến năm 1945 thì tranh hoàn toàn không còn được sản xuất nữa. Ngày nay, chỉ còn một vài ván in của dòng tranh này được lưu giữ tại Bảo tàng Mỹ thuật Việt Nam .\n\nVề chủ đề\n\n[a1372e912936f97e812bf545 | https://vi.wikipedia.org/wiki/Tranh_Kim_Hoàng | page tranh_kim_hoang_u001]\nTranh Kim Hoàng cũng giống như tranh Đông Hồ, có những chủ đề quen thuộc với đời sống người dân nông thôn như tranh gà, tranh lợn, tranh ông Công ông Táo, tranh cuộc sống đồng quê... Tranh Kim Hoàng cũng có những thể loại như tranh Tết, tranh thờ... đáp ứng được những nhu cầu đa dạng, từ trang hoàng nhà cửa nhân dịp Tết đến Xuân về, cầu cho phúc lộc đầy nhà, cho đến xua đuổi tà ma, giữ nhà yên ấm.\n\nVề giấy làm tranh\n\nTranh Kim Hoàng chuyên dùng giấy hồng điều hay giấy vàng tàu để làm tranh, dùng bức nền tươi thắm như vậy, cho nên tranh Kim Hoàng còn được gọi bằng một cái tên khác là \"tranh đỏ\", rất phù hợp với không khí tươi vui của ngày Tết. Chỉ riêng việc chọn giấy chuẩn bị giấy thôi cũng đã tốn rất nhiều thời gian và công sức của nhóm phục dựng tranh. Giấy đỏ làm tranh của tranh Kim Hoàng cũng độc đáo và thành một đặc điểm riêng biệt của tranh Kim Hoàng chẳng khác gì giấy điệp là đặc điểm riêng của tranh Đông Hồ.\n\n[18bb7894ae137f5f1f75ea7a | https://vi.wikipedia.org/wiki/Tranh_Kim_Hoàng | page tranh_kim_hoang_u002]\nVề nét khắc ván in\n\nVán in của tranh Kim Hoàng được khắc hình với những nét tinh tế thanh nhã hơn so với ván in tranh Đông Hồ, khi in làm nổi bật lên những đường nét mực trên tấm giấy hồng điều. Đường nét của tranh Kim Hoàng mang tính hình tượng hóa, cách điệu nhiều hơn hẳn so với tranh Đông Hồ, mặc dù sử dụng cùng một chủ đề. Như trong bức tranh \"Thần kê\" (gà thần), con gà của tranh Kim Hoàng không phải là một chú gà dung dị bình thường, mà được khoác lên mình tấm áo của một \"thần gà\", đuôi dài, rực rỡ với hình dáng của đuôi chim phượng hoàng. Hay như trong bức tranh về lợn, lợn của tranh Đông Hồ no đủ tròn đầy, nhưng con lợn của tranh Kim Hoàng được hình tượng hóa, chiếc mũi giống như một đám mây trong bức tranh cổ.\n\nVề kỹ thuật in",
+  "context_ids": [
+    "8bf623f5da982971fbf8893d",
+    "a1372e912936f97e812bf545",
+    "18bb7894ae137f5f1f75ea7a"
+  ],
+  "context_evidence_hit": true,
+  "model_calls": [
+    {
+      "model": "gemini-3.8-flash",
+      "elapsed_seconds": 3.2845861000005243,
+      "usage": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 20,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 238,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 238
+          }
+        ],
+        "thoughts_token_count": 61,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 319,
+        "traffic_type": null
+      },
+      "raw_response": "{\"action\": \"search\", \"query\": \"tranh Kim Hoàng 1915\"}"
+    },
+    {
+      "model": "gemini-3.8-flash",
+      "elapsed_seconds": 4.187884699998904,
+      "usage": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 113,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 1158,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 1158
+          }
+        ],
+        "thoughts_token_count": 197,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 1468,
+        "traffic_type": null
+      },
+      "raw_response": "{\"action\": \"answer\", \"answer\": \"Sự kiện khiến nghề tranh Kim Hoàng bắt đầu bị thất truyền là trận lụt năm 1915, khi làng mạc từ Phùng đến Cầu Giấy bị ngập trắng và khiến nhiều ván in tranh của làng bị cuốn trôi [8bf623f5da982971fbf8893d].\", \"citations\": [\"8bf623f5da982971fbf8893d\"]}"
+    }
+  ],
+  "elapsed_seconds_excluding_setup": 7.492953999999372
+}

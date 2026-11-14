@@ -1,0 +1,417 @@
+{
+  "query_id": "dev_03",
+  "split": "dev",
+  "question": "Vì sao giấy dó nhẹ và hút mực?",
+  "answerable": true,
+  "model": "gemini-3.8-flash",
+  "configuration": {
+    "method": "hybrid_rrf",
+    "candidate_k": 12,
+    "rrf_constant": 60,
+    "filters": null,
+    "max_searches": 3,
+    "top_k": 12,
+    "context_budget_chars": 16000
+  },
+  "result": {
+    "status": "answered",
+    "answer": "Giấy dó nhẹ và hút mực là do giấy có độ xốp [631cd5c4ff1863828a6ec60c]. Đặc tính xốp này được tạo nên từ nguyên liệu, cách chế biến, xử lý nguyên liệu và công nghệ sản xuất [1df9c6eb522236091000e2d6]; cụ thể, các sợi tơ dó/xơ sợi li ti kết lại với nhau như mạng nhện nhiều lớp, đa chiều (theo dạng chuyển động Brown) chứ không theo thứ tự sợi ngang dọc như lụa dệt [1df9c6eb522236091000e2d6], [631cd5c4ff1863828a6ec60c]. Chính sự kết mạng tạo nên độ xốp này khiến giấy dó rất nhẹ và dễ bắt màu, hút mực khi viết hoặc in [37ab15a09a03addbc9165a7e], [631cd5c4ff1863828a6ec60c].",
+    "citations": [
+      "1df9c6eb522236091000e2d6",
+      "37ab15a09a03addbc9165a7e",
+      "631cd5c4ff1863828a6ec60c"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Vì sao giấy dó nhẹ và hút mực?",
+        "filter": null,
+        "results": [
+          {
+            "id": "1df9c6eb522236091000e2d6",
+            "text": "Đến cuối thế kỷ 20, năm 1986 thì nghề thủ công làm giấy gần như bỏ hẳn.\n\nĐặc tính lý hóa của giấy dó\n\nGiấy dó có đặc tính xốp nhẹ, bền dai, không nhoè khi viết vẽ, ít bị mối mọt , hoặc dòn gãy, ẩm nát.\n\nGiấy dó xốp, nhẹ do nguyên liệu, cách chế biến, xử lý nguyên liệu và công nghệ sản xuất giấy dó quy định. Giấy dó có cấu trúc dạng sợi, các xơ sợi li ti cố kết với nhau tựa mạng nhện, nhiều lớp, không theo thứ tự sợi ngang, dọc như tấm lụa dệt, mà theo dạng chuyển động brown , đa chiều. Giấy dó có trọng lượng riêng bằng khoảng một nửa các loại giấy sản xuất công nghiệp.",
+            "source_id": "giay_do",
+            "source": "https://vi.wikipedia.org/wiki/Giấy_dó",
+            "page": "giay_do_u002",
+            "metadata": {
+              "painting_tradition": "general",
+              "title": "Giấy dó",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Gi%E1%BA%A5y_d%C3%B3&oldid=74469469",
+              "unit_start_char": 1517,
+              "source_text_path": "data/processed/giay_do.txt",
+              "document_id": "giay_do",
+              "source": "https://vi.wikipedia.org/wiki/Giấy_dó",
+              "page": "giay_do_u002",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 987,
+              "unit_end_offset": 1562,
+              "document_start_char": 2504,
+              "document_end_char": 3079,
+              "char_count": 575
+            },
+            "score": 0.032266458495966696
+          },
+          {
+            "id": "37ab15a09a03addbc9165a7e",
+            "text": "Giấy dó Yên Thái đã được xuất khẩu sang nhiều quốc gia trên thế giới và được bạn hàng ưa chuộng. Các họa sĩ người Pháp đã sử dụng giấy dó Yên Thái (khổ lớn) để vẽ tranh bằng mực tàu theo phương pháp tranh cổ điển phương Đông . Một vài bảo tàng ở châu Âu cũng đã dùng giấy dó để lót bồi phía sau tranh vẽ. Với đặc tính chống ẩm rất cao, giấy dó giúp cho các tác phẩm nghệ thuật không bị ẩm mốc .\n\nĐộ bền :\n\nTại các Trung tâm Lưu trữ Quốc gia , trong số những tài liệu giấy, thì tài liệu giấy dó có tuổi thọ cao nhất. Các tài liệu giấy dó (điển hình là các sắc phong tại các đình, đền) là những loại tài liệu được sản sinh lâu đời nhất, từ khi các phương tiện bảo quản chưa được phát triển.\n\nBắt màu, hút ẩm và thoát ẩm : Vì xốp nên giấy dó rất dễ bắt màu khi viết, in\n\nCách nhiệt, cách âm, thẩm âm, cháy kiệt : Cũng vì xốp nên giấy dó cách nhiệt, cách âm tốt, do có cấu trúc dạng sợi đa chiều\n\nLịch sử sản xuất giấy dó\n\nCây dó giấy",
+            "source_id": "giay_do",
+            "source": "https://vi.wikipedia.org/wiki/Giấy_dó",
+            "page": "giay_do_u003",
+            "metadata": {
+              "painting_tradition": "general",
+              "title": "Giấy dó",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Gi%E1%BA%A5y_d%C3%B3&oldid=74469469",
+              "unit_start_char": 3079,
+              "source_text_path": "data/processed/giay_do.txt",
+              "document_id": "giay_do",
+              "source": "https://vi.wikipedia.org/wiki/Giấy_dó",
+              "page": "giay_do_u003",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 2,
+              "unit_end_offset": 932,
+              "document_start_char": 3081,
+              "document_end_char": 4011,
+              "char_count": 930
+            },
+            "score": 0.032266458495966696
+          },
+          {
+            "id": "631cd5c4ff1863828a6ec60c",
+            "text": "Tơ dó kết lại với nhau, như cái mạng nhện nhiều lớp, tạo nên tờ giấy dó. Sự kết mạng như vậy đã làm cho tờ giấy dó có độ xốp. Vì xốp nên giấy dó rất nhẹ và hút mực. Các công cụ sản xuất giấy dó hầu như bằng tre, gỗ và dùng ánh sáng tự nhiên để làm khô giấy. Giấy dó được sản xuất theo quy trình này không có độ axít nên tờ giấy dó có tuổi thọ rất cao. Từ việc ngày nay chúng ta còn lưu giữ được các bản sắc phong cổ trong một số di tích đình, đền, miếu thờ đã cho thấy: giấy dó có độ tuổi thọ tới hơn 500 năm. Tiếng chày giã dó đã đi vào ca dao: \"Gió đưa cành trúc la đà, tiếng chuông Trấn Vũ canh gà Thọ Xương. Mịt mù khói tỏa ngàn sương, Nhịp chày Yên Thái mặt gương Tây Hồ\". Phường Yên Thái ở bờ tây nam hồ Tây, tục gọi là kẻ Bưởi, từ thế kỷ 12 đã là nơi chính làm giấy dó dùng để viết hoặc in, gồm ba làng: Hồ Khẩu, Đông Xã, An Thái Thọ (do sáp nhập hai làng An Thái và Thọ An vào). Hai làng Hồ Khẩu và Đông Xã thì làm giấy dó khổ lớn hơn mà mịn mặt hơn dùng để làm tranh dân gian.",
+            "source_id": "giay_do",
+            "source": "https://vi.wikipedia.org/wiki/Giấy_dó",
+            "page": "giay_do_u002",
+            "metadata": {
+              "painting_tradition": "general",
+              "title": "Giấy dó",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Gi%E1%BA%A5y_d%C3%B3&oldid=74469469",
+              "unit_start_char": 1517,
+              "source_text_path": "data/processed/giay_do.txt",
+              "document_id": "giay_do",
+              "source": "https://vi.wikipedia.org/wiki/Giấy_dó",
+              "page": "giay_do_u002",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 1,
+              "unit_end_offset": 986,
+              "document_start_char": 1518,
+              "document_end_char": 2503,
+              "char_count": 985
+            },
+            "score": 0.03225806451612903
+          },
+          {
+            "id": "0faa2a122dc8f3077a9ed02d",
+            "text": "Người ta in bằng cách ép lên bản khắc gỗ một tờ giấy có khả năng hút nước tức là không có pha keo và vì thế mà hút mực và đã được làm ẩm một ít (hoặc là ngược lại ép bản gỗ lên giấy). Có thể dùng một trái banh lăn trên tờ giấy hay dùng một cây cọ quét lên để tạo lực cần thiết ép giấy sát vào bản in gỗ.",
+            "source_id": "khac_go",
+            "source": "https://vi.wikipedia.org/wiki/Khắc_gỗ",
+            "page": "khac_go_u001",
+            "metadata": {
+              "painting_tradition": "general",
+              "title": "Khắc gỗ",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Kh%E1%BA%AFc_g%E1%BB%97&oldid=69681873",
+              "unit_start_char": 0,
+              "source_text_path": "data/processed/khac_go.txt",
+              "document_id": "khac_go",
+              "source": "https://vi.wikipedia.org/wiki/Khắc_gỗ",
+              "page": "khac_go_u001",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 1299,
+              "unit_end_offset": 1602,
+              "document_start_char": 1299,
+              "document_end_char": 1602,
+              "char_count": 303
+            },
+            "score": 0.03125
+          },
+          {
+            "id": "db402b85f586b83744a8a330",
+            "text": "Ngoài các dòng tranh sử dụng phương pháp khắc thì còn có những bức tranh vẽ tay của các nghệ nhân. Phương pháp vẽ tranh trực tiếp này chủ yếu được dùng ở vùng các dân tộc thiểu số ở vùng núi miền Bắc như người: Tày , Nùng , Dao ...\n\nNguyên liệu và cách tạo màu cho tranh có 3 loại\n\nTranh thường được in hoặc vẽ trực tiếp lên giấy . Loại giấy phổ biến thường được các dòng tranh dùng hơn cả là giấy dó . Từ loại giấy này có thể làm ra giấy điệp, loại giấy mà tranh Đông Hồ sử dụng in hình. Đặc điểm của loại giấy này là độ bền rất cao, mà lại xốp nhẹ, không nhoè khi viết vẽ, ít bị mối mọt, hoặc giòn gãy, ẩm nát. Với đặc tính chống ẩm rất cao, giấy dó giúp cho các bức tranh không bị ẩm mốc, trường tồn cùng thời gian.\n\nMỗi dòng tranh thường có cách tạo màu, pha chế màu sắc riêng, nhưng nhìn chung thì màu sắc cho những bức tranh thường được tạo nên từ những nguyên liệu đơn giản, dân dã bằng rất nhiều phương pháp khác nhau.",
+            "source_id": "hoi_hoa_dan_gian",
+            "source": "https://vi.wikipedia.org/wiki/Tranh_dân_gian_Việt_Nam",
+            "page": "hoi_hoa_dan_gian_u003",
+            "metadata": {
+              "painting_tradition": "general",
+              "title": "Hội họa dân gian Việt Nam",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=H%E1%BB%99i_h%E1%BB%8Da_d%C3%A2n_gian_Vi%E1%BB%87t_Nam&oldid=74427393",
+              "unit_start_char": 3109,
+              "source_text_path": "data/processed/hoi_hoa_dan_gian.txt",
+              "document_id": "hoi_hoa_dan_gian",
+              "source": "https://vi.wikipedia.org/wiki/Tranh_dân_gian_Việt_Nam",
+              "page": "hoi_hoa_dan_gian_u003",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 2,
+              "unit_end_offset": 928,
+              "document_start_char": 3111,
+              "document_end_char": 4037,
+              "char_count": 926
+            },
+            "score": 0.029857397504456328
+          },
+          {
+            "id": "27318f7b2ab071720b6c11d1",
+            "text": "Đĩa tuyến mật cao 1,5 - 2mm, hình chén mỏng, mép lượn sóng. Bầu hơi có cuống, phủ đầy lông; vòi ngắn; núm to, gần hình bán cầu. Quả khô không tự nở, hình trứng, dài 7mm; vỏ quả ngoài mỏng, phủ đầy lông màu vàng nhạt. Hạt hình thoi, dài 6mm, rộng 1,7mm. Cây dó giấy thường mọc ở vùng Hòa Bình, Phú Thọ, Yên Bái, Tuyên Quang, Sơn La, Lai Châu.\n\nCác loại giấy dó\n\nGiấy dó sản xuất tại làng An Cốc ( Hà Tây cũ) có bảy loại:\n\nGiấy phương\n\nGiấy trúc\n\nGiấy khay\n\nGiấy để tạo giấy sắc\n\nGiấy vua phê\n\nGiấy hành ri\n\nGiấy dó bìa\n\nTại Hà Nội :\n\nGiấy sắc (Nghĩa Đô)\n\nGiấy moi, giấy phèn làm từ nguyên liệu thô hơn, có mặt giấy khô ráp, sử dụng để gói hàng (Yên Thái)\n\nGiấy xề: làm từ các đầu mẩu vỏ dó bị loại bỏ (làng Kẻ Cót hay làng Cót)\n\nỨng dụng\n\nIn sách: ngày xưa người Việt in bằng công nghệ in giấy bản trên ván gỗ. Ngày nay, nhà thơ Nguyễn Duy sử dụng máy in phun để in trên giấy dó\n\nGhi chép: thích hợp với sử dụng bút lông\n\nVẽ tranh dân gian\n\nĐồ chơi Trung Thu\n\nVàng mã\n\nLàm quạt\n\nBao bì\n\nGiấy chống ẩm",
+            "source_id": "giay_do",
+            "source": "https://vi.wikipedia.org/wiki/Giấy_dó",
+            "page": "giay_do_u003",
+            "metadata": {
+              "painting_tradition": "general",
+              "title": "Giấy dó",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Gi%E1%BA%A5y_d%C3%B3&oldid=74469469",
+              "unit_start_char": 3079,
+              "source_text_path": "data/processed/giay_do.txt",
+              "document_id": "giay_do",
+              "source": "https://vi.wikipedia.org/wiki/Giấy_dó",
+              "page": "giay_do_u003",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 1873,
+              "unit_end_offset": 2872,
+              "document_start_char": 4952,
+              "document_end_char": 5951,
+              "char_count": 999
+            },
+            "score": 0.02964426877470356
+          },
+          {
+            "id": "87be5f0588113670aa5d94a6",
+            "text": "Từ các làng nghề truyền thống sản xuất giấy dó ở Kinh thành Thăng Long xưa cho thấy: về cơ bản, giấy dó sản xuất thủ công, nên không có tác động của hoá chất trong tờ giấy. Vỏ cây dó được ngâm trong nước vôi với thời gian ba tháng, sau đó được nấu cách thủy khoảng 3 ngày 2 đêm cho đến khi ngửi thấy mùi thơm của vỏ cây được nấu chín nhừ hoặc thấy phần thịt của vỏ cây dó trong lại. Dùng dao nhỏ bóc bỏ lần vỏ đen đi, giã bằng cối và chày cho đến khi thành một dạng bột nhuyễn rồi cho bột dó vào một cái rá to có đường kính hơn một mét được đan bằng tre để đãi sạch nước vôi, gọi là \"đãi bìa\". Dùng chất nhầy từ cây mò (chi Clerodendrum ) tạo hỗn hợp kết dính. Hỗn hợp này gọi là \"nhớt gỗ\" mà người thợ sẽ pha với nước, lỏng hay đặc tùy theo loại giấy. Khi xeo giấy, người thợ dùng \"liềm xeo\" - liềm là một mành nứa hoặc giang chẻ nhỏ như sợi tăm rồi dùng sợi tơ xe lại mua ở làng Triều Khúc về đan lại - công đoạn đan liềm này do các thợ thủ công ở làng Cáo Đỉnh đảm nhận.",
+            "source_id": "giay_do",
+            "source": "https://vi.wikipedia.org/wiki/Giấy_dó",
+            "page": "giay_do_u001",
+            "metadata": {
+              "painting_tradition": "general",
+              "title": "Giấy dó",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Gi%E1%BA%A5y_d%C3%B3&oldid=74469469",
+              "unit_start_char": 0,
+              "source_text_path": "data/processed/giay_do.txt",
+              "document_id": "giay_do",
+              "source": "https://vi.wikipedia.org/wiki/Giấy_dó",
+              "page": "giay_do_u001",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 393,
+              "unit_end_offset": 1366,
+              "document_start_char": 393,
+              "document_end_char": 1366,
+              "char_count": 973
+            },
+            "score": 0.02946912242686891
+          },
+          {
+            "id": "930fe5af23902f40f7bc96f6",
+            "text": "Tranh chỉ có một bản đen đầu tiên, sau khi in thì tranh được tô màu lại bằng tay. Từ các bản khắc gốc, những bức tranh đã được in ra, bằng mực Tàu mài nguyên chất. Sau đó là công đoạn bồi giấy . Tùy thuộc từng tranh cụ thể mà có tranh chỉ bồi một lớp, có tranh lại phải bồi đến 2 hay 3 lớp giấy. Khi hồ đã khô thì mới có thể vẽ màu lại. Có khi phải mất đến 3, 4 ngày mới hoàn thành một bức tranh.\n\nTranh được in trên giấy dó bồi dày hay giấy báo khổ rộng. Có những tranh bộ khổ to và dài, thường bồi dày, hai đầu trên dưới lồng suốt trục để tiện treo, phù hợp với kiểu kiến trúc nhà cao, cửa rộng nơi thành thị.\n\nVán khắc được làm bằng gỗ lồng mực hoặc gỗ thị. Mực in truyền thống dùng bằng những chất liệu dân dã nhưng cầu kỳ và tinh xảo trong chế tác.\n\nMàu sắc và cách tạo màu\n\nTranh dùng các gam màu chủ yếu là lam , hồng đôi khi có thêm lục , đỏ , da cam , vàng ... Tỷ lệ được tạo không hề đúng với công thức chuẩn mà chỉ để cho thật thuận mắt và ưa nhìn.",
+            "source_id": "tranh_hang_trong",
+            "source": "https://vi.wikipedia.org/wiki/Tranh_Hàng_Trống",
+            "page": "tranh_hang_trong_u002",
+            "metadata": {
+              "painting_tradition": "hang_trong",
+              "title": "Tranh Hàng Trống",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Tranh_H%C3%A0ng_Tr%E1%BB%91ng&oldid=74834715",
+              "unit_start_char": 1522,
+              "source_text_path": "data/processed/tranh_hang_trong.txt",
+              "document_id": "tranh_hang_trong",
+              "source": "https://vi.wikipedia.org/wiki/Tranh_Hàng_Trống",
+              "page": "tranh_hang_trong_u002",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 854,
+              "unit_end_offset": 1813,
+              "document_start_char": 2376,
+              "document_end_char": 3335,
+              "char_count": 959
+            },
+            "score": 0.02919863597612958
+          },
+          {
+            "id": "0bd27690a3583722fc7c9a06",
+            "text": "Nếu như tranh Đông Hồ được tạo thành hoàn toàn từ việc in ván đen và in ván các màu, tranh Hàng Trống chỉ in các nét mặc đen rồi tô màu, thì tranh Kim Hoàng lại được in làm hai lần. Đầu tiên nghệ nhân đặt tấm giấy lên trên bề mặt ván in (kỹ thuật in ngửa giống như tranh Hàng Trống chứ không phải in sấp giống như tranh Đông Hồ), ấn nhẹ xuống, lần này được gọi là \"in nhá\" để trên tấm giấy xuất hiện những nét mực mờ, sau đó nghệ nhân dùng bút màu tô lên theo cảm hứng riêng của mình, cuối cùng mới đặt tấm tranh xuống, in thêm một lần nữa (gọi là \"in đồ\"), dùng xơ mướp khô xoa nhẹ để làm nổi bật rõ các đường nét.\n\nVề màu sắc",
+            "source_id": "tranh_kim_hoang",
+            "source": "https://vi.wikipedia.org/wiki/Tranh_Kim_Hoàng",
+            "page": "tranh_kim_hoang_u002",
+            "metadata": {
+              "painting_tradition": "kim_hoang",
+              "title": "Tranh Kim Hoàng",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Tranh_Kim_Ho%C3%A0ng&oldid=75185129",
+              "unit_start_char": 1626,
+              "source_text_path": "data/processed/tranh_kim_hoang.txt",
+              "document_id": "tranh_kim_hoang",
+              "source": "https://vi.wikipedia.org/wiki/Tranh_Kim_Hoàng",
+              "page": "tranh_kim_hoang_u002",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 747,
+              "unit_end_offset": 1374,
+              "document_start_char": 2373,
+              "document_end_char": 3000,
+              "char_count": 627
+            },
+            "score": 0.02817460317460317
+          },
+          {
+            "id": "c9fbc75b7a72a0e5afca7293",
+            "text": "Giấy dó là loại giấy được sản xuất từ vỏ những cây dó (như dó giấy , dó liệt ...), theo quy trình thủ công được truyền lại qua nhiều thế hệ ở một số làng nghề ở Việt Nam . Giấy được dùng cho vẽ tranh trong mỹ thuật dân gian Việt Nam , đặc biệt là để làm giấy điệp cho tranh Đông Hồ , hay lưu giữ các tài liệu , nhờ vào nhiều ưu điểm, nổi bật nhất là độ bền theo thời gian .\n\nSản xuất giấy dó",
+            "source_id": "giay_do",
+            "source": "https://vi.wikipedia.org/wiki/Giấy_dó",
+            "page": "giay_do_u001",
+            "metadata": {
+              "painting_tradition": "general",
+              "title": "Giấy dó",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Gi%E1%BA%A5y_d%C3%B3&oldid=74469469",
+              "unit_start_char": 0,
+              "source_text_path": "data/processed/giay_do.txt",
+              "document_id": "giay_do",
+              "source": "https://vi.wikipedia.org/wiki/Giấy_dó",
+              "page": "giay_do_u001",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 0,
+              "unit_end_offset": 391,
+              "document_start_char": 0,
+              "document_end_char": 391,
+              "char_count": 391
+            },
+            "score": 0.015384615384615385
+          },
+          {
+            "id": "2a4727783ea7ce618fc7778e",
+            "text": "Vì chỉ cần lực ép tương đối ít hơn nên các cạnh của bản in ra không có vết hằn (tiếng Anh: platemark ).\n\nMàu của đường kẻ đều hòa trên khắp tờ giấy vì lực ép đều nhau.\n\nCác biến thể của kỹ thuật khắc gỗ\n\nCác kỹ thuật cổ điển của khắc gỗ bao gồm:\n\n\"Cắt đường đen\": Các phần nổi (và vì thế được in ra) của bản khắc gỗ sẽ tạo hình, đây là cách đầu tiên của kỹ thuật khắc gỗ.\n\n\"Cắt đường trắng\": Đường nét được chạm trổ chìm vào gỗ, khi in bề mặt, thật ra là nền của bức tranh, sẽ được in ra, hình ảnh được tạo thành bởi các đường nét trắng do không được in.",
+            "source_id": "khac_go",
+            "source": "https://vi.wikipedia.org/wiki/Khắc_gỗ",
+            "page": "khac_go_u003",
+            "metadata": {
+              "painting_tradition": "general",
+              "title": "Khắc gỗ",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Kh%E1%BA%AFc_g%E1%BB%97&oldid=69681873",
+              "unit_start_char": 3145,
+              "source_text_path": "data/processed/khac_go.txt",
+              "document_id": "khac_go",
+              "source": "https://vi.wikipedia.org/wiki/Khắc_gỗ",
+              "page": "khac_go_u003",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 969,
+              "unit_end_offset": 1523,
+              "document_start_char": 4114,
+              "document_end_char": 4668,
+              "char_count": 554
+            },
+            "score": 0.014925373134328358
+          },
+          {
+            "id": "978ba20e7026760e188a778d",
+            "text": "Thợ xeo chao đi chao lại trong bể bột dó. Lớp bột dó trên liềm chính là tờ giấy dó sau khi kết thúc công đoạn xeo, ép, bóc, can, phơi (sấy), lột giấy.",
+            "source_id": "giay_do",
+            "source": "https://vi.wikipedia.org/wiki/Giấy_dó",
+            "page": "giay_do_u001",
+            "metadata": {
+              "painting_tradition": "general",
+              "title": "Giấy dó",
+              "language": "vi",
+              "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Gi%E1%BA%A5y_d%C3%B3&oldid=74469469",
+              "unit_start_char": 0,
+              "source_text_path": "data/processed/giay_do.txt",
+              "document_id": "giay_do",
+              "source": "https://vi.wikipedia.org/wiki/Giấy_dó",
+              "page": "giay_do_u001",
+              "chunk_method": "paragraph",
+              "unit_start_offset": 1367,
+              "unit_end_offset": 1517,
+              "document_start_char": 1367,
+              "document_end_char": 1517,
+              "char_count": 150
+            },
+            "score": 0.014925373134328358
+          }
+        ],
+        "context": "[1df9c6eb522236091000e2d6 | https://vi.wikipedia.org/wiki/Giấy_dó | page giay_do_u002]\nĐến cuối thế kỷ 20, năm 1986 thì nghề thủ công làm giấy gần như bỏ hẳn.\n\nĐặc tính lý hóa của giấy dó\n\nGiấy dó có đặc tính xốp nhẹ, bền dai, không nhoè khi viết vẽ, ít bị mối mọt , hoặc dòn gãy, ẩm nát.\n\nGiấy dó xốp, nhẹ do nguyên liệu, cách chế biến, xử lý nguyên liệu và công nghệ sản xuất giấy dó quy định. Giấy dó có cấu trúc dạng sợi, các xơ sợi li ti cố kết với nhau tựa mạng nhện, nhiều lớp, không theo thứ tự sợi ngang, dọc như tấm lụa dệt, mà theo dạng chuyển động brown , đa chiều. Giấy dó có trọng lượng riêng bằng khoảng một nửa các loại giấy sản xuất công nghiệp.\n\n[37ab15a09a03addbc9165a7e | https://vi.wikipedia.org/wiki/Giấy_dó | page giay_do_u003]\nGiấy dó Yên Thái đã được xuất khẩu sang nhiều quốc gia trên thế giới và được bạn hàng ưa chuộng. Các họa sĩ người Pháp đã sử dụng giấy dó Yên Thái (khổ lớn) để vẽ tranh bằng mực tàu theo phương pháp tranh cổ điển phương Đông . Một vài bảo tàng ở châu Âu cũng đã dùng giấy dó để lót bồi phía sau tranh vẽ. Với đặc tính chống ẩm rất cao, giấy dó giúp cho các tác phẩm nghệ thuật không bị ẩm mốc .\n\nĐộ bền :\n\nTại các Trung tâm Lưu trữ Quốc gia , trong số những tài liệu giấy, thì tài liệu giấy dó có tuổi thọ cao nhất. Các tài liệu giấy dó (điển hình là các sắc phong tại các đình, đền) là những loại tài liệu được sản sinh lâu đời nhất, từ khi các phương tiện bảo quản chưa được phát triển.\n\nBắt màu, hút ẩm và thoát ẩm : Vì xốp nên giấy dó rất dễ bắt màu khi viết, in\n\nCách nhiệt, cách âm, thẩm âm, cháy kiệt : Cũng vì xốp nên giấy dó cách nhiệt, cách âm tốt, do có cấu trúc dạng sợi đa chiều\n\nLịch sử sản xuất giấy dó\n\nCây dó giấy\n\n[631cd5c4ff1863828a6ec60c | https://vi.wikipedia.org/wiki/Giấy_dó | page giay_do_u002]\nTơ dó kết lại với nhau, như cái mạng nhện nhiều lớp, tạo nên tờ giấy dó. Sự kết mạng như vậy đã làm cho tờ giấy dó có độ xốp. Vì xốp nên giấy dó rất nhẹ và hút mực. Các công cụ sản xuất giấy dó hầu như bằng tre, gỗ và dùng ánh sáng tự nhiên để làm khô giấy. Giấy dó được sản xuất theo quy trình này không có độ axít nên tờ giấy dó có tuổi thọ rất cao. Từ việc ngày nay chúng ta còn lưu giữ được các bản sắc phong cổ trong một số di tích đình, đền, miếu thờ đã cho thấy: giấy dó có độ tuổi thọ tới hơn 500 năm. Tiếng chày giã dó đã đi vào ca dao: \"Gió đưa cành trúc la đà, tiếng chuông Trấn Vũ canh gà Thọ Xương. Mịt mù khói tỏa ngàn sương, Nhịp chày Yên Thái mặt gương Tây Hồ\". Phường Yên Thái ở bờ tây nam hồ Tây, tục gọi là kẻ Bưởi, từ thế kỷ 12 đã là nơi chính làm giấy dó dùng để viết hoặc in, gồm ba làng: Hồ Khẩu, Đông Xã, An Thái Thọ (do sáp nhập hai làng An Thái và Thọ An vào). Hai làng Hồ Khẩu và Đông Xã thì làm giấy dó khổ lớn hơn mà mịn mặt hơn dùng để làm tranh dân gian.\n\n[0faa2a122dc8f3077a9ed02d | https://vi.wikipedia.org/wiki/Khắc_gỗ | page khac_go_u001]\nNgười ta in bằng cách ép lên bản khắc gỗ một tờ giấy có khả năng hút nước tức là không có pha keo và vì thế mà hút mực và đã được làm ẩm một ít (hoặc là ngược lại ép bản gỗ lên giấy). Có thể dùng một trái banh lăn trên tờ giấy hay dùng một cây cọ quét lên để tạo lực cần thiết ép giấy sát vào bản in gỗ.\n\n[db402b85f586b83744a8a330 | https://vi.wikipedia.org/wiki/Tranh_dân_gian_Việt_Nam | page hoi_hoa_dan_gian_u003]\nNgoài các dòng tranh sử dụng phương pháp khắc thì còn có những bức tranh vẽ tay của các nghệ nhân. Phương pháp vẽ tranh trực tiếp này chủ yếu được dùng ở vùng các dân tộc thiểu số ở vùng núi miền Bắc như người: Tày , Nùng , Dao ...\n\nNguyên liệu và cách tạo màu cho tranh có 3 loại\n\nTranh thường được in hoặc vẽ trực tiếp lên giấy . Loại giấy phổ biến thường được các dòng tranh dùng hơn cả là giấy dó . Từ loại giấy này có thể làm ra giấy điệp, loại giấy mà tranh Đông Hồ sử dụng in hình. Đặc điểm của loại giấy này là độ bền rất cao, mà lại xốp nhẹ, không nhoè khi viết vẽ, ít bị mối mọt, hoặc giòn gãy, ẩm nát. Với đặc tính chống ẩm rất cao, giấy dó giúp cho các bức tranh không bị ẩm mốc, trường tồn cùng thời gian.\n\nMỗi dòng tranh thường có cách tạo màu, pha chế màu sắc riêng, nhưng nhìn chung thì màu sắc cho những bức tranh thường được tạo nên từ những nguyên liệu đơn giản, dân dã bằng rất nhiều phương pháp khác nhau.\n\n[27318f7b2ab071720b6c11d1 | https://vi.wikipedia.org/wiki/Giấy_dó | page giay_do_u003]\nĐĩa tuyến mật cao 1,5 - 2mm, hình chén mỏng, mép lượn sóng. Bầu hơi có cuống, phủ đầy lông; vòi ngắn; núm to, gần hình bán cầu. Quả khô không tự nở, hình trứng, dài 7mm; vỏ quả ngoài mỏng, phủ đầy lông màu vàng nhạt. Hạt hình thoi, dài 6mm, rộng 1,7mm. Cây dó giấy thường mọc ở vùng Hòa Bình, Phú Thọ, Yên Bái, Tuyên Quang, Sơn La, Lai Châu.\n\nCác loại giấy dó\n\nGiấy dó sản xuất tại làng An Cốc ( Hà Tây cũ) có bảy loại:\n\nGiấy phương\n\nGiấy trúc\n\nGiấy khay\n\nGiấy để tạo giấy sắc\n\nGiấy vua phê\n\nGiấy hành ri\n\nGiấy dó bìa\n\nTại Hà Nội :\n\nGiấy sắc (Nghĩa Đô)\n\nGiấy moi, giấy phèn làm từ nguyên liệu thô hơn, có mặt giấy khô ráp, sử dụng để gói hàng (Yên Thái)\n\nGiấy xề: làm từ các đầu mẩu vỏ dó bị loại bỏ (làng Kẻ Cót hay làng Cót)\n\nỨng dụng\n\nIn sách: ngày xưa người Việt in bằng công nghệ in giấy bản trên ván gỗ. Ngày nay, nhà thơ Nguyễn Duy sử dụng máy in phun để in trên giấy dó\n\nGhi chép: thích hợp với sử dụng bút lông\n\nVẽ tranh dân gian\n\nĐồ chơi Trung Thu\n\nVàng mã\n\nLàm quạt\n\nBao bì\n\nGiấy chống ẩm\n\n[87be5f0588113670aa5d94a6 | https://vi.wikipedia.org/wiki/Giấy_dó | page giay_do_u001]\nTừ các làng nghề truyền thống sản xuất giấy dó ở Kinh thành Thăng Long xưa cho thấy: về cơ bản, giấy dó sản xuất thủ công, nên không có tác động của hoá chất trong tờ giấy. Vỏ cây dó được ngâm trong nước vôi với thời gian ba tháng, sau đó được nấu cách thủy khoảng 3 ngày 2 đêm cho đến khi ngửi thấy mùi thơm của vỏ cây được nấu chín nhừ hoặc thấy phần thịt của vỏ cây dó trong lại. Dùng dao nhỏ bóc bỏ lần vỏ đen đi, giã bằng cối và chày cho đến khi thành một dạng bột nhuyễn rồi cho bột dó vào một cái rá to có đường kính hơn một mét được đan bằng tre để đãi sạch nước vôi, gọi là \"đãi bìa\". Dùng chất nhầy từ cây mò (chi Clerodendrum ) tạo hỗn hợp kết dính. Hỗn hợp này gọi là \"nhớt gỗ\" mà người thợ sẽ pha với nước, lỏng hay đặc tùy theo loại giấy. Khi xeo giấy, người thợ dùng \"liềm xeo\" - liềm là một mành nứa hoặc giang chẻ nhỏ như sợi tăm rồi dùng sợi tơ xe lại mua ở làng Triều Khúc về đan lại - công đoạn đan liềm này do các thợ thủ công ở làng Cáo Đỉnh đảm nhận.\n\n[930fe5af23902f40f7bc96f6 | https://vi.wikipedia.org/wiki/Tranh_Hàng_Trống | page tranh_hang_trong_u002]\nTranh chỉ có một bản đen đầu tiên, sau khi in thì tranh được tô màu lại bằng tay. Từ các bản khắc gốc, những bức tranh đã được in ra, bằng mực Tàu mài nguyên chất. Sau đó là công đoạn bồi giấy . Tùy thuộc từng tranh cụ thể mà có tranh chỉ bồi một lớp, có tranh lại phải bồi đến 2 hay 3 lớp giấy. Khi hồ đã khô thì mới có thể vẽ màu lại. Có khi phải mất đến 3, 4 ngày mới hoàn thành một bức tranh.\n\nTranh được in trên giấy dó bồi dày hay giấy báo khổ rộng. Có những tranh bộ khổ to và dài, thường bồi dày, hai đầu trên dưới lồng suốt trục để tiện treo, phù hợp với kiểu kiến trúc nhà cao, cửa rộng nơi thành thị.\n\nVán khắc được làm bằng gỗ lồng mực hoặc gỗ thị. Mực in truyền thống dùng bằng những chất liệu dân dã nhưng cầu kỳ và tinh xảo trong chế tác.\n\nMàu sắc và cách tạo màu\n\nTranh dùng các gam màu chủ yếu là lam , hồng đôi khi có thêm lục , đỏ , da cam , vàng ... Tỷ lệ được tạo không hề đúng với công thức chuẩn mà chỉ để cho thật thuận mắt và ưa nhìn.\n\n[0bd27690a3583722fc7c9a06 | https://vi.wikipedia.org/wiki/Tranh_Kim_Hoàng | page tranh_kim_hoang_u002]\nNếu như tranh Đông Hồ được tạo thành hoàn toàn từ việc in ván đen và in ván các màu, tranh Hàng Trống chỉ in các nét mặc đen rồi tô màu, thì tranh Kim Hoàng lại được in làm hai lần. Đầu tiên nghệ nhân đặt tấm giấy lên trên bề mặt ván in (kỹ thuật in ngửa giống như tranh Hàng Trống chứ không phải in sấp giống như tranh Đông Hồ), ấn nhẹ xuống, lần này được gọi là \"in nhá\" để trên tấm giấy xuất hiện những nét mực mờ, sau đó nghệ nhân dùng bút màu tô lên theo cảm hứng riêng của mình, cuối cùng mới đặt tấm tranh xuống, in thêm một lần nữa (gọi là \"in đồ\"), dùng xơ mướp khô xoa nhẹ để làm nổi bật rõ các đường nét.\n\nVề màu sắc\n\n[c9fbc75b7a72a0e5afca7293 | https://vi.wikipedia.org/wiki/Giấy_dó | page giay_do_u001]\nGiấy dó là loại giấy được sản xuất từ vỏ những cây dó (như dó giấy , dó liệt ...), theo quy trình thủ công được truyền lại qua nhiều thế hệ ở một số làng nghề ở Việt Nam . Giấy được dùng cho vẽ tranh trong mỹ thuật dân gian Việt Nam , đặc biệt là để làm giấy điệp cho tranh Đông Hồ , hay lưu giữ các tài liệu , nhờ vào nhiều ưu điểm, nổi bật nhất là độ bền theo thời gian .\n\nSản xuất giấy dó\n\n[2a4727783ea7ce618fc7778e | https://vi.wikipedia.org/wiki/Khắc_gỗ | page khac_go_u003]\nVì chỉ cần lực ép tương đối ít hơn nên các cạnh của bản in ra không có vết hằn (tiếng Anh: platemark ).\n\nMàu của đường kẻ đều hòa trên khắp tờ giấy vì lực ép đều nhau.\n\nCác biến thể của kỹ thuật khắc gỗ\n\nCác kỹ thuật cổ điển của khắc gỗ bao gồm:\n\n\"Cắt đường đen\": Các phần nổi (và vì thế được in ra) của bản khắc gỗ sẽ tạo hình, đây là cách đầu tiên của kỹ thuật khắc gỗ.\n\n\"Cắt đường trắng\": Đường nét được chạm trổ chìm vào gỗ, khi in bề mặt, thật ra là nền của bức tranh, sẽ được in ra, hình ảnh được tạo thành bởi các đường nét trắng do không được in.\n\n[978ba20e7026760e188a778d | https://vi.wikipedia.org/wiki/Giấy_dó | page giay_do_u001]\nThợ xeo chao đi chao lại trong bể bột dó. Lớp bột dó trên liềm chính là tờ giấy dó sau khi kết thúc công đoạn xeo, ép, bóc, can, phơi (sấy), lột giấy.",
+        "context_ids": [
+          "1df9c6eb522236091000e2d6",
+          "37ab15a09a03addbc9165a7e",
+          "631cd5c4ff1863828a6ec60c",
+          "0faa2a122dc8f3077a9ed02d",
+          "db402b85f586b83744a8a330",
+          "27318f7b2ab071720b6c11d1",
+          "87be5f0588113670aa5d94a6",
+          "930fe5af23902f40f7bc96f6",
+          "0bd27690a3583722fc7c9a06",
+          "c9fbc75b7a72a0e5afca7293",
+          "2a4727783ea7ce618fc7778e",
+          "978ba20e7026760e188a778d"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  "final_context": "[1df9c6eb522236091000e2d6 | https://vi.wikipedia.org/wiki/Giấy_dó | page giay_do_u002]\nĐến cuối thế kỷ 20, năm 1986 thì nghề thủ công làm giấy gần như bỏ hẳn.\n\nĐặc tính lý hóa của giấy dó\n\nGiấy dó có đặc tính xốp nhẹ, bền dai, không nhoè khi viết vẽ, ít bị mối mọt , hoặc dòn gãy, ẩm nát.\n\nGiấy dó xốp, nhẹ do nguyên liệu, cách chế biến, xử lý nguyên liệu và công nghệ sản xuất giấy dó quy định. Giấy dó có cấu trúc dạng sợi, các xơ sợi li ti cố kết với nhau tựa mạng nhện, nhiều lớp, không theo thứ tự sợi ngang, dọc như tấm lụa dệt, mà theo dạng chuyển động brown , đa chiều. Giấy dó có trọng lượng riêng bằng khoảng một nửa các loại giấy sản xuất công nghiệp.\n\n[37ab15a09a03addbc9165a7e | https://vi.wikipedia.org/wiki/Giấy_dó | page giay_do_u003]\nGiấy dó Yên Thái đã được xuất khẩu sang nhiều quốc gia trên thế giới và được bạn hàng ưa chuộng. Các họa sĩ người Pháp đã sử dụng giấy dó Yên Thái (khổ lớn) để vẽ tranh bằng mực tàu theo phương pháp tranh cổ điển phương Đông . Một vài bảo tàng ở châu Âu cũng đã dùng giấy dó để lót bồi phía sau tranh vẽ. Với đặc tính chống ẩm rất cao, giấy dó giúp cho các tác phẩm nghệ thuật không bị ẩm mốc .\n\nĐộ bền :\n\nTại các Trung tâm Lưu trữ Quốc gia , trong số những tài liệu giấy, thì tài liệu giấy dó có tuổi thọ cao nhất. Các tài liệu giấy dó (điển hình là các sắc phong tại các đình, đền) là những loại tài liệu được sản sinh lâu đời nhất, từ khi các phương tiện bảo quản chưa được phát triển.\n\nBắt màu, hút ẩm và thoát ẩm : Vì xốp nên giấy dó rất dễ bắt màu khi viết, in\n\nCách nhiệt, cách âm, thẩm âm, cháy kiệt : Cũng vì xốp nên giấy dó cách nhiệt, cách âm tốt, do có cấu trúc dạng sợi đa chiều\n\nLịch sử sản xuất giấy dó\n\nCây dó giấy\n\n[631cd5c4ff1863828a6ec60c | https://vi.wikipedia.org/wiki/Giấy_dó | page giay_do_u002]\nTơ dó kết lại với nhau, như cái mạng nhện nhiều lớp, tạo nên tờ giấy dó. Sự kết mạng như vậy đã làm cho tờ giấy dó có độ xốp. Vì xốp nên giấy dó rất nhẹ và hút mực. Các công cụ sản xuất giấy dó hầu như bằng tre, gỗ và dùng ánh sáng tự nhiên để làm khô giấy. Giấy dó được sản xuất theo quy trình này không có độ axít nên tờ giấy dó có tuổi thọ rất cao. Từ việc ngày nay chúng ta còn lưu giữ được các bản sắc phong cổ trong một số di tích đình, đền, miếu thờ đã cho thấy: giấy dó có độ tuổi thọ tới hơn 500 năm. Tiếng chày giã dó đã đi vào ca dao: \"Gió đưa cành trúc la đà, tiếng chuông Trấn Vũ canh gà Thọ Xương. Mịt mù khói tỏa ngàn sương, Nhịp chày Yên Thái mặt gương Tây Hồ\". Phường Yên Thái ở bờ tây nam hồ Tây, tục gọi là kẻ Bưởi, từ thế kỷ 12 đã là nơi chính làm giấy dó dùng để viết hoặc in, gồm ba làng: Hồ Khẩu, Đông Xã, An Thái Thọ (do sáp nhập hai làng An Thái và Thọ An vào). Hai làng Hồ Khẩu và Đông Xã thì làm giấy dó khổ lớn hơn mà mịn mặt hơn dùng để làm tranh dân gian.\n\n[0faa2a122dc8f3077a9ed02d | https://vi.wikipedia.org/wiki/Khắc_gỗ | page khac_go_u001]\nNgười ta in bằng cách ép lên bản khắc gỗ một tờ giấy có khả năng hút nước tức là không có pha keo và vì thế mà hút mực và đã được làm ẩm một ít (hoặc là ngược lại ép bản gỗ lên giấy). Có thể dùng một trái banh lăn trên tờ giấy hay dùng một cây cọ quét lên để tạo lực cần thiết ép giấy sát vào bản in gỗ.\n\n[db402b85f586b83744a8a330 | https://vi.wikipedia.org/wiki/Tranh_dân_gian_Việt_Nam | page hoi_hoa_dan_gian_u003]\nNgoài các dòng tranh sử dụng phương pháp khắc thì còn có những bức tranh vẽ tay của các nghệ nhân. Phương pháp vẽ tranh trực tiếp này chủ yếu được dùng ở vùng các dân tộc thiểu số ở vùng núi miền Bắc như người: Tày , Nùng , Dao ...\n\nNguyên liệu và cách tạo màu cho tranh có 3 loại\n\nTranh thường được in hoặc vẽ trực tiếp lên giấy . Loại giấy phổ biến thường được các dòng tranh dùng hơn cả là giấy dó . Từ loại giấy này có thể làm ra giấy điệp, loại giấy mà tranh Đông Hồ sử dụng in hình. Đặc điểm của loại giấy này là độ bền rất cao, mà lại xốp nhẹ, không nhoè khi viết vẽ, ít bị mối mọt, hoặc giòn gãy, ẩm nát. Với đặc tính chống ẩm rất cao, giấy dó giúp cho các bức tranh không bị ẩm mốc, trường tồn cùng thời gian.\n\nMỗi dòng tranh thường có cách tạo màu, pha chế màu sắc riêng, nhưng nhìn chung thì màu sắc cho những bức tranh thường được tạo nên từ những nguyên liệu đơn giản, dân dã bằng rất nhiều phương pháp khác nhau.\n\n[27318f7b2ab071720b6c11d1 | https://vi.wikipedia.org/wiki/Giấy_dó | page giay_do_u003]\nĐĩa tuyến mật cao 1,5 - 2mm, hình chén mỏng, mép lượn sóng. Bầu hơi có cuống, phủ đầy lông; vòi ngắn; núm to, gần hình bán cầu. Quả khô không tự nở, hình trứng, dài 7mm; vỏ quả ngoài mỏng, phủ đầy lông màu vàng nhạt. Hạt hình thoi, dài 6mm, rộng 1,7mm. Cây dó giấy thường mọc ở vùng Hòa Bình, Phú Thọ, Yên Bái, Tuyên Quang, Sơn La, Lai Châu.\n\nCác loại giấy dó\n\nGiấy dó sản xuất tại làng An Cốc ( Hà Tây cũ) có bảy loại:\n\nGiấy phương\n\nGiấy trúc\n\nGiấy khay\n\nGiấy để tạo giấy sắc\n\nGiấy vua phê\n\nGiấy hành ri\n\nGiấy dó bìa\n\nTại Hà Nội :\n\nGiấy sắc (Nghĩa Đô)\n\nGiấy moi, giấy phèn làm từ nguyên liệu thô hơn, có mặt giấy khô ráp, sử dụng để gói hàng (Yên Thái)\n\nGiấy xề: làm từ các đầu mẩu vỏ dó bị loại bỏ (làng Kẻ Cót hay làng Cót)\n\nỨng dụng\n\nIn sách: ngày xưa người Việt in bằng công nghệ in giấy bản trên ván gỗ. Ngày nay, nhà thơ Nguyễn Duy sử dụng máy in phun để in trên giấy dó\n\nGhi chép: thích hợp với sử dụng bút lông\n\nVẽ tranh dân gian\n\nĐồ chơi Trung Thu\n\nVàng mã\n\nLàm quạt\n\nBao bì\n\nGiấy chống ẩm\n\n[87be5f0588113670aa5d94a6 | https://vi.wikipedia.org/wiki/Giấy_dó | page giay_do_u001]\nTừ các làng nghề truyền thống sản xuất giấy dó ở Kinh thành Thăng Long xưa cho thấy: về cơ bản, giấy dó sản xuất thủ công, nên không có tác động của hoá chất trong tờ giấy. Vỏ cây dó được ngâm trong nước vôi với thời gian ba tháng, sau đó được nấu cách thủy khoảng 3 ngày 2 đêm cho đến khi ngửi thấy mùi thơm của vỏ cây được nấu chín nhừ hoặc thấy phần thịt của vỏ cây dó trong lại. Dùng dao nhỏ bóc bỏ lần vỏ đen đi, giã bằng cối và chày cho đến khi thành một dạng bột nhuyễn rồi cho bột dó vào một cái rá to có đường kính hơn một mét được đan bằng tre để đãi sạch nước vôi, gọi là \"đãi bìa\". Dùng chất nhầy từ cây mò (chi Clerodendrum ) tạo hỗn hợp kết dính. Hỗn hợp này gọi là \"nhớt gỗ\" mà người thợ sẽ pha với nước, lỏng hay đặc tùy theo loại giấy. Khi xeo giấy, người thợ dùng \"liềm xeo\" - liềm là một mành nứa hoặc giang chẻ nhỏ như sợi tăm rồi dùng sợi tơ xe lại mua ở làng Triều Khúc về đan lại - công đoạn đan liềm này do các thợ thủ công ở làng Cáo Đỉnh đảm nhận.\n\n[930fe5af23902f40f7bc96f6 | https://vi.wikipedia.org/wiki/Tranh_Hàng_Trống | page tranh_hang_trong_u002]\nTranh chỉ có một bản đen đầu tiên, sau khi in thì tranh được tô màu lại bằng tay. Từ các bản khắc gốc, những bức tranh đã được in ra, bằng mực Tàu mài nguyên chất. Sau đó là công đoạn bồi giấy . Tùy thuộc từng tranh cụ thể mà có tranh chỉ bồi một lớp, có tranh lại phải bồi đến 2 hay 3 lớp giấy. Khi hồ đã khô thì mới có thể vẽ màu lại. Có khi phải mất đến 3, 4 ngày mới hoàn thành một bức tranh.\n\nTranh được in trên giấy dó bồi dày hay giấy báo khổ rộng. Có những tranh bộ khổ to và dài, thường bồi dày, hai đầu trên dưới lồng suốt trục để tiện treo, phù hợp với kiểu kiến trúc nhà cao, cửa rộng nơi thành thị.\n\nVán khắc được làm bằng gỗ lồng mực hoặc gỗ thị. Mực in truyền thống dùng bằng những chất liệu dân dã nhưng cầu kỳ và tinh xảo trong chế tác.\n\nMàu sắc và cách tạo màu\n\nTranh dùng các gam màu chủ yếu là lam , hồng đôi khi có thêm lục , đỏ , da cam , vàng ... Tỷ lệ được tạo không hề đúng với công thức chuẩn mà chỉ để cho thật thuận mắt và ưa nhìn.\n\n[0bd27690a3583722fc7c9a06 | https://vi.wikipedia.org/wiki/Tranh_Kim_Hoàng | page tranh_kim_hoang_u002]\nNếu như tranh Đông Hồ được tạo thành hoàn toàn từ việc in ván đen và in ván các màu, tranh Hàng Trống chỉ in các nét mặc đen rồi tô màu, thì tranh Kim Hoàng lại được in làm hai lần. Đầu tiên nghệ nhân đặt tấm giấy lên trên bề mặt ván in (kỹ thuật in ngửa giống như tranh Hàng Trống chứ không phải in sấp giống như tranh Đông Hồ), ấn nhẹ xuống, lần này được gọi là \"in nhá\" để trên tấm giấy xuất hiện những nét mực mờ, sau đó nghệ nhân dùng bút màu tô lên theo cảm hứng riêng của mình, cuối cùng mới đặt tấm tranh xuống, in thêm một lần nữa (gọi là \"in đồ\"), dùng xơ mướp khô xoa nhẹ để làm nổi bật rõ các đường nét.\n\nVề màu sắc\n\n[c9fbc75b7a72a0e5afca7293 | https://vi.wikipedia.org/wiki/Giấy_dó | page giay_do_u001]\nGiấy dó là loại giấy được sản xuất từ vỏ những cây dó (như dó giấy , dó liệt ...), theo quy trình thủ công được truyền lại qua nhiều thế hệ ở một số làng nghề ở Việt Nam . Giấy được dùng cho vẽ tranh trong mỹ thuật dân gian Việt Nam , đặc biệt là để làm giấy điệp cho tranh Đông Hồ , hay lưu giữ các tài liệu , nhờ vào nhiều ưu điểm, nổi bật nhất là độ bền theo thời gian .\n\nSản xuất giấy dó\n\n[2a4727783ea7ce618fc7778e | https://vi.wikipedia.org/wiki/Khắc_gỗ | page khac_go_u003]\nVì chỉ cần lực ép tương đối ít hơn nên các cạnh của bản in ra không có vết hằn (tiếng Anh: platemark ).\n\nMàu của đường kẻ đều hòa trên khắp tờ giấy vì lực ép đều nhau.\n\nCác biến thể của kỹ thuật khắc gỗ\n\nCác kỹ thuật cổ điển của khắc gỗ bao gồm:\n\n\"Cắt đường đen\": Các phần nổi (và vì thế được in ra) của bản khắc gỗ sẽ tạo hình, đây là cách đầu tiên của kỹ thuật khắc gỗ.\n\n\"Cắt đường trắng\": Đường nét được chạm trổ chìm vào gỗ, khi in bề mặt, thật ra là nền của bức tranh, sẽ được in ra, hình ảnh được tạo thành bởi các đường nét trắng do không được in.\n\n[978ba20e7026760e188a778d | https://vi.wikipedia.org/wiki/Giấy_dó | page giay_do_u001]\nThợ xeo chao đi chao lại trong bể bột dó. Lớp bột dó trên liềm chính là tờ giấy dó sau khi kết thúc công đoạn xeo, ép, bóc, can, phơi (sấy), lột giấy.",
+  "context_ids": [
+    "1df9c6eb522236091000e2d6",
+    "37ab15a09a03addbc9165a7e",
+    "631cd5c4ff1863828a6ec60c",
+    "0faa2a122dc8f3077a9ed02d",
+    "db402b85f586b83744a8a330",
+    "27318f7b2ab071720b6c11d1",
+    "87be5f0588113670aa5d94a6",
+    "930fe5af23902f40f7bc96f6",
+    "0bd27690a3583722fc7c9a06",
+    "c9fbc75b7a72a0e5afca7293",
+    "2a4727783ea7ce618fc7778e",
+    "978ba20e7026760e188a778d"
+  ],
+  "context_evidence_hit": true,
+  "model_calls": [
+    {
+      "model": "gemini-3.8-flash",
+      "elapsed_seconds": 2.356529700000465,
+      "usage": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 20,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 253,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 253
+          }
+        ],
+        "thoughts_token_count": 39,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 312,
+        "traffic_type": null
+      },
+      "raw_response": "{\"action\": \"search\", \"query\": \"Vì sao giấy dó nhẹ và hút mực?\"}"
+    },
+    {
+      "model": "gemini-3.8-flash",
+      "elapsed_seconds": 7.350419499998679,
+      "usage": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 350,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 3792,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 3792
+          }
+        ],
+        "thoughts_token_count": 369,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 4511,
+        "traffic_type": null
+      },
+      "raw_response": "{\n \"action\": \"answer\",\n \"answer\": \"Giấy dó nhẹ và hút mực là do giấy có độ xốp [631cd5c4ff1863828a6ec60c]. Đặc tính xốp này được tạo nên từ nguyên liệu, cách chế biến, xử lý nguyên liệu và công nghệ sản xuất [1df9c6eb522236091000e2d6]; cụ thể, các sợi tơ dó/xơ sợi li ti kết lại với nhau như mạng nhện nhiều lớp, đa chiều (theo dạng chuyển động Brown) chứ không theo thứ tự sợi ngang dọc như lụa dệt [1df9c6eb522236091000e2d6], [631cd5c4ff1863828a6ec60c]. Chính sự kết mạng tạo nên độ xốp này khiến giấy dó rất nhẹ và dễ bắt màu, hút mực khi viết hoặc in [37ab15a09a03addbc9165a7e], [631cd5c4ff1863828a6ec60c].\",\n \"citations\": [\n  \"1df9c6eb522236091000e2d6\",\n  \"37ab15a09a03addbc9165a7e\",\n  \"631cd5c4ff1863828a6ec60c\"\n ]\n}"
+    }
+  ],
+  "elapsed_seconds_excluding_setup": 9.725446700000248
+}
